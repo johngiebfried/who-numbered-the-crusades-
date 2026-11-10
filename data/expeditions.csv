@@ -1,0 +1,14 @@
+expedition_id,label,start,end,leader_or_target,modern_number,notes
+E1,First Crusade,1096,1099,Jerusalem,1,
+E2,Second Crusade,1147,1149,Edessa/Damascus,2,
+E3,Third Crusade,1189,1192,Saladin/Acre,3,
+H6,Henry VI's crusade (German Crusade),1197,1198,Henry VI,,Fourth in Maimbourg and Michaud
+C,1202-04 expedition to Constantinople,1202,1204,Constantinople,4,
+CH,Children's Crusade,1212,1212,,,Usually unnumbered
+NAV,Las Navas de Tolosa campaign,1212,1212,Iberia,,Iberian; outside the eastern series
+D,Damietta crusade (incl. Andrew II 1217),1217,1221,Egypt,5,Some counts split Andrew II (1217) from Damietta (1218)
+F,Frederick II's crusade,1228,1229,Frederick II,6,Fifth in German counts
+B,Barons' Crusade (Theobald; Richard of Cornwall),1239,1241,Theobald IV; Richard of Cornwall,,Sixth in Mills/Proctor line
+L1,Louis IX's first crusade,1248,1254,Egypt,7,
+L2,Louis IX's second crusade,1270,1270,Tunis,8,
+E,Lord Edward's crusade,1271,1272,Acre,,Sometimes called the Ninth

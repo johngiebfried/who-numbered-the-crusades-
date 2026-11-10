@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Who Numbered the Crusades?"
+authors:
+  - family-names: Giebfried
+    given-names: John
+    affiliation: "University of Vienna"
+type: dataset
+license: CC-BY-4.0
+date-released: 2026-11-08
+version: 0.1.0

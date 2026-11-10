@@ -1,0 +1,86 @@
+work_id,label,author,year_label,year_sort,language,tradition,genre,numbering_shorthand,how_verified,verification_level,research_pass,notes
+1140-orderic-vitalis,"Orderic Vitalis, Historia ecclesiastica",Orderic Vitalis,12th c.,1140,Latin,prehistory,Chronicle,"Calls the 1107 expedition the ""third expedition""","Constable 2001, 17",secondary,review,
+1550-carion-bullinger,"Carion and Bullinger, chronicles",Carion; Bullinger,16th c.,1550,Latin/German,prehistory,Universal chronicle,"Twelve crusades, the Third counted as three","Constable 2001, 17 n. 83",secondary,review,
+1590-etienne-pasquier,Pasquier,Étienne Pasquier,Late 16th c.,1590,French,prehistory,History,Six,Tyerman via Wikipedia,unverified,review,"Check Tyerman, Debate, 47-50"
+1639-thomas-fuller,"Fuller, The Historie of the Holy Warre",Thomas Fuller,1639,1639,English,prehistory,History,"Thirteen numbered voyages: 4th Frederick I, 5th Richard, 6th Henry Duke of Saxony (1197), 7th Baldwin of Flanders (C), 8th Andrew of Hungary (D), 9th Frederick II, 10th Theobald (B), 12th and 13th Louis IX","1840 reprint, index; text p. 294",full_text,review,
+1675-louis-maimbourg,"Maimbourg, Histoire des croisades",Louis Maimbourg,1675-76,1675,French,prehistory,History,Seven in all; H6 4,"1685 translation, dedication and contents",contents,review,
+1709-g-c-muller,"G. C. Müller, dissertation",G. C. Müller,1709,1709,Latin/German,prehistory,Dissertation,Five,Tyerman via Wikipedia,unverified,review,
+1788-edward-gibbon,"Gibbon, Decline and Fall, vol. VI",Edward Gibbon,1788,1788,English,prehistory,History,"C 4, D 5, L1 6, L2 7; F unnumbered","1788 vol. VI, contents",contents,review,End of prehistory
+1811-joseph-francois-michaud,"Michaud, Histoire des croisades",Joseph-François Michaud,1811-22,1811,French,France,History,"H6 4, C 5, D 6, F 7; then L1 and L2","Robson translation, book headings; F from paper's table",contents,review,
+1812-edward-gibbon-trans-guizot,Guizot's French Gibbon,Edward Gibbon; trans. Guizot,1812; 1819 ed.,1812,French,France,History (translation),"C 4, D 5 (""Quatrième et cinquième croisades"")","1819 edition, ch. LIX heading",contents,citation,
+1816-saint-allais,"Saint-Allais, chronology",Saint-Allais,1816,1816,French,France,Reference,"H6 4 (1195), C 5 (1199), D 6 (1217), L1 7, L2 8 ""et dernière""","fr.wikisource, p. 234",full_text,review,
+1820-charles-mills,"Mills, History of the Crusades",Charles Mills,1820; 2nd ed. 1821,1820,English,Britain,Popular history,"H6 4, C 5, D+F 6, B and L1 as 7 and 8, L2+E ""the Last Crusade""",1821 contents; order of 7 and 8 unchecked,contents,review,
+1823-friedrich-von-raumer,"Raumer, Geschichte der Hohenstaufen",Friedrich von Raumer,1823-25,1823,German,Germany,Scholarship,"Named, not numbered: ""Der Kreuzzug Friedrichs II""",Projekt Gutenberg text,full_text,german,
+1827-joseph-francois-michaud,"Michaud, preface to Cottin's Mathilde",Joseph-François Michaud,1827 ed.,1827,French,France,Preface,"C 5 (""la cinquième dans l'ordre des temps"")",1827 edition,full_text,citation,
+1834-damen-conversations-lexikon,Damen Conversations Lexikon,,1834-38,1834,German,Germany,Reference,"D 4, F 5, L1 6 closes the series; C not counted",zeno.org text,full_text,german,Six
+1834-emile-lefranc,"Lefranc, Histoire du moyen âge",Émile Lefranc,1834,1834,French,France,School,"H6 4, C 5, F 6, L1 7, L2 8 ""dernière""; D unnumbered",Contents (Google Books),snippet,origin,
+1835-david-levi-alvares,"Lévi Alvarès, Nouveaux élémens d'histoire générale",David Lévi Alvarès,1835,1835,French,France,School,"D 5 (1217-21), L1 6; F explicitly not a crusade",Google Books snippet,snippet,origin,Seven
+1837-brockhaus-bilder-conversations-lexikon,"Brockhaus, Bilder-Conversations-Lexikon",,1837-41,1837,German,Germany,Reference,"D 4, F 5, L1 6 ""den sechsten und letzten""; C not counted",zeno.org text,full_text,german,Six
+1838-michaud-poujoulat,"Michaud and Poujoulat, abridgment",Michaud; Poujoulat,1838,1838,French,France,School,"H6 4, C 5, D+F+B 6, L1 7, L2+E 8",Paper's table,paper_table,review,
+1839-joseph-francois-michaud,"Michaud, Histoire abrégée des croisades, for youth",Joseph-François Michaud,1839,1839,French,France,School,"L2 8 (""Huitième croisade"")",Contents (Google Books),snippet,four-language,
+1842-marie-nicolas-bouillet,"Bouillet, Dictionnaire universel d'histoire et de géographie",Marie-Nicolas Bouillet,1842; 1853,1842,French,France,Reference,"C 4, D 5, F 6, L1 7, L2 8; ""On compte généralement huit croisades""",1842 and 1853 eds. (Google Books snippets),snippet,origin,Earliest modern eight found; L1 7 and L2 8 inferred from later eds. of same text
+1842-cesare-cantu,"Cantù, Storia universale, 1st ed.",Cesare Cantù,1842-44,1842,Italian,Italy,Universal history,"C 4, D 5 (Andrew II 1217), D 6 (Damietta from 1218), L1 7, L2 8",Contents and running heads (Google Books),snippet,origin,Not the modern list
+1842-george-proctor,"Proctor, History of the Crusades (US ed.)",George Proctor,before 1842; printed 1854,1842,English,Britain/US,Popular history,"C 4, D+F 5, B 6, L1 7, L2 8 ""and last""",1854 text,full_text,citation,
+1845-andreas-koromelas,"Koromelas, chronological tables",Andreas Koromelas,1845,1845,Greek,Greece,Chronology,"C 4 (1204), D 5 (1217), L1 6 (1248)",Google Books snippet,snippet,four-language,
+1846-joaquin-avendano,"Avendaño, Manual completo de instrucción primaria",Joaquín Avendaño,1846,1846,Spanish,Spain,School,"""Cuarta""; ""Quinta y sesta""; ""Sétima y octava""",Question list (Google Books),snippet,four-language,Contents of 4-6 unverified
+1846-francisco-de-paula-mellado,"Mellado, Diccionario universal (after Bouillet)",Francisco de Paula Mellado,1846,1846,Spanish,Spain,Reference,C 4 (1202-04),Entry (Google Books),snippet,four-language,
+1847-cesare-cantu,"Cantù, French trans. (Aroux and Léopardi)",Cesare Cantù,1847,1847,French,France,Universal history (translation),"L1 7, L2 8 (""Septième et huitième croisade"")",Contents (Google Books),snippet,four-language,
+1848-louis-pierre-anquetil,"Anquetil, Spanish trans.",Louis-Pierre Anquetil,1848,1848,Spanish,Spain,Universal history (translation),B 6,Contents (Google Books),snippet,four-language,
+1848-cesare-cantu,"Cantù, Spanish trans. (Mellado)",Cesare Cantù,1848,1848,Spanish,Spain,Universal history (translation),"L1 7, L2 8 (""Sétima y octava cruzada"")",Running head (Google Books),snippet,four-language,
+1849-manuel-mila-i-fontanals,"Milà i Fontanals, Manual de historia de la Edad Media",Manuel Milà i Fontanals,1849,1849,Spanish,Spain,School,"C 4 (1202-04), F 6 (1228-29)",Google Books snippet,snippet,four-language,
+1849-wilhelm-putz,"Pütz, Handbook (English trans.)",Wilhelm Pütz,1849,1849,English,Germany (in English),School,"C 4 ""(so-named)"", F named, L1 6, L2 7; D unnumbered",archive.org scan,full_text,german,
+1851-cesare-cantu,"Cantù, Storia universale",Cesare Cantù,1851,1851,Italian,Italy,Universal history,"C 4 (1202-4), D 5, F 6 (""Quinta e sesta"", 1218-29), L1 7, L2 8 (""Settima e ottava"", 1248-70)",Contents (Google Books),snippet,four-language,Same text as 1842 re-split
+1852-michaud-trans-william-robson,Robson's English Michaud,Michaud; trans. William Robson,1852; NY 1853,1852,English,Britain/US,History (translation),H6 4,Book headings,contents,citation,
+1853-fernando-de-castro,"Castro, Historia universal ... de España",Fernando de Castro,1853-73,1853,Spanish,Spain,School,"D 5 (1217), ""Sesta""; then ""Cruzadas de San Luis""",Contents (Google Books),snippet,four-language,
+1853-georg-weber,"Weber, Outlines of Universal History (English trans.)",Georg Weber,1853,1853,English,Germany (in English),School,"C 4, F 5 ""the FIFTH CRUSADE""; L1 and L2 unnumbered","1869 printing, archive.org",full_text,german,
+1854-herder-conversations-lexikon,"Herder, Conversations-Lexikon",,1854-57,1854,German,Germany,Reference,"No numbers; L2 ""kaum"" a crusade",zeno.org text,full_text,german,
+1855-joseph-francois-michaud,"Michaud, Spanish trans.",Joseph-François Michaud,1855-58,1855,Spanish,Spain,History (translation),"H6 4 (1193-98), D 6",Contents (Google Books),snippet,four-language,
+1857-pierer-universal-lexikon-4th-ed,"Pierer, Universal-Lexikon, 4th ed.",,1857-65,1857,German,Germany,Reference,"D 4, F+B 5, L1+L2 6; C ""gewöhnlich gar nicht gerechnet""",zeno.org text,full_text,german,Six
+1858-pomba-nuova-enciclopedia-popolare,"Pomba, Nuova enciclopedia popolare",,1858,1858,Italian,Italy,Reference,Seven,Article sections (Google Books),snippet,four-language,
+1859-juan-cortada,"Cortada, Compendio de historia universal",Juan Cortada,1859,1859,Spanish,Spain,School,C 4; Las Navas unnumbered before the fifth,Chronology (Google Books),snippet,four-language,
+1861-victor-duruy,"Duruy, Histoire du moyen âge",Victor Duruy,1861,1861,French,France,School,"C 4, D 5 (Andrew II), F 6, L1 7, L2 8 ""la dernière de toutes""",1861 text,full_text,review,
+1862-rene-francois-rohrbacher,"Rohrbacher, Italian trans.",René François Rohrbacher,1862,1862,Italian,Italy,Church history (translation),"L1 6, L2 7",Index (Google Books),snippet,four-language,
+1865-walter-c-perry,"Perry, The Franks",Walter C. Perry,1865,1865,English,Britain,Popular history,"H6 4, C 5, D 6, B 7, L1 8, L2 9","US printing, text",full_text,review,
+1867-carl-ploetz,"Ploetz, Auszug, 2nd ed.",Carl Ploetz,1867,1867,German,Germany,School,"C 4, F 5, L1 6; L2 unnumbered","BSB scan, OCR",full_text,german,
+1871-storia-d-italia-ad-uso-delle-scuole,Storia d'Italia ad uso delle scuole,,1871,1871,Italian,Italy,School,"D 5; L1+L2 7 (""settima"")",Google Books snippet,snippet,four-language,
+1871-various,"Wijnne, Kollewijn, Brals, Epkema",various,1871-92,1871,Dutch,Netherlands,School,"C 4, F 5, L1 6, L2 7",Text and contents (Google Books),snippet,four-language,Group row; split later
+1872-edward-gibbon,"Gibbon, Italian trans.",Edward Gibbon,1872,1872,Italian,Italy,History (translation),"L1 6 (""Sesta""), L2 7 (""settima ed ultima"")",Google Books snippet,snippet,four-language,
+1873-american-cyclopaedia-crusades,"American Cyclopaedia, Crusades",,1873-76,1873,English,US,Reference,"C 4, D 5, B 6, L1 7, L2+E 8; Gregory X ""sought to evoke a ninth""",chestofbooks text,full_text,review,
+1874-george-w-cox,"Cox, The Crusades",George W. Cox,1874,1874,English,Britain,Popular history,"H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9",Text,full_text,review,
+1874-william-swinton,"Swinton, Outlines of the World's History",William Swinton,1874,1874,English,US,School,"C 4, D 5, B 6, L1 7, L2 8 ""and last""",1874 text,full_text,review,
+1875-paul-riant,"Riant, articles",Paul Riant,1875-78,1875,French,France,Scholarship,"C 4 (""quatrième croisade"")",Article titles,contents,review,
+1877-eb9-crusades,"EB9, Crusades",,1877,1877,English,Britain,Reference,H6 4 through L2+E 9,Paper's table,paper_table,review,
+1879-joseph-chantrel,"Chantrel, Dutch trans.",Joseph Chantrel,1879,1879,Dutch,Belgium/Netherlands (French-derived),School,"D+F 5 (1217-29), L2 8",Google Books snippet,snippet,four-language,
+1879-reinhold-rohricht,"Röhricht, Quinti belli sacri scriptores minores etc.",Reinhold Röhricht,1879-91,1879,Latin/German,Germany,"Source editions, monograph","D 5 (""quintum bellum sacrum"", ""fünfter Kreuzzug"")",Titles,contents,review,
+1880-bernhard-kugler,"Kugler, Geschichte der Kreuzzüge",Bernhard Kugler,1880,1880,German,Germany,Scholarship,A scheme of his own,Paper's table,paper_table,german,
+1883-carl-ploetz,"Ploetz, Epitome, trans. Tillinghast",Carl Ploetz,1883,1883,English,Germany (in English),School,"C 4, F 5, L1 6, L2 7",archive.org scan,full_text,german,
+1885-p-v-n-myers,"Myers, Outlines of Mediaeval and Modern History",P. V. N. Myers,©1885,1885,English,US,School,"C 4, D 5, F 6, L1 7, L2+E 8; adding H6 makes ""nine""",1886 and 1901 printings,full_text,review,
+1885-edwin-pears,"Pears, The Fall of Constantinople",Edwin Pears,1885,1885,English,Britain,Scholarship,"C 4 (""the Fourth Crusade"")",Title,contents,review,
+1886-konstantinos-paparrigopoulos,"Paparrigopoulos, Historia tou hellenikou ethnous",Konstantinos Paparrigopoulos,1886,1886,Greek,Greece,National history,"C 4 (""τετάρτη σταυροφορία"")",Google Books snippet,snippet,four-language,
+1886-carl-ploetz,"Ploetz, Italian trans.",Carl Ploetz,1886,1886,Italian,Italy,School,"F 5, L1 6",Google Books snippet,snippet,four-language,
+1886-jules-roland,"Roland, Leergang van geschiedenis",Jules Roland,1886,1886,Dutch,Belgium/Netherlands (French-derived),School,"L1 7, L2 8",Google Books snippet,snippet,four-language,
+1891-victor-duruy,"Duruy, English trans.",Victor Duruy,1891,1891,English,US,School,As in 1861,1891 text,full_text,review,
+1893-greek-ministry-of-education,Greek teacher-college syllabus,Greek Ministry of Education,1893,1893,Greek,Greece,Syllabus,"Second, Third, Fourth named",Google Books snippet,snippet,four-language,
+1894-t-a-archer-c-l-kingsford,"Archer and Kingsford, The Crusades",T. A. Archer; C. L. Kingsford,[1894],1894,English,Britain,Popular history,"C 4, D 5; H6 ""the German Crusade""",Contents and index,contents,review,
+1894-giovanni-bragagnolo,"Bragagnolo, Storia del medio evo",Giovanni Bragagnolo,1894,1894,Italian,Italy,School,"L1 7, L2 8 (""Settima e ottava crociata"")",Contents (Google Books),snippet,four-language,
+1894-j-i-mombert,"Mombert, A Short History of the Crusades",J. I. Mombert,1894,1894,English,US,Popular history,"C 4, D 5, F 6, L1 7, L2 8",Contents,contents,review,The paper's claimed origin
+1896-j-m-ludlow,"Ludlow, The Age of the Crusades",J. M. Ludlow,1896-97,1896,English,Britain/US,Popular history,"C 4, D 5, F 6, L1 7, L2 8; introduction says ""seven times""",Text,full_text,review,
+1896-dana-c-munro,"Munro, translations",Dana C. Munro,1896,1896,English,US,Source translation,"C 4 (""The Fourth Crusade"")",Title,contents,review,
+1899-a-h-newman,"Newman, Manual of Church History",A. H. Newman,1899-1900,1899,English,US,Church history manual,H6 4 through L2+E 9,Paper's table,paper_table,review,
+1907-david-s-schaff,"D. S. Schaff, History of the Christian Church, vol. 5",David S. Schaff,1907,1907,English,US,Church history,"C 4, D+F 5, L1 6, L2 7",CCEL text,full_text,german,German seven
+1907-nuttall-encyclopaedia,Nuttall Encyclopaedia,,1907,1907,English,Britain,Reference,"""to the number of eight""",Entry text,full_text,review,
+1907-w-b-stevenson,"Stevenson, The Crusaders in the East",W. B. Stevenson,1907,1907,English,Britain,Scholarship,"""second,"" ""third,"" ""fourth crusade"" in quotation marks, then dates",Contents and p. 3,contents,review,
+1908-louis-brehier,Catholic Encyclopedia (Bréhier),Louis Bréhier,1908,1908,English,US,Reference,"C 4, D 5, F+B 6, L1 7, L2 8; division ""arbitrary""",New Advent text,full_text,review,
+1911-brockhaus-kleines-konversations-lexikon,"Brockhaus, Kleines Konversations-Lexikon",,1911,1911,German,Germany,Reference,"C 4, F 5, L1 6, L2 7 (""öfter"")",zeno.org text,full_text,german,
+1911-ernest-barker,EB11 (Barker),Ernest Barker,1911,1911,English,Britain,Reference,"C 4, D 5, F 6, L1 7, L2+E 8; B unnumbered",Wikisource text,full_text,review,
+1912-carl-ploetz,"Ploetz, Auszug, 17th ed.",Carl Ploetz,1912,1912,German,Germany,School,"L1 6, L2 7",Project Gutenberg text,full_text,german,
+1923-ernest-barker,"Barker, The Crusades",Ernest Barker,1923,1923,English,Britain,Reprint of EB11,As EB11,"HathiTrust record, preface note",contents,review,
+1962-k-m-setton-ed,"Setton, History of the Crusades, vol. II",K. M. Setton (ed.),1962; 2nd ed. 1969,1962,English,US,Scholarship,"""Fourth"" and ""Fifth""; the rest named by leader",Contents,contents,review,Post-1945 note
+1972-b-z-kedar,"Kedar, article",B. Z. Kedar,1972,1972,English,Israel,Scholarship,"L1 7 (""Seventh Crusade"")",Title,contents,review,Post-1945 note
+2007-peter-jackson,"Jackson, The Seventh Crusade",Peter Jackson,2007,2007,English,Britain,Scholarship,"L1 7 (""The Seventh Crusade"")",Title,contents,review,Post-1945 note
+2018-netzwerk-lernen-classroom-unit,Netzwerk Lernen classroom unit,,2018,2018,German,Germany,School,"C 4, D+F 5, L1 6, L2+E 7; Children's Crusade unnumbered",Publisher preview,contents,german,Post-1945 note
+2026-atlas-school-handout,Atlas school handout,,current,2026,Italian,Italy,School,"C 4, D 5, F 6, L1 7, L2 8",Document,full_text,four-language,
+2026-english-wikipedia,English Wikipedia,,current,2026,English,Wikipedia,Reference,"One to eight, plus E ""sometimes called the Ninth""",Article,full_text,review,See Wikipedia sub-project
+2026-deutsche-nationalbibliothek,GND,Deutsche Nationalbibliothek,current,2026,German,Germany,Catalog,"Dated headings; ""Fünfter Kreuzzug"" a variant for D",Authority record,full_text,german,
+2026-german-wikipedia,German Wikipedia,,current,2026,German,Wikipedia,Reference,"C 4, D+F 5, L1 6, L2 7",Article,full_text,german,See Wikipedia sub-project
+2026-library-of-congress,LCSH,Library of Congress,current,2026,English,US,Catalog,"F 6 (Sixth, 1228-1229), L1 7 (Seventh, 1248-1250)",Authority records,full_text,review,

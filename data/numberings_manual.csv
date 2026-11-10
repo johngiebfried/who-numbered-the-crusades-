@@ -1,0 +1,17 @@
+work_id,expedition_id,ordinal,shared_with,source
+1639-thomas-fuller,H6,6,,manual
+1639-thomas-fuller,C,7,,manual
+1639-thomas-fuller,D,8,,manual
+1639-thomas-fuller,F,9,,manual
+1639-thomas-fuller,B,10,,manual
+1891-victor-duruy,C,4,,manual
+1891-victor-duruy,D,5,,manual
+1891-victor-duruy,F,6,,manual
+1891-victor-duruy,L1,7,,manual
+1891-victor-duruy,L2,8,,manual
+1923-ernest-barker,C,4,,manual
+1923-ernest-barker,D,5,,manual
+1923-ernest-barker,F,6,,manual
+1923-ernest-barker,L1,7,,manual
+1923-ernest-barker,L2,8,E,manual
+1923-ernest-barker,E,8,L2,manual

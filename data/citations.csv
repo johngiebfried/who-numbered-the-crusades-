@@ -1,0 +1,16 @@
+citing_work_id,cited,relation,evidence,confidence
+1885-p-v-n-myers,Michaud,cites as principal authority,"Preface, 1886 printing; crusades chapter cites Michaud at least six times",documented
+1885-p-v-n-myers,Gibbon,cites as lesser authority,"Preface; one citation in crusades chapter",documented
+1842-george-proctor,Mills,cites,1854 text,documented
+1842-george-proctor,Michaud,cites,1854 text,documented
+1842-george-proctor,Gibbon,abridges for Nicaea,1854 text,documented
+1873-american-cyclopaedia-crusades,Proctor,lists in bibliography,chestofbooks text,documented
+1874-william-swinton,Proctor,matches count and wording,1874 text,inferred
+1894-j-i-mombert,Michaud,lists,Paper's reading,documented
+1896-j-m-ludlow,Michaud,bibliography,Paper's reading,documented
+1842-marie-nicolas-bouillet,Michaud,cites in entry,1842/1853 entry,documented
+1842-cesare-cantu,Michaud,crusade bibliography,1842 vol. 10 p. 37,documented
+1842-cesare-cantu,Wilken,crusade bibliography,1842 vol. 10 p. 37,documented
+1851-cesare-cantu,Bouillet,re-splits own text to Bouillet's list,Comparison of 1842 and 1851 chapter heads,inferred
+1861-victor-duruy,Bouillet,same publisher (Hachette); same list,No citation in Duruy,inferred
+1849-wilhelm-putz,Gibbon,same seven with F for D,No citation checked,untested
