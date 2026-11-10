@@ -2,6 +2,15 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-10 — Strand A: the dictionary stemma, French and English
+
+Protocol step 1 done: signature and evidence rules frozen in `docs/SEARCH_PROTOCOL.md`, new fields in `docs/CODEBOOK.md`. Step 2 done for French and English (`notes/findings/2026-11-strand-a.md`, project copy `claude/findings-2026-11-strand-a.md`; data in `data/strand_a/` and `data/search_log.csv`; 34 entries, 25 at full text).
+
+1. **The Moréri eight.** Every French and English reference entry of 1689–1838 that numbers all eight uses Moréri's scheme: Henry VI fourth (1195), 1202–04 fifth (dated 1198), a sixth from 1213 to 1244, Louis IX seventh and eighth. Basnage's Furetière (1701) adds the formula "On compte 8. Croisades"; Trévoux condenses Moréri's sections under it; Chambers (1728) translates Trévoux; Britannica keeps it in the 2nd, 3rd and 8th editions (1778, 1797, 1854); Courtin's *Encyclopédie moderne* (1824) recasts it by pontificate ("On compte communément huit croisades"); Furne's *Biographie universelle* (1838) abridges Courtin. The *Encyclopédie* (1754) numbers nothing.
+2. **Bouillet reported the swap; he did not make it.** His 1842 entry (title page checked) abridges Courtin/Furne and changes two things: it drops Celestine III/Henry VI and splits Honorius III/Gregory IX into a fifth and a sixth. "Généralement" is Courtin's "communément", which described the old eight. Le Bas's *France: dictionnaire encyclopédique*, t. 6 (Didot, 1842, title page checked) has the modern eight in a different text. Outside the frame, Schöll's *Cours d'histoire des états européens* (1830) already numbers 1202–04 fourth, 1217 fifth, 1228 sixth, 1248 seventh.
+3. **Other branches.** Rees's *Cyclopaedia* (vol. 10, c. 1808) counts nine with Frederick II seventh, before Mills. The *Encyclopaedia Americana* (1830) carries the German six from Brockhaus. The *Penny Cyclopaedia* (1837) has a German-type seven. Larousse (1869) has a third eight: Andrew II fourth "plus généralement", Frederick II fifth, Barons' sixth.
+4. **Diffusion leads.** Bouillet's text reused in Picot's English school reader (1846), de Bormans's Belgian tables (1853) and a Brussels adaptation (1852–53).
+
 ## 2026-11-10 — Repository created and first commit
 
 GitHub repository created (public) and the project's work committed: skeleton and v0.1 dataset (85 works), docs, the search protocol (`docs/SEARCH_PROTOCOL.md`), the essay outline (`paper/essay-outline.md`), and all findings notes (November review, second review, four Wikipedia notes).
@@ -75,18 +84,20 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 
 - [ ] Rename the repository to drop the trailing hyphen
 - [ ] Regenerate and commit `data/wikipedia/`, `data/ledger/`, their scripts, and standalone `site/` pages
-- [ ] Dictionary chain at full text (search protocol, Strand A): Furetière, Trévoux, Chambers, *Encyclopédie*, EB1–7, Saint-Allais, Bouillet
+- [x] Dictionary chain at full text (search protocol, Strand A), French and English: 34 entries, `data/strand_a/` (10 November)
+- [ ] Strand A gaps: Trévoux 1704, 1721, 1732 page images; Moréri 1674–94; *Encyclopédie des gens du monde* t. 7 (1836); d'Harmonville (1842); EB4–7; title pages for Courtin 1824 and Furne 1838; Furetière 1690 page image
+- [ ] Strand A, German: Brockhaus, Pierer, Meyer, Ersch-Gruber
 - [ ] Compare Wikipedia rev 349190657 with Bréhier (1908) word for word
 - [ ] Read Murray (2006) and Cetro; rewrite the paper's opening claim
-- [ ] French school *précis* and official programmes, 1816–42 (Strand B)
+- [ ] Strand B, in this order: Schöll, *Cours d'histoire des états européens* t. 3 (1830); Le Bas's source in *L'Univers*; Lefranc 1838 and 1841; Université programmes and baccalauréat lists 1830–42; *Annuaire du Bureau des longitudes* (1802)
 - [ ] Cantù editions 1844–51: which one switched
 - [ ] Avendaño (1846): contents of the fourth to sixth
-- [ ] How the eight reached English: translations of Bouillet, Cantù, Duruy; British school texts 1850–1900
+- [ ] How the eight reached English: translations of Bouillet, Cantù, Duruy; British school texts 1850–1900 (lead: Picot, *Historical Narrations in French*, 1846, reuses Bouillet's paragraph)
 - [ ] Charles Mills, *History of the Crusades* (1820): does he call his count nine anywhere?
 - [ ] Hand-code the 18 rows in `data/numberings_unparsed.csv`
 - [ ] Build `data/evidence.csv` from the review doc's quotations
 - [ ] Split the grouped Dutch row into separate works
-- [ ] Reconcile the ledger with `data/works.csv` / `numberings.csv` (make `works.csv` the single source)
+- [ ] Reconcile the ledger and `data/strand_a/entries.csv` with `data/works.csv` / `numberings.csv` (make `works.csv` the single source)
 - [ ] EB9 and Newman: record the middle cells of their nine
 - [ ] Wikipedia: decide the two coding questions (options in the findings note)
 - [ ] LCSH headings for the crusades, by hand

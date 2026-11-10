@@ -1,3 +1,5 @@
+<!-- Frozen 10 November 2026 (protocol step 1). Sections 2 (signature) and 6 (evidence rules) are fixed for the life of Q1. Changes go in the amendments list at the end, dated, not into the text. -->
+
 # Search protocol: first modern eight, and how it spread
 
 10 November 2026. Design for the two questions that answer the title. Candidate works named here are places to look, not findings; none has been checked unless the research log says so.
@@ -93,3 +95,8 @@ Build the frame from a catalog first, then check each work. Hypothesis: the Henr
 5. Encyclopedia panel.
 6. School series, syllabi, translations.
 7. Write Q1 as a bracket and Q2 as adoption curves with named edges.
+
+## Amendments
+
+- **2026-11-10, after Strand A (proposed, for the author).** Section 5.4: a statement of custom ("on compte généralement huit croisades") dates the custom of a *count*, not of a slot assignment. Bouillet's "généralement" (1842) descends from Courtin's "communément" (1824) and Basnage's "On compte 8. Croisades" (1701), both describing the Moréri eight. Code `stated_count` and the slot columns separately and never read a statement of custom as evidence for the slots.
+- **2026-11-10.** Section 6, "saved page image": until scans can be downloaded to the repository, a stable page link (Gallica `f` number, archive.org leaf, Google Books `pg`) plus a viewed title page counts for Strand A rows. The author decides whether bracket rows need saved PDFs.

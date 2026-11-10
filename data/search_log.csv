@@ -1,0 +1,26 @@
+date,corpus,query,date_filter,hits,hits_examined,works_added,searcher
+2026-11-10,fr.wikisource,intitle:CROISADE (API),,~50,2,Trévoux 1771; Encyclopédie 1754,Claude
+2026-11-10,Gallica SRU,dc.creator Furetière + title 'dictionnaire universel',,11,6,"Furetière 1690, 1701",Claude
+2026-11-10,Gallica ContentSearch/ALTO,croisade in Furetière 1690 and 1701 volumes,,1,2,,Claude
+2026-11-10,Gallica SRU,title 'dictionnaire universel francois et latin',,15,4,none (Trévoux 1704/1721/1732 image-only),Claude
+2026-11-10,archive.org,Chambers Cyclopaedia 1728-1790,,~45,3,Chambers 1728,Claude
+2026-11-10,archive.org,Encyclopaedia Britannica 1768-1800,,~50,3,EB2 1778; EB3 1797,Claude
+2026-11-10,Google Books,"""on compte huit croisades""",to 1845,8,8,"Trévoux 1752, 1771; Furetière 1708, 1727",Claude
+2026-11-10,Google Books,"""quatrième en 1195"" croisades",,9,9,Trévoux 1743,Claude
+2026-11-10,Google Books,"""commença tumultuairement""",,6,6,,Claude
+2026-11-10,Google Books,"""Croisades pour la conquête de la Terre""",1690-1740,9,9,Trévoux 1740,Claude
+2026-11-10,Google Books,Moréri croisades huitième,1674-1760,4,4,Moréri 1759 (snippet),Claude
+2026-11-10,archive.org,creator Moreri,,60,6,"Moréri 1689, 1702, 1732",Claude
+2026-11-10,Google Books,"""généralement huit croisades""",to 1870,5,5,"Bouillet 1847, 1851, 1856; Picot 1846 (reuse)",Claude
+2026-11-10,archive.org,creator Bouillet + dictionnaire universel,,20,2,Bouillet 1842 (two uploads),Claude
+2026-11-10,Google Books,"""sixième croisade"" Frédéric",1800-1842,8,8,"(Lévi Alvarès 1835, already in corpus)",Claude
+2026-11-10,Google Books,"""sixième croisade, de 1228 à 1229""",,20,10,Bouillet 1852-53; de Bormans 1853 (reuse); Boreau 1849,Claude
+2026-11-10,Google Books,"""huit croisades""",1817-1841,10,10,Courtin 1824; Furne 1838,Claude
+2026-11-10,Google Books,"""cinquième croisade""",1817-1841,10,10,Schöll 1830 (out of frame),Claude
+2026-11-10,Google Books,"Schoell ""Cours d'histoire des états européens"" ""quatrième croisade""",,3,2,Schöll t. 6,Claude
+2026-11-10,archive.org,Encyclopédie des gens du monde; Dictionnaire de la conversation,,62,21,Conversation t. 18 (1835); EGM t. 7 not found,Claude
+2026-11-10,Google Books,"""eight crusades""",1772-1860,6,6,none,Claude
+2026-11-10,archive.org,"EB 1778-84, 1830-61; Rees; Americana; Penny; Haydn",,~250,6,Americana 1830; Penny 1837; EB8 1854; Haydn 1844; Rees vol. 10,Claude
+2026-11-10,Google Books,"""huitième croisade""",1836-1842,9,9,Le Bas t. 6 (1842); Lefranc 1838/1841 (Strand B lead),Claude
+2026-11-10,Google Books,"""Dictionnaire des dates"" Harmonville croisades",,3,3,none (entry not located),Claude
+2026-11-10,archive.org,Larousse GDU; New American; Dezobry; Chambers's; Méthodique,,~110,3,Larousse t. 5; New American vol. 6; Dezobry 1863,Claude
