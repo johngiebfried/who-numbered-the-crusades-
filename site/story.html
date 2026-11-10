@@ -1,0 +1,406 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The Life of a Number</title>
+<style>
+:root{--color-fg:#1d1d1b;--color-fg-muted:#6b6a66;--color-bg:#faf9f7;--color-panel:#ffffff;--color-border-line:#e2e0db;--color-ok:#2f7d4f;--color-warn:#b7791f;--color-bad:#b23b3b;
+--font-anthropic-sans:system-ui,sans-serif;--font-anthropic-serif:Georgia,serif;--cds-font-size-caption:12px;--cds-font-size-body:15px;--cds-font-size-heading:19px;--cds-font-size-title:28px;--cds-font-weight-medium:600;
+--cds-gap-xs:4px;--cds-gap-sm:8px;--cds-gap-md:12px;--cds-gap-lg:20px;--cds-gap-xl:32px;--cds-pad-sm:8px;--cds-pad-md:12px;--cds-pad-lg:16px;--cds-radius:8px;
+--c1:#3b6ea5;--c2:#c46a2b;--c3:#8a4fa8;--c4:#2f8f7a;--c5:#a33;--cds-chart-grid:#ecebe7;--cds-chart-axis:#c9c7c1;--cds-text-secondary:#6b6a66;--cds-chart-muted:#c9c7c1;--cds-surface-popover:#fff;--cds-border:#e2e0db;--cds-shadow-popover:0 4px 16px rgba(0,0,0,.12)}
+body{margin:0;background:var(--color-bg)} #dash-root{padding:24px}
+@media (prefers-color-scheme: dark){:root{--color-fg:#ecebe7;--color-fg-muted:#a3a19b;--color-bg:#1b1b1a;--color-panel:#242422;--color-border-line:#3a3936;--cds-chart-grid:#2e2d2b;--cds-chart-axis:#4a4945;--cds-text-secondary:#a3a19b;--cds-surface-popover:#2b2b29;--cds-border:#3a3936;color-scheme:dark}}</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>window.__DASH_DATA__={"ledger": "id,source,year_label,year_sort,year_end,language,tradition,tradition_label,kind,genre,stated_count,H6,C,D,F,B,L1,L2,E,note\ncarion-and-bullinger-16th-c,Carion and Bullinger,16th c.,1550,1550,de,EARLY,Early modern,print,Universal chronicle,12,,,,,,,,,\"Twelve, the Third counted as three\"\npasquier-late-16th-c,Pasquier,late 16th c.,1590,1590,fr,EARLY,Early modern,print,History,6,,,,,,,,,Six\nfuller-historie-of-the-holy-warre-1639,\"Fuller, Historie of the Holy Warre\",1639,1639,1639,en,EARLY,Early modern,print,History,13,6,7,8,9,10,12,13,,Thirteen numbered voyages; the Third Crusade counts as several\nmaimbourg-histoire-des-croisades-1675-76,\"Maimbourg, Histoire des croisades\",1675\u201376,1675,1675,fr,EARLY,Early modern,print,History,7,4,,,,,,,,Seven in all\ng-c-m-ller-1709,G. C. M\u00fcller,1709,1709,1709,de,EARLY,Early modern,print,Dissertation,5,,,,,,,,,Five\ngibbon-decline-and-fall-1788,\"Gibbon, Decline and Fall\",1788,1788,1788,en,EN,English (Britain and US),print,History,,,4,5,n,,6,7,,Frederick II unnumbered\nmichaud-histoire-des-croisades-1811-22,\"Michaud, Histoire des croisades\",1811\u201322,1811,1811,fr,FR,French,print,History,,4,5,6,7,,n,n,,\"Louis IX's two expeditions follow, unnumbered in the row\"\nsaint-allais-1816,Saint-Allais,1816,1816,1816,fr,FR,French,print,Reference,8,4,5,6,,,7,8,,\"L2 \"\"et derni\u00e8re\"\"\"\nmills-history-of-the-crusades-1820,\"Mills, History of the Crusades\",1820,1820,1820,en,EN,English (Britain and US),print,Popular history,,4,5,6,6,7,8,n,n,\"L2 and Edward together as \"\"the Last Crusade\"\"\"\nraumer-geschichte-der-hohenstaufen-1823-25,\"Raumer, Geschichte der Hohenstaufen\",1823\u201325,1823,1823,de,DE,German,print,Scholarship,,,,,n,,,,,\"Named, not numbered: \"\"Der Kreuzzug Friedrichs II\"\"\"\ndamen-conversations-lexikon-1834-38,Damen Conversations-Lexikon,1834\u201338,1834,1834,de,DE,German,print,Reference,6,,x,4,5,,6,,,1202\u201304 not counted\nlefranc-histoire-du-moyen-ge-1834,\"Lefranc, Histoire du moyen \u00e2ge\",1834,1834,1834,fr,FR,French,print,School,8,4,5,,6,,7,8,,\"L2 \"\"derni\u00e8re\"\"\"\nbrockhaus-bilder-conversations-lexikon-1837-41,\"Brockhaus, Bilder-Conversations-Lexikon\",1837\u201341,1837,1837,de,DE,German,print,Reference,6,,x,4,5,,6,,,\"L1 \"\"den sechsten und letzten\"\"\"\nmichaud-and-poujoulat-abridgment-1838,\"Michaud and Poujoulat, abridgment\",1838,1838,1838,fr,FR,French,print,School,8,4,5,6,6,6,7,8,8,\nmichaud-histoire-abr-g-e-for-youth-1839,\"Michaud, Histoire abr\u00e9g\u00e9e, for youth\",1839,1839,1839,fr,FR,French,print,School,,,,,,,,8,,\"\"\"Huiti\u00e8me croisade\"\"\"\nbouillet-dictionnaire-universel-1842,\"Bouillet, Dictionnaire universel\",1842,1842,1842,fr,FR,French,print,Reference,8,,4,5,6,,7,8,,\"\"\"On compte g\u00e9n\u00e9ralement huit croisades\"\"; earliest modern eight found\"\ncant-storia-universale-1st-ed-1842-44,\"Cant\u00f9, Storia universale, 1st ed.\",1842\u201344,1842,1842,it,IT,Italian,print,Universal history,8,,4,5/6,,,7,8,,\"Andrew II (1217) fifth, Damietta from 1218 sixth: not the modern list\"\nproctor-us-edition-before-1842-printed-1854,\"Proctor, US edition\",c. 1842 (pr. 1854),1842,1842,en,EN,English (Britain and US),print,Popular history,8,,4,5,5,6,7,8,,\"L2 \"\"and last\"\"\"\nkoromelas-chronological-tables-1845,\"Koromelas, chronological tables\",1845,1845,1845,el,EL,Greek,print,Chronology,,,4,5,,,6,,,\navenda-o-manual-completo-1846,\"Avenda\u00f1o, Manual completo\",1846,1846,1846,es,ES,Spanish,print,School,8,,,,,,,,,\"\"\"Cuarta\"\"; \"\"Quinta y sesta\"\"; \"\"S\u00e9tima y octava\"\": contents not yet checked\"\nmellado-diccionario-universal-after-bouillet-1846,\"Mellado, Diccionario universal (after Bouillet)\",1846,1846,1846,es,FR,French,print,Reference,,,4,,,,,,,\ncant-french-trans-1847,\"Cant\u00f9, French trans.\",1847,1847,1847,fr,IT,Italian,print,Universal history,,,,,,,7,8,,\"\"\"Septi\u00e8me et huiti\u00e8me croisade\"\"\"\nanquetil-spanish-trans-1848,\"Anquetil, Spanish trans.\",1848,1848,1848,es,FR,French,print,History,,,,,,6,,,,\ncant-spanish-trans-1848,\"Cant\u00f9, Spanish trans.\",1848,1848,1848,es,IT,Italian,print,Universal history,,,,,,,7,8,,\"\"\"S\u00e9tima y octava cruzada\"\"\"\nmil-i-fontanals-manual-1849,\"Mil\u00e0 i Fontanals, Manual\",1849,1849,1849,es,ES,Spanish,print,School,,,4,,6,,,,,\np-tz-handbook-english-trans-1849,\"P\u00fctz, Handbook, English trans.\",1849,1849,1849,en,DE,German,print,School,,,4,n,n,,6,7,,\"C \"\"(so-named)\"\"\"\ncant-storia-universale-1851,\"Cant\u00f9, Storia universale\",1851,1851,1851,it,IT,Italian,print,Universal history,8,,4,5,6,,7,8,,\"Re-split to Bouillet's list (\"\"Quinta e sesta\"\", \"\"Settima e ottava\"\")\"\ncastro-historia-universal-1853-73,\"Castro, Historia universal\",1853\u201373,1853,1853,es,ES,Spanish,print,Universal history,,,,5,,,n,n,,\"\"\"Sesta\"\" follows; then \"\"Cruzadas de San Luis\"\"\"\nweber-outlines-english-trans-1853,\"Weber, Outlines, English trans.\",1853,1853,1853,en,DE,German,print,School,,,4,,5,,n,n,,\"\"\"the FIFTH CRUSADE\"\" = Frederick II\"\nherder-conversations-lexikon-1854-57,\"Herder, Conversations-Lexikon\",1854\u201357,1854,1854,de,DE,German,print,Reference,,,,,,,,n,,\"No numbers; L2 \"\"kaum\"\" a crusade\"\nmichaud-spanish-trans-1855-58,\"Michaud, Spanish trans.\",1855\u201358,1855,1855,es,FR,French,print,History,,4,,6,,,,,,\npierer-universal-lexikon-4th-ed-1857-65,\"Pierer, Universal-Lexikon, 4th ed.\",1857\u201365,1857,1857,de,DE,German,print,Reference,6,,x,4,5,5,6,6,,\"1202\u201304 \"\"gew\u00f6hnlich gar nicht gerechnet\"\"\"\npomba-nuova-enciclopedia-popolare-1858,\"Pomba, Nuova enciclopedia popolare\",1858,1858,1858,it,IT,Italian,print,Reference,7,,,,,,,,,Seven\ncortada-compendio-1859,\"Cortada, Compendio\",1859,1859,1859,es,ES,Spanish,print,School,,,4,,,,,,,Las Navas unnumbered before the fifth\nduruy-histoire-du-moyen-ge-1861,\"Duruy, Histoire du moyen \u00e2ge\",1861,1861,1861,fr,FR,French,print,School,8,,4,5,6,,7,8,,\"L2 \"\"la derni\u00e8re de toutes\"\"\"\nrohrbacher-italian-trans-1862,\"Rohrbacher, Italian trans.\",1862,1862,1862,it,FR,French,print,Church history,,,,,,,6,7,,\nperry-1865,Perry,1865,1865,1865,en,EN,English (Britain and US),print,Popular history,9,4,5,6,,7,8,9,,\nploetz-auszug-2nd-ed-1867,\"Ploetz, Auszug, 2nd ed.\",1867,1867,1867,de,DE,German,print,School,,,4,,5,,6,n,,\nstoria-d-italia-ad-uso-delle-scuole-1871,Storia d'Italia ad uso delle scuole,1871,1871,1871,it,IT,Italian,print,School,,,,5,,,7,7,,\"L1 and L2 together \"\"settima\"\"\"\nwijnne-kollewijn-brals-epkema-1871-92,\"Wijnne, Kollewijn, Brals, Epkema\",1871\u201392,1871,1871,nl,DE,German,print,School,7,,4,,5,,6,7,,Northern Dutch schoolbooks (grouped row)\ngibbon-italian-trans-1872,\"Gibbon, Italian trans.\",1872,1872,1872,it,EN,English (Britain and US),print,History,7,,,,,,6,7,,\"L2 \"\"settima ed ultima\"\"\"\namerican-cyclopaedia-1873-76,American Cyclopaedia,1873\u201376,1873,1873,en,EN,English (Britain and US),print,Reference,8,,4,5,,6,7,8,8,\"Gregory X \"\"sought to evoke a ninth\"\"\"\ncox-1874,Cox,1874,1874,1874,en,EN,English (Britain and US),print,Popular history,9,4,5,6,6,7,8,9,9,\nswinton-1874,Swinton,1874,1874,1874,en,EN,English (Britain and US),print,School,8,,4,5,,6,7,8,,\"L2 \"\"and last\"\"\"\nriant-1875-78,Riant,1875\u201378,1875,1875,fr,FR,French,print,Scholarship,,,4,,,,,,,\neb9-crusades-1877,\"EB9, \"\"Crusades\"\"\",1877,1877,1877,en,EN,English (Britain and US),print,Reference,9,4,,,,,,9,9,Henry VI fourth through L2 and Edward ninth; middle cells not recorded\nchantrel-dutch-trans-1879,\"Chantrel, Dutch trans.\",1879,1879,1879,nl,FR,French,print,History,,,,5,5,,,8,,\nr-hricht-1879-91,R\u00f6hricht,1879\u201391,1879,1879,de,DE,German,print,Scholarship,,,,5,,,,,,\"\"\"quintum bellum sacrum\"\"\"\nkugler-geschichte-der-kreuzz-ge-1880,\"Kugler, Geschichte der Kreuzz\u00fcge\",1880,1880,1880,de,DE,German,print,Scholarship,,,,,,,,,,A scheme of his own\nploetz-epitome-trans-tillinghast-1883,\"Ploetz, Epitome, trans. Tillinghast\",1883,1883,1883,en,DE,German,print,School,,,4,,5,,6,7,,\nmyers-1885,Myers,1885,1885,1885,en,EN,English (Britain and US),print,School,8,,4,5,6,,7,8,8,\"Counting Henry VI \"\"the number increased to nine\"\"\"\npears-1885,Pears,1885,1885,1885,en,EN,English (Britain and US),print,Scholarship,,,4,,,,,,,\npaparrigopoulos-1886,Paparrigopoulos,1886,1886,1886,el,EL,Greek,print,History,,,4,,,,,,,\nploetz-italian-trans-1886,\"Ploetz, Italian trans.\",1886,1886,1886,it,DE,German,print,School,,,,,5,,6,,,\nroland-leergang-van-geschiedenis-1886,\"Roland, Leergang van geschiedenis\",1886,1886,1886,nl,FR,French,print,School,,,,,,,7,8,,\nduruy-english-trans-1891,\"Duruy, English trans.\",1891,1891,1891,en,FR,French,print,School,8,,4,5,6,,7,8,,As in 1861\ngreek-teacher-college-syllabus-1893,Greek teacher-college syllabus,1893,1893,1893,el,EL,Greek,print,Syllabus,,,4,,,,,,,\"Second, Third, Fourth named\"\narcher-and-kingsford-1894,Archer and Kingsford,1894,1894,1894,en,EN,English (Britain and US),print,Popular history,,n,4,5,,,,,,\"H6 \"\"the German Crusade\"\"\"\nbragagnolo-storia-del-medio-evo-1894,\"Bragagnolo, Storia del medio evo\",1894,1894,1894,it,IT,Italian,print,School,,,,,,,7,8,,\nmombert-1894,Mombert,1894,1894,1894,en,EN,English (Britain and US),print,Popular history,8,,4,5,6,,7,8,,The 2022 paper's candidate origin\nludlow-1896-97,Ludlow,1896\u201397,1896,1896,en,EN,English (Britain and US),print,Popular history,8,,4,5,6,,7,8,,\"Introduction says \"\"seven times\"\"\"\nmunro-1896,Munro,1896,1896,1896,en,EN,English (Britain and US),print,Source translation,,,4,,,,,,,\nnewman-1899-1900,Newman,1899\u20131900,1899,1899,en,EN,English (Britain and US),print,Church history,9,4,,,,,,9,9,Henry VI fourth through L2 and Edward ninth; middle cells not recorded\nd-s-schaff-history-of-the-christian-church-1907,\"D. S. Schaff, History of the Christian Church\",1907,1907,1907,en,DE,German,print,Church history,7,,4,5,5,,6,7,,\nnuttall-encyclopaedia-1907,Nuttall Encyclopaedia,1907,1907,1907,en,EN,English (Britain and US),print,Reference,8,,,,,,,,,\"\"\"to the number of eight\"\"\"\nstevenson-1907,Stevenson,1907,1907,1907,en,EN,English (Britain and US),print,Scholarship,,,4,,,,,,,Ordinals in quotation marks\ncatholic-encyclopedia-br-hier-1908,Catholic Encyclopedia (Br\u00e9hier),1908,1908,1908,en,FR,French,print,Reference,8,,4,5,6,6,7,8,,\"The division is \"\"arbitrary\"\"\"\nbrockhaus-kleines-konversations-lexikon-1911,\"Brockhaus, Kleines Konversations-Lexikon\",1911,1911,1911,de,DE,German,print,Reference,7,,4,,5,,6,(7),,\"L2 \"\"\u00f6fter\"\" seventh\"\neb11-barker-1911,EB11 (Barker),1911,1911,1911,en,EN,English (Britain and US),print,Reference,8,,4,5,6,n,7,8,8,\nploetz-auszug-17th-ed-1912,\"Ploetz, Auszug, 17th ed.\",1912,1912,1912,de,DE,German,print,School,,,,,,,6,7,,\nbarker-the-crusades-1923,\"Barker, The Crusades\",1923,1923,1923,en,EN,English (Britain and US),print,Reprint of EB11,8,,4,5,6,n,7,8,8,Reprint of EB11\nsetton-history-of-the-crusades-vol-ii-1962,\"Setton, History of the Crusades, vol. II\",1962,1962,1962,en,EN,English (Britain and US),print,Scholarship,,,4,5,n,n,n,n,,Rest named by leader\nkedar-1972,Kedar,1972,1972,1972,en,EN,English (Britain and US),print,Scholarship,,,,,,,7,,,\nwikipedia-english-navigation-box-2004-2007,\"Wikipedia (English), navigation box\",2004\u20132007,2004,2007,en,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-arabic-navigation-box-2005-2013,\"Wikipedia (Arabic), navigation box\",2005\u20132013,2005,2013,ar,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,,\"Eighth until 4 December 2013, the last box to reach nine.\"\nwikipedia-german-navigation-box-2005-2007,\"Wikipedia (German), navigation box\",2005\u20132007,2005,2007,de,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,5 (6),,6 (7),7 (8),,\"Modern count in brackets: \"\"F\u00fcnfter (Sechster) Kreuzzug\"\".\"\nwikipedia-portuguese-navigation-box-2005-2018,\"Wikipedia (Portuguese), navigation box\",2005\u20132018,2005,2018,pt,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-greek-navigation-box-2006,\"Wikipedia (Greek), navigation box\",2006,2006,2006,el,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,,,\njackson-the-seventh-crusade-2007,\"Jackson, The Seventh Crusade\",2007,2007,2007,en,EN,English (Britain and US),print,Scholarship,,,,,,,7,,,\nwikipedia-greek-navigation-box-2007,\"Wikipedia (Greek), navigation box\",2007,2007,2007,el,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,,\nwikipedia-polish-navigation-box-2007,\"Wikipedia (Polish), navigation box\",2007\u2013,2007,2026,pl,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,,,6,7,,\"Frederick II absent: no article, no link. 2014 sample (only Alexandria linked) skipped as anomalous.\"\nwikipedia-english-navigation-box-2008-2015,\"Wikipedia (English), navigation box\",2008\u20132015,2008,2015,en,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,,7,8,9,\nwikipedia-german-navigation-box-2008-2010,\"Wikipedia (German), navigation box\",2008\u20132010,2008,2010,de,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,5 (6),,6 (7),7 (8),,\nwikipedia-greek-navigation-box-2008-2025,\"Wikipedia (Greek), navigation box\",2008\u20132025,2008,2025,el,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-italian-navigation-box-2008-2019,\"Wikipedia (Italian), navigation box\",2008\u20132019,2008,2019,it,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-hebrew-navigation-box-2009-2025,\"Wikipedia (Hebrew), navigation box\",2009\u20132025,2009,2025,he,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-turkish-navigation-box-2009,\"Wikipedia (Turkish), navigation box\",2009,2009,2009,tr,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,,,,,,\nwikipedia-turkish-navigation-box-2010-2012,\"Wikipedia (Turkish), navigation box\",2010\u20132012,2010,2012,tr,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-dutch-navigation-box-2011,\"Wikipedia (Dutch), navigation box\",2011\u2013,2011,2026,nl,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-german-navigation-box-2011,\"Wikipedia (German), navigation box\",2011\u2013,2011,2026,de,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,5 (6),n,6 (7),7 (8),n,\nwikipedia-spanish-navigation-box-2012-2023,\"Wikipedia (Spanish), navigation box\",2012\u20132023,2012,2023,es,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,,7,8,9,\nwikipedia-french-navigation-box-2013-2015,\"Wikipedia (French), navigation box\",2013\u20132015,2013,2015,fr,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-turkish-navigation-box-2013,\"Wikipedia (Turkish), navigation box\",2013\u2013,2013,2026,tr,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,,7,8,9,\nwikipedia-arabic-navigation-box-2014-2022,\"Wikipedia (Arabic), navigation box\",2014\u20132022,2014,2022,ar,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-english-navigation-box-2016-2019,\"Wikipedia (English), navigation box\",2016\u20132019,2016,2019,en,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,n,7,8,9,\nwikipedia-french-navigation-box-2016-2020,\"Wikipedia (French), navigation box\",2016\u20132020,2016,2020,fr,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,n,7,8,9,\nwikipedia-persian-navigation-box-2016-2018,\"Wikipedia (Persian), navigation box\",2016\u20132018,2016,2018,fa,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nnetzwerk-lernen-classroom-unit-2018,Netzwerk Lernen classroom unit,2018,2018,2018,de,DE,German,print,School,7,,4,5,5,,6,7,7,\nwikipedia-russian-navigation-box-2018-2023,\"Wikipedia (Russian), navigation box\",2018\u20132023,2018,2023,ru,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-czech-navigation-box-2019,\"Wikipedia (Czech), navigation box\",2019,2019,2019,cs,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,,7,8,9,\nwikipedia-persian-navigation-box-2019,\"Wikipedia (Persian), navigation box\",2019\u2013,2019,2026,fa,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,n,7,8,9,\nwikipedia-portuguese-navigation-box-2019,\"Wikipedia (Portuguese), navigation box\",2019\u2013,2019,2026,pt,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,n,7,8,9,\nwikipedia-czech-navigation-box-2020,\"Wikipedia (Czech), navigation box\",2020\u2013,2020,2026,cs,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,n,7,8,9,\nwikipedia-english-navigation-box-2020,\"Wikipedia (English), navigation box\",2020\u2013,2020,2026,en,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,n,7,8,n,\"Ninth dropped 17 November 2019; Edward linked as \"\"Lord Edward's crusade\"\".\"\nwikipedia-italian-navigation-box-2020-2022,\"Wikipedia (Italian), navigation box\",2020\u20132022,2020,2022,it,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,,7,8,9,\nwikipedia-french-navigation-box-2021,\"Wikipedia (French), navigation box\",2021\u2013,2021,2026,fr,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,n,7,8,9,\nwikipedia-arabic-navigation-box-2023,\"Wikipedia (Arabic), navigation box\",2023\u2013,2023,2026,ar,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,,7,8,9,\nwikipedia-italian-navigation-box-2023,\"Wikipedia (Italian), navigation box\",2023\u2013,2023,2026,it,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,n,7,8,9,\nwikipedia-russian-navigation-box-2024,\"Wikipedia (Russian), navigation box\",2024\u2013,2024,2026,ru,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,n,7,8,9,\nwikipedia-spanish-navigation-box-2024,\"Wikipedia (Spanish), navigation box\",2024\u2013,2024,2026,es,WP,Wikipedia,wikipedia,Wikipedia,,n,4,5,6,n,7,8,9,\natlas-school-handout-current,Atlas school handout,current,2025,2025,it,IT,Italian,print,School,8,,4,5,6,,7,8,,\ngnd-current,GND,current,2026,2026,de,LIB,Library catalogs,catalog,Catalog,,,,(5),(5/6),n,(6),(7),,Dated headings; numbers only as variant forms\nlcsh-current,LCSH,current,2026,2026,en,LIB,Library catalogs,catalog,Catalog,,,,,6,,7,,,\"\"\"Sixth, 1228-1229\"\"; \"\"Seventh, 1248-1250\"\"\"\nwikipedia-greek-navigation-box-2026,\"Wikipedia (Greek), navigation box\",2026\u2013,2026,2026,el,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,n,7,8,9,\nwikipedia-hebrew-navigation-box-2026,\"Wikipedia (Hebrew), navigation box\",2026\u2013,2026,2026,he,WP,Wikipedia,wikipedia,Wikipedia,,,4,5,6,n,7,8,9,\n", "ninth": "year,ninth_crusade,lord_edwards_crusade,total,page_status\n2016,98855,0,98855,article\n2017,98671,0,98671,article\n2018,105910,0,105910,article\n2019,103889,5349,109238,renamed 17 Nov\n2020,56653,63298,119951,redirect\n2021,46497,65844,112341,redirect\n2022,32755,60334,93089,redirect\n2023,28488,69575,98063,redirect\n2024,26411,61454,87865,redirect\n2025,27363,54585,81948,redirect\n"};</script><script src="dash-shim.js"></script></head>
+<body><div id="dash-root"><meta name="dash-one-writer">
+<style>
+  .st { --st-same: var(--color-fg-muted); --st-up: var(--color-warn); --st-down: var(--color-bad); --st-extra: var(--color-ok);
+        font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+  .st-head { display: grid; gap: var(--cds-gap-sm); max-width: 66ch; margin-bottom: var(--cds-gap-xl); }
+  .st-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: calc(var(--cds-font-size-title) * 1.25); margin: 0; text-wrap: balance; line-height: 1.15; }
+  .st-lede { font-size: var(--cds-font-size-body); line-height: 1.55; margin: 0; }
+  .st-wrap { display: grid; grid-template-columns: minmax(260px, 34%) 1fr; gap: var(--cds-gap-xl); align-items: start; }
+  .st-steps { display: grid; gap: 0; }
+  .st-chapter { font-size: var(--cds-font-size-caption); letter-spacing: .08em; text-transform: uppercase; color: var(--color-fg-muted); margin: 48px 0 0; }
+  .st-step { min-height: 72vh; display: flex; align-items: center; }
+  .st-step:first-of-type { min-height: 55vh; align-items: flex-start; }
+  .st-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg);
+        line-height: 1.55; font-size: var(--cds-font-size-body); opacity: .45; transition: opacity .25s; }
+  .st-step.is-active .st-card { opacity: 1; }
+  .st-card h2 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-heading); margin: 0 0 8px; text-wrap: balance; }
+  .st-card p { margin: 0 0 10px; } .st-card p:last-child { margin-bottom: 0; }
+  .st-card b { font-weight: var(--cds-font-weight-medium); font-variant-numeric: tabular-nums; }
+  .st-fig { position: sticky; top: 12px; display: grid; gap: var(--cds-gap-sm); }
+  .st-cap { margin: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.4; min-height: 2.8em; }
+  .st-cap strong { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .st-panel { position: relative; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); min-height: 420px; max-height: calc(100vh - 140px); overflow: hidden; }
+  .st-chart { width: 100%; min-height: 400px; }
+  .st-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .st-chart text { font-family: var(--font-anthropic-sans); }
+  .st-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover);
+        border-radius: 6px; padding: 6px 8px; font-size: var(--cds-font-size-caption); line-height: 1.35; max-width: 240px; z-index: 5; }
+  .st-tip[hidden] { display: none; }
+  .st-key { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); list-style: none; margin: 0; padding: 0; }
+  .st-key li { display: flex; align-items: center; gap: 6px; }
+  .st-dot { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
+  .st-dot.same { background: color-mix(in srgb, var(--st-same) 45%, transparent); }
+  .st-dot.up { background: color-mix(in srgb, var(--st-up) 60%, transparent); }
+  .st-dot.down { background: color-mix(in srgb, var(--st-down) 55%, transparent); }
+  .st-dot.extra { background: color-mix(in srgb, var(--st-extra) 60%, transparent); }
+  .st-dot.named { border: 1.5px solid var(--color-fg-muted); }
+  .st-end { max-width: 66ch; margin: 64px 0 24px; line-height: 1.55; font-size: var(--cds-font-size-body); }
+  .st-end h2 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-heading); margin: 0 0 8px; }
+  .st-notes { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); max-width: 72ch; line-height: 1.5; }
+  .st-notes summary { cursor: pointer; color: var(--color-fg); }
+  @media (max-width: 760px) {
+    .st-wrap { grid-template-columns: 1fr; }
+    .st-fig { top: 0; z-index: 4; background: var(--color-bg); padding-bottom: 6px; order: -1; }
+    .st-panel { min-height: 300px; padding: 6px; }
+    .st-chart { min-height: 240px; }
+    .st-chart svg { max-height: 44vh; }
+    .st-panel { max-height: 50vh; }
+    .st-cap { min-height: 0; }
+    .st-key { font-size: 10px; gap: 4px 10px; }
+    .st-step { min-height: 90vh; align-items: flex-end; padding-bottom: 6vh; }
+    .st-card { opacity: .92; }
+  }
+  [data-dash-source-state=refreshing] { opacity: .5; }
+</style>
+
+<div class="st" id="story">
+  <header class="st-head" id="story-head">
+    <h1 class="st-title">The life of a number</h1>
+    <p class="st-lede">Everyone knows there were eight crusades, or nine. The numbers came centuries after the crusades, and they were never settled. This story follows four of them through printed books and library catalogs since the sixteenth century and through Wikipedia since 2002. Each dot on the chart is a source; the number inside is the one it gives.</p>
+  </header>
+
+  <div class="st-wrap">
+    <div class="st-steps" id="story-steps">
+
+      <p class="st-chapter" id="ch-ninth">Chapter 1 · The Ninth</p>
+      <section class="st-step" data-focus="E" data-dim="WP">
+        <div class="st-card">
+          <h2>A crusade with no number</h2>
+          <p>Edward's crusade of 1271–72 was a late arrival to Louis IX's expedition to Tunis. No book in the corpus gives it a number of its own. Most leave it out or fold it into Tunis. Mills (1820) called the two together "the Last Crusade"; the <i>American Cyclopaedia</i> and Myers counted them as one Eighth.</p>
+          <p>Where Edward does carry a Ninth (Cox in 1874, the ninth <i>Britannica</i> in 1877, Newman in 1899), it is still Tunis and Edward together, in a count that started with Henry VI's crusade. That Ninth is the modern Eighth.</p>
+        </div>
+      </section>
+      <section class="st-step" data-focus="E" data-dim="print">
+        <div class="st-card">
+          <h2>Wikipedia makes it the Ninth</h2>
+          <p>English Wikipedia gave Edward a Ninth heading on 13 April 2003 and an article of his own in May 2004. Five weeks after that heading, the editor who had split the English article added a Ninth to Dutch Wikipedia.</p>
+          <p>Of the fifteen editions on this chart, thirteen came to list a Ninth in their navigation boxes. Arabic's box, at eight since 2004, added one in December 2013. German and Polish never did.</p>
+        </div>
+      </section>
+      <section class="st-step" data-focus="E" data-dim="print" data-mark="en,fa">
+        <div class="st-card">
+          <h2>And English unmakes it</h2>
+          <p>On 17 November 2019 English Wikipedia renamed "Ninth Crusade" to "Lord Edward's crusade" and dropped the number from its navigation box the same day. Persian copied the rename in February 2020 and reverted it the next day.</p>
+          <p>Every other edition here that took up the Ninth still has it. The convention English Wikipedia spread is now kept by the editions that copied it, and not by English.</p>
+        </div>
+      </section>
+      <section class="st-step" data-panel="views">
+        <div class="st-card">
+          <h2>Readers still look for it</h2>
+          <p>As an article, "Ninth Crusade" drew about <b data-draw="v2018" data-source="ninth" data-field="ninth_crusade" data-where="year=2018">—</b> views in 2018. As a redirect it still drew <b data-draw="v2025" data-source="ninth" data-field="ninth_crusade" data-where="year=2025">—</b> in 2025, about a third of all the traffic to Edward's crusade.</p>
+          <p>The rename changed the page. It did not change what people type.</p>
+        </div>
+      </section>
+
+      <p class="st-chapter" id="ch-fifth">Chapter 2 · Two Fifths</p>
+      <section class="st-step" data-focus="D">
+        <div class="st-card">
+          <h2>Damietta: Fourth, Fifth or Sixth</h2>
+          <p>The siege of Damietta (1217–21) is the modern Fifth, and Gibbon already called it that in 1788. The German encyclopedias of the 1830s to 1860s made it the Fourth, because they did not count 1202–04 at all. Michaud and the books that followed him made it the Sixth, because they counted Henry VI's crusade of 1197.</p>
+          <p>One expedition, three numbers, each consistent with its own list.</p>
+        </div>
+      </section>
+      <section class="st-step" data-focus="F">
+        <div class="st-card">
+          <h2>Frederick II takes the Fifth</h2>
+          <p>Frederick II's crusade (1228–29) is the modern Sixth. German encyclopedias and schoolbooks made it the Fifth: Weber and Ploetz count 1202–04 Fourth and go straight to Frederick. Their English translations carried that count to English-speaking readers, and D. S. Schaff still used it in 1907.</p>
+          <p>German Wikipedia's navigation box keeps it today, with the modern number in brackets: "Fünfter (Sechster) Kreuzzug." The German National Library files both as variants of a dated heading.</p>
+        </div>
+      </section>
+
+      <p class="st-chapter" id="ch-barons">Chapter 3 · The crusade without a number</p>
+      <section class="st-step" data-focus="B">
+        <div class="st-card">
+          <h2>The Barons' Crusade</h2>
+          <p>The expeditions of Theobald of Navarre and Richard of Cornwall (1239–41) once had numbers. Proctor, the <i>American Cyclopaedia</i> and Swinton made them the Sixth; Mills, Perry and Cox the Seventh; Fuller in 1639 the Tenth. The Catholic Encyclopedia folded them into Frederick's Sixth.</p>
+          <p>The eleventh <i>Britannica</i> (1911) named the expedition and gave it no number, and the modern list followed. English Wikipedia had no page on it until February 2016, and no edition has ever given it a number.</p>
+        </div>
+      </section>
+
+      <p class="st-chapter" id="ch-count">Chapter 4 · How many?</p>
+      <section class="st-step" data-focus="count">
+        <div class="st-card">
+          <h2>Five to thirteen</h2>
+          <p>Totals ran from five to thirteen. Fuller counted thirteen voyages, Carion and Bullinger twelve, Maimbourg seven, Müller five. In the nineteenth century German encyclopedias settled on six, German schoolbooks on seven, French reference books on eight, and several English popular histories on nine.</p>
+          <p>Wikipedia briefly gave the world one answer, nine, and English Wikipedia has since dropped it. Nobody has made a Tenth stick: Spanish Wikipedia points "Décima cruzada" at Peter I of Cyprus's attack on Alexandria in 1365, and Arabic Wikipedia uses "the Tenth Crusade" for the war on terror.</p>
+        </div>
+      </section>
+    </div>
+
+    <figure class="st-fig" id="story-figure" style="margin:0">
+      <p class="st-cap" data-cap="E"><strong>Edward's crusade (1271–72).</strong> The number each source gives it. Joined to Tunis: the source counts the two as one.</p>
+      <p class="st-cap" data-cap="D" hidden><strong>Damietta (1217–21).</strong> The number each source gives it; the modern list makes it the Fifth.</p>
+      <p class="st-cap" data-cap="F" hidden><strong>Frederick II's crusade (1228–29).</strong> The number each source gives it; the modern list makes it the Sixth.</p>
+      <p class="st-cap" data-cap="B" hidden><strong>The Barons' Crusade (1239–41).</strong> The number each source gives it; the modern list gives it none.</p>
+      <p class="st-cap" data-cap="count" hidden><strong>How many crusades?</strong> The total each source states. Wikipedia bars show the highest number in the navigation box; the modern list's eight is the reference.</p>
+      <p class="st-cap" data-cap="views" hidden><strong>Views of Edward's crusade on English Wikipedia,</strong> 2016–25, by the title readers arrived at.</p>
+      <div class="st-panel" id="timeline-panel" data-panel-for="timeline">
+        <div class="st-chart" data-draw="timeline" data-source="ledger" role="img" aria-label="Timeline of the number each source gives the expedition in focus, by tradition, from the sixteenth century to 2026"></div>
+      </div>
+      <div class="st-panel" id="views-panel" data-panel-for="views" hidden>
+        <div class="st-chart" data-draw="views" data-source="ninth" role="img" aria-label="Yearly views of Edward's crusade on English Wikipedia, 2016 to 2025, split between the title Ninth Crusade and Lord Edward's crusade"></div>
+      </div>
+      <ul class="st-key" id="story-key">
+        <li><span class="st-dot same"></span>Same as the modern list</li>
+        <li><span class="st-dot up"></span>Higher</li>
+        <li><span class="st-dot down"></span>Lower</li>
+        <li><span class="st-dot extra"></span>Numbered, though the modern list gives none</li>
+        <li><span class="st-dot named"></span>Named, no number</li>
+      </ul>
+    </figure>
+  </div>
+
+  <section class="st-end" id="story-end">
+    <h2>Where this comes from</h2>
+    <p>Every dot is a row in the crusade numbering ledger: the printed works and catalogs of the project's numbering corpus and the crusade navigation boxes of fifteen Wikipedias, sampled each July. The full grid, with every expedition and every source, is the companion ledger page.</p>
+  </section>
+  <details class="st-notes" id="story-notes">
+    <summary>Reading the chart</summary>
+    <p>The time axis is stretched where the sources are dense (1780–1930 and 2002–26) and compressed between. Wikipedia runs are drawn as bars, one row per language, from the July sample where a numbering first appears to the last sample where it holds. A blank means the source as checked gives no number, not that it is silent. Chapter 4 shows only sources that state a total, and for Wikipedia the highest number in the box.</p>
+  </details>
+</div>
+
+<script>
+  document.querySelectorAll('.st').forEach((el) => {
+    el.style.setProperty('--st-same', dash.colors[0]);
+    el.style.setProperty('--st-up', dash.colors[1]);
+    el.style.setProperty('--st-down', dash.colors[2]);
+    el.style.setProperty('--st-extra', dash.colors[3]);
+  });
+
+  window.storyState = { focus: 'E', dim: 'WP', mark: [] };
+
+  // Scroll steps: choose what the sticky figure shows.
+  const steps = Array.from(document.querySelectorAll('.st-step'));
+  function activate(step, initial) {
+    steps.forEach((s) => s.classList.toggle('is-active', s === step));
+    const panel = step.dataset.panel || 'timeline';
+    const focus = step.dataset.focus || window.storyState.focus;
+    window.storyState = { focus, dim: step.dataset.dim || '', mark: (step.dataset.mark || '').split(',').filter(Boolean) };
+    document.querySelectorAll('[data-cap]').forEach((c) => { c.hidden = c.dataset.cap !== (panel === 'views' ? 'views' : focus); });
+    document.querySelectorAll('[data-panel-for]').forEach((p) => { p.hidden = p.dataset.panelFor !== panel; });
+    document.querySelectorAll('#story-key').forEach((k) => { k.style.visibility = panel === 'views' ? 'hidden' : 'visible'; });
+    if (!initial) dash.draw(panel);
+  }
+  if (steps.length) {
+    activate(steps[0], true);
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => { if (en.isIntersecting) activate(en.target); });
+    }, { root: document, rootMargin: '-45% 0px -45% 0px', threshold: 0 });
+    steps.forEach((s) => io.observe(s));
+  }
+
+  const fmt = d3.format(',');
+  [['v2018', 2018], ['v2025', 2025]].forEach(([name, year]) => {
+    dash.draw(name, (el) => {
+      const d = dash.data('ninth');
+      const row = d.status === 'ok' ? d.data.find((r) => Number(r.year) === year) : null;
+      el.textContent = row ? fmt(Number(row.ninth_crusade)) : '—';
+    });
+  });
+
+  const EXP = ['H6', 'C', 'D', 'F', 'B', 'L1', 'L2', 'E'];
+  const MODERN = { C: 4, D: 5, F: 6, L1: 7, L2: 8 };
+  const LANES = [['EARLY', 'Early modern'], ['EN', 'English'], ['FR', 'French'], ['DE', 'German'], ['IT', 'Italian'], ['ES', 'Spanish'],
+    ['EL', 'Greek'], ['NL', 'Dutch'], ['LIB', 'Catalogs'], ['WP', 'Wikipedia']];
+  const WPL = ['en', 'de', 'fr', 'it', 'es', 'nl', 'el', 'ar', 'fa', 'he', 'pt', 'pl', 'tr', 'ru', 'cs'];
+  const val = (v) => (v == null ? '' : String(v).trim());
+  const num = (v) => { const m = val(v).match(/\d+/); return m ? Number(m[0]) : null; };
+
+  function cellFor(r, focus) {
+    if (focus === 'count') {
+      const s = num(r.stated_count);
+      if (s != null) return { n: s, cls: s === 8 ? 'same' : s > 8 ? 'up' : 'down', hollow: false };
+      if (r.kind !== 'wikipedia') return null;
+      const ns = EXP.map((e) => num(r[e])).filter((x) => x != null);
+      if (!ns.length) return null;
+      const m = Math.max(...ns);
+      return { n: m, cls: m === 8 ? 'same' : m > 8 ? 'up' : 'down', hollow: true };
+    }
+    const v = val(r[focus]);
+    if (!v || v === 'x') return null;
+    if (v === 'n') return { n: null, cls: 'named' };
+    const n = num(v);
+    let cls = MODERN[focus] != null ? (n === MODERN[focus] ? 'same' : n > MODERN[focus] ? 'up' : 'down') : 'extra';
+    const i = EXP.indexOf(focus);
+    const joined = [EXP[i - 1], EXP[i + 1]].filter((nb) => nb && num(r[nb]) === n && val(r[nb]) !== 'n');
+    if (MODERN[focus] == null && joined.length) {
+      const nb = joined.find((x) => MODERN[x] != null);
+      if (nb) cls = n === MODERN[nb] ? 'same' : n > MODERN[nb] ? 'up' : 'down';
+    }
+    return { n, cls, alt: v.includes('(') ? v : '', joined };
+  }
+
+  const COLORS = { same: '--st-same', up: '--st-up', down: '--st-down', extra: '--st-extra' };
+  const fillOf = (cls) => (cls === 'named' ? 'var(--color-panel)' : `color-mix(in srgb, var(${COLORS[cls]}) 55%, var(--color-panel))`);
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  dash.draw('timeline', {
+    mount(el) {
+      const svg = d3.select(el).append('svg');
+      const tip = document.createElement('div'); tip.className = 'st-tip'; tip.hidden = true;
+      el.parentElement && el.style.position !== 'relative' && (el.style.position = 'relative');
+      el.append(tip);
+      return { svg, tip, first: true };
+    },
+    update(el, m) {
+      const d = dash.data('ledger');
+      const { svg, tip } = m;
+      if (d.status !== 'ok') {
+        svg.selectAll('*').remove();
+        svg.attr('viewBox', '0 0 600 60').append('text').attr('x', 8).attr('y', 30).style('fill', 'var(--color-fg-muted)')
+          .text(d.status === 'error' ? 'Failed to load' : '—');
+        return;
+      }
+      const st = window.storyState;
+      const W = Math.max(300, el.clientWidth);
+      const narrow = W < 520;
+      const left = narrow ? 64 : 92, right = 14, top = 26;
+      const laneH = narrow ? 34 : 46, wpRow = narrow ? 6 : 8;
+      const lanes = LANES.map(([k, l]) => ({ k, l, h: k === 'WP' ? WPL.length * wpRow + 8 : laneH }));
+      let y0 = top; lanes.forEach((ln) => { ln.y = y0; y0 += ln.h; });
+      const H = y0 + 8;
+      const x = d3.scaleLinear().domain([1540, 1780, 1930, 2001, 2027]).range([left, left + (W - left - right) * 0.07, left + (W - left - right) * 0.66, left + (W - left - right) * 0.70, W - right]).clamp(true);
+      svg.attr('viewBox', `0 0 ${W} ${H}`).attr('width', W).attr('height', H);
+      svg.selectAll('*').remove();
+      const g = svg.append('g');
+
+      // Lanes and grid
+      lanes.forEach((ln, i) => {
+        if (i % 2 === 0) g.append('rect').attr('x', left).attr('y', ln.y).attr('width', W - left - right).attr('height', ln.h).style('fill', 'var(--cds-chart-grid)').style('opacity', 0.45);
+        g.append('text').attr('x', left - 8).attr('y', ln.y + Math.min(ln.h, laneH) / 2 + 4).attr('text-anchor', 'end')
+          .style('fill', 'var(--cds-text-secondary)').style('font-size', narrow ? '10px' : '11px').text(ln.l);
+      });
+      const ticks = narrow ? [1650, 1800, 1850, 1900, 2010, 2025] : [1650, 1800, 1825, 1850, 1875, 1900, 1925, 2005, 2015, 2025];
+      ticks.forEach((t) => {
+        g.append('line').attr('x1', x(t)).attr('x2', x(t)).attr('y1', top - 4).attr('y2', H - 8).style('stroke', 'var(--cds-chart-grid)');
+        g.append('text').attr('x', x(t)).attr('y', top - 10).attr('text-anchor', 'middle').style('fill', 'var(--cds-text-secondary)').style('font-size', '10px').text(t);
+      });
+      [[1780, 1781], [1930, 2001]].forEach(([a, b]) => {
+        const xm = (x(a) + x(b)) / 2;
+        g.append('path').attr('d', `M${xm - 3},${top - 2} l3,-4 l3,4`).style('fill', 'none').style('stroke', 'var(--cds-chart-axis)');
+      });
+
+      const wpLane = lanes.find((l) => l.k === 'WP');
+      const rows = d.data;
+      const print = [], wp = [];
+      rows.forEach((r) => {
+        const c = cellFor(r, st.focus);
+        if (!c) return;
+        const lane = lanes.find((l) => l.k === r.tradition);
+        if (!lane) return;
+        (r.kind === 'wikipedia' ? wp : print).push({ r, c, lane });
+      });
+
+      // Place print dots: greedy rows within a lane to avoid overlap.
+      const R = narrow ? 7 : 9;
+      const occupied = {};
+      print.sort((a, b) => Number(a.r.year_sort) - Number(b.r.year_sort));
+      print.forEach((p) => {
+        const cx = x(Number(p.r.year_sort));
+        const slots = Math.max(1, Math.floor((p.lane.h - 4) / (R * 2 + 1)));
+        const occ = occupied[p.lane.k] || (occupied[p.lane.k] = []);
+        let s = 0;
+        for (; s < slots; s++) if (!occ.some((o) => o.s === s && Math.abs(o.x - cx) < R * 2 + 1)) break;
+        if (s === slots) s = occ.filter((o) => Math.abs(o.x - cx) < R * 2 + 1).length % slots;
+        occ.push({ s, x: cx });
+        const span = slots * (R * 2 + 1);
+        p.cx = cx; p.cy = p.lane.y + (p.lane.h - span) / 2 + R + s * (R * 2 + 1);
+      });
+
+      const dimPrint = st.dim === 'print', dimWP = st.dim === 'WP';
+      const showTip = (ev, html) => {
+        tip.replaceChildren(); html.forEach((line, i) => { const dv = document.createElement('div'); dv.textContent = line; if (i === 0) dv.style.fontWeight = '600'; tip.append(dv); });
+        tip.hidden = false;
+        const box = el.getBoundingClientRect();
+        let tx = ev.clientX - box.left + 12, ty = ev.clientY - box.top + 12;
+        if (tx + 240 > box.width) tx = Math.max(0, ev.clientX - box.left - 250);
+        tip.style.left = tx + 'px'; tip.style.top = ty + 'px';
+      };
+      const hideTip = () => { tip.hidden = true; };
+      const label = (c) => (c.n == null ? 'named, no number' : (c.hollow ? `highest number used: ${c.n}` : String(c.alt || c.n)) + (c.joined && c.joined.length ? ` (counted with ${c.joined.join(', ')})` : ''));
+
+      // Wikipedia bars
+      const wg = g.append('g').style('opacity', dimWP ? 0.18 : 1);
+      wp.forEach((p) => {
+        const li = WPL.indexOf(p.r.language); if (li < 0) return;
+        const y = wpLane.y + 4 + li * wpRow;
+        const x1 = x(Number(p.r.year_sort)), x2 = x(Number(p.r.year_end) + 1);
+        const marked = st.mark.includes(p.r.language);
+        const rect = wg.append('rect').attr('x', x1).attr('y', y).attr('width', Math.max(2, x2 - x1 - 1)).attr('height', wpRow - 2).attr('rx', 1.5)
+          .style('fill', fillOf(p.c.cls)).style('stroke', p.c.cls === 'named' ? 'var(--color-fg-muted)' : marked ? 'var(--color-fg)' : 'none').style('stroke-width', marked ? 1.5 : 0.8);
+        rect.on('pointermove', (ev) => showTip(ev, [p.r.source, `${p.r.year_label}: ${label(p.c)}`])).on('pointerleave', hideTip);
+      });
+      // Language labels for the Wikipedia rows, at the right edge
+      if (!narrow) WPL.forEach((lg, i) => {
+        if (st.mark.includes(lg)) g.append('text').attr('x', W - right + 2).attr('y', wpLane.y + 4 + i * wpRow + wpRow - 2).style('fill', 'var(--color-fg)').style('font-size', '10px').text(lg);
+      });
+
+      // Print dots
+      const pg = g.append('g').style('opacity', dimPrint ? 0.18 : 1);
+      const dots = pg.selectAll('g.dot').data(print).join('g').attr('class', 'dot').attr('transform', (p) => `translate(${p.cx},${p.cy})`);
+      dots.append('circle').attr('r', R)
+        .style('fill', (p) => (p.c.hollow ? 'var(--color-panel)' : fillOf(p.c.cls)))
+        .style('stroke', (p) => (p.c.cls === 'named' ? 'var(--color-fg-muted)' : p.c.hollow ? `var(${COLORS[p.c.cls]})` : 'var(--color-panel)'))
+        .style('stroke-width', (p) => (p.c.hollow ? 1.6 : 1));
+      dots.filter((p) => p.c.joined && p.c.joined.length).append('circle').attr('r', R + 2.5).style('fill', 'none').style('stroke', 'var(--color-fg-muted)').style('stroke-dasharray', '2 2');
+      dots.append('text').attr('text-anchor', 'middle').attr('dy', '0.35em').style('font-size', narrow ? '8px' : '10px').style('font-variant-numeric', 'tabular-nums')
+        .style('fill', 'var(--color-fg)').style('pointer-events', 'none').text((p) => (p.c.n == null ? '' : p.c.n));
+      dots.on('pointermove', (ev, p) => showTip(ev, [p.r.source, `${p.r.year_label} · ${label(p.c)}`, p.r.note || ''].filter(Boolean))).on('pointerleave', hideTip);
+
+      if (m.first && !reduce && print.length) {
+        dots.style('opacity', 0).transition().duration(450).delay((p, i) => i * 8).style('opacity', 1);
+        m.first = false;
+      }
+    },
+  });
+
+  dash.draw('views', {
+    mount(el) { return { svg: d3.select(el).append('svg') }; },
+    update(el, m) {
+      const d = dash.data('ninth');
+      const svg = m.svg; svg.selectAll('*').remove();
+      if (d.status !== 'ok') { svg.attr('viewBox', '0 0 600 60').append('text').attr('x', 8).attr('y', 30).style('fill', 'var(--color-fg-muted)').text(d.status === 'error' ? 'Failed to load' : '—'); return; }
+      const rows = d.data.map((r) => ({ year: Number(r.year), a: Number(r.ninth_crusade), b: Number(r.lord_edwards_crusade) }));
+      const W = Math.max(300, el.clientWidth), H = Math.min(420, Math.max(280, W * 0.6));
+      const left = 52, right = 12, top = 34, bottom = 28;
+      const x = d3.scaleBand().domain(rows.map((r) => r.year)).range([left, W - right]).padding(0.22);
+      const y = d3.scaleLinear().domain([0, 125000]).range([H - bottom, top]);
+      svg.attr('viewBox', `0 0 ${W} ${H}`).attr('width', W).attr('height', H);
+      y.ticks(5).forEach((t) => {
+        svg.append('line').attr('x1', left).attr('x2', W - right).attr('y1', y(t)).attr('y2', y(t)).style('stroke', 'var(--cds-chart-grid)');
+        svg.append('text').attr('x', left - 6).attr('y', y(t) + 3).attr('text-anchor', 'end').style('font-size', '10px').style('fill', 'var(--cds-text-secondary)').text(d3.format('~s')(t));
+      });
+      const ca = 'var(--st-extra)', cb = 'var(--st-same)';
+      rows.forEach((r) => {
+        svg.append('rect').attr('x', x(r.year)).attr('width', x.bandwidth()).attr('y', y(r.a)).attr('height', y(0) - y(r.a)).style('fill', ca);
+        svg.append('rect').attr('x', x(r.year)).attr('width', x.bandwidth()).attr('y', y(r.a + r.b)).attr('height', y(r.a) - y(r.a + r.b)).style('fill', cb).style('opacity', 0.75);
+        svg.append('text').attr('x', x(r.year) + x.bandwidth() / 2).attr('y', H - bottom + 14).attr('text-anchor', 'middle').style('font-size', '10px').style('fill', 'var(--cds-text-secondary)').text(W < 460 ? String(r.year).slice(2) : r.year);
+      });
+      const r25 = rows.find((r) => r.year === 2025), r18 = rows.find((r) => r.year === 2018);
+      [[r18, r18 && r18.a], [r25, r25 && r25.a]].forEach(([r, v]) => { if (!r) return;
+        svg.append('text').attr('x', x(r.year) + x.bandwidth() / 2).attr('y', y(v) - 4).attr('text-anchor', 'middle').style('font-size', '10px').style('fill', 'var(--color-fg)').style('font-variant-numeric', 'tabular-nums').text(d3.format(',')(v));
+      });
+      const ren = x(2019) + x.bandwidth() + (x.step() - x.bandwidth()) / 2;
+      svg.append('line').attr('x1', ren).attr('x2', ren).attr('y1', top).attr('y2', H - bottom).style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '3 3');
+      svg.append('text').attr('x', ren + 4).attr('y', top + 10).style('font-size', '10px').style('fill', 'var(--cds-text-secondary)').text('renamed Nov. 2019');
+      const lg = svg.append('g').attr('transform', `translate(${left},12)`);
+      [[ca, '"Ninth Crusade"', 1], [cb, '"Lord Edward\'s crusade"', 0.75]].forEach(([c, t, o], i) => {
+        const gx = i * (W < 460 ? 120 : 150);
+        lg.append('rect').attr('x', gx).attr('y', -8).attr('width', 10).attr('height', 10).style('fill', c).style('opacity', o);
+        lg.append('text').attr('x', gx + 14).attr('y', 1).style('font-size', '10px').style('fill', 'var(--cds-text-secondary)').text(t);
+      });
+    },
+  });
+</script>
+</div></body></html>

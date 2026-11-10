@@ -1,0 +1,20 @@
+qid,expedition_id,label_en,series_ordinal_in_part_of,follows,followed_by
+Q51660,F,Sixth Crusade,6,D,B
+Q51649,E1,First Crusade,1,PEO,E2
+Q51654,E2,Second Crusade,2,E1,E3
+Q51655,E3,Third Crusade,3,E2,C
+Q51656,C,Fourth Crusade,4,E3,D
+Q51658,CH,Children's Crusade,,,
+Q243684,L2,Eighth Crusade,,,
+Q51659,D,Fifth Crusade,5,C,F
+Q51661,L1,Seventh Crusade,,B,
+Q51653,C1101,Crusade of 1101,,,
+Q316743,E,Ninth Crusade,,,
+Q212220,NIC,Battle of Nicopolis,,,
+Q51650,PEO,People's Crusade,,,E1
+Q12546,MAIN,Crusades,,,
+Q1788506,ALX,Alexandrian Crusade,,,
+Q14366850,VAR,Crusade of Varna,,,
+Q646409,H6,Crusade of 1197,,,
+Q1788485,B,Barons' Crusade,,F,L1
+Q104879736,LIST,list of Crusades to Europe and the Holy Land,,,

@@ -1,0 +1,221 @@
+language,category,now,ever,items
+en,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+en,LEV,10,10,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Barons' Crusade; Venetian Crusade; Crusade of 1129; Crusade of 1267; Fall of Outremer; Crusade of the Infants of Aragon; Rögnvald Kali's Crusade
+en,POP,6,8,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251; Shepherds' Crusade of 1320; Crusade of the Poor; Popular crusades
+en,IBER,1,7,Iberian Crusades
+en,NORTH,10,12,Northern Crusades; Livonian Crusade; Wendish Crusade; Prussian Crusade; Lithuanian Crusade; Second Swedish Crusade; First Swedish Crusade; Third Swedish Crusade; Kalmare ledung; 1240–1241 Votia campaign
+en,HER,6,6,Albigensian Crusade; Hussite Wars; Bosnian Crusade; Crusade against the Stedinger; Drenther Crusade; Bohemian Crusade (1340)
+en,POLIT,5,13,Aragonese Crusade; Despenser's Crusade; Crusade against the Colonna family; Crusade against the Hohenstaufen; Crusades against Christians
+en,LATE,17,31,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Crusade of Varna; Savoyard crusade; Smyrniote crusades; Holy League; Holy League; Bona crusade; Holy League; Holy League; Crusade of Tedelis; Holy League of Pope Clement VIII; Crusades after Acre of 1291–1399; Crusades of the 15th century; Holy League of 1332; Holy League
+en,PROTO,0,1,
+en,MODERN,0,21,
+de,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+de,LEV,4,6,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Barons' Crusade
+de,POP,5,7,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251; Shepherds' Crusade of 1320; Crusade of the Poor
+de,IBER,0,0,
+de,NORTH,1,1,Wendish Crusade
+de,HER,1,1,Albigensian Crusade
+de,POLIT,0,0,
+de,LATE,2,2,Alexandrian Crusade; Battle of Nicopolis
+de,PROTO,0,0,
+de,MODERN,0,0,
+fr,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+fr,LEV,8,8,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Barons' Crusade; Venetian Crusade; Siege of Damietta; Siege of Damietta; Siege of Damietta
+fr,POP,4,4,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251; Shepherds' Crusade of 1320
+fr,IBER,2,6,Crusade of Barbastro; Siege of Lisbon
+fr,NORTH,9,10,Livonian Crusade; Wendish Crusade; Prussian Crusade; Lithuanian Crusade; Second Swedish Crusade; First Swedish Crusade; Third Swedish Crusade; Kalmare ledung; 1240 Izborsk and Pskov campaign
+fr,HER,3,3,Albigensian Crusade; Hussite Wars; Bosnian Crusade
+fr,POLIT,2,2,Aragonese Crusade; Despenser's Crusade
+fr,LATE,6,6,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Savoyard crusade; Smyrniote crusades; Battle of Varna
+fr,PROTO,0,0,
+fr,MODERN,0,0,
+it,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+it,LEV,5,5,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Barons' Crusade; Crusade of 1129
+it,POP,4,5,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251; Shepherds' Crusade of 1320
+it,IBER,1,1,Reconquista
+it,NORTH,8,8,Northern Crusades; Livonian Crusade; Wendish Crusade; Prussian Crusade; Lithuanian Crusade; First Swedish Crusade; Third Swedish Crusade; Kalmare ledung
+it,HER,4,4,Albigensian Crusade; Hussite Wars; Bosnian Crusade; Crusade against the Stedinger
+it,POLIT,1,1,Aragonese Crusade
+it,LATE,9,12,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Savoyard crusade; Smyrniote crusades; Battle of Varna; Holy League; Holy League; Holy League
+it,PROTO,0,0,
+it,MODERN,0,0,
+es,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+es,LEV,6,6,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Barons' Crusade; Venetian Crusade; Crusade of 1129
+es,POP,3,3,Children's Crusade; People's Crusade; Crusade of the Poor
+es,IBER,1,2,Reconquista
+es,NORTH,6,6,Livonian Crusade; Wendish Crusade; Prussian Crusade; Second Swedish Crusade; First Swedish Crusade; Third Swedish Crusade
+es,HER,3,3,Albigensian Crusade; Hussite Wars; Bosnian Crusade
+es,POLIT,3,3,Aragonese Crusade; Despenser's Crusade; War of the League of Cognac
+es,LATE,14,14,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Crusade of Varna; Savoyard crusade; Smyrniote crusades; Holy League; Holy League; Bona crusade; Holy League; Holy League; Crusade of Tedelis; Holy League of Pope Clement VIII; Holy League of 1511
+es,PROTO,0,0,
+es,MODERN,0,0,
+ca,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+ca,LEV,4,4,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Venetian Crusade
+ca,POP,4,4,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251; Shepherds' Crusade of 1320
+ca,IBER,7,12,Crusade of Barbastro; 1113–1115 Balearic Islands expedition; al-Andalus; Siege of Almería; Conquest of Majorca; Siege of Tortosa; Siege of Almería
+ca,NORTH,6,6,Northern Crusades; Livonian Crusade; Wendish Crusade; Prussian Crusade; Lithuanian Crusade; Second Swedish Crusade
+ca,HER,3,3,Albigensian Crusade; Hussite Wars; Bosnian Crusade
+ca,POLIT,2,2,Aragonese Crusade; Despenser's Crusade
+ca,LATE,7,8,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Crusade of Varna; Savoyard crusade; Smyrniote crusades; Portuguese expedition to Otranto
+ca,PROTO,0,0,
+ca,MODERN,0,12,
+pt,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+pt,LEV,4,4,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Barons' Crusade
+pt,POP,4,5,Children's Crusade; People's Crusade; Crusade of the Poor; Popular crusades
+pt,IBER,3,3,Reconquista; Crusade of Barbastro; Battle of Las Navas de Tolosa
+pt,NORTH,4,4,Northern Crusades; Livonian Crusade; Prussian Crusade; Lithuanian Crusade
+pt,HER,1,3,Albigensian Crusade
+pt,POLIT,1,1,Despenser's Crusade
+pt,LATE,5,5,Alexandrian Crusade; Battle of Nicopolis; Crusade of Varna; Savoyard crusade; Ottoman–Portuguese confrontations
+pt,PROTO,0,0,
+pt,MODERN,0,0,
+nl,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+nl,LEV,1,2,Norwegian Crusade
+nl,POP,1,2,Popular crusades
+nl,IBER,1,1,Reconquista
+nl,NORTH,1,2,Northern Crusades
+nl,HER,4,4,Albigensian Crusade; Hussite Wars; Crusade against the Stedinger; Drenther Crusade
+nl,POLIT,1,1,Aragonese Crusade
+nl,LATE,2,3,Battle of Nicopolis; Barbary Crusades
+nl,PROTO,1,1,Norman conquest of southern Italy
+nl,MODERN,0,0,
+el,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+el,LEV,2,2,Crusade of 1101; Barons' Crusade
+el,POP,4,4,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251; Rhineland massacres
+el,IBER,1,1,Crusade of Barbastro
+el,NORTH,1,1,Northern Crusades
+el,HER,2,2,Albigensian Crusade; Hussite Wars
+el,POLIT,1,1,Aragonese Crusade
+el,LATE,3,3,Alexandrian Crusade; Battle of Nicopolis; Crusade of Varna
+el,PROTO,0,0,
+el,MODERN,0,0,
+ar,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+ar,LEV,8,9,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Venetian Crusade; Crusade of 1129; Siege of Damietta; Siege of Damietta; Crusade of 1267
+ar,POP,3,3,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251
+ar,IBER,2,2,Reconquista; Belhacem
+ar,NORTH,4,7,Northern Crusades; Second Swedish Crusade; First Swedish Crusade; Third Swedish Crusade
+ar,HER,2,2,Albigensian Crusade; Hussite Wars
+ar,POLIT,1,4,Aragonese Crusade
+ar,LATE,6,11,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Crusade of Varna; Savoyard crusade; Portuguese expedition to Otranto
+ar,PROTO,0,0,
+ar,MODERN,0,0,
+fa,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+fa,LEV,8,8,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Barons' Crusade; Venetian Crusade; Crusade of 1129; Crusade of 1267; Fall of Outremer
+fa,POP,6,6,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251; Shepherds' Crusade of 1320; Crusade of the Poor; Popular crusades
+fa,IBER,1,4,Reconquista
+fa,NORTH,6,6,Northern Crusades; Livonian Crusade; Wendish Crusade; Prussian Crusade; Second Swedish Crusade; First Swedish Crusade
+fa,HER,2,2,Albigensian Crusade; Hussite Wars
+fa,POLIT,5,6,Aragonese Crusade; Despenser's Crusade; War of the League of Cognac; Spanish Armada; Guelphs and Ghibellines
+fa,LATE,9,9,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Crusade of Varna; Smyrniote crusades; Holy League; Bona crusade; Crusade of Tedelis; Ottoman–Venetian Wars
+fa,PROTO,0,0,
+fa,MODERN,0,0,
+he,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+he,LEV,2,2,Crusade of 1101; Barons' Crusade
+he,POP,3,3,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251
+he,IBER,0,0,
+he,NORTH,3,3,Northern Crusades; Livonian Crusade; Prussian Crusade
+he,HER,1,1,Albigensian Crusade
+he,POLIT,0,0,
+he,LATE,0,0,
+he,PROTO,0,0,
+he,MODERN,0,0,
+tr,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+tr,LEV,6,6,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Siege of Damietta; Siege of Damietta; Expedition to Samosata
+tr,POP,2,2,Children's Crusade; People's Crusade
+tr,IBER,1,1,Reconquista
+tr,NORTH,3,3,Northern Crusades; Livonian Crusade; Lithuanian Crusade
+tr,HER,2,2,Albigensian Crusade; Hussite Wars
+tr,POLIT,0,0,
+tr,LATE,7,12,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Crusade of Varna; Savoyard crusade; Smyrniote crusades; Siege of Alexandria
+tr,PROTO,0,0,
+tr,MODERN,0,0,
+pl,NUM,7,7,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade
+pl,LEV,0,2,
+pl,POP,2,2,Children's Crusade; People's Crusade
+pl,IBER,0,0,
+pl,NORTH,0,0,
+pl,HER,0,0,
+pl,POLIT,0,0,
+pl,LATE,0,1,
+pl,PROTO,0,0,
+pl,MODERN,0,0,
+cs,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+cs,LEV,11,11,Norwegian Crusade; Crusade of 1101; Crusade of 1197; Barons' Crusade; Venetian Crusade; Crusade of 1129; Crusade of 1267; Fall of Outremer; Crusade of the Infants of Aragon; Rögnvald Kali's Crusade; Crusader invasions of Egypt
+cs,POP,5,5,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251; Shepherds' Crusade of 1320; Crusade of the Poor
+cs,IBER,4,4,Reconquista; Crusade of Barbastro; Battle of Las Navas de Tolosa; 1113–1115 Balearic Islands expedition
+cs,NORTH,7,7,Northern Crusades; Livonian Crusade; Prussian Crusade; Lithuanian Crusade; Second Swedish Crusade; Kalmare ledung; Schwedische Kreuzzüge
+cs,HER,11,11,Albigensian Crusade; Bosnian Crusade; Crusade against the Stedinger; Drenther Crusade; Bohemian Crusade (1340); Bohemian–Hungarian War (1468–1478); Crusade against the Hussites of 1431; Crusade against the Hussites of 1421–1; Hussites; Crusade against the Hussites of 1420; Crusade against the Hussites of 1427
+cs,POLIT,3,3,Aragonese Crusade; Despenser's Crusade; Spanish Armada
+cs,LATE,10,10,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Savoyard crusade; Smyrniote crusades; Battle of Varna; Holy League; Bona crusade; Crusade of Tedelis; Portuguese expedition to Otranto
+cs,PROTO,0,0,
+cs,MODERN,0,0,
+ru,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+ru,LEV,5,5,"Norwegian Crusade; Crusade of 1101; Barons' Crusade; Crusade of 1129; Crusade of Thierry, Count of Flanders"
+ru,POP,4,4,Children's Crusade; People's Crusade; Shepherds' Crusade; Rhineland massacres
+ru,IBER,1,1,Crusade of Barbastro
+ru,NORTH,1,1,Northern Crusades
+ru,HER,2,2,Albigensian Crusade; Hussite Wars
+ru,POLIT,1,1,Despenser's Crusade
+ru,LATE,4,4,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Crusade of Varna
+ru,PROTO,0,0,
+ru,MODERN,0,0,
+uk,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+uk,LEV,3,3,Norwegian Crusade; Crusade of 1101; Venetian Crusade
+uk,POP,0,4,
+uk,IBER,1,2,Reconquista
+uk,NORTH,6,6,Northern Crusades; Livonian Crusade; Wendish Crusade; Prussian Crusade; Lithuanian Crusade; Third Swedish Crusade
+uk,HER,2,2,Albigensian Crusade; Hussite Wars
+uk,POLIT,0,0,
+uk,LATE,6,6,Alexandrian Crusade; Battle of Nicopolis; Barbary Crusade; Crusade of Varna; Smyrniote crusades; Holy League
+uk,PROTO,0,0,
+uk,MODERN,0,0,
+hu,NUM,5,5,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade
+hu,LEV,2,2,Norwegian Crusade; Crusade of 1101
+hu,POP,1,1,Children's Crusade
+hu,IBER,0,0,
+hu,NORTH,0,0,
+hu,HER,1,1,Albigensian Crusade
+hu,POLIT,0,0,
+hu,LATE,2,2,Alexandrian Crusade; Battle of Nicopolis
+hu,PROTO,0,0,
+hu,MODERN,0,0,
+sv,NUM,3,3,Third Crusade; Second Crusade; First Crusade
+sv,LEV,0,0,
+sv,POP,1,1,Children's Crusade
+sv,IBER,1,1,Reconquista
+sv,NORTH,2,2,Northern Crusades; Schwedische Kreuzzüge
+sv,HER,0,0,
+sv,POLIT,0,0,
+sv,LATE,0,0,
+sv,PROTO,0,0,
+sv,MODERN,0,0,
+da,NUM,5,5,Third Crusade; Fourth Crusade; Seventh Crusade; Ninth Crusade; Sixth Crusade
+da,LEV,0,0,
+da,POP,0,0,
+da,IBER,0,0,
+da,NORTH,6,6,Wendish Crusade; Schwedische Kreuzzüge; Livonian Order; Teutonic Order; State of the Teutonic Order; Livonian Brothers of the Sword
+da,HER,1,1,Albigensian Crusade
+da,POLIT,0,0,
+da,LATE,0,0,
+da,PROTO,0,0,
+da,MODERN,0,0,
+no,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+no,LEV,2,2,Norwegian Crusade; Crusade of 1197
+no,POP,3,3,Children's Crusade; People's Crusade; Shepherds' Crusade of 1251
+no,IBER,0,0,
+no,NORTH,1,1,Northern Crusades
+no,HER,1,1,Albigensian Crusade
+no,POLIT,0,0,
+no,LATE,0,0,
+no,PROTO,0,0,
+no,MODERN,0,0,
+fi,NUM,9,9,Third Crusade; Second Crusade; First Crusade; Fourth Crusade; Fifth Crusade; Seventh Crusade; Eighth Crusade; Ninth Crusade; Sixth Crusade
+fi,LEV,0,0,
+fi,POP,1,1,Children's Crusade
+fi,IBER,0,0,
+fi,NORTH,4,7,Northern Crusades; Livonian Crusade; Wendish Crusade; Schwedische Kreuzzüge
+fi,HER,1,1,Albigensian Crusade
+fi,POLIT,0,0,
+fi,LATE,0,0,
+fi,PROTO,0,0,
+fi,MODERN,0,0,

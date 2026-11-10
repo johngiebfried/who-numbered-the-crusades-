@@ -1,0 +1,43 @@
+date,language,article_code,from_title,to_title,user,kind,reason
+2006-09-16,en,MAIN,Crusade,Crusades,,rename_other,per RQM
+2021-02-26,fr,MAIN,Croisades,Croisade,TED,rename_other,naming conventions (singular)
+2007-02-22,de,D,(Fünfter) Kreuzzug,Kreuzzug von Damiette,Finanzer,rename_numbering,etwas im Bereich Fünfter Kreuzzug aufräumen
+2007-02-22,de,F,Fünfter Kreuzzug,Kreuzzug Friedrichs II.,Frank Schulenburg,rename_numbering,siehe QS Geschichte vom 19. Februar 2007
+2010-09-30,de,E,Achter Kreuzzug,Kreuzzug des Prinzen Eduard,Herrgott,rename_numbering,Zählung als Achter Kreuzzug in der Literatur unüblich (eher 7. oder 9.)
+2019-11-17,en,E,Ninth Crusade,Lord Edward's crusade,DannyS712,rename_numbering,"requested move (Srnec, 8 Nov 2019); no objections"
+2020-09-18,en,E,Lord Edward's crusade,Ninth Crusade,Johnbod,rename_numbering,restore old title; asks for a proper RM
+2020-09-18,en,E,Ninth Crusade,Lord Edward's crusade,Srnec,rename_numbering,there was an RM
+2016-06-30,fr,B,Croisade de 1239,Croisade des barons,Io Herodotus,rename_other,nom utilisé
+2007-09-13,en,H6,Henry's crusade,Crusade of 1197,Adam Bishop,rename_other,better title
+2020-01-12,it,H6,Crusade of 1197,Crociata del 1197,Enzo Encius,rename_other,translated title
+2010-10-07,fr,C1101,Croisade de 1101,Croisades de secours,,rename_other,Titre plus pertinent
+2008-01-28,it,PEO,Crociata dei pezzenti,Crociata dei poveri,,rename_other,
+2010-07-20,fr,CH,Croisade des enfants,Croisade des enfants (expédition),,rename_other,homonymie (via '(Moyen-Âge)')
+2025-04-23,fr,CH,Croisade des enfants (expédition),Croisade des enfants,Ælfgar,rename_other,primary topic
+2017-03-29,de,NIC,Schlacht bei Nikopol (1396),Schlacht bei Nikopolis,Hans-Jürgen Hübner,rename_other,in der Literatur deutlich gängiger
+2006-07-31,en,TPL,Template:Crusade,Template:Campaignbox Crusades,,rename_other,Standard naming scheme
+2006-08-07,de,TPL,Vorlage:Kreuzzüge,Vorlage:Navigationsleiste Kreuzzüge,,rename_other,
+2013-03-24,fr,TPL,Modèle:NavigationCroisades,Modèle:Palette Croisades,Moumou82,rename_other,two moves the same day
+2014-06-29,es,TPL,Plantilla:Campaña de Cruzadas,Plantilla:Campaña Cruzadas,Juan Mayordomo,rename_other,
+2020-02-11,fa,E,جنگ صلیبی نهم,جنگ صلیبی ادوارد یکم,ImanFakhri,rename_numbering,اصلاح عنوان (title correction)
+2020-02-12,fa,E,جنگ صلیبی ادوارد یکم,جنگ صلیبی نهم,ImanFakhri,rename_numbering,reverted the next day
+2012-02-18,ar,E,حملة صليبية تاسعة,الحملة الصليبية التاسعة,,rename_other,"indefinite to definite title; same pattern for First to Eighth, 2008-2018"
+2025-01-23,fa,B,جنگ صلیبی بارونی,جنگ صلیبی بارون‌ها,ImanFakhri,rename_other,اصلاح عنوان
+2022-10-19,ar,B,الحملة البارونات الصليبية,الحملة الصليبية البارونية,,rename_other,تعديل الاسم
+2017-11-25,es,E1,Primera Cruzada,Primera cruzada,Technopat,capitalization,
+2018-01-28,es,E3,Tercera Cruzada,Tercera cruzada,Technopat,capitalization,
+2018-01-28,es,C,Cuarta Cruzada,Cuarta cruzada,Technopat,capitalization,
+2018-01-28,es,D,Quinta Cruzada,Quinta cruzada,Technopat,capitalization,
+2018-07-30,es,E2,Segunda Cruzada,Segunda cruzada,Jarould,capitalization,
+2018-07-30,es,F,Sexta Cruzada,Sexta cruzada,Jarould,capitalization,
+2018-07-30,es,L1,Séptima Cruzada,Séptima cruzada,Jarould,capitalization,
+2018-07-30,es,L2,Octava Cruzada,Octava cruzada,Jarould,capitalization,
+2018-07-30,es,E,Novena Cruzada,Novena cruzada,Jarould,capitalization,
+2012-07-16,el,E1,Α' Σταυροφορία,Α΄ Σταυροφορία,Chrysalifourfour,numeral_form,ορθή απόδοση ελληνικών αριθμητικών
+2012-07-17,el,E2,Β' Σταυροφορία,Β΄ Σταυροφορία,Chrysalifourfour,numeral_form,ορθή γραφή ελληνικών αριθμητικών
+2012-07-28,el,E3,Γ' Σταυροφορία,Γ΄ Σταυροφορία,Chrysalifourfour,numeral_form,
+2014-10-11,el,C,Δ' Σταυροφορία,Δ΄ Σταυροφορία,FocalPoint,numeral_form,reversed and restored Aug 2024
+2012-07-18,el,D,Ε' Σταυροφορία,Ε΄ Σταυροφορία,Chrysalifourfour,numeral_form,
+2012-07-28,el,F,ΣΤ' Σταυροφορία,ΣΤ΄ Σταυροφορία,Ογκόλιθος,numeral_form,
+2012-07-28,el,L1,Ζ' Σταυροφορία,Ζ΄ Σταυροφορία,Chrysalifourfour,numeral_form,
+2012-07-21,el,L2,Η' Σταυροφορία,Η΄ Σταυροφορία,Chrysalifourfour,numeral_form,

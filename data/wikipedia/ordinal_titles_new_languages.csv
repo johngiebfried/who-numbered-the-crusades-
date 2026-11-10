@@ -1,0 +1,91 @@
+language,ordinal,title,status,redirect_target,english_article,expedition_id,first_revision
+tr,1,Birinci Haçlı Seferi,article,,First Crusade,E1,2007-02-02
+tr,2,İkinci Haçlı Seferi,article,,Second Crusade,E2,2007-02-02
+tr,3,Üçüncü Haçlı Seferi,article,,Third Crusade,E3,2007-02-02
+tr,4,Dördüncü Haçlı Seferi,article,,Fourth Crusade,C,2007-02-02
+tr,5,Beşinci Haçlı Seferi,article,,Fifth Crusade,D,2007-02-02
+tr,6,Altıncı Haçlı Seferi,article,,Sixth Crusade,F,2011-02-12
+tr,7,Yedinci Haçlı Seferi,article,,Seventh Crusade,L1,2007-11-24
+tr,8,Sekizinci Haçlı Seferi,article,,Eighth Crusade,L2,2010-11-29
+tr,9,Dokuzuncu Haçlı Seferi,article,,Lord Edward's crusade,E,2011-07-15
+tr,10,Onuncu Haçlı Seferi,missing,,,,
+ru,1,Первый крестовый поход,article,,First Crusade,E1,2006-06-24
+ru,2,Второй крестовый поход,article,,Second Crusade,E2,2006-06-24
+ru,3,Третий крестовый поход,article,,Third Crusade,E3,2006-11-21
+ru,4,Четвёртый крестовый поход,article,,Fourth Crusade,C,2007-02-28
+ru,5,Пятый крестовый поход,article,,Fifth Crusade,D,2008-12-08
+ru,6,Шестой крестовый поход,article,,Sixth Crusade,F,2008-12-08
+ru,7,Седьмой крестовый поход,article,,Seventh Crusade,L1,2008-01-26
+ru,8,Восьмой крестовый поход,article,,Eighth Crusade,L2,2008-01-26
+ru,9,Девятый крестовый поход,article,,Lord Edward's crusade,E,2015-12-02
+ru,10,Десятый крестовый поход,missing,,,,
+pt,1,Primeira Cruzada,article,,First Crusade,E1,2005-03-28
+pt,2,Segunda Cruzada,article,,Second Crusade,E2,2005-06-13
+pt,3,Terceira Cruzada,article,,Third Crusade,E3,2005-02-16
+pt,4,Quarta Cruzada,article,,Fourth Crusade,C,2005-02-23
+pt,5,Quinta Cruzada,article,,Fifth Crusade,D,2005-06-25
+pt,6,Sexta Cruzada,article,,Sixth Crusade,F,2005-06-25
+pt,7,Sétima Cruzada,article,,Seventh Crusade,L1,2005-06-25
+pt,8,Oitava Cruzada,article,,Eighth Crusade,L2,2005-06-25
+pt,9,Nona Cruzada,article,,Lord Edward's crusade,E,2005-06-12
+pt,10,Décima Cruzada,missing,,,,
+sv,1,Första korståget,article,,First Crusade,E1,2006-05-14
+sv,2,Andra korståget,article,,Second Crusade,E2,2004-08-12
+sv,3,Tredje korståget,article,,Third Crusade,E3,2004-08-12
+sv,4,Fjärde korståget,redirect,Korståg,Crusades,MAIN,2004-03-30
+sv,5,Femte korståget,redirect,Korståg,Crusades,MAIN,2004-03-30
+sv,6,Sjätte korståget,redirect,Korståg,Crusades,MAIN,2004-03-30
+sv,7,Sjunde korståget,redirect,Korståg,Crusades,MAIN,2004-03-30
+sv,8,Åttonde korståget,redirect,Korståg,Crusades,MAIN,2004-03-30
+sv,9,Nionde korståget,redirect,Korståg,Crusades,MAIN,2004-03-30
+sv,10,Tionde korståget,missing,,,,
+pl,1,I wyprawa krzyżowa,article,,First Crusade,E1,2003-01-28
+pl,2,II wyprawa krzyżowa,article,,Second Crusade,E2,2004-03-28
+pl,3,III wyprawa krzyżowa,article,,Third Crusade,E3,2005-01-02
+pl,4,IV wyprawa krzyżowa,article,,Fourth Crusade,C,2005-02-13
+pl,5,V wyprawa krzyżowa,article,,Fifth Crusade,D,2005-05-07
+pl,6,VI wyprawa krzyżowa,article,,Seventh Crusade,L1,2005-05-19
+pl,7,VII wyprawa krzyżowa,article,,Eighth Crusade,L2,2005-05-19
+pl,8,VIII wyprawa krzyżowa,missing,,,,
+pl,9,IX wyprawa krzyżowa,missing,,,,
+pl,10,X wyprawa krzyżowa,missing,,,,
+cs,1,První křížová výprava,article,,First Crusade,E1,2006-01-14
+cs,2,Druhá křížová výprava,article,,Second Crusade,E2,2006-01-17
+cs,3,Třetí křížová výprava,article,,Third Crusade,E3,2006-01-21
+cs,4,Čtvrtá křížová výprava,article,,Fourth Crusade,C,2006-01-14
+cs,5,Pátá křížová výprava,article,,Fifth Crusade,D,2007-06-29
+cs,6,Šestá křížová výprava,article,,Sixth Crusade,F,2008-04-13
+cs,7,Sedmá křížová výprava,article,,Seventh Crusade,L1,2008-04-13
+cs,8,Osmá křížová výprava,article,,Eighth Crusade,L2,2008-04-13
+cs,9,Devátá křížová výprava,article,,Lord Edward's crusade,E,2009-01-17
+cs,10,Desátá křížová výprava,missing,,,,
+hu,1,Első keresztes hadjárat,article,,First Crusade,E1,2010-01-31
+hu,2,Második keresztes hadjárat,article,,Second Crusade,E2,2010-01-31
+hu,3,Harmadik keresztes hadjárat,article,,Third Crusade,E3,2020-11-21
+hu,4,Negyedik keresztes hadjárat,article,,Fourth Crusade,C,2010-01-31
+hu,5,Ötödik keresztes hadjárat,article,,Fifth Crusade,D,2010-01-31
+hu,6,Hatodik keresztes hadjárat,redirect,Keresztes háborúk,Crusades,MAIN,2005-06-02
+hu,7,Hetedik keresztes hadjárat,redirect,Keresztes háborúk,Crusades,MAIN,2005-06-02
+hu,8,Nyolcadik keresztes hadjárat,redirect,Keresztes háborúk,Crusades,MAIN,2005-06-02
+hu,9,Kilencedik keresztes hadjárat,missing,,,,
+hu,10,Tizedik keresztes hadjárat,missing,,,,
+da,1,1. korstog,redirect,Korstog,Crusades,MAIN,2003-12-17
+da,2,2. korstog,redirect,Korstog,Crusades,MAIN,2003-12-17
+da,3,3. korstog,article,,Third Crusade,E3,2017-03-09
+da,4,4. korstog,article,,Fourth Crusade,C,2015-07-17
+da,5,5. korstog,missing,,,,
+da,6,6. korstog,article,,Sixth Crusade,F,2015-07-17
+da,7,7. korstog,article,,Seventh Crusade,L1,2009-05-21
+da,8,8. korstog,missing,,,,
+da,9,9. korstog,article,,Lord Edward's crusade,E,2018-04-01
+da,10,10. korstog,missing,,,,
+no,1,Første korstog,redirect,Det første korstog,First Crusade,E1,2005-05-02
+no,2,Andre korstog,redirect,Det annet korstog,Second Crusade,E2,2007-05-09
+no,3,Tredje korstog,redirect,Det tredje korstog,Third Crusade,E3,2005-05-06
+no,4,Fjerde korstog,redirect,Det fjerde korstog,Fourth Crusade,C,2008-06-21
+no,5,Femte korstog,redirect,Det femte korstog,Fifth Crusade,D,2007-12-11
+no,6,Sjette korstog,redirect,Det sjette korstog,Sixth Crusade,F,2008-05-03
+no,7,Sjuende korstog,redirect,Det syvende korstog,Seventh Crusade,L1,2015-07-03
+no,8,Åttende korstog,redirect,Det åttende korstog,Eighth Crusade,L2,2005-05-09
+no,9,Niende korstog,redirect,Det niende korstog,Lord Edward's crusade,E,2007-12-17
+no,10,Tiende korstog,missing,,,,
