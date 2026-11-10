@@ -2,6 +2,14 @@
 
 Newest first. Each entry: date, decision, reason.
 
+## 2026-11-10 — Search protocol frozen; Strand A coding (provisional, for the author to confirm)
+
+- **Protocol.** Fable's search protocol is frozen as `docs/SEARCH_PROTOCOL.md`. Sections 2 (signature) and 6 (evidence rules) do not change for Q1; amendments are dated at the end of the file.
+- **Proposed amendment, statements of custom.** A phrase such as "on compte généralement huit croisades" dates the custom of a count, not of a slot assignment. Reason: Bouillet's "généralement" descends from Courtin's "communément" (1824), which described the Moréri eight.
+- **Proposed amendment, page images.** Until scans can be downloaded to the repository, a stable page link plus a viewed title page counts for Strand A rows. The author decides whether bracket rows need saved PDFs.
+- **Separate table.** Strand A rows live in `data/strand_a/entries.csv`, one row per edition read, with slot columns per expedition code. They are not merged into `works.csv` until the reconciliation step.
+- **Scheme names.** The old dictionary eight is called the `moreri_eight` after its earliest witness. Codes in `docs/CODEBOOK.md`.
+
 ## 2026-11-10 — Repository
 
 - **Public from the start.** The author chose to push to a public repository rather than keep it private until release (this reverses the 2026-11-08 setup decision).
