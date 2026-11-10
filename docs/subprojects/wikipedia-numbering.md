@@ -1,10 +1,10 @@
 # Sub-project: crusade numbering in Wikipedia, 2001 to the present
 
-Status: first pass done, 8 November 2026; second pass and scope study 9 November. Findings in `notes/findings/2026-11-wikipedia-numbering.md`, `2026-11-wikipedia-scope.md`, `2026-11-wikipedia-scope-languages.md` and `2026-11-wikipedia-2001-and-911.md`. Data tables (`data/wikipedia/`) and the site pages are not yet in the repository; see the research log.
+Status: first pass done 8 November 2026; second pass (pageviews, article leads, Wikidata, GND, nine more languages, talk archives) 9 November. Findings in `notes/findings/2026-11-wikipedia-numbering.md`; data in `data/wikipedia/`; chart in `site/wikipedia-timeline.html`.
 
 ## Question
 
-How have Wikipedia's articles, lists and navigation templates numbered the crusades over a quarter century, and how did those choices change? Wikipedia is read millions of times a year for these articles (the stronger claim, "most-read crusade reference," is untestable), so its count is the modern descendant of the nineteenth-century dictionaries this project studies.
+How have Wikipedia's articles, lists and navigation templates numbered the crusades over a quarter century, and how did those choices change? Wikipedia is now the most-read crusade reference in most languages (claim not yet tested; see Next), so its count is the modern descendant of the nineteenth-century dictionaries this project studies.
 
 ## Known lead (resolved)
 
@@ -18,12 +18,21 @@ The author recalled that English Wikipedia had no article on the Barons' Crusade
 - Spanish alone has a Tenth: "Décima cruzada" redirects to the Alexandria crusade of 1365 (since 2018).
 - Pages often state one count and use another; the data keeps both.
 
+## Results of the second pass
+
+- English is 52% of all views across the ten editions (2016–25); the German seven reaches under a tenth of readers. The "Ninth Crusade" redirect still carried a third of the traffic to Edward's crusade in 2025.
+- German article leads attribute the one-to-nine count to "französische und englische Literatur" (since 2011).
+- Polish counts seven by omitting Frederick II's crusade. Portuguese, Czech, Turkish and Russian count nine; Swedish and Hungarian stop at the Third and Fifth.
+- Wikidata numbers only the First to Sixth; its chain runs through the Barons' Crusade (added 2015) and ends at the Seventh.
+- English Wikipedia credited the nine to Charles Mills (1820) until the Good Article review deleted the claim on 15 October 2019.
+- GND records both German and English numbers as variants of dated headings. Library of Congress could not be read (bot check).
+
 ## Method (as run)
 
 1. **Article creation dates.** First revision, first non-redirect revision and title at creation for 17 articles and the templates in seven languages (`article_creation.csv`).
 2. **Count over time.** Revision in force on 1 July each year, 2001–2026, for the main article, navigation box(es) and the English list article (`yearly_counts.csv`), coded in project notation; explicit counts in `count_statements.csv`.
 3. **Renames and redirects.** Page moves from revision histories (`title_moves.csv`); ordinal titles First to Tenth in each language as of November 2026 (`ordinal_titles_2026.csv`).
-4. **Other languages.** German, French, Italian, Spanish, Dutch and Greek done alongside English; Arabic, Persian, Hebrew and nine more added later.
+4. **Other languages.** German, French, Italian, Spanish, Dutch and Greek done alongside English.
 5. **Key edits.** Thirty-two dated edits, transitions pinned by binary search and checked against parent revisions (`key_edits.csv`).
 
 ## Questions to settle
@@ -32,3 +41,9 @@ Options and trade-offs are in the findings note. The data keeps both measures, s
 
 - Which to treat as authoritative when templates and articles disagree.
 - How to code a number in a lead sentence ("sometimes called the Ninth") against a number in a title.
+
+## Next
+
+1. Charles Mills, *History of the Crusades* (1820): does it count nine?
+2. Library of Congress subject headings, by hand.
+3. New-language navboxes into the timeline chart.

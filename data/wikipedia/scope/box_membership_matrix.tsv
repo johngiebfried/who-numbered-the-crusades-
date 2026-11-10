@@ -1,0 +1,174 @@
+qid	category	label_en	en	de	fr	it	es	ca	pt	nl	el	ar	fa	he	tr	pl	cs	ru	uk	hu	sv	da	no	fi
+Q51655	NUM	Third Crusade	2004	2005	2007	2008	2009	2010	2005	2011	2005	2004	2016	2009	2008	2007	2018	2018	2011	2019	2009	2013	2005	2004
+Q51654	NUM	Second Crusade	2004	2005	2007	2008	2009	2010	2005	2011	2005	2004	2016	2009	2008	2007	2018	2018	2011	2019	2009		2005	2004
+Q51649	NUM	First Crusade	2004	2005	2007	2008	2009	2010	2005	2011	2005	2005	2016	2009	2008	2007	2018	2018	2011	2019	2009		2005	2004
+Q51656	NUM	Fourth Crusade	2004	2005	2007	2008	2012	2010	2005	2011	2005	2004	2016	2009	2008	2007	2018	2018	2011	2019		2013	2005	2004
+Q51659	NUM	Fifth Crusade	2004	2007	2007	2008	2012	2010	2005	2011	2005	2004	2016	2009	2008	2007	2018	2018	2011	2019			2005	2004
+Q51661	NUM	Seventh Crusade	2004	2005	2007	2008	2012	2010	2005	2011	2005	2004	2016	2009	2009	2007	2018	2018	2011			2013	2005	2004
+Q243684	NUM	Eighth Crusade	2004	2005	2007	2008	2012	2010	2005	2011	2006	2004	2016	2009	2009	2007	2018	2018	2011				2005	2004
+Q316743	NUM	Ninth Crusade	2004	2010	2007	2008	2012	2010	2005	2011	2012	2013	2016	2009	2009		2018	2018	2013			2017	2005	2004
+Q51660	NUM	Sixth Crusade	2004	2007	2007	2008	2012	2010	2005	2011	2005	2004	2016	2009	2009		2018	2018	2011			2013	2005	2004
+Q847851	LEV	Norwegian Crusade	2009	2023	2016	2019	2009	2010	2018	2020		2016	2018		2022		2018	2018	2011	2019			2012	
+Q51653	LEV	Crusade of 1101	2004	2005	2014	2008	2009	2010	2008		2007	2011	2018	2009	2014		2018	2018	2013	2019				
+Q646409	LEV	Crusade of 1197	2007	2008	2020	2020	2012	2019	2018			2022	2016		2012		2020						2019	
+Q1788485	LEV	Barons' Crusade	2016	2010	2016	2022	2023		2018		2026	2024x24	2018	2025			2020	2023						
+Q16830128	LEV	Venetian Crusade	2013		2021		2023	2018				2016	2018				2020		2022					
+Q97193641	LEV	Crusade of 1129	2020			2022	2023					2025	2025				2021	2026						
+Q1876031	LEV	Siege of Damietta			2007							2014			2015	2012x13								
+Q742693	LEV	Siege of Damietta			2016							2012			2024	2007x11								
+Q85754710	LEV	Crusade of 1267	2020									2025	2024				2020							
+Q115867251	LEV	Fall of Outremer	2022										2024				2023							
+Q11155970	LEV	Crusade of the Infants of Aragon	2022														2023							
+Q132891063	LEV	Rögnvald Kali's Crusade	2025														2025							
+Q131290982	LEV	Siege of Damietta			2014																			
+Q637160	LEV	Frisian participation in the Crusades								2020x21														
+Q42376384	LEV	Expedition to Samosata													2025									
+Q248565	LEV	Crusader invasions of Egypt															2020							
+Q116686814	LEV	Crusade of Thierry, Count of Flanders																2023						
+Q1205032	LEV	Deutscher Kreuzzug		2005x08																				
+Q1482181	LEV	Fünfter Kreuzzug		2005x07																				
+Q51658	POP	Children's Crusade	2004	2005	2014	2008	2012	2010	2005	2011x20	2007	2004	2016	2009	2011	2007	2018	2018	2012x22	2019	2009		2005	2004
+Q51650	POP	People's Crusade	2004	2005	2014	2008	2009	2010	2007		2007	2004	2018	2009	2018	2007	2020	2018	2011x22				2005	
+Q16738501	POP	Shepherds' Crusade of 1251	2016	2009	2018	2022		2011	2008x19		2026	2012	2018	2025			2020						2005	
+Q177786	POP	Shepherds' Crusade of 1320	2016	2016	2018	2022		2012					2018				2020							
+Q42376447	POP	Crusade of the Poor	2017	2026			2023		2018				2018				2020							
+Q940036	POP	Shepherds' Crusade	2004x09	2007x09		2008x22												2018	2011x22					
+Q51651	POP	Rhineland massacres	2004x08	2008x12							2007							2018	2011x22					
+Q48734726	POP	Popular crusades	2018						2019	2020			2018											
+Q79791	IBER	Reconquista	2006x25		2014x25	2022	2012	2018x18	2018	2011		2018	2016		2018		2020		2019		2009			
+Q1187521	IBER	Crusade of Barbastro	2018x22		2025			2026	2019		2019		2018x25				2020	2023						
+Q219697	IBER	Battle of Las Navas de Tolosa	2018x21		2014x14				2019				2018x25				2020							
+Q2472795	IBER	1113–1115 Balearic Islands expedition	2009x21				2009x23	2010									2020		2021x22					
+Q1552718	IBER	Granada War	2021x21										2021x25											
+Q4871568	IBER	Battle of Lisbon			2016x18																			
+Q815177	IBER	Siege of Lisbon			2018																			
+Q14150415	IBER	Capture of Granada			2014x14																			
+Q123559	IBER	al-Andalus						2026																
+Q622056	IBER	Battle of Minorca						2018x18																
+Q772975	IBER	Cape Spartel						2018x18																
+Q3636688	IBER	Siege of Almería						2026																
+Q1106980	IBER	Conquest of Majorca						2010																
+Q18008727	IBER	Siege of Tortosa						2026																
+Q56276309	IBER	Siege of Almería						2026																
+Q919922	IBER	Battle of Majorca						2018x18																
+Q217177	IBER	taifa						2026x26																
+Q815568	IBER	Belhacem										2012												
+Q5853330	IBER	Granada campaign	2024x24																					
+Q136498695	IBER	Iberian Crusades	2025																					
+Q51662	NORTH	Northern Crusades	2004		2014x18	2008		2010	2007	2019	2007	2017	2016	2009	2012		2024	2018	2011		2009		2005	2024
+Q196409	NORTH	Livonian Crusade	2007		2024	2022	2023	2015	2018			2024x24	2018	2009	2012		2018		2022					2005
+Q683635	NORTH	Wendish Crusade	2007	2005	2024	2022	2023	2015		2011x19			2018						2021			2010		2007
+Q2665664	NORTH	Prussian Crusade	2007		2024	2022	2023	2010	2018			2024x24	2018	2009			2018		2022					
+Q16362506	NORTH	Lithuanian Crusade	2016		2024	2022		2018	2019			2024x24			2021		2020		2022					
+Q3433771	NORTH	Second Swedish Crusade	2009		2018		2023	2018				2017	2018				2025							2005x07
+Q2634955	NORTH	First Swedish Crusade	2009		2019	2022	2023					2017	2018											2005x07
+Q2632466	NORTH	Third Swedish Crusade	2010		2018	2022	2023					2017							2022					2005x07
+Q10542880	NORTH	Kalmare ledung	2021		2025	2022											2021							
+Q106704249	NORTH	Schwedische Kreuzzüge															2018				2009	2010		2005
+Q4261059	NORTH	1240 Izborsk and Pskov campaign			2025																			
+Q29140	NORTH	Livonian Order																				2010		
+Q48189	NORTH	Teutonic Order																				2009		
+Q156020	NORTH	State of the Teutonic Order																				2010		
+Q157605	NORTH	Livonian Brothers of the Sword																				2010		
+Q125480561	NORTH	1240–1241 Votia campaign	2024																					
+Q136744459	NORTH	1240 Izborsk and Pskov campaign	2023x24																					
+Q1502886	NORTH	Swedish Crusades	2014x14																					
+Q51657	HER	Albigensian Crusade	2004	2005	2018	2008	2012	2010	2005	2011	2012	2017	2016	2009	2008		2018	2018	2011	2026		2009	2005	2005
+Q478301	HER	Hussite Wars	2006		2014	2008	2023	2012	2018x19	2011	2026	2017	2016		2018			2018	2011					
+Q20949098	HER	Bosnian Crusade	2016		2025	2022	2023	2018									2018							
+Q875526	HER	Crusade against the Stedinger	2019			2022				2019							2021							
+Q2570116	HER	Drenther Crusade	2019							2020							2020							
+Q98208765	HER	Bohemian Crusade (1340)	2020														2020							
+Q161696	HER	Catharism							2006x18															
+Q4938121	HER	Bohemian–Hungarian War (1468–1478)															2018							
+Q11384391	HER	Crusade against the Hussites of 1431															2018							
+Q11829405	HER	Crusade against the Hussites of 1421–1															2018							
+Q131372	HER	Hussites															2023							
+Q12047337	HER	Crusade against the Hussites of 1420															2018							
+Q12060343	HER	Crusade against the Hussites of 1427															2018							
+Q625133	POLIT	Aragonese Crusade	2006		2018	2022	2012	2010		2011	2007	2019	2018				2018							
+Q5264903	POLIT	Despenser's Crusade	2011		2018		2023	2018	2019				2018				2020	2023						
+Q1429256	POLIT	War of the League of Cognac	2023x25				2023					2024x24	2025											
+Q179684	POLIT	Spanish Armada	2010x25									2024x24	2025				2024							
+Q636365	POLIT	War of the League of Cambrai	2021x25									2024x24												
+Q2599340	POLIT	War of the Sicilian Vespers	2021x21										2022x25											
+Q187742	POLIT	Guelphs and Ghibellines	2025x25										2025											
+Q131824318	POLIT	Crusade against the Colonna family	2025																					
+Q131405361	POLIT	Crusade against the Hohenstaufen	2025																					
+Q111165597	POLIT	Crusades against Christians	2022																					
+Q11030407	POLIT	Second Desmond Rebellion	2021x21																					
+Q42320984	POLIT	Nicaean–Latin wars	2024x25																					
+Q3267969	POLIT	The clash between the Church and the E	2025x25																					
+Q1788506	LATE	Alexandrian Crusade	2006	2005	2014	2009	2023	2010	2018		2007	2017	2018		2012	2008x15	2020	2018	2013	2019				
+Q212220	LATE	Battle of Nicopolis	2006	2005	2014	2008	2023	2011	2018	2011	2007	2018	2016		2008		2020	2026	2021	2019				
+Q1788488	LATE	Barbary Crusade	2010		2021	2022	2023	2018		2020x20		2017	2018		2021		2020	2020	2021					
+Q14366850	LATE	Crusade of Varna	2006				2023	2018	2018		2007	2018	2018		2020			2018	2013					
+Q5925721	LATE	Savoyard crusade	2010		2026	2022	2023	2019	2018			2017			2022		2020							
+Q638850	LATE	Smyrniote crusades	2010		2014	2022	2023	2018					2018		2016		2020		2022					
+Q32832	LATE	Battle of Varna	2006x07		2014	2022									2009x18		2020							
+Q293074	LATE	Holy League	2021			2022x22	2023						2025						2022					
+Q698215	LATE	Holy League	2021			2022	2023					2024x24					2025							
+Q20640745	LATE	Bona crusade	2022				2023					2024x24	2025				2023							
+Q682631	LATE	Holy League	2021			2022	2023					2024x24												
+Q702316	LATE	Holy League	2021			2022	2023					2024x24												
+Q18008303	LATE	Crusade of Tedelis	2022				2023						2025				2023							
+Q16939424	LATE	Portuguese expedition to Otranto	2017x21					2018				2020					2020							
+Q695198	LATE	Ottoman invasion of Otranto	2007x17			2008x08									2009x10									
+Q786171	LATE	Ottoman–Habsburg Wars	2008x09			2008x08																		
+Q18639732	LATE	Holy League of Pope Clement VIII	2021				2023																	
+Q1355145	LATE	Italian War of 1494–1495	2021x25									2024x24												
+Q200855	LATE	Battle of Vienna	2008x17												2008x10									
+Q165425	LATE	Battle of Lepanto	2008x17												2008x10									
+Q15100878	LATE	Holy League of 1511					2023																	
+Q4087450	LATE	Battle of Nicopolis						2010x11																
+Q1187249	LATE	Ottoman–Portuguese confrontations							2023															
+Q104664744	LATE	Barbary Crusades								2020														
+Q1420791	LATE	Ottoman–Venetian Wars											2025											
+Q12208293	LATE	Siege of Alexandria													2025									
+Q12075929	LATE	Austro-Turkish Wars													2008x10									
+Q117446403	LATE	Crusades after Acre of 1291–1399	2023																					
+Q122639608	LATE	Crusades of the 15th century	2025																					
+Q97516098	LATE	Holy League of 1332	2021																					
+Q97473598	LATE	Holy League	2021																					
+Q16844397	LATE	Holy League of 1717	2021x25																					
+Q56292302	LATE	military campaigns against Mahdia	2011x16																					
+Q52174	LATE	Otranto	2007x07																					
+Q698985	LATE	Ottoman Wars in Europe	2025x25																					
+Q1080711	LATE	Ottoman–Hungarian Wars	2008x09																					
+Q141575595	LATE	Ottoman–Venetian wars	2025x25																					
+Q244980	LATE	Siege of Belgrade	2025x25																					
+Q74011	PROTO	Norman conquest of southern Italy								2020														
+Q3966454	PROTO	Mujahid's invasion of Sardinia	2010x22																					
+Q4885479	MODERN	Bombing of Alicante						2018x18																
+Q610087	MODERN	Bombardment of Almería						2018x18																
+Q8250686	MODERN	January 1938 Barcelona bombing						2018x18																
+Q3816697	MODERN	Bombing of Barcelona						2018x18																
+Q3022501	MODERN	Bombing of Granollers						2018x18																
+Q170351	MODERN	Bombing of Guernica						2018x18																
+Q3817154	MODERN	Bombing of Jaén						2018x18																
+Q8250658	MODERN	Bombing of Xàtiva						2018x18																
+Q592261	MODERN	Bombing of La Garriga						2018x18																
+Q325760	MODERN	Málaga-Almería road massacre						2018x18																
+Q625218	MODERN	Aragon Offensive						2018x18																
+Q3891522	MODERN	Levante Offensive						2018x18																
+Q4553886	MODERN	1809 Gottscheer Rebellion	2025x25																					
+Q1178424	MODERN	Carlist Wars	2025x25																					
+Q249960	MODERN	Chouannerie	2025x25																					
+Q279662	MODERN	Cristero War	2025x25																					
+Q228284	MODERN	Expedition of the Thousand	2025x25																					
+Q2984282	MODERN	French occupation of Malta	2025x25																					
+Q207318	MODERN	French Revolutionary Wars	2025x25																					
+Q1450594	MODERN	Hundred Thousand Sons of Saint Louis	2025x25																					
+Q1237867	MODERN	Liberal Wars	2025x25																					
+Q6869157	MODERN	Minor campaigns of 1815	2025x25																					
+Q78994	MODERN	Napoleonic Wars	2025x25																					
+Q152499	MODERN	Peninsular War	2025x25																					
+Q2289594	MODERN	Revolutions of 1820	2025x25																					
+Q849378	MODERN	Revolutions of 1830	2025x25																					
+Q3588	MODERN	European Revolutions of 1848	2025x25																					
+Q1400365	MODERN	Revolutions of 1848 in the Italian sta	2025x25																					
+Q2131069	MODERN	Sanfedismo	2025x25																					
+Q10859	MODERN	Spanish Civil War	2025x25																					
+Q51122	MODERN	Unification of Italy	2025x25																					
+Q8628	MODERN	War in the Vendée	2025x25																					
+Q361	MODERN	World War I	2005x05																					
