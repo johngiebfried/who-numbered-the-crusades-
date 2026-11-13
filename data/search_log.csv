@@ -206,3 +206,7 @@ date,corpus,query,date_filter,hits,hits_examined,works_added,searcher
 2026-11-13,archive.org advancedsearch (browser),creator:Duruy AND title:moyen,,5,1,Duruy 1861,"Claude (main session, browser)"
 2026-11-13,Google Books (browser),"Lefranc ""histoire du moyen âge""",1834-1849,0,0,blocked: captcha (not attempted),"Claude (main session, browser)"
 2026-11-13,Gallica SRU (browser),dc.creator Lefranc and dc.title moyen,,3,1,Lefranc 1837 (Bibliothèque Diderot),"Claude (main session, browser)"
+2026-11-14,archive.org FTS (browser),"""sixth crusade"" frederick ""eighth crusade""","1800-1885, texts",281,100,candidate list; 14 coded,"Claude (main session, browser)"
+2026-11-14,HathiTrust full-text (browser),"""eighth crusade""",,0,0,blocked by Cloudflare check; not attempted,"Claude (main session, browser)"
+2026-11-14,archive.org advancedsearch (browser),"Chambers's, Johnson's, Americana, NIE, Century, Haydn, EB9/10",,0,0,IDs for panel probes,"Claude (main session, browser)"
+2026-11-14,Wikisource/New Advent/Gutenberg (browser),EB11 Crusades; Catholic Enc. Crusades; Gibbon vol. 6,,3,3,"Barker, Bréhier, Gibbon","Claude (main session, browser)"
