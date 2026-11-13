@@ -197,3 +197,12 @@ date,corpus,query,date_filter,hits,hits_examined,works_added,searcher
 2026-11-13,WebSearch (archive.org),"Buchon Villehardouin 1828 ""Collection des chroniques nationales"" ""quatrième croisade""",,10,1,"Buchon, Chronique de la conquête de Constantinople ... Morée (1825; archive.org details only)",Claude (task 2 agent)
 2026-11-13,WebSearch (archive.org),"""Full text of \""Chronique de la conquête de Constantinople et de l'établissement des Français en Morée\""""",,4,0,none,Claude (task 2 agent)
 2026-11-13,WebSearch (archive.org),"""L'Univers"" ""histoire et description de tous les peuples"" Allemagne Le Bas 1838 croisade ""Frédéric II"" full text",,5,1,"L'Univers volume read was Hoefer, Chaldée ... Phénicie (c. 1852-56): no crusade ordinals; Le Bas 'Allemagne' not reached",Claude (task 2 agent)
+2026-11-13,archive.org (browser),tableaudesrvolu07kochgoog djvu: croisade/quatrième ...,,11,11,Koch 1771,"Claude (main session, browser)"
+2026-11-13,DTA (browser),huebner_staatslexicon_1704 download_txt: Croiſad,,3,3,Hübner 1704 re-read,"Claude (main session, browser)"
+2026-11-13,MDZ IIIF search (browser),bsb10401033: croisade; quatrième..huitième; Tunis; Damiette,,42,42,Gens du monde t.7,"Claude (main session, browser)"
+2026-11-13,MDZ full-text search (browser),"""huitième croisade""",<=1845 shown,132,25,Ruelle 1842; Le Bas Précis 1845,"Claude (main session, browser)"
+2026-11-13,MDZ full-text search (browser),"""sixième croisade""",<=1845 shown,370,110,Saigey 1834; Lamp 1839; Hugo 1839; Complément 1842; Schoell 1825,"Claude (main session, browser)"
+2026-11-13,MDZ (browser),Duruy moyen âge; Lefranc histoire,,13,13,none (not held),"Claude (main session, browser)"
+2026-11-13,archive.org advancedsearch (browser),creator:Duruy AND title:moyen,,5,1,Duruy 1861,"Claude (main session, browser)"
+2026-11-13,Google Books (browser),"Lefranc ""histoire du moyen âge""",1834-1849,0,0,blocked: captcha (not attempted),"Claude (main session, browser)"
+2026-11-13,Gallica SRU (browser),dc.creator Lefranc and dc.title moyen,,3,1,Lefranc 1837 (Bibliothèque Diderot),"Claude (main session, browser)"
