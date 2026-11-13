@@ -1,0 +1,17 @@
+work,editions,why_not_reached,priority_note
+"Bouillet, Dictionnaire universel d'histoire et de géographie","1857, 1869 supplement, 1878/1880 (Bouillet-Chassang, 27e éd. per BNF-type catalogue stub), 1893, 1908","Wikisource 1878 'Lettre C' page truncated at 500k chars before CROISADES; archive.org djvu links for other copies need fetch approval (dictionnaireuniv01boui 1867, dictionnaireuni00bouigoog 1869, dictionnaireuniv00boui_1 1843); Google Books copies show no preview",High: the long-running work; one more edition after 1863 tells whether Chassang (1878) touched the entry
+Dezobry and Bachelet,"1857, 1869, 1888",Only the 1863 printing (Strand A) is reachable; no search surfaced other editions as text,Medium
+"Larousse, Nouveau Larousse illustré","1897-1904 (t. 2, CROISADE)","Wikisource page 'Nouveau Larousse illustré, 1898' not found; archive.org details pages for nouveaularoussei01/06/07 found but djvu links need fetch approval; BNF/defense catalogue stubs have no text","High: decides when Larousse left the 1869 scheme (GDU 1869 larousse_eight, Petit Larousse 1906 modern eight)"
+"Larousse, Grand dictionnaire universel supplements","1878, 1890",Not located,Medium
+Petit Larousse,"1905 (first ed.), 1907-1914",Only the 1906 file located,Medium: first edition is where Larousse's new entry would first appear
+"Dictionnaire de la conversation, 2nd ed.",1850s,Not located as text,Medium
+Dictionnaire de l'Académie,9th edition (current): 'la huitième et dernière croisade',Entry not fetched; neighbours A9C5045-5061 known but croisade's own id was not in any search result,"Low for diffusion, but the brief names it: it shows the stock example is absent from the 1935 8th ed."
+"Vapereau, Lalanne",,Not searched beyond the shared queries; both are biographical or French-history dictionaries and probably do not enumerate,Low
+"Duruy, Histoire du moyen âge (French)",1861 first ed. and later ones,"Gutenberg 39429 is Langlois, not Duruy; archive.org French Duruy moyen-âge not surfaced; the English 12th-ed. translation is the only text. Whitney-Adams translation may revise","High: the brief's central hypothesis (school route through Duruy, minister 1863-69); read the French first edition (1861)"
+"Duruy, shorter school histories",Petite histoire du moyen-âge 1882 and others,Google Books about page only,High
+"Lavisse, primary course","Cours moyen, supérieur; 1880s editions","Only the 1913 cours élémentaire reached, which does not enumerate",Medium
+"Malet, Histoire (Hachette)",1900s,No text-bearing source surfaced in any search,High
+Catholic series (two requested),"Gagnol 'classe de cinquième' (Alliance des maisons d'éducation chrétienne); Ducoudray 'conforme aux programmes de 1882' (Hachette, not Catholic)",Both found at Gallica texteBrut URLs; WebFetch returned client_error,High: the confession test and a text keyed to the 1882 programmes
+"Official programmes 1852, 1865, 1880, 1890, 1902",,"Printed in INRP, L'histoire et la géographie dans l'enseignement secondaire. Textes officiels, t. 1 (2000), and in Gallica Bulletin administratif; not online as text in any result. Only metadata (Persée record for the 28 Jan 1890 arrêté) found","High: the brief asks whether any programme names or numbers a crusade; the dates are recalled except the 1890 arrêté and the 25 March 1865 programme, which appear in reference lists"
+La grande encyclopédie,other printings,Only t. 13 read,Low
+Bouillet-derived 'classique' and Brussels counterfeits,,Out of scope,Low
