@@ -216,3 +216,4 @@ date,corpus,query,date_filter,hits,hits_examined,works_added,searcher
 2026-11-14,Gallica ContentSearch (browser),"ordinals, Frédéric, Damiette etc. in bpt6k3040801v, bpt6k6570449z, others",,0,6,Rendu 1841-42; Ansart Tablettes 1842,"Claude (main session, browser)"
 2026-11-14,BnF catalogue (browser),Ansart Rendu cours histoire écoles normales primaires,,13,13,1st ed. Delloye 1840-41 (t.2 not digitized),"Claude (main session, browser)"
 2026-11-14,archive.org (browser),"Yonge, Freeman, Mangnall, Collier, Tout; Chambers 1908-1966; Americana 1932-1953",,0,9,"1950s+ volumes lending-only, not reached","Claude (main session, browser)"
+2026-11-14,archive.org FTS (browser),"""fourth crusade"" + ""Henry VI"" / Celestine / 1195; highlight-proximity filter (250 chars)","1900-1960, texts",~6000,~1500,64 proximity hits; 6 true Henry-fourth texts,"Claude (main session, browser)"

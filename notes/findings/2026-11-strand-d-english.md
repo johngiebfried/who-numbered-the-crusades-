@@ -104,3 +104,26 @@ So the modern eight is in an official-programme schoolbook for teacher-training 
 British usage was therefore split three ways until Barker in 1911: Gibbon in the universities, Moréri/Mills in the popular books, and the modern eight in a few school authors (Beale, Yonge).
 
 **Switch dates.** *Chambers's* still had the German seven in the 1908 printing. The 1950s–60s *Chambers's* and the 1932 and 1953 *Americana* are lending-only on archive.org and were not reached, so both switch dates remain open.
+
+## The last Henry VI fourth (search of 1900–1960)
+
+**Method.** Full-text search of archive.org for 1900–1960, for "fourth crusade" together with Henry VI, Celestine or 1195. About 1,500 results were scanned. Only those where the terms fall within 250 characters of each other in a highlighted passage were kept (64). Each of those was then read.
+
+**Result.** The Henry VI fourth survives into the 1910s in four places, then disappears from the corpus.
+
+| Date | Work | Count |
+|---|---|---|
+| 1901 | Cox, *The Crusades*, 12th ed. (Longmans) | The nine |
+| 1909 | *Collegiate Course for Home Study* (US), following W. F. Collier's Nelson text | "THE FOURTH CRUSADE. (1195–1197.) The emperor Henry VI…" |
+| 1910 | Haydn's *Dictionary of Dates*, 25th ed. | Moréri eight |
+| 1915 | Billy Parker, *The Bloody Trail of Romanism* (US anti-Catholic tract) | Michaud/Mills nine, citing both |
+
+In addition:
+- The Michaud translations were still being reprinted in 1900.
+- *The Great Events by Famous Historians* (1904) is internally split: its introduction has the modern slots, while a headnote keeps "The Fourth Crusade (1196–1197)."
+
+After about 1915, every hit in the corpus treats Henry VI only as background to the 1202–04 Fourth Crusade, for example Previté-Orton (1937) and La Monte (1949).
+
+**Caveats.**
+- Dates come from archive.org metadata, and Indian DLI reprints are unreliable. A "History of the British Empire" dated 1919 carries Collier's chronology ("The Fourth Crusade 1195–97") but is probably a 19th-century Nelson book.
+- Lending-only volumes could not be read.
