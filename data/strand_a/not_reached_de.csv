@@ -1,0 +1,10 @@
+work,editions,why_not_reached,priority_note
+"Hübner, Reales Staats- und Zeitungs-Lexicon",1704 (primary scan); 1706-1789 and 1824-28 editions,"Primary text unreachable: DTA viewer is JavaScript only, MDZ/bavarikon blocked, Wikisource unfetchable, no archive.org item surfaced. Later editions (MDZ 1708, 1711, 1715, 1717, 1719, 1722, 1732, 1739, 1782; archive.org 1717) likewise.","Highest priority. Author should read cols. 321-323 of the 1704 ed. (Croisade) and the same entry in 1717, 1732, 1782 and the 1824-28 Rüder ed."
+"Zedler, Grosses vollständiges Universal-Lexicon","1731-54, entries Creutz-Zug, Creutz-Fahrt, Croisade",No Zedler page for these headwords surfaced; Wikisource and the Münster scans are not reachable.,High: the likely route from Hübner to the 19th c.
+"Brockhaus, Conversations-Lexikon",1809-11 to 14th ed. (1890s); 1837 Bilder-Conversations-Lexikon; 1911 Kleines,zeno.org URL for Brockhaus-1837 surfaced but the fetch loops on a 302 between https and http. Other editions never surfaced in search. The Düsseldorf 7th-ed. PDF reached was front matter only.,"High. works.csv row (1837, D 4, F 5, L1 6 ""den sechsten und letzten"") is not re-read and not recoded here."
+"Damen, Conversations Lexikon",1834-38,zeno.org not reachable. Existing works.csv row not re-read.,Re-read to recode.
+"Pierer, Universal-Lexikon",all editions; 4th ed. 1857-65,"zeno.org not reachable. Existing works.csv row (D 4, F+B 5, L1+L2 6) not re-read.",Re-read; Pierer has a statement of custom.
+"Meyer, Großes Conversations-Lexicon / Konversations-Lexikon","1840s-1850s, 1st-6th ed.; MKL1888 (4th)",Wikisource MKL pages and zeno.org not reachable.,Medium
+"Herder, Conversations-Lexikon",1854-57,zeno.org not reachable. Existing row: no numbers.,Medium (Catholic)
+"Ersch and Gruber, Allgemeine Encyclopädie",entry Kreuzzüge,"Index found only for Sect. 2 Th. 39 (Köppen to Kriegk, 1886), which stops before Kreuz-; the volume with the entry was not identified.",Low until the volume is identified
+"Wetzer and Welte, Kirchen-Lexikon",1st (1847-60) and 2nd (1882-1903) eds.,Not surfaced in search.,Medium (Catholic test)
