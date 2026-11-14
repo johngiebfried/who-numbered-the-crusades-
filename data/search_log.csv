@@ -217,3 +217,6 @@ date,corpus,query,date_filter,hits,hits_examined,works_added,searcher
 2026-11-14,BnF catalogue (browser),Ansart Rendu cours histoire écoles normales primaires,,13,13,1st ed. Delloye 1840-41 (t.2 not digitized),"Claude (main session, browser)"
 2026-11-14,archive.org (browser),"Yonge, Freeman, Mangnall, Collier, Tout; Chambers 1908-1966; Americana 1932-1953",,0,9,"1950s+ volumes lending-only, not reached","Claude (main session, browser)"
 2026-11-14,archive.org FTS (browser),"""fourth crusade"" + ""Henry VI"" / Celestine / 1195; highlight-proximity filter (250 chars)","1900-1960, texts",~6000,~1500,64 proximity hits; 6 true Henry-fourth texts,"Claude (main session, browser)"
+2026-11-14,"archive.org lending (browser, borrowed)",Chambers's 1966 vol. 4 CRUSADES; Collier Great Events of History,,2,2,sd-1966-chambers-enc; sd-1860-collier-great-events,"Claude (main session, browser)"
+2026-11-14,archive.org FTS (browser),"""fifth crusade"" / ""eighth crusade"" / ""sixth"" / ""seventh"" / ""fourth"" filtered to Americana, Collier, World Book","1954-1995 / 1954-2000, texts",~30,~30,sd-1966-world-book; no Americana after 1953 indexed,"Claude (main session, browser)"
+2026-11-14,archive.org FTS (browser),"""usually called the Fifth Crusade""","1890-2010, texts",70,70,sd-1907-schaff-hcc5; sd-1918-walker-hcc; sd-1953-latourette-hoc,"Claude (main session, browser)"

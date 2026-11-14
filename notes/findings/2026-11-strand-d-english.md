@@ -127,3 +127,20 @@ After about 1915, every hit in the corpus treats Henry VI only as background to 
 **Caveats.**
 - Dates come from archive.org metadata, and Indian DLI reprints are unreliable. A "History of the British Empire" dated 1919 carries Collier's chronology ("The Fourth Crusade 1195–97") but is probably a 19th-century Nelson book.
 - Lending-only volumes could not be read.
+
+## Lending-library pass (14 November, borrowed via archive.org account)
+
+Every lending copy flagged in the search plans was borrowed, searched inside, and returned. The bookshelf was empty at the end.
+
+**The reference works.**
+- *Encyclopedia Americana* keeps its Brockhaus-derived German seven ("What is more usually called the Fifth Crusade was led by Frederick II") unchanged from 1903 to 1953 (vol. 8, pp. 339–40, read in the borrowed copy). No later Americana CRUSADES volume is in archive.org full text, so when the text was replaced is still unknown.
+- *Chambers's Encyclopaedia* dropped its 1868–1926 German seven in the new Pergamon edition (1950 text, 1966 printing). The new article counts Damietta fifth, Frederick II sixth, Louis IX's Egyptian crusade eighth and Tunis ninth, and says outright that "the numbering of these crusades is conventional." The seventh is not named in the text the search reached; presumably 1239–41.
+- *World Book* 1966–70 has Tunis as "the Eighth Crusade": the modern eight in the American school encyclopedia.
+
+**Collier redated.** The Nelson *Great Events of History* that archive.org dates 1960 is W. F. Collier's own text of about 1860. The evidence is internal: Napoleon III's son "is now four years old", and Solferino (1859) is the latest event. It is a clean Moréri eight: Fourth 1195–97 (Henry VI), Fifth 1198–1204, Sixth 1227–29, Seventh Louis IX, Eighth and last 1270–72, with Damietta unnumbered. This is the source of the 1909 *Collegiate Course* text. So the Henry VI fourth reached American home-study courses through a British school book.
+
+**Church history.** In the US, church history is a channel in its own right and lags behind the general handbooks.
+- Schaff's *History of the Christian Church* vol. V (1907) calls Frederick II's 1228 expedition "usually called the Fifth Crusade." That is German numbering, and it was reprinted unchanged in 1926, 1957 and 1967.
+- Walker (1918; to 1985) and Latourette (1953; to 1975) use the modern slots: Damietta fifth, Frederick sixth.
+
+**Consequence for the "last Henry VI fourth" question.** No Henry VI fourth after Parker (1915) turned up in the lending books either. The German numbering, however, survives much later than the Henry fourth: Americana to at least 1953 and Schaff's reprints to 1967. In English the modern eight's last holdouts are German-derived, not Moréri-derived.
