@@ -79,3 +79,28 @@ The German seven also came into English through translated German manuals: Weber
 - **Chambers's 1923–27 and the Americana after 1924**, to date when each switched.
 - **US newspapers** (Chronicling America) as a check on the textbooks. "Crusade" is very noisy in the temperance era, so phrase pairs would be needed.
 - **Verification.** All rows rest on archive.org OCR. Title pages were checked in OCR where marked. The auto-coding by nearby keywords was checked by hand for every row listed above.
+
+## Follow-up reads (14 November, later)
+
+**Greene's source is identified, and it reaches back into Strand B.** Greene's 1851 text is Ambroise Rendu's *Histoire du moyen âge*. This is part 2 of Ansart and Rendu, *Cours d'histoire et de géographie, rédigé spécialement pour l'usage des écoles normales primaires… d'après le Programme arrêté… par le Conseil Royal de l'Instruction Publique* (Paris: H. Delloye; 1st ed. 1840–41; 2nd ed. 1841–42). The wording matches:
+
+| Rendu (2nd ed.) | Greene (1851) |
+|---|---|
+| "La cinquième et la sixième croisade prirent naissance en Allemagne" | "The fifth and sixth crusades began in Germany" |
+
+Rendu's text cross-refers "V. quatrième croisade, 42" (the Latin empire) and "Voyez la huitième croisade, 43" (Tunis). Ansart's *Nouvelles Tablettes chronologiques* (1842) has the full modern eight: "Quatrième croisade… Baudouin… Sixième… Frédéric II… Septième… saint Louis… Huitième et dernière croisade."
+
+So the modern eight is in an official-programme schoolbook for teacher-training colleges by 1841–42 at the latest, and probably in the 1840–41 first edition. That edition's part 2 is not digitized; it is at the BnF under shelfmark G-18709. This is the strongest candidate yet for the French origin, and it fits the protocol's hypothesis that the swap entered through the Université programmes.
+
+**Beale's source** remains unknown. She writes: "to quote authorities would have been inconsistent with my plan."
+
+**British school texts, 1859–1899:**
+- Mangnall (1859) does not number.
+- Yonge, *Landmarks: Middle Ages* (1864), has modern slots four to seven.
+- Collier (1872) says "There were eight Crusades," but its count is the old dictionary eight with Damietta dropped.
+- Freeman (1873) numbers only to the fourth.
+- Tout, *Empire and the Papacy* (2nd ed. 1899), is Gibbon's seven: Louis IX sixth and seventh, Frederick II unnumbered.
+
+British usage was therefore split three ways until Barker in 1911: Gibbon in the universities, Moréri/Mills in the popular books, and the modern eight in a few school authors (Beale, Yonge).
+
+**Switch dates.** *Chambers's* still had the German seven in the 1908 printing. The 1950s–60s *Chambers's* and the 1932 and 1953 *Americana* are lending-only on archive.org and were not reached, so both switch dates remain open.
