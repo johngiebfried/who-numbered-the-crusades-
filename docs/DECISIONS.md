@@ -2,6 +2,15 @@
 
 Newest first. Each entry: date, decision, reason.
 
+## 2026-11-23 — Gaps pass (provisional, for the author to confirm)
+
+- **Working thesis revised.** The modern eight is first attested complete in Desmichels, *Tableau chronologique de l'histoire du moyen âge* (1823), a textbook for the Paris collèges royaux, not in Bouillet (1842). The 2026-11-08 thesis line ("first attested in Bouillet") is superseded. Reason: full-text read of pp. 63–66 with the title page viewed; the 1820 official programme by the same author still counts seven.
+- **Family name `german_seven` under review.** The scheme (C 4, F 5, L1 6, L2 7) is attested in Paris in 1820, earlier than any German witness found (1834). Options: (a) keep the name as a label of later prevalence; (b) rename to `merged_fifth_seven` and record the D-and-F merger variant as a subtype. Recommended: (b), after the German block is page-verified. No rename done.
+- **New family code proposed: `gibbon_seven`** (C 4, D 5, L1 6, L2 7, F unnumbered), already used for Gibbon 1788 in Strand D; now also the German Gibbon (1791), Herder (1792), Collin (1818).
+- **New tables.** `data/reasons/reasons.csv` holds explicit justifications, one row per statement, with `kind` (statement_of_custom, correction, exclusion, inclusion_note, disclaimer, convenience, continuity, rejection, silent_inclusion, silent_exclusion). `data/usage/` holds corpus counts; they are a proxy, not evidence of any single author's scheme.
+- **Census frames added.** `roots_1675_1771` (pre-Koch histories, in `data/strand_b/entries.csv`) and `strand_b_de_1780_1860` (German schoolbooks, in `data/strand_b/entries_de.csv`).
+- **Quotations from modern copyrighted works** in `reasons.csv` are kept to short phrases.
+
 ## 2026-11-10 — Search protocol frozen; Strand A coding (provisional, for the author to confirm)
 
 - **Protocol.** Fable's search protocol is frozen as `docs/SEARCH_PROTOCOL.md`. Sections 2 (signature) and 6 (evidence rules) do not change for Q1; amendments are dated at the end of the file.

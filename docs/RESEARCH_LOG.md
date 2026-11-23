@@ -2,6 +2,18 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-23 — Gaps pass: the merger found in Desmichels (1820–23)
+
+Worked the ten gaps from the conclusions audit in one browser session (`notes/findings/2026-11-gaps-pass.md`). New rows: 15 French (`data/strand_b/entries.csv`), 20 German schoolbooks (`data/strand_b/entries_de.csv`, new), Broughton 1756 (`data/strand_a/entries_de.csv`), 4 English (`data/strand_d/entries_en.csv`). New tables: `data/reasons/reasons.csv` and `data/usage/archiveorg_ordinal_counts_en.csv`. Script: `scripts/add_gaps_2026_11_23.py`.
+
+1. **A1 closed to a three-year window.** The official Paris history programme of 1820 (Desmichels and Trognon, *Tableau sommaire du cours d'histoire générale*, Commission d'instruction publique) counts seven with Frederick II fifth. Desmichels's *Tableau chronologique de l'histoire du moyen âge* (Colas, 1823; title page viewed) has the complete modern eight. The 1824 baccalauréat *Manuel* copies it; his *Précis* carries it to 1834 (Colas and Hachette) and Brussels 1835. Bouillet (1842) inherits it.
+2. **A2 narrowed.** Maimbourg (1686) has Henry VI fourth. Moréri 1674–83 shows no numbered crusades by OCR. Broughton (1742; German 1756) carries Moréri's eight into English and German. Koch's "proprement sept" reads as a correction of Moréri.
+3. **B3 built.** 27 explicit justifications, 1701–2001. Before 1900: custom or silent change, with single-slot objections. After 1900: the whole scheme disowned ("arbitrary," "conventional," "lacks all consistency").
+4. **B4 revised.** Usage counts show no fall at five in general print; "Sixth Crusade" weakens slowly, "Seventh" strengthens. The stop at five is a specialists' habit.
+5. **C6 surprise.** The "German seven" is attested in Paris in 1820, fourteen years before the earliest German witness found (Fiedler 1834). Earlier German usage is Moréri type or Gibbon type.
+6. **D8 answered.** Edward alone as Ninth: Scott-Giles 1979, Toropov 2002. Earlier English ninths are Tunis (Russell 1831, Perry 1840).
+7. **Open.** C5, C7 (Cantù), D9 for the German block, D10.
+
 ## 2026-11-10 — Strand A: the dictionary stemma, French and English
 
 Protocol step 1 done: signature and evidence rules frozen in `docs/SEARCH_PROTOCOL.md`, new fields in `docs/CODEBOOK.md`. Step 2 done for French and English (`notes/findings/2026-11-strand-a.md`, project copy `claude/findings-2026-11-strand-a.md`; data in `data/strand_a/` and `data/search_log.csv`; 34 entries, 25 at full text).
@@ -90,7 +102,10 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 - [ ] Compare Wikipedia rev 349190657 with Bréhier (1908) word for word
 - [ ] Read Murray (2006) and Cetro; rewrite the paper's opening claim
 - [ ] Strand B, in this order: Schöll, *Cours d'histoire des états européens* t. 3 (1830); Le Bas's source in *L'Univers*; Lefranc 1838 and 1841; Université programmes and baccalauréat lists 1830–42; *Annuaire du Bureau des longitudes* (1802)
-- [ ] Cantù editions 1844–51: which one switched
+- [ ] Cantù editions 1844–51: which one switched (1842 vol. 11 confirmed Damietta sixth, 2026-11-23)
+- [ ] Université history programmes 1821–22; any 1822 printing of Desmichels's *Tableau chronologique*
+- [ ] Page-verify the German schoolbook block (Fiedler 1834, *Handbuch* 1835, Uschold 1839, Weber 1849)
+- [ ] German school histories 1800–33: a Frederick-fifth before 1820?
 - [ ] Avendaño (1846): contents of the fourth to sixth
 - [ ] How the eight reached English: translations of Bouillet, Cantù, Duruy; British school texts 1850–1900 (lead: Picot, *Historical Narrations in French*, 1846, reuses Bouillet's paragraph)
 - [ ] Charles Mills, *History of the Crusades* (1820): does he call his count nine anywhere?
