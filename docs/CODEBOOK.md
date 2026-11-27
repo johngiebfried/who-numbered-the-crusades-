@@ -111,7 +111,7 @@ Modern eight = fourth 1202–04; fifth 1217–21 (Andrew of Hungary and/or Damie
 | `larousse_eight` | D 4, F 5, B 6, L1 7, L2 8 (C unnumbered) | Larousse 1869 |
 | `german_six` | D 4, F 5, L1 6 | Brockhaus 1837, Americana 1830 |
 | `gibbon_seven` | C 4, D 5, L1 6, L2 7 (F unnumbered) | Gibbon 1788, German Gibbon 1791, Herder 1792, Collin 1818 |
-| `frederick_fifth_seven` | C 4, F 5, L1 6, L2 7; Andrew/Damietta named but unnumbered, or merged into the fifth (D+F 5) | Paris programme 1820, Fiedler 1834 (base form); *Handbuch für Schule und Haus* 1835, Uschold 1839 (merged form) |
+| `frederick_fifth_seven` | C 4, F 5, L1 6, L2 7; Andrew/Damietta named but unnumbered, or merged into the fifth (D+F 5) | Paris programme 1820, Fiedler 1834 (base form); *Handbuch für Schule und Haus* 1835 (merged form) |
 | `frederick_fifth_seven_variant` | Frederick-fifth seven with other merges | Penny Cyclopaedia 1837 |
 | `stated_only` | a total, no slots | Basnage's Furetière 1701, EB1 1771 |
 | `none` | no ordinals beyond the first | Encyclopédie 1754, Haydn 1844 |
