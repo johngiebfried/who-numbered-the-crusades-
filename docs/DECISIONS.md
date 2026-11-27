@@ -10,6 +10,7 @@ Newest first. Each entry: date, decision, reason.
 - **Both protocol amendments adopted for all strands (author).** A statement of custom dates a count, not slots. A stable page link plus a viewed title page counts as the page image. The author saves PDFs of the bracket rows himself.
 - **Family codes for partial rows (proposed, for the author to confirm).** A code is given only when the numbered slots are diagnostic. L1 6 alone is not diagnostic (see the codebook).
 - **Reading of the 1820–23 window (provisional).** No Université text found prescribes the modern eight. The 1820 programme counts seven, and the 1821 baccalauréat question on the crusades numbers none (as printed in 1826). The eight first appears in Desmichels's *Tableau chronologique*, registered on 21 December 1822. The status is probable, pending BnF G-31078 (the 1822 question pamphlet). Details are in `notes/findings/2026-11-window-1820-23.md`.
+- **G-31078 re-weighted (follow-up, same day).** The règlement of 13 March 1821 (R.L.R. t. 7) orders a question table but prints none, so the June 1822 Brunot-Labbe *Questions* is treated as probably the first printing of the official table, not one witness among several. The BnF order stays with the author: per-page PDF (€0.70 a page excl. VAT) or full PDF (€45), or reading at Tolbiac. Nothing was ordered and no terms were accepted.
 
 ## 2026-11-23 — Gaps pass (provisional, for the author to confirm)
 

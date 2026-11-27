@@ -2,6 +2,15 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-27 (follow-up) — Marchand, the *Recueil*, the catalogs, the BnF order
+
+Same day, browser (`notes/findings/2026-11-window-1820-23.md`, section A2). Eleven search-log rows; two not-reached rows rewritten. Script: `scripts/add_followup_2026_11_27.py`.
+
+1. **Marchand t. 1 read.** The circular of 4 July 1820 sends the four Colas programme cahiers and hopes they will grow into "livres élémentaires." The statute of 4 September 1821 gives troisième the Middle Ages (art. 172) and seconde "l'histoire moderne proprement dite" (art. 176), which accounts for both Desmichels's separate medieval table and the retitled October 1822 *Tableau sommaire*. Marchand prints no question table and does not mention Desmichels.
+2. **The règlement of 13 March 1821 read** in the *Recueil de lois et règlemens*, t. 7 (Google Books --Ek8YYtTQ4C). Art. 6 orders a question table to be drawn up; none is printed. Brunot-Labbe's *Questions* of June 1822 (G-31078) is therefore probably the table's first printing, which raises its weight.
+3. **The 1822 *Tableau sommaire … histoire moderne*: no copy** in the BnF, SUDOC, BVB, K10plus, SWB, Jisc or BNE. WorldCat, CCFr, HathiTrust and Emmanuelle not reached.
+4. **BnF prices for G-31078:** per-page PDF €0.70 a page excl. VAT, full PDF €45. Not ordered; the author decides.
+
 ## 2026-11-27 — The 1820–23 window (A) and the verification pass (B)
 
 One browser session (`notes/findings/2026-11-window-1820-23.md`). New rows: Hubert 1826 (the baccalauréat question table) and Ponelle 1826 in `data/strand_b/entries.csv`, and Weber 1847 in `data/strand_b/entries_de.csv`. Ten rows were updated, and 4 not-reached rows and 30 search-log rows were added. Script: `scripts/add_window_2026_11_27.py`.
@@ -116,8 +125,9 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 - [ ] Strand B, in this order: Schöll, *Cours d'histoire des états européens* t. 3 (1830); Le Bas's source in *L'Univers*; Lefranc 1838 and 1841; Université programmes and baccalauréat lists 1830–42; *Annuaire du Bureau des longitudes* (1802)
 - [ ] Cantù editions 1844–51: which one switched (1842 vol. 11 confirmed Damietta sixth, 2026-11-23)
 - [x] Université history programmes 1821–22; any 1822 printing of Desmichels's *Tableau chronologique* (27 November: 1820 programme set, 1821 question table, registration 21 Dec 1822; no separate 1822 printing)
-- [ ] BnF (author): *Questions sur l'histoire ancienne … moderne* (Brunot-Labbe, 1822, G-31078; 1823, 16-G-434): does the crusade question number them?
-- [ ] Find a copy of Trognon and Desmichels, *Tableau sommaire pour servir à l'enseignement de l'histoire moderne*, 2e éd. (Colas, 1822): CCFr, WorldCat, Emmanuelle
+- [ ] BnF (author): *Questions sur l'histoire ancienne … moderne* (Brunot-Labbe, 1822, G-31078, probably the first printing of the official table; 1823, 16-G-434): does the crusade question number them? Per-page PDF €0.70/page excl. VAT, full PDF €45
+- [ ] Find a copy of Trognon and Desmichels, *Tableau sommaire pour servir à l'enseignement de l'histoire moderne*, 2e éd. (Colas, 1822): not in BnF, SUDOC, BVB, K10plus, SWB, Jisc, BNE (27 November); left: WorldCat and a manual CCFr search (author), then Bibliothèque Diderot or MUNAÉ
+- [x] Marchand, *Textes officiels* t. 1: règlement 13 March 1821, statute 4 Sept 1821 (27 November; no question table printed)
 - [x] Page-verify the German schoolbook block (Fiedler 1834, *Handbuch* 1835, Uschold 1839, Weber 1849) (27 November; Uschold and Weber corrected)
 - [ ] Verify the remaining German snippet rows (Streit 1842, Haas 1844, Beitelrock 1853, Dietsch 1854, Kurts 1860); clear Beitelrock's family code (L1 6 only)
 - [ ] D1 lead: question-14 answer books 1826–36 (Ponelle 1829, Delavigne 1829 and 1835, Bouchitté 1836): do they copy Desmichels's list?
