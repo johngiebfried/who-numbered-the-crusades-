@@ -2,6 +2,15 @@
 
 Newest first. Each entry: date, decision, reason.
 
+## 2026-11-27 — Author's decisions on the gaps-pass proposals; the 1820–23 window
+
+- **Bouillet thesis line held (author).** The line "first attested in Bouillet (1842)" stays until the author has read Desmichels 1823, pp. 63–66, himself. It is then replaced by the Desmichels claim.
+- **`german_seven` renamed `frederick_fifth_seven` (author).** The scheme is named for its defining slot, as `nine_F7` is. `merged_fifth_seven` was rejected because it misdescribes the 1820 witness, where Andrew is unnumbered and Frederick alone is fifth. The rename covers every print table (17 rows) and the codebook. The Wikipedia `count_family` labels are unchanged. Done by `scripts/add_window_2026_11_27.py`.
+- **`gibbon_seven` added (author).** C 4, D 5, L1 6, L2 7, with F unnumbered.
+- **Both protocol amendments adopted for all strands (author).** A statement of custom dates a count, not slots. A stable page link plus a viewed title page counts as the page image. The author saves PDFs of the bracket rows himself.
+- **Family codes for partial rows (proposed, for the author to confirm).** A code is given only when the numbered slots are diagnostic. L1 6 alone is not diagnostic (see the codebook).
+- **Reading of the 1820–23 window (provisional).** No Université text found prescribes the modern eight. The 1820 programme counts seven, and the 1821 baccalauréat question on the crusades numbers none (as printed in 1826). The eight first appears in Desmichels's *Tableau chronologique*, registered on 21 December 1822. The status is probable, pending BnF G-31078 (the 1822 question pamphlet). Details are in `notes/findings/2026-11-window-1820-23.md`.
+
 ## 2026-11-23 — Gaps pass (provisional, for the author to confirm)
 
 - **Working thesis revised.** The modern eight is first attested complete in Desmichels, *Tableau chronologique de l'histoire du moyen âge* (1823), a textbook for the Paris collèges royaux, not in Bouillet (1842). The 2026-11-08 thesis line ("first attested in Bouillet") is superseded. Reason: full-text read of pp. 63–66 with the title page viewed; the 1820 official programme by the same author still counts seven.

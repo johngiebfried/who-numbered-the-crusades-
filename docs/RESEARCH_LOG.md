@@ -2,6 +2,18 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-27 — The 1820–23 window (A) and the verification pass (B)
+
+One browser session (`notes/findings/2026-11-window-1820-23.md`). New rows: Hubert 1826 (the baccalauréat question table) and Ponelle 1826 in `data/strand_b/entries.csv`, and Weber 1847 in `data/strand_b/entries_de.csv`. Ten rows were updated, and 4 not-reached rows and 30 search-log rows were added. Script: `scripts/add_window_2026_11_27.py`.
+
+1. **The 1820 outline was an official programme.** It was registered in April 1820 (*Bibliographie de la France* no. 1350) beside two companions titled "Programme" for French and ancient history. All three are in-4, printed by Fain for Colas. The course runs from 395 into the eighteenth century.
+2. **The exam did not number the crusades.** The baccalauréat question table was in force under the règlement of 13 March 1821. It made "Histoire du Moyen Age" its own section, and its question 14 asks for a "Précis historique des croisades" without ordinals. This is the table as printed in Hubert 1826, p. 16, page image viewed. The history questions were printed by Brunot-Labbe, "libraire de l'Université," in June 1822. That printing (BnF G-31078) is not digitized and still unread.
+3. **Date of the eight.** Desmichels's *Tableau chronologique* was registered on 21 December 1822 (*Bibliographie de la France* N° 51, no. 5716). The 1823 on its title page is a post-date, which explains Larousse's "1822." The title page has no authorization line. The *Revue encyclopédique* (1823) calls the Colas series works the Université "a commandées."
+4. **The October 1822 revision.** Desmichels and Trognon's revised outline, "autorisé par le conseil royal," was retitled for "histoire moderne" (no. 4729). No copy found.
+5. **Verification.** The *Complément* 1842 is now full text, with title page and page image viewed. Koch 1771 and the 1824 *Manuel* have their title page images viewed, Broughton 1756 its half-title. Bréhier 1908 was checked against the Appleton printing.
+6. **The German block, read at full text.** Fiedler 1834 has the full Frederick-fifth seven, and the *Handbuch* 1835 (a Catholic book) the merged form. Uschold 1839 and Weber 1847–49 stop at five, and their rows were corrected.
+7. **Codes.** `german_seven` was renamed `frederick_fifth_seven` and `gibbon_seven` added; both protocol amendments were adopted for all strands.
+
 ## 2026-11-23 — Gaps pass: the merger found in Desmichels (1820–23)
 
 Worked the ten gaps from the conclusions audit in one browser session (`notes/findings/2026-11-gaps-pass.md`). New rows: 15 French (`data/strand_b/entries.csv`), 20 German schoolbooks (`data/strand_b/entries_de.csv`, new), Broughton 1756 (`data/strand_a/entries_de.csv`), 4 English (`data/strand_d/entries_en.csv`). New tables: `data/reasons/reasons.csv` and `data/usage/archiveorg_ordinal_counts_en.csv`. Script: `scripts/add_gaps_2026_11_23.py`.
@@ -103,8 +115,13 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 - [ ] Read Murray (2006) and Cetro; rewrite the paper's opening claim
 - [ ] Strand B, in this order: Schöll, *Cours d'histoire des états européens* t. 3 (1830); Le Bas's source in *L'Univers*; Lefranc 1838 and 1841; Université programmes and baccalauréat lists 1830–42; *Annuaire du Bureau des longitudes* (1802)
 - [ ] Cantù editions 1844–51: which one switched (1842 vol. 11 confirmed Damietta sixth, 2026-11-23)
-- [ ] Université history programmes 1821–22; any 1822 printing of Desmichels's *Tableau chronologique*
-- [ ] Page-verify the German schoolbook block (Fiedler 1834, *Handbuch* 1835, Uschold 1839, Weber 1849)
+- [x] Université history programmes 1821–22; any 1822 printing of Desmichels's *Tableau chronologique* (27 November: 1820 programme set, 1821 question table, registration 21 Dec 1822; no separate 1822 printing)
+- [ ] BnF (author): *Questions sur l'histoire ancienne … moderne* (Brunot-Labbe, 1822, G-31078; 1823, 16-G-434): does the crusade question number them?
+- [ ] Find a copy of Trognon and Desmichels, *Tableau sommaire pour servir à l'enseignement de l'histoire moderne*, 2e éd. (Colas, 1822): CCFr, WorldCat, Emmanuelle
+- [x] Page-verify the German schoolbook block (Fiedler 1834, *Handbuch* 1835, Uschold 1839, Weber 1849) (27 November; Uschold and Weber corrected)
+- [ ] Verify the remaining German snippet rows (Streit 1842, Haas 1844, Beitelrock 1853, Dietsch 1854, Kurts 1860); clear Beitelrock's family code (L1 6 only)
+- [ ] D1 lead: question-14 answer books 1826–36 (Ponelle 1829, Delavigne 1829 and 1835, Bouchitté 1836): do they copy Desmichels's list?
+- [ ] Do not re-run `scripts/build_strand_a.py`: it rewrites `data/strand_a/entries.csv` and `data/search_log.csv`; fold into the reconciliation
 - [ ] German school histories 1800–33: a Frederick-fifth before 1820?
 - [ ] Avendaño (1846): contents of the fourth to sixth
 - [ ] How the eight reached English: translations of Bouillet, Cantù, Duruy; British school texts 1850–1900 (lead: Picot, *Historical Narrations in French*, 1846, reuses Bouillet's paragraph)

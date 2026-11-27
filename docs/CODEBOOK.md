@@ -1,6 +1,6 @@
 # Codebook
 
-Version 0.2, 10 November 2026. Version 0.1 of 8 November, with the Wikipedia section added the same day; fields for the search protocol added 10 November.
+Version 0.3, 27 November 2026: `german_seven` renamed `frederick_fifth_seven`, `gibbon_seven` added. Version 0.2 of 10 November (fields for the search protocol); version 0.1 of 8 November, with the Wikipedia section added the same day.
 
 ## expeditions.csv
 
@@ -78,7 +78,7 @@ Separate from works.csv: a Wikipedia page is a moving text, so its rows are revi
 | `key_edits.csv` | dated edit that changed a count, title or coverage |
 | `count_statements.csv` | explicit count stated in the text, with sample range |
 
-`count_family`: `nine`, `eight`, `german_seven`, `german_seven_bracketed`, `partial`.
+`count_family`: `nine`, `eight`, `german_seven`, `german_seven_bracketed`, `partial`. Here `german_seven` labels German Wikipedia's count (Damietta and Frederick II one fifth); the print family of the same shape is `frederick_fifth_seven`.
 
 ## Fields added 10 November 2026 (search protocol, step 1)
 
@@ -110,10 +110,15 @@ Modern eight = fourth 1202–04; fifth 1217–21 (Andrew of Hungary and/or Damie
 | `barons_sixth` | C 4, D 5, B 6, L1 7, L2 8 | Proctor, American Cyclopaedia |
 | `larousse_eight` | D 4, F 5, B 6, L1 7, L2 8 (C unnumbered) | Larousse 1869 |
 | `german_six` | D 4, F 5, L1 6 | Brockhaus 1837, Americana 1830 |
-| `german_seven` | C 4, F 5, L1 6, L2 7 | Pütz, Weber, Ploetz |
-| `german_seven_variant` | German seven with other merges | Penny Cyclopaedia 1837 |
+| `gibbon_seven` | C 4, D 5, L1 6, L2 7 (F unnumbered) | Gibbon 1788, German Gibbon 1791, Herder 1792, Collin 1818 |
+| `frederick_fifth_seven` | C 4, F 5, L1 6, L2 7; Andrew/Damietta named but unnumbered, or merged into the fifth (D+F 5) | Paris programme 1820, Fiedler 1834 (base form); *Handbuch für Schule und Haus* 1835, Uschold 1839 (merged form) |
+| `frederick_fifth_seven_variant` | Frederick-fifth seven with other merges | Penny Cyclopaedia 1837 |
 | `stated_only` | a total, no slots | Basnage's Furetière 1701, EB1 1771 |
 | `none` | no ordinals beyond the first | Encyclopédie 1754, Haydn 1844 |
+
+`frederick_fifth_seven` was `german_seven` until 27 November 2026. It was renamed because the scheme is attested in the official Paris programme of 1820, fourteen years before the earliest German witness found (Fiedler 1834). It is named for its defining slot, as `nine_F7` is. The Wikipedia `count_family` labels `german_seven` and `german_seven_bracketed` are unchanged: they name the count German Wikipedia uses, not the print family.
+
+A row that stops short of the full scheme takes a family code only when its numbered slots are diagnostic. F 5 with C 4 places a row in `frederick_fifth_seven` (Weber 1847–49, which stops at five). L1 6 alone does not, because `gibbon_seven` and `frederick_fifth_seven` share it.
 
 ## Strand A tables (data/strand_a/)
 
