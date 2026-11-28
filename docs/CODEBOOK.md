@@ -1,6 +1,6 @@
 # Codebook
 
-Version 0.4, 28 November 2026: the strand tables merged into `works.csv`, which is now the single source (section "works.csv" rewritten); slot cells may hold two ordinals; `other` and `barons_sixth_variant` listed. Version 0.3, 27 November 2026: `german_seven` renamed `frederick_fifth_seven`, `gibbon_seven` added. Version 0.2 of 10 November (fields for the search protocol); version 0.1 of 8 November, with the Wikipedia section added the same day.
+Version 0.5, 28 November 2026 (evening): `nine_B7` added; the Strand D2 tables (`data/strand_d2/`) and their attribute fields described; reason kinds listed, with `attribution` and `explanation`; country code `CA`. Version 0.4, 28 November 2026: the strand tables merged into `works.csv`, which is now the single source (section "works.csv" rewritten); slot cells may hold two ordinals; `other` and `barons_sixth_variant` listed. Version 0.3, 27 November 2026: `german_seven` renamed `frederick_fifth_seven`, `gibbon_seven` added. Version 0.2 of 10 November (fields for the search protocol); version 0.1 of 8 November, with the Wikipedia section added the same day.
 
 ## expeditions.csv
 
@@ -126,6 +126,7 @@ Modern eight = fourth 1202–04; fifth 1217–21 (Andrew of Hungary and/or Damie
 | `moreri_eight_variant` | Moréri slots with a different sixth | Saint-Allais 1816 (sixth = 1217) |
 | `nine_F7` | H6 4, C 5, D 6, F 7, L1 8, L2 9 | Rees c. 1808 |
 | `nine_H6` | Henry VI fourth, running to nine | Cox 1874, EB9 |
+| `nine_B7` | C 4, D 5, F 6, B 7, L1 8, L2 9 (the modern eight with the Barons' crusade seventh) | Universal Self-Instructor 1882, Gay's 1891 |
 | `barons_sixth` | C 4, D 5, B 6, L1 7, L2 8 | Proctor, American Cyclopaedia |
 | `larousse_eight` | D 4, F 5, B 6, L1 7, L2 8 (C unnumbered) | Larousse 1869 |
 | `german_six` | D 4, F 5, L1 6 | Brockhaus 1837, Americana 1830 |
@@ -150,6 +151,40 @@ A row that stops short of the full scheme takes a family code only when its numb
 `not_reached.csv`: works and editions in the frame not yet read, with the reason.
 
 `data/search_log.csv`: one row per search (date, corpus, query, date filter, hits, hits examined, works added, searcher). Negative searches stay in.
+
+## Strand D2 tables (data/strand_d2/)
+
+English print 1800–1945. Protocol: `notes/strand-d2-protocol.md` (with its amendments). The new fields live here, not in `works.csv`, until the author decides otherwise.
+
+`frame.csv`: the census frame. `frame_id` (R reference, S school, P popular, H scholarly, C church and national), `frame`, `country`, `genre`, `author`, `title`, `editions_targeted`, `existing_work_ids`, `status` (`to_read`, `read`, `partial`, `not_reached`, `merged`), `notes` (`added_during_reading` for targets found while reading).
+
+`attributes.csv`: one row per English row of `works.csv`, keyed by `work_id`.
+
+| Field | Values |
+|---|---|
+| `frame_id` | The frame target the row answers; blank if found outside the frame |
+| `country_pub` | England, Scotland, Ireland, US, Canada (place of the imprint read) |
+| `author_origin` | The author's country, where known |
+| `fourth_identity` | `H6`, `C`, `both`, `none`, `other`; blank if not read (protocol rule 2) |
+| `fifth_identity` | `C`, `D`, `D+F`, `F`, `none`, `other`; blank if not read |
+| `edward_status` | `absent`, `named_unnumbered`, `inside_last`, `ninth_with_tunis`, `ninth_alone`, `other_number`, `last_unnumbered`; blank if not read (protocol rule 3) |
+| `ninth_referent` | `tunis`, `tunis+edward`, `edward`, `other` (say what in `notes`), blank |
+| `gibbon_cited` | `none`, `footnote`, `bibliography`, `named_in_text`, `quoted`, `preface`, combinations joined by `;`, `unchecked` (protocol rule 5) |
+| `gibbon_edition` | The edition cited, or `unspecified` |
+| `gibbon_numbers` | Computed: `all`, `some` or `none` of the row's C, D, L1, L2 slots agree with Gibbon's (C 4, D 5, L1 6, L2 7); blank if the row has none of them |
+| `sources_named` | Modern authorities named, `;`-separated (protocol rule 6) |
+| `numbers_follow` | `moreri`, `michaud_mills`, `gibbon`, `german`, `french_school`, `modern`, `own`, `unclear`, then `;documented` or `;inferred` |
+| `checked_on`, `notes` | Date; "derived from slots; not re-read in D2" marks the 44 derived legacy rows |
+
+Derived tables, written by `scripts/d2_analyses.py` (do not edit): `fourth_by_decade.csv`, `fourth_pivot.csv` (decade by genre, with the H6 share of decided rows), `fourth_series.csv` (edition by edition for the main series), `gibbon_table.csv`, `edward_timeline.csv`, `edward_firsts.csv`, `conversation_edges.csv` (`numbers_vs_cited`: `agrees`, `partly agrees`, `disagrees`, `no shared slot`), `national.csv`.
+
+Hand-built records: `census_archiveorg_titles.csv` (archive.org items titled crusade(s)/crusaders, 1800–1945, merged by work: `first_year`, `last_year`, `copies`, `author`, `title`, `identifier`, `kind`, `status`, `work_id`) and `ninth_crusade_hits_by_work.csv` (every "ninth crusade" item to 1945 grouped by work: `referent` = `L2+E`, `L2`, `L1`, `E`, `B`, `G10` (Gregory X's projected crusade), `post-1272`, `other`, `list`, `metaphor`, `modern`, `mixed`, `unclear`; `basis` = `context` (read around the phrase) or `classifier`).
+
+`country`: `CA` (Canada) added 28 November 2026 beside `GB`, `US`, `IE` and the others.
+
+## reasons/reasons.csv: kind
+
+`statement_of_custom`, `correction`, `exclusion`, `inclusion_note`, `disclaimer`, `convenience`, `continuity`, `rejection`, `silent_inclusion`, `silent_exclusion`, `alternative_reckoning` (a work names another count beside its own: Chepmell 1857, Adams 1883), `attribution` (names the source of a count: Bouchitté 1836), `explanation` (explains why a count runs as it does: Barker 1911, Procter).
 
 ## Work note template (notes/works/<work_id>.md)
 

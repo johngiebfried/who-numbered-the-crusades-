@@ -15,3 +15,74 @@ citing_work_id,cited,relation,evidence,confidence
 1861-victor-duruy,Bouillet,same publisher (Hachette); same list,No citation in Duruy,inferred
 1849-wilhelm-putz,Gibbon,same seven with F for D,No citation checked,untested
 sb-1836-bouchitte-manuel,"Desmichels, Précis de l'histoire du moyen âge (sb-1827-desmichels-precis; edition not stated)",adopts its division of the crusades,"Footnote 1, second pagination p. 158 (page image viewed): 'Nous avons adopté la division des croisades indiquée dans le Précis d'histoire du moyen-âge de M. Desmichels.'",documented
+1820-charles-mills,Gibbon,criticizes coverage in preface,"Preface: Gibbon's sketches 'principally taken from Vertot ... and from Mailly'; 'The fourth, sixth, and seventh Crusades are altogether unnoticed by Mr. Gibbon'",documented
+1820-charles-mills,Sharon Turner,praises in preface,'the only author who appears to have justly appreciated the subject',documented
+1820-charles-mills,Michaud,names,1820 and 1828 text layers,documented
+1865-walter-c-perry,Michaud,chiefly based on (preface),"Preface, New York printing",documented
+1865-walter-c-perry,Wilken,names as a principal history (preface),Preface,documented
+1865-walter-c-perry,Gibbon,follows for the Fifth Crusade (1202-04) (preface),'For the Fifth Crusade no other writer can take the place of Gibbon',documented
+1865-walter-c-perry,Milman,freely used (preface),Preface,documented
+1865-walter-c-perry,Heeren,freely used (preface),Preface,documented
+1865-walter-c-perry,Mills,names,9 mentions in the text layer,documented
+1877-eb9-crusades,Gibbon,lists in bibliography,"US reprint, vol. 6",documented
+1877-eb9-crusades,Michaud,lists in bibliography,"US reprint, vol. 6",documented
+1877-eb9-crusades,Mills,lists in bibliography,"US reprint, vol. 6",documented
+1911-ernest-barker,1842-george-proctor,echoes footnote on why crusades were numbered,"Procter: 'dignified the abortive result with the title of the Fourth Crusade' ... occasions 'such as the loss of Edessa or Jerusalem'; Barker: 'dignified by numbers when they followed some crushing disaster - the loss of Edessa in 1144, or the fall of Jerusalem in 1187'. Under eight consecutive words: not copying by rule 4",inferred
+sd2-1830-james-chivalry,Mills,cites,38 mentions in the text layer,documented
+sd2-1830-james-chivalry,Vertot,cites,21 mentions in the text layer,documented
+sd2-1853-bloss-heroines,Mills,names,6 mentions in the text layer,documented
+sd2-1849-sargent-sketches,Gibbon,quotes,'Gibbon declares that ...',documented
+sd2-1849-sargent-sketches,Mills,names,2 mentions,documented
+sd2-1897-conder-latin-kingdom,Gibbon,lists in bibliography,'Gibbon's History of the Crusades',documented
+sd2-1897-conder-latin-kingdom,Michaud,lists in bibliography,'Michaud's Histoire des Croisades. Edit. 1877',documented
+sd2-1818-hallam-middle-ages,Gibbon,assesses in note on authorities,"'Gibbon's two chapters on the crusades, though not without inaccuracies, are a brilliant portion'",documented
+1885-edwin-pears,Riant,principal authority,14 mentions in the text layer,documented
+1896-j-m-ludlow,1885-edwin-pears,quotes on the fourth crusade,'The crime of the fourth crusade handed over Constantinople and the Balkan peninsula to six centuries of barbarism',documented
+1896-j-m-ludlow,Gibbon,lists in bibliography; quotes,"Bibliography: London, 1776-81, 6 vols.",documented
+1894-j-i-mombert,Gibbon,names as counselor (preface),"'Gibbon, Heeren, Milman, Guizot, and Ranke as my chosen counselors'",documented
+sd2-1868-students-gibbon,1788-edward-gibbon,abridges,Title and text,documented
+sd2-1904-historians-history-v8,1820-charles-mills,reprints extracts,"'the successes of the savage Khwarizmians, gave birth to the Eighth Crusade. Pope Innocent IV convoked' (Mills: 'Korasmians')",documented
+sd2-1904-historians-history-v8,1877-eb9-crusades,outline of the Fourth follows,Knights of St John in 1193; Celestine III's hopes of Henry VI,inferred
+sd2-1929-eb14-crusades,1911-ernest-barker,revises,"Same article, revised",documented
+sd2-1883-swinton-canadian,1877-eb9-crusades,copies wording on the Fourth,'an enterprise set on foot by the Knights of St. John' (EB9: 'an enterprise set on foot by the knights of St John'),documented
+sd2-1884-boyce-introduction,1874-george-w-cox,lists in reading list,"'... the Crusades, small (Longman & Co.)'",documented
+sd2-1882-universal-self-instructor,sd2-1862-townsend-manual-dates,shares error and wording,"'Edward, Prince of Wales' with the ninth; 'Germans and Hungarians'",documented
+sd2-1891-gays-circle,sd2-1882-universal-self-instructor,copies entries,Same entries and error,documented
+sd2-1892-atlas-chronology,sd2-1882-universal-self-instructor,copies entries,"'Barons' War ... Ninth Crusade, by Louis IX. and Edward, Prince of Wales'",documented
+sd2-1854-willson-outlines,sd2-1830-james-chivalry,"echoes sentence, renumbered","'The fourth crusade ended without producing any benefit to Palestine' / 'THE fifth crusade had ended, as we have seen, without producing any other benefit to Palestine'",inferred
+sd2-1854-willson-outlines,Gibbon,cites in footnotes,"'Gibbon, iv. 116-133'",documented
+sd2-1857-chepmell-short-course,Gibbon,names in preface,'the country which has produced Gibbon and Hallam',documented
+sd2-1894-smith-historical-geography,Gibbon,lists in reading list,"'On the Crusades generally, cf. Gibbon'",documented
+sd2-1894-smith-historical-geography,1874-george-w-cox,lists in reading list,'Cox's little manual in the Epochs of History',documented
+sd2-1897-desmond-mooted,Cox,names,2 mentions in the text layer,documented
+sd2-1917-webster-early-european,Gibbon,lists in bibliography,'edited by J. B. Bury',documented
+sd2-1920-breasted-robinson,Gibbon,lists in additional reading,'chaps. lviii-lix',documented
+sd2-1874-gilman-first-steps,Proctor,names,1 mention in the text layer,documented
+sd2-1887-cox-concise-england,1874-george-w-cox,same author,Cox's own count,documented
+sd2-1921-colliers-new,sa-1830-americana,copies wording,"'The fourth crusade was conducted by the king of Hungary, Andrew II., in 1217'",documented
+sd2-1917-nelsons-perpetual,Gibbon,bibliography,'See Gibbon's Decline and Fall of the Roman Empire (1776-88)',documented
+sd2-1917-nelsons-perpetual,1874-george-w-cox,bibliography,Cox named 8 times near 'crusade',documented
+sd2-1860-mosheim-reid,Gibbon,cites in footnote,"'The English reader may consult Gibbon's Decline and Fall, chap. lviii. lix.'",documented
+sd2-1853-hardwick-middle-age,Gibbon,cites in footnote,"'Gibbon, ch. lviii'; 'Gibbon, v. 283 sq., ed. Milman'",documented
+sd2-1853-hardwick-middle-age,Michaud,cites in footnote,"'Michaud, Hist. des Croisades'",documented
+sd2-1853-hardwick-middle-age,Wilken,cites in footnote,"'Wilken, Gesch. der Kreuzzüge'",documented
+sd2-1859-students-hume,sd2-1868-students-gibbon,same publisher or series,"'The history of the Crusades is narrated in the Student's Gibbon, p. 545, seq.'",documented
+sd2-1917-paetow-guide,Röhricht,bibliography,"'Studien zur Geschichte des fünften Kreuzzuges, Innsbruck, 1891' under 'Fifth crusade'",documented
+sd2-1917-paetow-guide,1896-dana-c-munro,bibliography,"'vol. III, no. 1, ""The fourth crusade""'",documented
+sd2-1921-krey-first-crusade,Gibbon,cites in footnote,'Decline and Fall ... Chapters LVIII-LXI',documented
+sd2-1850-rts-crusades,Gibbon,cites in footnote; quotes,"'Gibbon's Decline and Fall of the Roman Empire, vol. xi p. 131'",documented
+sd2-1882-schaff-religious-encyclopedia,Michaud,bibliography,named near 'crusade',documented
+sd2-1882-schaff-religious-encyclopedia,Mills,bibliography,named near 'crusade',documented
+sd2-1882-schaff-religious-encyclopedia,Kugler,bibliography,named near 'crusade',documented
+sd2-1926-cmh-v5,Gibbon,cites,"'Gibbon, on economic effects of the Crusades' (index)",documented
+sd2-1883-haydn-harper,sd2-1866-haydn-moxon,same publisher or series,"Same entry, revised",documented
+sd2-1854-newman-turks,Gibbon,cites in footnote,'* Gibbon.' (10 notes),documented
+sd2-1883-adams-wars-of-cross,Gibbon,quotes,"'the Temple, as Gibbon aptly calls it, of the Christian world'",documented
+sd2-1927-newhall-crusades,Gibbon,cites,'The historian Gibbon has likened the Emperor Alexius to a Hindu peasant',documented
+sd2-1927-newhall-crusades,1911-ernest-barker,bibliography,Barker named,documented
+sd2-1927-newhall-crusades,1908-louis-brehier,bibliography,Bréhier named 3 times,documented
+sd2-1869-gibbon-crusades-extract,1788-edward-gibbon,reprints,chapters 57-61,documented
+sd2-1897-conder-latin-kingdom,sd2-1869-gibbon-crusades-extract,bibliography,'Gibbon's History of the Crusades' (a separate printing of the chapters; which one not stated),inferred
+sd2-1872-collier-outlines-toronto,sd-1860-collier-great-events,same author,Same count,inferred
+sd2-1889-myers-general-history,1885-edwin-pears,bibliography,"'Pears, E., The Fall of Constantinople (the best account'",documented
+sd2-1940-langer-encyclopedia,1883-carl-ploetz,revision of,Langer's Encyclopedia was prepared as the successor to Ploetz's Epitome,documented

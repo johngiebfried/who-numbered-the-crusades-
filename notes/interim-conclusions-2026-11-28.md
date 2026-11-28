@@ -1,6 +1,6 @@
 # Who Numbered the Crusades? Interim conclusions
 
-28 November 2026. Status report on the project as of commit `86789f8` (branch `window-1820-23`, PR #5). It draws on the 2022 manuscript, every findings note in `notes/findings/` and the Claude project, the research and decisions logs, the earlier conversations in the project, and the data in `data/`. It replaces no earlier note; it is the place to start.
+28 November 2026. Status report on the project as of commit `86789f8` (branch `window-1820-23`, PR #5). It draws on the 2022 manuscript, every findings note in `notes/findings/` and the Claude project, the research and decisions logs, the earlier conversations in the project, and the data in `data/`. It replaces no earlier note; it is the place to start. Updated the evening of 28 November with the English pass, Strand D2 (`notes/findings/2026-11-strand-d2-english.md`, branch `strand-d2-english`): sections 1, 7.9, 7.13, 8.5, 8.7 and 9.3.
 
 **Evidence grades used throughout.** **Firm**: read at full text, wording quoted, edition identified, and where it matters more than one witness. **Probable**: the reading is sound but one link is inference or one document is unread. **Provisional**: read only in OCR search hits or snippets, or from one witness whose title page is unchecked. **Open**: not researched, or researched without result. Every claim of priority below means "attested in," never "invented by."
 
@@ -28,7 +28,7 @@ The modern one-to-eight sequence of crusades (1202–04 fourth, Damietta fifth, 
 
 The eight was not made from nothing. Its total, eight crusades with Tunis "huitième et dernière," is a dictionary convention reaching back to Moréri (by 1689) and Basnage's Furetière (1701). Its fourth to seventh slots are printed in Christoph Wilhelm Koch's *Tableau des révolutions de l'Europe* (1771), which counts "proprement sept." Desmichels's scheme is Koch's seven plus the dictionaries' numbered eighth.
 
-Outside France the eight was imported, late and unevenly. English had no count of its own and carried at least five imported ones side by side until Bréhier's *Catholic Encyclopedia* article (1908) and Barker's Britannica article (1911) fixed the French eight in English reference books. German schoolbooks kept a Frederick-fifth seven from 1834 to at least 1860, and German Wikipedia still does; that seven is itself attested first in Paris, in Desmichels's 1820 outline. Wikipedia's first English article (2001) carries Bréhier's dates.
+Outside France the eight was imported, late and unevenly. English carried at least five imported counts side by side, and combined their slots into two nines of its own, until Bréhier's *Catholic Encyclopedia* article (1908) and Barker's Britannica article (1911) fixed the French eight in English reference books. In English the 1202–04 fourth was always the majority; the Henry VI fourth was a counter-current in a few long-lived series that died out, and Barker ended it in the Britannica after its decline. German schoolbooks kept a Frederick-fifth seven from 1834 to at least 1860, and German Wikipedia still does; that seven is itself attested first in Paris, in Desmichels's 1820 outline. Wikipedia's first English article (2001) carries Bréhier's dates.
 
 The 2022 paper's answer (Mombert, 1894, perhaps a "simultaneous creation" of English popular historians) fails by seventy-two years and by a country. Its central moral survives in a sharper form: the numbers were made by people who wrote for students and general readers, not by crusade historians, who received the numbers and then spent a century disowning them.
 
@@ -330,18 +330,25 @@ The French chain runs: Koch (1771) and the dictionary tradition → Desmichels (
 
 One flagged pattern: Bouchitté's manual (1836), the fourth edition of Desmichels's *Précis* (1834), Saigey's Koch-type chronology (1834), Bouillet's dictionary (1842) and Duruy's *Histoire du moyen âge* (1861) are all Hachette books. The modern eight was in Hachette's school list by 1834–36, and the *Complément*'s first director was a professor at Bouillet's collège. The route from the textbooks to Bouillet is short, but it is not documented.
 
-### 7.9 English had no count of its own and imported five. **Firm** for the pattern; individual rows mostly provisional.
+### 7.9 English imported five counts and combined them into two nines of its own. **Firm** for the pattern (Strand D2 full-text pass); individual rows mixed.
 
 Until about 1910 English books carried, side by side:
 - the **Moréri eight** from the French dictionaries (Chambers 1728; Britannica 1st–8th eds. to 1854; Haydn's *Dictionary of Dates* to 1910; W. F. Collier's Nelson school text c. 1860, copied into an American home-study course in 1909);
-- the **Michaud/Mills nine** (Mills 1820, with Henry VI fourth and "the Last Crusade" for Tunis and Edward; Mackay 1841; Milner 1847; Perry; Cox 1874; Britannica 9th ed. 1877);
-- **Gibbon's seven** (in the universities: Tout 1899);
-- the **German seven** by way of Brockhaus and translated German manuals (Encyclopaedia Americana 1830s–1953; Chambers's 1868–1926; Weber 1853; Ploetz 1883; Schaff 1907–67);
+- the **Michaud/Mills line** (Mills 1820, with Henry VI fourth and "the Last Crusade" for Tunis and Edward, an eight; then the nine of Townsend 1862, Perry 1865, Cox 1874 and the Britannica 9th ed. 1877, whose ninth holds Tunis and Edward and is first attested in Russell's *Palestine*, 1831; Mackay 1841 counts ten; Milner 1847 has Rees's nine with Frederick seventh);
+- **Gibbon's seven** (Chepmell 1857, the Student's Gibbon 1868, Gilbert's *The World* 1882, Tout 1898);
+- the **German counts**: the six of Brockhaus (Americana 1830, Collier's 1921) and the Frederick-fifth seven, first in English in Stebbing (Edinburgh, 1830), then the Penny Cyclopaedia 1837, Chambers's 1868–1926, Ploetz in translation 1883–1905 and Fisher 1885, the Americana from 1918, Schaff 1907–67;
 - the **modern eight**, entering through French schoolbooks in translation.
 
-The earliest English modern eight found is Greene's *History and Geography of the Middle Ages* (New York: Appleton, 1851), whose preface says it is taken from "a popular French work" with the sanction of the University; the text is Ambroise Rendu's part of Ansart and Rendu, translated ("The fifth and sixth crusades began in Germany"). The earliest British one is Beale's *Student's Textbook* (London, 1858), source unknown. Tainsh (1875), Gazeau (1878, a French Catholic textbook in translation), Steele (1883), Myers (1885, noting that counting Henry VI makes nine), the 1891 translation of Duruy, Mombert (1894) and Ludlow (1896) follow.
+The earliest English modern eight found is Greene's *History and Geography of the Middle Ages* (New York: Appleton, 1851), whose preface says it is taken from "a popular French work" with the sanction of the University; the text is Ambroise Rendu's part of Ansart and Rendu, translated ("The fifth and sixth crusades began in Germany"). The earliest British ones are Beale's *Student's Textbook* (London, 1858) and James White's *Eighteen Christian Centuries* (Edinburgh, 1858), sources unknown. Tainsh (1875), Gazeau (1878, a French Catholic textbook in translation), Steele (1883), Myers (1885, noting that counting Henry VI makes nine), the 1891 translation of Duruy, Mombert (1894) and Ludlow (1896) follow.
 
 Schools led and reference works lagged. American and British school texts had the eight from the 1850s; the major encyclopedias kept older schemes until Bréhier's *Catholic Encyclopedia* article (1908) and Barker's Britannica article (1911, reprinted to 1962). The *New International Encyclopaedia* (1917) still says only "the first four Crusades" carry numbers "by unanimous consent." The last Henry VI fourth found in English is an anti-Catholic tract of 1915; the German-derived seven outlasted it by half a century (Americana to 1953; Schaff's reprints to 1967).
+
+**Strand D2 (evening of 28 November)** read 184 English rows of 1788–1945 at full text or derived them from their slots, with full-text counts beside them. What it adds:
+
+- *The Fourth did not move; its rival died out.* In archive.org full text the 1202–04 fourth is the large majority in every decade; the Henry VI share of decided items peaks at 0.25 (1810s) and 0.19 (1850s, 1870s) and is 0.05 or less from the 1890s. The Henry VI fourth lived in a few series (Britannica 2nd–9th eds. and US reprints to 1902; Haydn 1866–1910; Mills and the Historians' History 1904–09; Robson's Michaud to 1900; Cox to 1901; Nelson's Collier; American Catholic schoolbooks). Only two series changed their fourth: the Britannica toward 1202–04 with Barker (1910–11), and Swinton toward Henry VI in his Canadian revision (1883), copied from EB9. Scholars (Hallam, Procter, Pears, Stubbs, Archer, Munro) and most schoolbooks wrote 1202–04 throughout. Barker canonized the outcome; he did not cause it.
+- *Gibbon was cited, not followed.* Of 42 rows that name him where it counts, 16 agree on every shared slot, mostly C 4 and D 5, which the modern eight shares. His sixth and seventh survive in a handful (Chepmell, the Student's Gibbon, Murray's 1869 printing of the chapters, Gilbert, Turner, Mosheim in Reid's edition).
+- *The Ninth had six referents before 1945*: Tunis with Edward (Russell 1831 to county atlases of 1936 and Newman's *Manual* to 1937), Tunis alone, Louis IX's first crusade (Mackay, W. C. Taylor, G. A. Smith, Blyth, the *Daily Express Encyclopaedia* 1934), Thibaut (the Americana table), Gregory X's projected crusade of 1274, and Edward alone. The Edward-alone ninth is attested from Masonic lore (1857, 1872), Lupton (1883), G. W. Cox's *Concise History of England* (1887), the EETS *Godeffroy* (1893) and Parry (1920): English writers telling Edward's story kept the ninth after the count that produced it had gone. The modern split (Tunis eighth, Edward ninth) was not found before 1945.
+- *National differences.* American reference works had the 1202–04 fourth by 1873, a generation before the Britannica; Canadian printings (Haydn, Collier, Swinton revised) kept the Henry VI fourth longest; Edinburgh firms printed both the old reference counts and three of the new ones early.
 
 ### 7.10 Germany kept a Frederick-fifth seven, which is not German in origin. **Firm** for the German schoolbooks; **probable** for the origin.
 
@@ -361,7 +368,7 @@ Of 28 explicit statements collected, those before 1900 report custom ("on compte
 
 ### 7.13 Specialists stopped at five; general usage did not. **Probable.**
 
-The stop after the Fifth is a specialists' habit, visible in descriptive chapter titles (Setton's *History*, vol. 2, 1962: "The Crusade of Frederick II," "The Crusades of Louis IX") and in Mayer's verdict. In general print there is no fall: in archive.org document counts, "Sixth Crusade" per "Fifth Crusade" drifts from 0.88 in the 1840s to 0.56 in the 2010s, while "Seventh Crusade" per "Fifth" rises from 0.32 to 0.81. The paper's "consensus since Runciman" holds for monographs and is the wrong description of usage at large.
+The stop after the Fifth is a specialists' habit, older than the paper thought: Oman (1898), Myers's *General History* (1889), Previté-Orton (1916; also 1937), Paetow (1917) and the *Cambridge Medieval History* (1926) number to the Fifth and then name by leader (Strand D2). It is visible later in descriptive chapter titles (Setton's *History*, vol. 2, 1962: "The Crusade of Frederick II," "The Crusades of Louis IX") and in Mayer's verdict. In general print there is no fall: in archive.org document counts, "Sixth Crusade" per "Fifth Crusade" drifts from 0.88 in the 1840s to 0.56 in the 2010s, while "Seventh Crusade" per "Fifth" rises from 0.32 to 0.81. The paper's "consensus since Runciman" holds for monographs and is the wrong description of usage at large.
 
 ### 7.14 Wikipedia inherited Bréhier's French eight and then went to nine and back. **Firm.**
 
@@ -407,10 +414,10 @@ Nothing read explains it. Candidate explanations, none tested: the 1821 split of
 - 71 rows are snippet-level, among them the whole Italian, Spanish, Greek and Dutch evidence and many legacy rows. 184 of 224 rows have no title-page check.
 - No second coder has checked any row; the protocol requires one on the bracket rows and a 10% sample of the panel.
 - Some quotations from the 13 November agent run passed through a summarizer (the *Petit Larousse* "quote" is a paraphrase of noisy OCR); the *Grande encyclopédie* year is recalled.
-- Two Edward cells are in conflict: EB9 (1877; the full-text read leaves Edward out of the ninth, the paper's table put him in) and Barker (1911; kept in the eighth, unconfirmed). See `data/reconciliation/conflicts.csv`.
+- The two Edward conflicts are resolved (Strand D2): EB9 (1877) puts Edward in the ninth with Tunis; Barker (1911; the 1923 book reprints the article) names Edward's expedition and excludes it from the numbering (`r29`). See `data/reconciliation/conflicts.csv`.
 - Kurts's sixth (1860) rests on OCR broken across columns.
 - Several rows are coded from translations (Koch via Crichton 1839; Duruy 1891) and are not evidence for the original's numbering.
-- 65 rows have no genre code and 18 enumerating rows have no slots.
+- 65 rows have no genre code and 22 enumerating rows have no slots (four of them Strand D2 rows whose ninth names no slot).
 - Legacy rows carry slots but no family code, so family counts in section 6 cover only protocol rows.
 
 ### 8.6 What the corpus can and cannot support
@@ -421,7 +428,7 @@ The early review rows came from string searches, which find only books that numb
 
 - Whether Saigey of Bouchitté's team is the J.-F. Saigey of the Koch-type *Traité de métrologie* (1834).
 - The source of the Stein atlas's five-count.
-- The Crimean War as a trigger for English reprinting: untested, and it cannot explain the origin (Bouillet is 1842, the war 1853–56).
+- The Crimean War as a trigger for English reprinting: tested in Strand D2. A cluster of English crusade titles falls in 1852–56 and the war was called "a sort of ninth Crusade" in 1855, but the books reprinted carry older counts. It explains reprinting, not numbering, and cannot explain the origin (Bouillet is 1842, the war 1853–56).
 - Barker as Smail's doctoral supervisor: unconfirmed.
 - Wikipedia coding: whether navigation boxes or main articles are authoritative, and whether asides ("sometimes counted as the Ninth") count. Both await the author's decision. The Library of Congress subject headings are unread, and the deleted English "Tenth Crusade" text cannot be checked without an administrator.
 
@@ -453,7 +460,7 @@ The early review rows came from string searches, which find only books that numb
 - **The Hachette hypothesis**: test whether Bouillet took the eight from his publisher's school list.
 - **Germany**: Strand A German (Brockhaus, Pierer, Meyer, Ersch-Gruber) at full text; a systematic schoolbook frame from GEI-Digital; the Catholic-before-Protestant prediction by confession.
 - **Italy**: Cantù's Turin editions of 1847–51 to date his switch.
-- **English**: Beale's source; British school texts 1859–1911; Chambers's 1950s and the Americana after 1953; LCSH by hand.
+- **English**: Beale's and White's sources; the Strand D2 leftovers (reference volumes missed by the headword search, the December 1917 "ninth crusade" cluster, Irish school books, EB 1938/1944 lending copies; `notes/findings/2026-11-strand-d2-english.md`, sections 10–11); Chambers's 1950s and the Americana after 1953; LCSH by hand.
 - **The fall**: Runciman vol. 3, Setton vol. 2, Grousset and Mayer read directly; current French usage, where Balard and Richard still number to eight.
 - **Tier 3 and 4 languages** (Portuguese, Scandinavian, Polish, Czech, Hungarian, Russian, Catalan, Latin school texts; then Romanian, Croatian and Serbian, Ottoman Turkish and Arabic) as a check on whether the western numbers were adopted wholesale, as Wikipedia suggests.
 - **Text reuse**: detection across the collected entries, to replace inferred stemma links with documented ones.

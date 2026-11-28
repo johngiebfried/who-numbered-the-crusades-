@@ -1,0 +1,73 @@
+first_year,last_year,copies,author,title,identifier,kind,status,work_id
+1800,1800,1,Kingdom,"The crusaders, or, the siege of Acre (play)",crusadersorsiege0000king,other,out of scope,
+1800,1800,1,Religious Tract Society,The Crusades,crusades00britgoog,narrative,read,sd2-1850-rts-crusades
+1800,1800,1,,The Crusades,crusades00londuoft,narrative,not read,
+1820,1844,22,Mills,"The History of the Crusades, for the Recovery and Possession of the Holy Land",historyofcrusade02milluoft,narrative,read,1820-charles-mills
+1820,1820,1,Rutebeuf,The Crusaders,nby_544595,other,out of scope,
+1826,1833,5,Sismondi,History of the Crusades against the Albigenses,historyofcrusade00sism,other,out of scope,
+1827,1827,1,Oakeley,The Influence of the Crusades upon the Arts and Literature of Europe,TheInfluenceOfTheCrusades,essay,not read,
+1829,1830,6,Stebbing,The History of Chivalry and the Crusades,historychivalry00stebgoog,narrative,read,sd2-1830-stebbing-chivalry
+1831,1831,1,Vahram,Vahram's Chronicle of the Armenian Kingdom in Cilicia,vahramschronicle00vahrrich,sources,out of scope,
+1834,1859,4,Keightley,"The Crusaders; or, Scenes, Events, and Characters",crusadersorscen00keiggoog,narrative,read,sd2-1834-keightley-crusaders
+1837,1930,9,Sybel,The History and Literature of the Crusades (tr. 1861),historyliteratur00sybe,scholarship,not read,
+1839,1839,1,Michaud,"History of the Crusades, Abridged (modern generated translation)",history-of-the-crusades-abridged-j.-f.-michaud,excluded,excluded,
+1840,1840,1,Perry,History of the Crusades,historyofcrusade00perr,narrative,read,1865-walter-c-perry
+1848,1908,8,Giles; Joinville; Richard of Devizes,Chronicles of the Crusades,chroniclesofcrus00gile,sources,out of scope,
+1848,1848,1,Lamping,Crusades in Africa,crusadesinafric,other,out of scope,
+1849,1860,3,Sargent,Sketches of the Crusades,sketchescrusade01sarggoog,narrative,read,sd2-1849-sargent-sketches
+1849,1850,2,Dansey,The English Crusaders,englishcrusaders00dansuoft,narrative,read,sd2-1849-dansey-english-crusaders
+1851,1851,6,Finlay,The History of Greece from its Conquest by the Crusaders,historyofgreecef00finl,scholarship,not read,
+1852,1900,30,Michaud; tr. Robson,History of the Crusades,historycrusades00michgoog,narrative,read,1852-michaud-trans-william-robson
+1852,1853,5,Bloss,Heroines of the Crusades,heroinesofcrusad00blosiala,narrative,read,sd2-1853-bloss-heroines
+1853,1872,4,Browne,"Yusef; or, The Journey of the Frangi (travel)",yuseforjourneyf00browgoog,other,out of scope,
+1853,1853,1,Herbert,The Chevaliers of France,cavaliersengland53herbrich,other,out of scope,
+1854,1889,6,Procter,"History of the Crusades: Their Rise, Progress, and Results",historycrusades00procgoog,narrative,read,1842-george-proctor
+1854,1856,10,Busk,"Mediaeval Popes, Emperors, Kings, and Crusaders",medivalpopesem01buskuoft,narrative,not read,
+1854,1854,1,Rule,The Third Crusade,TheThirdCrusade,narrative,not read,
+1859,1859,2,Ditson,The Crescent and French Crusaders,crescentandfren00distgoog,other,out of scope,
+1860,1860,4,Edgar,The Crusades and the Crusaders,crusadesandcrus00edgagoog,narrative,read,sd2-1860-edgar-crusaders
+1869,1869,2,Hutton,Heroes of the Crusades,heroescrusades01huttgoog,juvenile,read,sd2-1869-hutton-heroes
+1869,1870,3,Gibbon,The Crusades (chapters 57-61),crusadesad00gibbgoog,narrative,read,sd2-1869-gibbon-crusades-extract
+1870,1898,7,Gray,The Children's Crusade,childrenscrusade0000geor,narrative,not read,
+1870,1870,2,Forge,Richard the First and the Third Crusade (from the French),richardfirstand00richgoog,juvenile,not read,
+1870,1901,13,Cox,The Crusades (Epochs of History),crusades01coxg,narrative,read,1874-george-w-cox
+1876,1876,1,Procter,"Fighting their Way; or, The History of the Crusades",fightingtheirwa00procgoog,narrative,read,1842-george-proctor
+1878,1890,3,Raumer,Der erste Kreuzzug: The First Crusade (reader),dererstekreuzzu00raumgoog,other,out of scope,
+1880,1889,3,Gibbon,"Life and Letters of Edward Gibbon, with his History of the Crusades",lifelettersofedw00gibb,narrative,read,sd2-1869-gibbon-crusades-extract
+1881,1891,7,Michaud,The History of the Crusades (later printings),historyofcrusade0003jose,narrative,not read,
+1882,1882,1,Norton,The Crusaders,crusaders00nort,other,out of scope,
+1883,1883,1,Adams,"The Wars of the Cross; or, The History of the Crusades",warscrossorhist00adamgoog,narrative,read,sd2-1883-adams-wars-of-cross
+1885,1886,7,Pears,"The Fall of Constantinople, being the Story of the Fourth Crusade",fallofconstantin00pear,scholarship,read,1885-edwin-pears
+1888,1912,6,Archer,"The Crusade of Richard I, 1189-92",crusaderichardi00archgoog,sources,read,sd2-1888-archer-crusade-richard
+1890,1902,18,Archer and Kingsford,The Crusades: the Story of the Latin Kingdom of Jerusalem,crusadesstoryla00kinggoog,narrative,read,1894-t-a-archer-c-l-kingsford
+1892,1892,1,Boyd,Story of the Crusades,storyofcrusadesw00boyd,narrative,read,sd2-1892-boyd-story
+1894,1894,6,Mombert,A Short History of the Crusades,ashorthistorycr00mombgoog,narrative,read,1894-j-i-mombert
+1896,1914,10,Ludlow,The Age of the Crusades,agecrusades00ludlgoog,narrative,read,1896-j-m-ludlow
+1896,1907,3,Munro,The Fourth Crusade (Translations and Reprints),TheFourthCrusade,sources,read,1896-dana-c-munro
+1898,1906,5,Gray; Schwob; Pierne,The Children's Crusade,childrenscrusade00grayuoft,other,out of scope,
+1898,1901,2,Bramhall,The Temporal Privileges of Crusaders,temporalprivileg00bram,scholarship,not read,
+1901,1903,4,Munro,Urban and the Crusaders; Letters of the Crusaders; Essays on the Crusades,urbanandcrusade00munrgoog,sources,read,1896-dana-c-munro
+1903,1903,1,Clinton,A Study of the Crusades through Historical Novels,studyofcrusadest00clin,reference,read,sd2-1903-clinton-novels-list
+1907,1907,12,Stevenson,The Crusaders in the East,crusadersineastb00stevuoft,scholarship,read,1907-w-b-stevenson
+1908,1926,9,Villehardouin; Joinville; Marzials,Memoirs of the Crusades,memoircrusades00villuoft,sources,out of scope,
+1913,1913,2,Blyth,Jerusalem and the Crusades,jerusalemcrusade00blyt,juvenile,read,sd2-1913-blyth-jerusalem
+1913,1914,5,Whale; Stephens,From the Crusades to the French Revolution,fromcrusadestofr00whaluoft,other,out of scope,
+1921,1921,10,Krey,The First Crusade: The Accounts of Eye-witnesses and Participants,firstcrusadeacc00kreygoog,sources,read,sd2-1921-krey-first-crusade
+1921,1921,1,Stein,Our Little Crusader Cousin of Long Ago,ourlittlecrusade00stei_0,juvenile,read,sd2-1921-stein-little-crusader
+1925,1925,3,Wright,The Geographical Lore of the Time of the Crusades,geographicallore00wrig,scholarship,read,sd2-1925-wright-geographical-lore
+1925,1939,3,Barker,The Crusades,crusades0000unse_z2b9,narrative,read,1923-ernest-barker
+1927,1927,2,Newhall,The Crusades,crusades0000newh,scholarship,read,sd2-1927-newhall-crusades
+1928,1928,3,Paetow (ed.),The Crusades and Other Historical Essays presented to Dana C. Munro,crusadesotherhis0000loui,scholarship,not read,
+1929,1929,2,Hitti,An Arab-Syrian Gentleman and Warrior in the Period of the Crusades,arabsyriangentle00usma,sources,out of scope,
+1930,1945,30,Lamb,The Crusades: Iron Men and Saints; The Flame of Islam,crusadesironmens00lamb,narrative,read,sd2-1930-lamb-flame-islam
+1930,1930,1,Coulton,"Crusades, Commerce and Adventure",crusadescommerce0000ggco,narrative,read,sd2-1930-coulton-crusades-commerce
+1932,1932,4,Gibb,The Damascus Chronicle of the Crusades,damascuschronicl00harg,sources,out of scope,
+1934,1934,1,Atiya,The Crusade of Nicopolis,bwb_C0-ABV-933,scholarship,not read,
+1935,1935,1,Munro,The Kingdom of the Crusaders,kingdomofcrusade0000unse_a2t5,scholarship,read,1896-dana-c-munro
+1937,1937,2,Belloc,The Crusade: The World's Debate,crusadeworldsdeb0000bell,narrative,not read,
+1938,1938,3,Atiya,The Crusade in the Later Middle Ages,crusadeinlatermi0000aziz,scholarship,not read,
+1939,1939,2,,The Epic of the Crusades,epicofcrusades0000unse,narrative,not read,
+1939,1939,1,Waters Taylor,The Eighth Crusade (Palestine 1917-20; Berlin propaganda imprint),the_eighth_crusade,excluded,excluded,
+1939,1939,1,Siedschlag,English Participation in the Crusades 1150-1220,englishparticipa0000beat,scholarship,not read,
+1941,1941,4,McGinty; Hubert and La Monte,Fulcher of Chartres; The Crusade of Richard Lion-Heart,chronicleoffirst0000fouc,sources,out of scope,
+1943,1943,1,Halecki,The Crusade of Varna,crusadeofvarnadi0000hale,scholarship,not read,

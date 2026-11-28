@@ -2,6 +2,17 @@
 
 Newest first. Each entry: date, decision, reason.
 
+## 2026-11-28 (evening) — Strand D2, English print 1800–1945 (provisional, for the author to confirm)
+
+- **D2 fields stay out of `works.csv`.** `fourth_identity`, `fifth_identity`, `edward_status`, `ninth_referent`, `gibbon_cited`, `gibbon_edition`, `gibbon_numbers`, `sources_named`, `numbers_follow`, `country_pub` and `author_origin` live in `data/strand_d2/attributes.csv`, keyed by `work_id`, as the startup prompt asked. Whether they become columns is the author's call.
+- **New family `nine_B7`** (C 4, D 5, F 6, B 7, L1 8, L2 9): the cheap-chronology nine (Universal Self-Instructor 1882, Gay's 1891). Reason: neither `nine_H6` nor `nine_F7` fits a nine without Henry VI whose seventh is the Barons' crusade.
+- **New reason kind `explanation`** (Barker 1911 r29, Procter r31), and `alternative_reckoning` used for works that print another count beside their own (Chepmell r35, Adams r41).
+- **Derived attributes for 44 legacy English rows**, flagged in `notes`, so the D2 tables cover every English row; they are not a re-reading.
+- **Rows found through the ninth sweep are coded for the ninth only.** Their other attributes stay blank and count as `unknown` in the Fourth tables. A ninth naming Louis IX's first crusade or Gregory X's projected crusade is `ninth_referent` = `other`.
+- **Corrections.** `1865-walter-c-perry` is George Gresley Perry's book (the 1840-dated copy merged into it); Stebbing 1830 corrected from vol. 2; Mackay's ten coded L1 9, L2+E 10; the 1923 Barker reprint's E cleared as in EB11; the EB9 and Barker conflicts in `reconciliation/conflicts.csv` resolved; Bloss's unsupported F cleared; Edinburgh imprints that name London first recoded to Scotland; Lingard's Dublin printing to Ireland.
+- **Exclusions.** The DLI "New Columbia Encyclopedia" copies dated 1935 (the 1975 edition, from its CIP data) and a modern generated "Michaud abridged, 1839".
+- **Reprints.** A reprint gets its own row only if its text differs or it is the copy read for a country (Toronto, Halifax, New York and Philadelphia printings have rows; plain reprints are listed in `notes`).
+
 ## 2026-11-28 — Answer books (provisional, for the author to confirm)
 
 - **New reasons kind `attribution`.** A statement naming the source of a count or division ("Nous avons adopté la division des croisades indiquée dans le Précis ... de M. Desmichels", Bouchitté 1836, `r28`). It is not a reason for the count, but it is the strongest evidence of transmission, so it belongs in the same table.

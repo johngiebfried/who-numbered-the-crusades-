@@ -1,0 +1,218 @@
+phrase,decade,items_total,items_classified,referent,items
+"""fifth crusade""",1800s,27,27,?,20
+"""fifth crusade""",1800s,27,27,C,1
+"""fifth crusade""",1800s,27,27,D,4
+"""fifth crusade""",1800s,27,27,F,2
+"""fifth crusade""",1810s,28,28,?,21
+"""fifth crusade""",1810s,28,28,C,5
+"""fifth crusade""",1810s,28,28,C+D,1
+"""fifth crusade""",1810s,28,28,D,1
+"""fifth crusade""",1820s,106,100,?,79
+"""fifth crusade""",1820s,106,100,C,1
+"""fifth crusade""",1820s,106,100,C+D,1
+"""fifth crusade""",1820s,106,100,D,16
+"""fifth crusade""",1820s,106,100,D+F,3
+"""fifth crusade""",1830s,160,100,?,46
+"""fifth crusade""",1830s,160,100,C,15
+"""fifth crusade""",1830s,160,100,C+D,10
+"""fifth crusade""",1830s,160,100,C+F,1
+"""fifth crusade""",1830s,160,100,D,19
+"""fifth crusade""",1830s,160,100,D+F,6
+"""fifth crusade""",1830s,160,100,F,3
+"""fifth crusade""",1840s,170,100,?,62
+"""fifth crusade""",1840s,170,100,C,12
+"""fifth crusade""",1840s,170,100,C+D,1
+"""fifth crusade""",1840s,170,100,D,19
+"""fifth crusade""",1840s,170,100,D+F,4
+"""fifth crusade""",1840s,170,100,F,2
+"""fifth crusade""",1850s,336,100,?,57
+"""fifth crusade""",1850s,336,100,C,28
+"""fifth crusade""",1850s,336,100,C+F,1
+"""fifth crusade""",1850s,336,100,D,13
+"""fifth crusade""",1850s,336,100,F,1
+"""fifth crusade""",1860s,215,100,?,43
+"""fifth crusade""",1860s,215,100,C,13
+"""fifth crusade""",1860s,215,100,C+D,1
+"""fifth crusade""",1860s,215,100,C+D+F,5
+"""fifth crusade""",1860s,215,100,C+F,2
+"""fifth crusade""",1860s,215,100,D,25
+"""fifth crusade""",1860s,215,100,D+F,7
+"""fifth crusade""",1860s,215,100,F,4
+"""fifth crusade""",1870s,292,100,?,48
+"""fifth crusade""",1870s,292,100,C,23
+"""fifth crusade""",1870s,292,100,C+D,4
+"""fifth crusade""",1870s,292,100,C+D+F,2
+"""fifth crusade""",1870s,292,100,C+F,3
+"""fifth crusade""",1870s,292,100,D,10
+"""fifth crusade""",1870s,292,100,D+F,5
+"""fifth crusade""",1870s,292,100,F,5
+"""fifth crusade""",1880s,411,100,?,37
+"""fifth crusade""",1880s,411,100,C,23
+"""fifth crusade""",1880s,411,100,C+D+F,1
+"""fifth crusade""",1880s,411,100,C+F,7
+"""fifth crusade""",1880s,411,100,D,9
+"""fifth crusade""",1880s,411,100,D+F,7
+"""fifth crusade""",1880s,411,100,F,16
+"""fifth crusade""",1890s,499,100,?,41
+"""fifth crusade""",1890s,499,100,C,13
+"""fifth crusade""",1890s,499,100,C+D,2
+"""fifth crusade""",1890s,499,100,D,20
+"""fifth crusade""",1890s,499,100,D+F,6
+"""fifth crusade""",1890s,499,100,F,18
+"""fifth crusade""",1900s,726,100,?,31
+"""fifth crusade""",1900s,726,100,C,22
+"""fifth crusade""",1900s,726,100,C+D,3
+"""fifth crusade""",1900s,726,100,C+D+F,9
+"""fifth crusade""",1900s,726,100,C+F,2
+"""fifth crusade""",1900s,726,100,D,21
+"""fifth crusade""",1900s,726,100,D+F,5
+"""fifth crusade""",1900s,726,100,F,7
+"""fifth crusade""",1910s,654,100,?,43
+"""fifth crusade""",1910s,654,100,C,15
+"""fifth crusade""",1910s,654,100,C+D,1
+"""fifth crusade""",1910s,654,100,C+D+F,2
+"""fifth crusade""",1910s,654,100,C+F,4
+"""fifth crusade""",1910s,654,100,D,20
+"""fifth crusade""",1910s,654,100,D+F,8
+"""fifth crusade""",1910s,654,100,F,7
+"""fifth crusade""",1920s,528,100,?,60
+"""fifth crusade""",1920s,528,100,C,3
+"""fifth crusade""",1920s,528,100,C+D,1
+"""fifth crusade""",1920s,528,100,C+F,2
+"""fifth crusade""",1920s,528,100,D,22
+"""fifth crusade""",1920s,528,100,D+F,4
+"""fifth crusade""",1920s,528,100,F,8
+"""fifth crusade""",1930s,417,100,?,72
+"""fifth crusade""",1930s,417,100,C,3
+"""fifth crusade""",1930s,417,100,C+D,2
+"""fifth crusade""",1930s,417,100,C+F,4
+"""fifth crusade""",1930s,417,100,D,6
+"""fifth crusade""",1930s,417,100,D+F,7
+"""fifth crusade""",1930s,417,100,F,6
+"""fifth crusade""",1940s,482,100,?,73
+"""fifth crusade""",1940s,482,100,C,1
+"""fifth crusade""",1940s,482,100,D,22
+"""fifth crusade""",1940s,482,100,D+F,1
+"""fifth crusade""",1940s,482,100,F,3
+"""ninth crusade""",1800s,1,1,metaphor,1
+"""ninth crusade""",1820s,1,1,barons,1
+"""ninth crusade""",1830s,21,21,?,4
+"""ninth crusade""",1830s,21,21,barons,3
+"""ninth crusade""",1830s,21,21,louis,2
+"""ninth crusade""",1830s,21,21,louis+edward,12
+"""ninth crusade""",1840s,18,18,?,5
+"""ninth crusade""",1840s,18,18,louis,12
+"""ninth crusade""",1840s,18,18,louis+edward,1
+"""ninth crusade""",1850s,20,20,?,4
+"""ninth crusade""",1850s,20,20,barons,1
+"""ninth crusade""",1850s,20,20,louis,15
+"""ninth crusade""",1860s,16,16,?,10
+"""ninth crusade""",1860s,16,16,barons,1
+"""ninth crusade""",1860s,16,16,louis,4
+"""ninth crusade""",1860s,16,16,louis+edward,1
+"""ninth crusade""",1870s,18,18,?,12
+"""ninth crusade""",1870s,18,18,edward,2
+"""ninth crusade""",1870s,18,18,louis,4
+"""ninth crusade""",1880s,17,17,?,8
+"""ninth crusade""",1880s,17,17,edward,2
+"""ninth crusade""",1880s,17,17,metaphor,1
+"""ninth crusade""",1880s,17,17,louis,5
+"""ninth crusade""",1880s,17,17,louis+edward,1
+"""ninth crusade""",1890s,37,37,?,19
+"""ninth crusade""",1890s,37,37,louis,13
+"""ninth crusade""",1890s,37,37,louis+edward,5
+"""ninth crusade""",1900s,117,100,?,37
+"""ninth crusade""",1900s,117,100,barons,1
+"""ninth crusade""",1900s,117,100,edward,1
+"""ninth crusade""",1900s,117,100,louis,50
+"""ninth crusade""",1900s,117,100,louis+edward,11
+"""ninth crusade""",1910s,64,64,?,31
+"""ninth crusade""",1910s,64,64,metaphor,1
+"""ninth crusade""",1910s,64,64,louis,18
+"""ninth crusade""",1910s,64,64,louis+edward,14
+"""ninth crusade""",1920s,52,52,?,21
+"""ninth crusade""",1920s,52,52,metaphor,1
+"""ninth crusade""",1920s,52,52,louis,27
+"""ninth crusade""",1920s,52,52,louis+edward,3
+"""ninth crusade""",1930s,62,62,?,32
+"""ninth crusade""",1930s,62,62,edward,4
+"""ninth crusade""",1930s,62,62,metaphor,1
+"""ninth crusade""",1930s,62,62,louis,22
+"""ninth crusade""",1930s,62,62,louis+edward,3
+"""ninth crusade""",1940s,26,26,?,19
+"""ninth crusade""",1940s,26,26,louis,7
+"""eighth crusade"" AND Edward",1800s,7,7,?,4
+"""eighth crusade"" AND Edward",1800s,7,7,egypt,1
+"""eighth crusade"" AND Edward",1800s,7,7,louis,1
+"""eighth crusade"" AND Edward",1800s,7,7,louis+egypt,1
+"""eighth crusade"" AND Edward",1820s,27,27,?,24
+"""eighth crusade"" AND Edward",1820s,27,27,louis,3
+"""eighth crusade"" AND Edward",1830s,54,54,?,28
+"""eighth crusade"" AND Edward",1830s,54,54,egypt,19
+"""eighth crusade"" AND Edward",1830s,54,54,louis,6
+"""eighth crusade"" AND Edward",1830s,54,54,louis+edward,1
+"""eighth crusade"" AND Edward",1840s,54,54,?,25
+"""eighth crusade"" AND Edward",1840s,54,54,edward,3
+"""eighth crusade"" AND Edward",1840s,54,54,egypt,10
+"""eighth crusade"" AND Edward",1840s,54,54,louis,13
+"""eighth crusade"" AND Edward",1840s,54,54,louis+edward,2
+"""eighth crusade"" AND Edward",1840s,54,54,louis+egypt,1
+"""eighth crusade"" AND Edward",1850s,136,100,?,80
+"""eighth crusade"" AND Edward",1850s,136,100,edward,1
+"""eighth crusade"" AND Edward",1850s,136,100,egypt,6
+"""eighth crusade"" AND Edward",1850s,136,100,egypt+edward,2
+"""eighth crusade"" AND Edward",1850s,136,100,louis,11
+"""eighth crusade"" AND Edward",1860s,38,38,?,27
+"""eighth crusade"" AND Edward",1860s,38,38,edward,4
+"""eighth crusade"" AND Edward",1860s,38,38,egypt,2
+"""eighth crusade"" AND Edward",1860s,38,38,louis,5
+"""eighth crusade"" AND Edward",1870s,121,100,?,53
+"""eighth crusade"" AND Edward",1870s,121,100,edward,7
+"""eighth crusade"" AND Edward",1870s,121,100,egypt,11
+"""eighth crusade"" AND Edward",1870s,121,100,louis,12
+"""eighth crusade"" AND Edward",1870s,121,100,louis+edward,3
+"""eighth crusade"" AND Edward",1870s,121,100,louis+egypt,7
+"""eighth crusade"" AND Edward",1870s,121,100,louis+egypt+edward,7
+"""eighth crusade"" AND Edward",1880s,117,100,?,49
+"""eighth crusade"" AND Edward",1880s,117,100,edward,2
+"""eighth crusade"" AND Edward",1880s,117,100,egypt,8
+"""eighth crusade"" AND Edward",1880s,117,100,louis,30
+"""eighth crusade"" AND Edward",1880s,117,100,louis+edward,5
+"""eighth crusade"" AND Edward",1880s,117,100,louis+egypt,6
+"""eighth crusade"" AND Edward",1890s,184,100,?,61
+"""eighth crusade"" AND Edward",1890s,184,100,edward,2
+"""eighth crusade"" AND Edward",1890s,184,100,egypt,4
+"""eighth crusade"" AND Edward",1890s,184,100,louis,22
+"""eighth crusade"" AND Edward",1890s,184,100,louis+edward,3
+"""eighth crusade"" AND Edward",1890s,184,100,louis+egypt,7
+"""eighth crusade"" AND Edward",1890s,184,100,louis+egypt+edward,1
+"""eighth crusade"" AND Edward",1900s,269,100,?,68
+"""eighth crusade"" AND Edward",1900s,269,100,edward,9
+"""eighth crusade"" AND Edward",1900s,269,100,egypt,8
+"""eighth crusade"" AND Edward",1900s,269,100,louis,10
+"""eighth crusade"" AND Edward",1900s,269,100,louis+edward,3
+"""eighth crusade"" AND Edward",1900s,269,100,louis+egypt,1
+"""eighth crusade"" AND Edward",1900s,269,100,louis+egypt+edward,1
+"""eighth crusade"" AND Edward",1910s,219,100,?,67
+"""eighth crusade"" AND Edward",1910s,219,100,edward,2
+"""eighth crusade"" AND Edward",1910s,219,100,egypt,8
+"""eighth crusade"" AND Edward",1910s,219,100,louis,14
+"""eighth crusade"" AND Edward",1910s,219,100,louis+edward,2
+"""eighth crusade"" AND Edward",1910s,219,100,louis+egypt,7
+"""eighth crusade"" AND Edward",1920s,128,100,?,61
+"""eighth crusade"" AND Edward",1920s,128,100,edward,3
+"""eighth crusade"" AND Edward",1920s,128,100,egypt,8
+"""eighth crusade"" AND Edward",1920s,128,100,louis,21
+"""eighth crusade"" AND Edward",1920s,128,100,louis+edward,1
+"""eighth crusade"" AND Edward",1920s,128,100,louis+egypt,6
+"""eighth crusade"" AND Edward",1930s,135,100,?,52
+"""eighth crusade"" AND Edward",1930s,135,100,edward,3
+"""eighth crusade"" AND Edward",1930s,135,100,egypt,6
+"""eighth crusade"" AND Edward",1930s,135,100,louis,23
+"""eighth crusade"" AND Edward",1930s,135,100,louis+egypt,16
+"""eighth crusade"" AND Edward",1940s,115,100,?,39
+"""eighth crusade"" AND Edward",1940s,115,100,edward,2
+"""eighth crusade"" AND Edward",1940s,115,100,egypt,2
+"""eighth crusade"" AND Edward",1940s,115,100,louis,35
+"""eighth crusade"" AND Edward",1940s,115,100,louis+edward,13
+"""eighth crusade"" AND Edward",1940s,115,100,louis+egypt,9
