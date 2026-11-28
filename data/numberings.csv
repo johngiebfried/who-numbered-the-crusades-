@@ -179,6 +179,9 @@ sb-1827-desmichels-precis,F,6,,works.csv
 sb-1827-desmichels-precis,L1,7,,works.csv
 sb-1827-desmichels-precis,L2,8,,works.csv
 sb-de-1828-cammerer-grundriss,H6,5,,works.csv
+sb-1829-delavigne-manuel,D,5,,works.csv
+sb-1829-delavigne-manuel,F,6,,works.csv
+sb-1829-ponelle-manuel,C,4,,works.csv
 sa-1830-americana,D,4,,works.csv
 sa-1830-americana,F,5,,works.csv
 sa-1830-americana,L1,6,,works.csv
@@ -219,6 +222,8 @@ sa-1835-conversation,F,6,D+B,works.csv
 sa-1835-conversation,B,6,D+F,works.csv
 sa-1835-conversation,L1,7,,works.csv
 sa-1835-conversation,L2,8,,works.csv
+sb-1835-delavigne-manuel,D,5,,works.csv
+sb-1835-delavigne-manuel,F,6,,works.csv
 sb-1835-desmichels-precis-bruxelles,C,4,,works.csv
 sb-1835-desmichels-precis-bruxelles,D,5,,works.csv
 sb-1835-desmichels-precis-bruxelles,F,6,,works.csv
@@ -230,6 +235,11 @@ sb-de-1835-handbuch-schule-haus,F,5,D,works.csv
 sb-de-1835-handbuch-schule-haus,L1,6,,works.csv
 sb-de-1835-handbuch-schule-haus,L2,7,,works.csv
 sd-1835-willard-universal,C,4,,works.csv
+sb-1836-bouchitte-manuel,C,4,,works.csv
+sb-1836-bouchitte-manuel,D,5,,works.csv
+sb-1836-bouchitte-manuel,F,6,,works.csv
+sb-1836-bouchitte-manuel,L1,7,,works.csv
+sb-1836-bouchitte-manuel,L2,8,,works.csv
 1837-brockhaus-bilder-conversations-lexikon,D,4,,works.csv
 1837-brockhaus-bilder-conversations-lexikon,F,5,,works.csv
 1837-brockhaus-bilder-conversations-lexikon,L1,6,,works.csv

@@ -2,6 +2,16 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-28 — The answer books (D1): one names Desmichels
+
+`notes/findings/2026-11-answer-books.md`. Four rows added to `works.csv` (first edit under the reconciled model), one citation, one reason (`r28`). Script: `scripts/add_answer_books_2026_11_28.py`.
+
+1. **Bouchitté et al., *Manuel des aspirants* (Hachette, 1836)**: question XIV under numbered headings to "8e et dernière croisade", the full modern eight, with a footnote (p. 158, image viewed): "Nous avons adopté la division des croisades indiquée dans le Précis d'histoire du moyen-âge de M. Desmichels." The first explicit attribution of the modern eight to a source.
+2. **Delavigne 1829 and 1835**: "les cinquième et sixième croisades" for 1217–1228, "les deux dernières" for Louis IX; the modern sequence in his own words.
+3. **Ponelle 1829**: numbers nothing, as in 1826.
+4. **Tally**: four of six answer books (1824–36) use the modern slots, two number nothing, none uses an older count. D1 is answered: the exam asked, the cram books numbered, and the numbers were Desmichels's.
+5. **Flagged**: Bouchitté's manual, Desmichels's *Précis* (by 1834) and Bouillet (1842) were all Hachette books.
+
 ## 2026-11-28 — Reconciliation: one master table
 
 `notes/findings/2026-11-reconciliation.md`. Scripts: `scripts/reconcile_works.py`, a rewritten `scripts/derive_numberings.py`, `scripts/export_frame.py`; `data/README.md` and `scripts/README.md` added.
@@ -150,7 +160,9 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 - [x] Verify the remaining German snippet rows (Streit 1842, Haas 1844, Beitelrock 1853, Dietsch 1854, Kurts 1860) (28 November: four full sevens; the Stein/Streit atlas split into two rows)
 - [ ] Kurts 1860: check the sixth on the page image (MDZ 10348116)
 - [ ] Stein atlas universal table (F 4, L1 5 "letzter"): find its source in earlier editions or Wagner's tables
-- [ ] D1 lead: question-14 answer books 1826–36 (Ponelle 1829, Delavigne 1829 and 1835, Bouchitté 1836): do they copy Desmichels's list?
+- [x] D1 lead: question-14 answer books 1826–36 (28 November: Bouchitté 1836 cites Desmichels for its division; Delavigne uses the modern slots; Ponelle numbers nothing)
+- [ ] Which edition of Desmichels's *Précis* Bouchitté followed; Bouchitté 1838 and later answer books
+- [ ] Did Bouillet take the eight from Hachette's own school list (Desmichels's *Précis*, Bouchitté 1836)?
 - [x] Do not re-run `scripts/build_strand_a.py` (28 November: retired with the strand tables; it now fails if run)
 - [ ] German school histories 1800–33: a Frederick-fifth before 1820?
 - [ ] Avendaño (1846): contents of the fourth to sixth

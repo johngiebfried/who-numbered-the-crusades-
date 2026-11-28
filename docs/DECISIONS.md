@@ -2,6 +2,11 @@
 
 Newest first. Each entry: date, decision, reason.
 
+## 2026-11-28 — Answer books (provisional, for the author to confirm)
+
+- **New reasons kind `attribution`.** A statement naming the source of a count or division ("Nous avons adopté la division des croisades indiquée dans le Précis ... de M. Desmichels", Bouchitté 1836, `r28`). It is not a reason for the count, but it is the strongest evidence of transmission, so it belongs in the same table.
+- **Implied ordinals are not coded.** Delavigne states only "cinquième et sixième" and "les deux dernières"; his rows carry D 5 and F 6, with the implied C 4, L1 7, L2 8 described in `notes`. D 5 with F 6 is diagnostic, so the family code `modern_eight` is given (partial-row rule).
+
 ## 2026-11-28 — Reconciliation (provisional, for the author to confirm)
 
 - **`works.csv` is the single source for print rows.** The legacy table and the six strand and panel entry tables are merged into it (220 rows from 232) and frozen in `data/archive/2026-11-28-pre-reconciliation/`. New rows go into `works.csv` directly. Reason: rows sat in seven tables with duplicates across frames, and the dataset could not be cited.
