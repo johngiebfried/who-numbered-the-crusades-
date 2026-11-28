@@ -1,6 +1,6 @@
 # Who Numbered the Crusades? Interim conclusions
 
-28 November 2026. Status report on the project as of commit `86789f8` (branch `window-1820-23`, PR #5). It draws on the 2022 manuscript, every findings note in `notes/findings/` and the Claude project, the research and decisions logs, the earlier conversations in the project, and the data in `data/`. It replaces no earlier note; it is the place to start. Updated the evening of 28 November with the English pass, Strand D2 (`notes/findings/2026-11-strand-d2-english.md`, branch `strand-d2-english`): sections 1, 7.9, 7.13, 8.5, 8.7 and 9.3.
+28 November 2026. Status report on the project as of commit `86789f8` (branch `window-1820-23`, PR #5). It draws on the 2022 manuscript, every findings note in `notes/findings/` and the Claude project, the research and decisions logs, the earlier conversations in the project, and the data in `data/`. It replaces no earlier note; it is the place to start. Updated the evening of 28 November with the English pass, Strand D2 (`notes/findings/2026-11-strand-d2-english.md`, branch `strand-d2-english`, PR #6): sections 1, 2.2, 3.4, 4.2, 4.4, 6.1 (one note), 7.9, 7.13, 8.5, 8.7, 9.3, 9.4 and Appendix A. The counts in section 6 are otherwise those of the morning.
 
 **Evidence grades used throughout.** **Firm**: read at full text, wording quoted, edition identified, and where it matters more than one witness. **Probable**: the reading is sound but one link is inference or one document is unread. **Provisional**: read only in OCR search hits or snippets, or from one witness whose title page is unchecked. **Open**: not researched, or researched without result. Every claim of priority below means "attested in," never "invented by."
 
@@ -50,12 +50,12 @@ There was no study of crusade numbering as such before this project, and a multi
 
 Scholars have complained about the numbers for as long as the modern eight has existed in English:
 
-- **W. B. Stevenson**, *The Crusaders in the East* (Cambridge, 1907), p. 3: the crusades "have been numbered as if they were a series, well-defined and easily counted," eight bands chosen "on no clear principle." He then put the numbers he used in quotation marks and stopped after the fifth.
+- **W. B. Stevenson**, *The Crusaders in the East* (Cambridge, 1907), p. 3: the crusades "have been numbered as if they were a series, well-defined and easily counted," eight bands chosen "on no clear principle." He then put the numbers he used, through the eighth, in quotation marks (Strand D2; the earlier reading that he stopped after the fifth was wrong).
 - **Louis Bréhier**, "Crusades," *Catholic Encyclopedia*, vol. 4 (New York, 1908): "It has been customary to describe the Crusades as eight in number … This division is arbitrary."
 - **Hans Eberhard Mayer**, *Geschichte der Kreuzzüge* (1965): the numbering "lacks all consistency" (as rendered in the English translation).
 - Further disowning phrases collected in `data/reasons/reasons.csv` run from the *New International Encyclopaedia* (1902, "unanimous consent" only for the first four) to Laiou and Mottahedeh (2001, the numbering "differs widely").
 
-The field's working convention since at least Runciman (vol. 3, 1954) is to number only the First to Fifth and to name the rest by leader, place or date. The paper describes that convention; the project has confirmed it as a specialists' habit (section 7.10).
+The field's working convention since at least Runciman (vol. 3, 1954) is to number only the First to Fifth and to name the rest by leader, place or date. The paper describes that convention; the project has confirmed it as a specialists' habit and dated it in English to the 1890s (section 7.13).
 
 ### 2.3 Claims in circulation
 
@@ -110,8 +110,8 @@ The paper surveyed English-language histories of the crusades, found through a u
 The fact-check of 8 November 2026 (`findings-2026-11-review.md`) and the conclusions audit of 14 November (`conclusions-audit-2026-11.md`, section 2) scored twenty-two of the paper's claims: **4 stand, 9 stand in part or with correction, 7 fail, 2 untested.** The failures are the paper's answer to its title (Mombert), its geography (England), its mechanism (popular histories), and its chronology (1894). Later sessions moved three verdicts further:
 
 - **Claim 11 (Mombert first).** The complete scheme is attested seventy-two years earlier, in Paris (Desmichels, registered December 1822).
-- **Claims 7 and 13 (English popular histories).** English had no count of its own; the modern eight entered English in 1851 as a translated French schoolbook. The "popular" moral survives only if "popular" means school and reference books, not narrative histories.
-- **Claim 10 (Edward as Ninth).** Edward alone as "Ninth Crusade" is attested before Wikipedia, in Scott-Giles (1979) and Toropov (2002); earlier English ninths are Tunis, or Tunis and Edward together (Russell 1831, Perry 1840, Milner 1847).
+- **Claims 7 and 13 (English popular histories).** English made no count from scratch: it imported five and combined their slots into two nines; the modern eight entered English in 1851 as a translated French schoolbook. The "popular" moral survives only if "popular" means school and reference books, not narrative histories.
+- **Claim 10 (Edward as Ninth).** Edward's crusade alone as "the ninth" is attested from Masonic lore (1857), English national histories (G. W. Cox 1887), the EETS *Godeffroy* (1893) and Parry (1920), then Scott-Giles (1979) and Toropov (2002); the commoner English ninth holds Tunis and Edward together (Russell 1831 to the county atlases of 1936). The modern split, Tunis eighth and Edward ninth, was not found before 1945 (Strand D2).
 
 What stands from the paper: its table, where checked; Stevenson as the first complaint; the observation that popular narrative histories are the least standardized genre of all; Barker's article as the canonizing English text; the shape of the moral. The paper's observation that none of Mombert, Ludlow and Barker cites a source with the scheme is correct and becomes evidence: the scheme lived in books gentleman historians did not cite.
 
@@ -137,7 +137,7 @@ Every count in the corpus has to answer the same handful of questions. The answe
 | **Is Frederick II counted on his own?** | Sixth on his own: Koch, the modern eight. Inside a long sixth (1213–44) with Damietta and the Barons: Moréri. Unnumbered: Gibbon. Refused as no crusade: Lévi Alvarès (1835). Seventh: Michaud, Rees (c. 1808). | Wikipedia's German editors made Damietta and Frederick one Fifth in 2007; Polish Wikipedia leaves Frederick out. |
 | **Is the Barons' Crusade (1239–41) numbered?** | Sixth: Proctor (printed 1854), the *American Cyclopaedia* (1873), Swinton (1874), Larousse (1869, as Gregory IX's crusade). Seventh: Mills. Folded into another number: Moréri, Bréhier (1908, "1239 under the sixth"). Unnumbered: the modern eight. | English Wikipedia had no article on it until 2016; no edition has ever numbered it. |
 | **Are Louis IX's two crusades seventh and eighth, or sixth and seventh?** | Seventh and eighth: Moréri, the modern eight. Sixth and seventh: Gibbon, the German seven. Seventh "and last" (Tunis unnumbered): Koch, Schöll, Saigey, Lamp. | Tunis as "huitième et dernière" is the French dictionary tradition's contribution to the modern eight. |
-| **Is Edward (1271–72) part of the eighth, or a ninth?** | Inside the last: Mills ("the Last Crusade"), Barker (probably; flagged). A ninth for Tunis, with or without Edward: Rees (c. 1808), Russell (1831, "Louis IX. and Edward I."), Perry (1840), Milner (1847), Cox (1874), EB9 (1877). Alone as Ninth: Scott-Giles (1979), Toropov (2002), English Wikipedia 2003–19. | English Wikipedia renamed "Ninth Crusade" to "Lord Edward's crusade" on 17 November 2019. |
+| **Is Edward (1271–72) part of the eighth, or a ninth?** | Inside the last: Mills ("the Last Crusade"), Myers (1885), Langer (1940). Named and excluded: Barker (1911). A ninth for Tunis, with or without Edward: Rees (c. 1808), Russell (1831, "Louis IX. and Edward I."), Perry (1865), Milner (1847), Cox (1874), EB9 (1877), the county atlases to 1936. Edward alone as the ninth: Masonic lore (1857), G. W. Cox (1887), the EETS *Godeffroy* (1893), Parry (1920), Outhwaite (1935), Scott-Giles (1979), Toropov (2002), English Wikipedia 2003–19. | English Wikipedia renamed "Ninth Crusade" to "Lord Edward's crusade" on 17 November 2019. |
 | **How many in all?** | Six (Pasquier; German encyclopedias), seven (Koch, Gibbon, German schoolbooks, German Wikipedia), eight (Moréri, the modern eight, Larousse's own eight), nine (Rees, Mills, Michaud's English followers, Cox, Wikipedia 2003–19), more (Fuller's thirteen voyages; Carion and Bullinger's twelve). | A stated total is not a scheme: "On compte huit croisades" described the Moréri eight for 140 years before it described the modern one. |
 | **What comes before and after?** | The People's Crusade and the Crusade of 1101 (Orderic Vitalis calls the 1107 expedition the "third"); the Children's Crusade (Schneller's sixth, 1810); Alexandria 1365 (Spanish Wikipedia's "Décima cruzada"); Nicopolis ("the last crusade"); the Hussite crusades (numbered four in Czech). | Wikipedia numbers the Swedish crusades First to Third while refusing numbers to the Levant's unnumbered expeditions. |
 
@@ -159,12 +159,14 @@ The codebook names fifteen scheme families. The ones that matter:
 |---|---|---|---|
 | `moreri_eight` | H6 4, C 5, D+F(+B) 6, L1 7, L2 8 | Moréri, by 1689 | Haydn, 1910 (Henry VI fourth to 1915) |
 | Koch's seven (not a separate code; coded `near_modern`) | C 4, D 5, F 6, L1 7 "et dernière" | Koch, 1771 | Lamp, 1839 |
-| `gibbon_seven` | C 4, D 5, L1 6, L2 7; F unnumbered | Gibbon, 1788 | Tout, 1899 |
-| `nine_F7` | H6 4, C 5, D 6, F 7, L1 8, L2 9 | Rees, c. 1808 | Michaud's English followers |
+| `gibbon_seven` | C 4, D 5, L1 6, L2 7; F unnumbered | Gibbon, 1788 | Tout, 1898 |
+| `nine_F7` | H6 4, C 5, D 6, F 7, L1 8, L2 9 | Rees, c. 1808 | Parker, 1915 |
+| `nine_H6` | H6 4, C 5, D+F 6, B 7, L1 8, L2(+E) 9 | Perry, 1865 (the ninth itself: Russell, 1831) | Historians' History, 1904–09 |
+| `nine_B7` | C 4, D 5, F 6, B 7, L1 8, L2 9 | Universal Self-Instructor, 1882 | Gay's, 1891 (the chronology chain to 1936) |
 | `frederick_fifth_seven` | C 4, F 5, L1 6, L2 7 | Desmichels and Trognon's Paris programme, 1820 | Americana 1953; Schaff reprint 1967; German Wikipedia today |
 | `modern_eight` | C 4, D 5, F 6, L1 7, L2 8 | Desmichels, registered Dec. 1822 | current |
 | `german_six` | D 4, F 5, L1 6 (C not counted) | Encyclopaedia Americana 1830 (from Brockhaus) | Schaefer's memorization tables, 1851–54 |
-| `barons_sixth` | C 4, D 5, B 6, L1 7, L2 8 | Proctor (d. 1842; printed 1854) | Swinton 1874 |
+| `barons_sixth` | C 4, D 5, B 6, L1 7, L2 8 | Proctor (1842) | Adams, 1883 (variant: Johnson's, 1893–99) |
 | `larousse_eight` | D 4, F 5, B 6, L1 7, L2 8 | Larousse, 1869 | — |
 
 `german_seven` was renamed `frederick_fifth_seven` on 27 November 2026 because the scheme is attested in Paris fourteen years before any German witness.
@@ -214,7 +216,7 @@ Reading was done in the built-in browser, because the workspace's shell reaches 
 
 ### 6.1 Print works (`data/works.csv`)
 
-**224 rows**, one per edition, translation or catalog read. 148 were read under the protocol (strands A, B, D and the panel) and 76 are legacy rows from the November review that no later strand re-read.
+**224 rows**, one per edition, translation or catalog read. 148 were read under the protocol (strands A, B, D and the panel) and 76 are legacy rows from the November review that no later strand re-read. (After Strand D2 that evening: 347 rows, 124 of them new English rows; 184 English rows of 1788–1945 carry D2 attributes in `data/strand_d2/attributes.csv`.)
 
 | Measure | Count |
 |---|---|
@@ -469,7 +471,7 @@ The early review rows came from string searches, which find only books that numb
 
 - `status` values for named, unnumbered, explicitly excluded and aside, so the ledger can be generated from `works.csv` rather than hand-coded.
 - `evidence.csv` with quotation, page, URL and verification for every numbering.
-- Genre for 65 rows and slots for 18; the two Edward conflicts resolved.
+- Genre for 65 rows and slots for 22 (the two Edward conflicts were resolved in Strand D2).
 - A second coder on the bracket rows and a 10% panel sample.
 - A versioned data release with a DOI on Zenodo; the repository renamed to drop its trailing hyphen.
 
@@ -514,16 +516,23 @@ The early review rows came from string searches, which find only books that numb
 | 1842 | Bouillet; Le Bas; *Complément de l'Académie* | Modern eight in reference works; "l'usage le plus général" | full text, title pages |
 | 1851 | Greene, *History and Geography of the Middle Ages* | First English modern eight (Rendu translated) | full text |
 | 1851 | Cantù, *Storia universale* | Re-split to Bouillet's list | snippet |
-| 1858 | Beale, *Student's Textbook* | First British modern eight | full text |
+| 1831 | Russell, *Palestine* (Edinburgh) | First ninth found: Tunis and Edward together | full text |
+| 1857 | Masonic degree history (*Indian Freemason's Friend*) | Edward's crusade alone "the ninth crusade, A.D. 1272" | snippet |
+| 1858 | Beale, *Student's Textbook*; White, *Eighteen Christian Centuries* (Edinburgh) | First British modern eights | full text |
 | 1861 | Duruy, *Histoire du moyen âge* (Hachette) | Modern eight | full text |
 | 1869 | Larousse, *Grand dictionnaire* | Its own eight (Andrew fourth) | full text |
 | 1877 | Britannica 9th ed. (Cox) | Nine with Henry VI | full text |
 | 1885 | Myers, *Outlines* | Modern eight; Henry VI would make nine | full text |
+| 1893 | EETS *Godeffroy of Boloyne* (ed. Colvin) | "the prowesses of Prince Edward ... and of the events of the Ninth Crusade" | snippet |
 | 1894 | Mombert, *A Short History* | The 2022 paper's answer | contents |
+| 1898 | Oman, *Art of War* | Numbers only to the Fifth (read in the 1924 text) | full text |
 | 1907 | Stevenson | The first complaint; numbers in quotation marks | contents |
 | 1908 | Bréhier, *Catholic Encyclopedia* | Modern eight, "arbitrary"; source of Wikipedia's dates | full text |
-| 1911 | Barker, Britannica 11th ed. | Modern eight in English reference, to 1962 | full text |
+| 1910 | Haydn's *Dictionary of Dates*, 25th ed. | Last edition; Henry VI fourth to the end | full text |
+| 1911 | Barker, Britannica 11th ed. | Modern eight in English reference, to 1962; ends the Britannica's Henry VI fourth | full text |
 | 1915 | Parker, *Bloody Trail of Romanism* | Last Henry VI fourth found | full text |
+| 1920 | Parry, *The Pilgrim in Jerusalem* | "Ninth Crusade: Edward I of England" in a chronology | full text |
+| 1940 | Langer, *Encyclopedia of World History* | Modern eight replaces Ploetz's seven | full text |
 | 1953 | Encyclopedia Americana | German seven still printed | full text |
 | 1965 | Mayer | "Lacks all consistency" | reasons table |
 | 1979 | Scott-Giles, *The Wimsey Family* | Edward alone as "the Ninth Crusade" | snippet |
