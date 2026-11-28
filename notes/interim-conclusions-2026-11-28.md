@@ -32,7 +32,7 @@ Outside France the eight was imported, late and unevenly. English had no count o
 
 The 2022 paper's answer (Mombert, 1894, perhaps a "simultaneous creation" of English popular historians) fails by seventy-two years and by a country. Its central moral survives in a sharper form: the numbers were made by people who wrote for students and general readers, not by crusade historians, who received the numbers and then spent a century disowning them.
 
-What could still change this: one unread pamphlet at the BnF (G-31078, the 1822 printing of the official exam questions), the reason Desmichels changed his own count between 1820 and 1822, and the fact that most of the evidence outside the bracket years is still snippet-level and checked by one coder.
+What could still change this: one unread pamphlet at the BnF (G-31078, the 1822 printing of the official exam questions), the reason Desmichels changed his own count between 1820 and 1822, and the fact that much of the evidence outside France and outside the bracket years is still snippet-level, and none of it has had a second coder.
 
 ---
 
