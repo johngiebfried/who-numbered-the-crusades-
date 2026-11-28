@@ -9,6 +9,9 @@
 | `export_frame.py` | Prints a filtered view of `works.csv` (by census frame, source table or language) |
 | `build_ledger.py`, `ledger_code_corpus.py` | Build the ledger visualization tables (`data/ledger/`). The ledger is still hand-coded in `ledger_code_corpus.py`; `data/reconciliation/ledger_map.csv` maps its rows to `work_id` |
 | `build_wikipedia.py`, `build_wikipedia_chart.py` | Wikipedia sub-project |
+| `d2_lib.py` | Helpers for Strand D2 sessions: upsert rows into `works.csv` (CRLF, sorted, shorthand regenerated) and `strand_d2/attributes.csv`; append citations, reasons and search-log rows without duplicates; frame status updates |
+| `d2_block1_2026_11_28.py` … `d2_block6_2026_11_28.py`, `d2_block4_legacy_attrs_2026_11_28.py` | The D2 session's edits, block by block, already applied. They are the record, not a build: rerunning an earlier block alone would undo later corrections (block 3 corrects block 1's Stebbing and Mackay rows). If they must be replayed, run all six in order, then `derive_numberings.py` and `d2_analyses.py` |
+| `d2_analyses.py` | Writes the D2 analysis tables in `data/strand_d2/` (Fourth by decade, pivot and series; Gibbon; Edward timeline and firsts; conversation edges; national) |
 
 ## Historical (do not rerun)
 

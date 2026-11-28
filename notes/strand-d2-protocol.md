@@ -59,3 +59,10 @@ A frame is closed when every work in `frame.csv` is read or logged as `not_reach
 The Fourth curve by decade, country and genre; the Gibbon table; the Edward and Ninth timeline; the conversation map from `data/citations.csv` and `numbers_follow`; national differences; a retest of the 2022 paper's English claims.
 
 ## Amendments
+
+1. **New family `nine_B7`** (28 November 2026, block 2): C 4, D 5, F 6, B 7, L1 8, L2 9. The modern eight with the Barons' crusade inserted as seventh. Attested in the cheap-chronology chain (Universal Self-Instructor 1882, Gay's 1891). Added to `docs/CODEBOOK.md`.
+2. **Derived attributes for legacy rows** (block 4). The 44 English rows of earlier strands that were not re-read in D2 get attribute rows derived from their slots and imprints (`fourth_identity` from H6/C, `numbers_follow` from the family, country from the imprint), each flagged "derived from slots; not re-read in D2" in `notes`. Three Edinburgh imprints that name London first were recoded to Scotland by hand.
+3. **New reason kind `explanation`** (block 1): a sentence that explains why a count runs as it does (Barker 1911's footnote, r29; Procter's, r31), as distinct from a correction or a rejection.
+4. **New country code `CA`** and tradition value "Canada" (block 2), for Canadian printings and Canadian-authored texts.
+5. **Values used for rows read only for the ninth** (block 6). Rows found through the ninth-crusade sweep and read only around the phrase leave `fourth_identity`, `fifth_identity` and `edward_status` blank; `d2_analyses.py` counts them as `unknown` in the Fourth tables. A ninth that names Louis IX's first crusade or a projected crusade (Gregory X, 1274) is `ninth_referent` = `other`, with the referent in `notes`.
+6. **Second pass on unclassified ninth hits** (block 6). The 202 "ninth crusade" items the first classifier left unplaced, and 17 further items of the 1900s, were reclassified on a ±450-character context from the full djvu text. The work-level result is `data/strand_d2/ninth_crusade_hits_by_work.csv`; rows in it marked `classifier` were not read beyond that context.

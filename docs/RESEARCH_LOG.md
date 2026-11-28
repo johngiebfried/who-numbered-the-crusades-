@@ -2,6 +2,17 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-28 (evening) — Strand D2: English print 1800–1945
+
+`notes/findings/2026-11-strand-d2-english.md`. Branch `strand-d2-english`. Scripts `scripts/d2_lib.py`, `d2_block1_2026_11_28.py` … `d2_block6_2026_11_28.py`, `d2_block4_legacy_attrs_2026_11_28.py`, `d2_analyses.py`. Tables in `data/strand_d2/` and `data/usage/archiveorg_d2_*.csv`.
+
+1. **Size.** 124 new rows; 184 English rows of 1788–1945 with D2 attributes (140 read, 44 derived); frame of 160 targets, 97 read; reasons r29–r41; a title census of 72 works; every "ninth crusade" hit to 1945 grouped by work (87 groups).
+2. **The Fourth.** 1202–04 is the majority fourth in every decade of English full text. The Henry VI fourth lived in a few series and died with them; only the Britannica (1910–11, Barker) and Swinton (1883, the other way) changed. Barker canonized the outcome after the decline.
+3. **Gibbon.** Cited in 42 rows, followed fully in his distinctive slots by a handful (Chepmell, the Student's Gibbon, Gilbert); editors' notes say nothing on the numbering.
+4. **The Ninth.** Six referents before 1945. Tunis with Edward from Russell (1831) to the county atlases (1936); an Edward-alone ninth from 1857 (Masonic lore), in Lupton, G. W. Cox, the EETS *Godeffroy* and Parry. The modern split (Tunis eighth, Edward ninth) not found before 1945.
+5. **The paper.** Stevenson was not the first to number only five (Oman 1898, Myers 1889); Mombert was not first with the eight (Greene 1851, White and Beale 1858); the Crimean War explains reprinting, not numbering.
+6. **Not borrowed.** No lending copy was borrowed in this session.
+
 ## 2026-11-28 — Interim conclusions
 
 `notes/interim-conclusions-2026-11-28.md`: where the project stands. Prior literature, the 2022 paper and its scorecard, the contested slots and rival schemes, the process and the protocol, the size of the database, fifteen graded conclusions, the open points, and the expansion plan. Start here.
@@ -170,16 +181,18 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 - [x] Do not re-run `scripts/build_strand_a.py` (28 November: retired with the strand tables; it now fails if run)
 - [ ] German school histories 1800–33: a Frederick-fifth before 1820?
 - [ ] Avendaño (1846): contents of the fourth to sixth
-- [ ] How the eight reached English: translations of Bouillet, Cantù, Duruy; British school texts 1850–1900 (lead: Picot, *Historical Narrations in French*, 1846, reuses Bouillet's paragraph)
-- [ ] Charles Mills, *History of the Crusades* (1820): does he call his count nine anywhere?
-- [ ] Hand-code the 18 rows in `data/numberings_unparsed.csv` (regenerated 28 November; several are totals only)
+- [ ] How the eight reached English: translations of Bouillet, Cantù, Duruy; British school texts 1850–1900 (lead: Picot, *Historical Narrations in French*, 1846, reuses Bouillet's paragraph). D2: Greene 1851 (from Rendu), White and Beale 1858 (sources unknown)
+- [ ] D2 leftovers: case-insensitive headword pass on Johnson's 1876/1881, Chambers's 1888/1923, New International 1917, Americana 1904, Everyman's; the December 1917 "ninth crusade" newspaper cluster; Irish school books; EB 1938/1944 and Lamb (lending copies)
+- [ ] Decide whether the D2 attribute fields become `works.csv` columns (author)
+- [x] Charles Mills, *History of the Crusades* (1820): does he call his count nine anywhere? (28 November, D2: no; L1 8 and Tunis-Edward as the unnumbered last; the ninth is Russell's, 1831)
+- [ ] Hand-code the 22 rows in `data/numberings_unparsed.csv` (regenerated 28 November evening; several are totals only, four are D2 ninth-only rows)
 - [ ] Build `data/evidence.csv` from the review doc's quotations
 - [ ] Split the grouped Dutch row into separate works
 - [x] Reconcile the ledger and the strand tables with `data/works.csv` / `numberings.csv` (28 November: `works.csv` is the single source; ledger mapped, not yet generated from it)
-- [ ] EB9 (1877) and EB11 (1911): is Edward inside the last number? (`data/reconciliation/conflicts.csv`)
+- [x] EB9 (1877) and EB11 (1911): is Edward inside the last number? (28 November, D2: EB9 yes, in the ninth with Tunis; EB11 no, named and excluded)
 - [ ] Genre for 66 rows (`data/reconciliation/hand_coding.csv`)
 - [ ] Add `status` values (named, unnumbered, excluded, aside) to `works.csv`, then generate the ledger from it
-- [ ] EB9 and Newman: record the middle cells of their nine
+- [x] EB9 and Newman: record the middle cells of their nine (28 November, D2: both H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9)
 - [ ] Wikipedia: decide the two coding questions (options in the findings note)
 - [ ] LCSH headings for the crusades, by hand
 - [ ] Add codes PEO, C1101, ALX, NIC, VAR to `expeditions.csv` if approved
