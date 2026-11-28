@@ -12,7 +12,7 @@ R10,d2_reference_en,Scotland,Reference,Blackie,The Popular Encyclopedia,Glasgow 
 R11,d2_reference_en,Scotland,Reference,W. and R. Chambers,Chambers's Information for the People,1833-35; 1842; 1848-49; 1857; 1874-75,,to_read,
 R12,d2_reference_en,Scotland,Reference,W. and R. Chambers,Chambers's Encyclopaedia,1859-68 (read 1868); 1874; 1888-92; 1901 (read); 1908; 1923-27; 1950; 1966 (read),sd-1868-chambers-enc;sd-1901-chambers-enc;sd-1966-chambers-enc,to_read,
 R13,d2_reference_en,England,Reference,Joseph Haydn and successors,Haydn's Dictionary of Dates,1841; 1844 (read); 1847; 1851; 1855; 1857; 1860; 1866; 1868; 1871; 1873; 1876; 1878; 1881; 1885; 1889; 1892; 1898; 1904; 1906; 1910 (read); US eds,sa-1844-haydn;sd-1910-haydn-dates-25,to_read,Find the edition that first lists the crusades
-R14,d2_reference_en,England,Reference,George Henry Townsend,The Manual of Dates,1862; 1867; 1877,,to_read,
+R14,d2_reference_en,England,Reference,George Henry Townsend,The Manual of Dates,1862; 1867; 1877,sd2-1862-townsend-manual-dates,read,D2: 1862 and 1867
 R15,d2_reference_en,England,Reference,John Blair; Bohn ed.,Blair's Chronological Tables,"1754 base; Bohn eds 1856, 1882",,to_read,
 R16,d2_reference_en,England,Reference,Samuel Orchart Beeton,Beeton's Dictionary of Universal Information,1859-62; later eds,,to_read,
 R17,d2_reference_en,England,Reference,E. Cobham Brewer,Dictionary of Phrase and Fable; The Reader's Handbook,1870; 1894-95; 1880,,to_read,
@@ -31,44 +31,44 @@ R29,d2_reference_en,US,Reference,Philip Schaff; S. M. Jackson,Schaff-Herzog Ency
 R30,d2_reference_en,US,Reference,John McClintock and James Strong,"Cyclopaedia of Biblical, Theological and Ecclesiastical Literature",1867-81; supplement 1885-87,,to_read,
 R31,d2_reference_en,Scotland,Reference,James Hastings (ed.),Encyclopaedia of Religion and Ethics,"vol. 4, 1911",,to_read,
 R32,d2_reference_en,US,Reference,Carl Ploetz; W. L. Langer,Epitome of History; An Encyclopedia of World History,1883 (read); 1905; 1915; 1925; Langer 1940,1883-carl-ploetz,to_read,
-R33,d2_reference_en,US,Reference,,The Columbia Encyclopedia,1935; 1940,,to_read,
+R33,d2_reference_en,US,Reference,,The Columbia Encyclopedia,1935; 1940,,not_reached,D2: the two DLI copies dated 1935 are The New Columbia Encyclopedia (1975)
 R34,d2_reference_en,US,Reference,,World Book; Compton's Pictured Encyclopedia,World Book 1917-; Compton's 1922-,,to_read,
 R35,d2_reference_en,England,Reference,Arthur Mee (ed.),The Children's Encyclopaedia,1908-,,to_read,
 R36,d2_reference_en,US,Reference,,Britannica Junior,1934-,,to_read,
-S01,d2_school_en,Scotland,School,Alexander Fraser Tytler,Elements of General History,Edinburgh 1801-; US eds with Nares and Turner,,to_read,
-S02,d2_school_en,England,School,William Pinnock,Pinnock's catechisms; Pinnock's Goldsmith,1810s-1860s,,to_read,
-S03,d2_school_en,England,School,Richmal Mangnall,Historical and Miscellaneous Questions,1800-1900s; 1859 (Strand D: no numbers),,to_read,"Strand D read 1859, no row"
-S04,d2_school_en,England,School,Thomas Keightley,Outlines of History (Lardner),1830; US eds,,to_read,
+S01,d2_school_en,Scotland,School,Alexander Fraser Tytler,Elements of General History,Edinburgh 1801-; US eds with Nares and Turner,sd2-1801-tytler-elements,read,"D2: New York 1819, 1837, Nares 1839 printings"
+S02,d2_school_en,England,School,William Pinnock,Pinnock's catechisms; Pinnock's Goldsmith,1810s-1860s,,partial,D2: Pinnock's Catechism of Modern History read (undated copy): 'the last crusade' = Louis IX 1248; Pinnock's Goldsmith not reached
+S03,d2_school_en,England,School,Richmal Mangnall,Historical and Miscellaneous Questions,1800-1900s; 1859 (Strand D: no numbers),sd2-1814-mangnall-questions,read,"Strand D read 1859, no row | D2: 1814 and 1857"
+S04,d2_school_en,England,School,Thomas Keightley,Outlines of History (Lardner),1830; US eds,sd2-1830-keightley-outlines,read,
 S05,d2_school_en,Scotland,School,William Francis Collier,Great Events of History; History of the British Empire,c. 1860 (read); later eds,sd-1860-collier-great-events,to_read,
-S06,d2_school_en,England,School,Charlotte M. Yonge,Landmarks of History: Middle Ages,1852; 1864 (Strand D: slots 4-7),,to_read,no row yet
-S07,d2_school_en,England,School,E. A. Freeman,General Sketch of European History,1872-73,,to_read,Strand D: numbers only to the fourth; no row yet
+S06,d2_school_en,England,School,Charlotte M. Yonge,Landmarks of History: Middle Ages,1852; 1864 (Strand D: slots 4-7),sd2-1864-yonge-landmarks,read,no row yet
+S07,d2_school_en,England,School,E. A. Freeman,General Sketch of European History,1872-73,sd2-1872-freeman-sketch,read,Strand D: numbers only to the fourth; no row yet
 S08,d2_school_en,England,School,William Smith (ed.),The Student's Gibbon; Student's Hallam; Student's Hume; Student's France,1857-,sd2-1868-students-gibbon,partial,D2: Student's Gibbon read; other Student's manuals pending
 S09,d2_school_en,England,School,Dorothea Beale,The Student's Textbook of English and General History,1858 (read),sd-1858-beale-student-textbook,to_read,
-S10,d2_school_en,England,School,T. F. Tout,The Empire and the Papacy,1898/1899,,to_read,Strand D: Gibbon seven; no row yet
-S11,d2_school_en,Scotland,School,James White,The Eighteen Christian Centuries,Edinburgh 1858-,,to_read,
+S10,d2_school_en,England,School,T. F. Tout,The Empire and the Papacy,1898/1899,sd2-1898-tout-empire-papacy,read,Strand D: Gibbon seven; no row yet | D2: The Empire and the Papacy; Edward the First not reached
+S11,d2_school_en,Scotland,School,James White,The Eighteen Christian Centuries,Edinburgh 1858-,sd2-1858-white-eighteen-centuries,read,D2: Philadelphia 1859 printing
 S12,d2_school_en,Scotland,School,W. and R. Chambers,Chambers's Educational Course: histories,1850s-,,to_read,
 S13,d2_school_en,Ireland,School,Commissioners of National Education,Reading books (Fourth Book of Lessons etc.),1830s-,,to_read,
 S14,d2_school_en,Ireland,School,Christian Brothers,Historical class-books,1850s-,,to_read,
-S15,d2_school_en,US,School,S. G. Goodrich,Universal History on the Basis of Geography (and Parley histories),1837-,,to_read,
-S16,d2_school_en,US,School,Marcius Willson,Outlines of History,1854-,,to_read,
-S17,d2_school_en,US,School,J. E. Worcester,"Elements of History, Ancient and Modern",1826-,,to_read,
+S15,d2_school_en,US,School,S. G. Goodrich,Universal History on the Basis of Geography (and Parley histories),1837-,sd2-1853-goodrich-all-nations,read,D2: History of All Nations 1853; Peter Parley's Universal History 1874 ed. has only 'Last crusade begun 1248'
+S16,d2_school_en,US,School,Marcius Willson,Outlines of History,1854-,sd2-1854-willson-outlines,read,
+S17,d2_school_en,US,School,J. E. Worcester,"Elements of History, Ancient and Modern",1826-,sd2-1843-worcester-elements,read,
 S18,d2_school_en,US,School,Emma Willard,Universal History in Perspective,1835 (read),sd-1835-willard-universal,to_read,
 S19,d2_school_en,US,School,William Swinton,Outlines of the World's History,1874 (read),1874-william-swinton,to_read,
 S20,d2_school_en,US,School,G. W. Greene,History and Geography of the Middle Ages,1851 (read),sd-1851-greene-middle-ages,to_read,
-S21,d2_school_en,US,School,Peter Fredet,Modern History,Baltimore 1840s-,,to_read,Catholic
+S21,d2_school_en,US,School,Peter Fredet,Modern History,Baltimore 1840s-,sd2-1842-fredet-modern-history,read,Catholic
 S22,d2_school_en,US,School,M. J. Kerney,Compendium of Ancient and Modern History,1855 (read),sd-1855-kerney-compendium,to_read,Catholic
 S23,d2_school_en,US,School,François Gazeau,History of the Middle Ages,1878 (read),sd-1878-gazeau-middle-ages,to_read,"Catholic, translated"
 S24,d2_school_en,US,School,J. D. Steele and E. B. Steele,A Brief History of Mediaeval and Modern Peoples,1883 (read),sd-1883-steele-brief-history,to_read,
 S25,d2_school_en,US,School,P. V. N. Myers,Outlines of Mediaeval and Modern History; General History; Mediaeval and Modern History,1885 (read); 1889; 1902; 1905,1885-p-v-n-myers,to_read,
 S26,d2_school_en,US,School,G. P. Fisher,Outlines of Universal History,1885,,to_read,
-S27,d2_school_en,US,School,J. J. Anderson,A General History; Popular History,1872-,,to_read,
-S29,d2_school_en,US,School,Willis Mason West,The Modern World; Ancient World,1902-,,to_read,
-S30,d2_school_en,US,School,J. H. Robinson,Introduction to the History of Western Europe; Medieval and Modern Times,1903; 1906; 1919,,to_read,
-S31,d2_school_en,US,School,Breasted and Robinson,Outlines of European History,1914-,,to_read,
-S32,d2_school_en,US,School,Hutton Webster,Early European History; Medieval and Modern History,1917-,,to_read,
-S33,d2_school_en,US,School,O. J. Thatcher and Ferdinand Schwill,Europe in the Middle Age,1896,,to_read,
-S34,d2_school_en,Canada,School,Ontario and other provinces,Authorized history textbooks,1846-1945,,to_read,Build list from Canadiana.ca
-S35,d2_school_en,US,School,Charles Dickens,A Child's History of England,1851-53; US eds,,to_read,Edward I crusade
+S27,d2_school_en,US,School,J. J. Anderson,A General History; Popular History,1872-,sd2-1870-anderson-manual,read,
+S29,d2_school_en,US,School,Willis Mason West,The Modern World; Ancient World,1902-,sd2-1915-west-modern-world,read,
+S30,d2_school_en,US,School,J. H. Robinson,Introduction to the History of Western Europe; Medieval and Modern Times,1903; 1906; 1919,sd2-1903-robinson-western-europe,read,
+S31,d2_school_en,US,School,Breasted and Robinson,Outlines of European History,1914-,sd2-1920-breasted-robinson,read,
+S32,d2_school_en,US,School,Hutton Webster,Early European History; Medieval and Modern History,1917-,sd2-1917-webster-early-european,read,
+S33,d2_school_en,US,School,O. J. Thatcher and Ferdinand Schwill,Europe in the Middle Age,1896,sd2-1896-thatcher-schwill,read,
+S34,d2_school_en,Canada,School,Ontario and other provinces,Authorized history textbooks,1846-1945,sd2-1883-swinton-canadian;sd2-1910-ontario-ps-history,partial,Build list from Canadiana.ca | D2: Halifax 1883 Swinton and Toronto 1910 read; Creighton primer and Toronto topical notes have no crusades
+S35,d2_school_en,US,School,Charles Dickens,A Child's History of England,1851-53; US eds,,not_reached,Edward I crusade | D2: only vol. 1 (to Henry III's reign) had a text layer
 P01,d2_popular_en,England,Popular history,Charles Mills,The History of the Crusades,1820; 1821; 1822; 1828; Philadelphia 1844,1820-charles-mills,read,"D2: 1820, 1821, 1828, 1844 texts"
 P02,d2_popular_en,Scotland,Popular history,Henry Stebbing,The History of Chivalry and the Crusades (Constable's Miscellany),Edinburgh 1830,sd2-1830-stebbing-chivalry,read,
 P03,d2_popular_en,England,Popular history,G. P. R. James,The History of Chivalry,1830; New York 1831,sd2-1830-james-chivalry,read,
@@ -96,7 +96,7 @@ P24,d2_popular_en,England,Popular history,H. G. Wells,The Outline of History,192
 P25,d2_popular_en,US,Popular history,H. W. Van Loon,The Story of Mankind,1921,,to_read,
 P26,d2_popular_en,US,Popular history,Harold Lamb,The Crusades: Iron Men and Saints; The Flame of Islam,1930; 1931,sd2-1930-lamb-flame-islam,partial,D2: Iron Men and Saints is a lending copy
 P27,d2_popular_en,England,Popular history,Hilaire Belloc,The Crusade,1937,,not_reached,"D2: Belloc, The Crusade (1937) is a lending copy without text"
-P28,d2_popular_en,England,Popular history,Michael Russell,"Palestine, or the Holy Land",1831 (snippet),sd-1831-russell-palestine,to_read,
+P28,d2_popular_en,England,Popular history,Michael Russell,"Palestine, or the Holy Land",1831 (snippet),sd-1831-russell-palestine,read,D2: ten copies 1831-37 in the full-text search
 P29,d2_popular_en,England,Popular history,Billy Parker; anti-Catholic and other tracts,The Bloody Trail of Romanism,1915 (read),sd-1915-parker-bloody-trail,to_read,
 P30,d2_popular_en,England,Popular history,,"Juvenile and Sunday-school crusade histories (RTS, SPCK, ASSU)",1820s-1900s,,to_read,
 P31,d2_popular_en,US,Popular history,Jacob Abbott; John S. C. Abbott,Makers of History: Richard I and others,1857-,,to_read,
@@ -118,17 +118,17 @@ H14,d2_scholarly_en,England,Scholarship,,The Cambridge Medieval History,"vols. 4
 H15,d2_scholarly_en,US,Scholarship,J. L. La Monte,Feudal Monarchy in the Latin Kingdom of Jerusalem,1932,,to_read,
 H16,d2_scholarly_en,England,Scholarship,C. W. C. Oman,A History of the Art of War in the Middle Ages,1898; 1924,,to_read,
 H17,d2_scholarly_en,US,Scholarship,O. J. Thatcher and E. H. McNeal,A Source Book for Mediaeval History,1905,,to_read,
-H18,d2_scholarly_en,US,Scholarship,Ephraim Emerton,Mediaeval Europe,1894,,to_read,
-H19,d2_scholarly_en,US,Scholarship,G. B. Adams,Civilization during the Middle Ages,1894,,to_read,
+H18,d2_scholarly_en,US,Scholarship,Ephraim Emerton,Mediaeval Europe,1894,sd2-1894-emerton-mediaeval-europe,read,
+H19,d2_scholarly_en,US,Scholarship,G. B. Adams,Civilization during the Middle Ages,1894,sd2-1894-adams-civilization,read,
 H20,d2_scholarly_en,England,Scholarship,C. W. Previté-Orton,Outlines of Medieval History,1916; 1924; 1937,,to_read,
 H21,d2_scholarly_en,England,Scholarship,"Edward Gibbon, ed. Milman; Smith; Bury",Decline and Fall (annotated editions),Milman 1838-39; Smith 1854-55; Bury 1896-1900,1788-edward-gibbon,partial,D2: Bohn variorum vol. 6 and Methuen (Bury) vol. 6 read; Milman ed. crusade volume not reached
 H22,d2_scholarly_en,England,Scholarship,E. J. King,The Knights Hospitallers in the Holy Land,1931,,to_read,
 C01,d2_church_en,England,Church history,"J. L. Mosheim, trans. Maclaine; Murdock",Ecclesiastical History,Maclaine eds to 1840s; Murdock 1832,,to_read,
-C02,d2_church_en,England,Church history,Joseph Milner,History of the Church of Christ,1794-1809; later eds,,to_read,
+C02,d2_church_en,England,Church history,Joseph Milner,History of the Church of Christ,1794-1809; later eds,,not_reached,D2: vol. 17 read was the wrong volume
 C03,d2_church_en,US,Church history,"August Neander, trans. Torrey",General History of the Christian Religion,1847-54,,to_read,
 C04,d2_church_en,US,Church history,"J. C. L. Gieseler, trans.",Text-book of Church History,1836; 1857-,,to_read,
 C05,d2_church_en,England,Church history,"J. H. Kurtz, trans.",History of the Christian Church / Church History,1860s; 1888-90,,to_read,
-C06,d2_church_en,England,Church history,J. C. Robertson,History of the Christian Church,1854-73,,to_read,
+C06,d2_church_en,England,Church history,J. C. Robertson,History of the Christian Church,1854-73,,not_reached,D2: vols. 5 and 6 read were the wrong volumes
 C07,d2_church_en,England,Church history,Charles Hardwick,A History of the Christian Church: Middle Age,1853,,to_read,
 C08,d2_church_en,US,Church history,D. S. Schaff,History of the Christian Church vol. V,1907 (read),1907-david-s-schaff,to_read,
 C09,d2_church_en,US,Church history,G. P. Fisher,History of the Christian Church,1887,,to_read,
@@ -142,3 +142,13 @@ C16,d2_church_en,England,National history,David Hume; Student's Hume,History of 
 C17,d2_church_en,England,National history,Charles Knight,Popular History of England,1856-62,,to_read,
 C18,d2_church_en,England,National history,J. R. Green,A Short History of the English People,1874,,to_read,
 C19,d2_church_en,England,National history,T. F. Tout,Edward the First,1893,,to_read,
+S36,d2_school_en,England,School,W. C. Taylor,The Student's Manual of Modern History; A Manual of Ancient and Modern History (New York),1844 New York; 1847; 1858,sd2-1844-taylor-manual-us;sd2-1858-taylor-students-manual,read,added_during_reading (ninth sweep)
+S37,d2_school_en,England,School,H. Le M. Chepmell,A Short Course of History,1857,sd2-1857-chepmell-short-course,read,added_during_reading (ninth sweep)
+S38,d2_school_en,US,School,Arthur Gilman,First Steps in General History,1874,sd2-1874-gilman-first-steps,read,added_during_reading
+S39,d2_school_en,England,School,W. B. Boyce,Introduction to the Study of History,1884,sd2-1884-boyce-introduction,read,added_during_reading (ninth sweep)
+S40,d2_school_en,England,School,W. M. Lupton; G. W. Cox; Cyril Ransome,Concise histories of England,1883; 1887; 1888,sd2-1883-lupton-concise;sd2-1887-cox-concise-england;sd2-1888-ransome-short-history,read,added_during_reading (ninth sweep)
+R37,d2_reference_en,Scotland,Reference,W. & A. K. Johnston,Johnston's Historical Atlas,1880,sd2-1880-johnston-atlas,read,added_during_reading (ninth sweep)
+R38,d2_reference_en,US,Reference,A. E. Berg; Gay Brothers; Ogle,Universal Self-Instructor; Gay's Circle of Knowledge; atlas chronologies,1882; 1891; 1892-1936,sd2-1882-universal-self-instructor;sd2-1891-gays-circle;sd2-1892-atlas-chronology,read,added_during_reading (ninth sweep)
+R39,d2_reference_en,England,Reference,T. B. Harbottle,Dictionary of Battles,1904,sd2-1904-harbottle-battles,read,added_during_reading (ninth sweep)
+P33,d2_popular_en,US,Popular history,H. J. Desmond; O. H. Parry; L. Outhwaite,Mooted Questions; The Pilgrim in Jerusalem; Unrolling the Map,1902; 1920; 1935,sd2-1897-desmond-mooted;sd2-1920-parry-pilgrim;sd2-1935-outhwaite-unrolling,read,added_during_reading (ninth sweep)
+H23,d2_scholarly_en,Scotland,Scholarship,G. A. Smith,The Historical Geography of the Holy Land,1894; 1897,sd2-1894-smith-historical-geography,read,added_during_reading (ninth sweep)
