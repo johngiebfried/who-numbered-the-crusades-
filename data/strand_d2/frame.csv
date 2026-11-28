@@ -1,12 +1,12 @@
 frame_id,frame,country,genre,author,title,editions_targeted,existing_work_ids,status,notes
-R01,d2_reference_en,Scotland,Reference,,Encyclopaedia Britannica,4th-8th (read); 9th 1877; 10th 1902; 11th 1911; 12th 1922; 13th 1926; 14th 1929 and printings to 1945,sa-1810-eb4;sa-1815-eb5;sa-1823-eb6;sa-1842-eb7;sa-1854-eb8;1877-eb9-crusades;1911-ernest-barker,to_read,EB9 and EB11 Edward cells in conflict
+R01,d2_reference_en,Scotland,Reference,,Encyclopaedia Britannica,4th-8th (read); 9th 1877; 10th 1902; 11th 1911; 12th 1922; 13th 1926; 14th 1929 and printings to 1945,sa-1810-eb4;sa-1815-eb5;sa-1823-eb6;sa-1842-eb7;sa-1854-eb8;1877-eb9-crusades;1911-ernest-barker;sd2-1929-eb14-crusades,partial,"EB9 and EB11 Edward cells in conflict | D2: 9th (US reprints), 11th, 1922, 1926, 1929 read; 1938 and 1944 lending copies not reached"
 R02,d2_reference_en,Scotland,Reference,,Encyclopaedia Perthensis,1806; 2nd ed. 1816,,to_read,
 R03,d2_reference_en,Scotland,Reference,David Brewster (ed.),The Edinburgh Encyclopaedia,Edinburgh 1808-30; Philadelphia 1832,,to_read,
 R04,d2_reference_en,England,Reference,John Wilkes (ed.),Encyclopaedia Londinensis,1810-29,,to_read,
 R05,d2_reference_en,England,Reference,"Gregory, Good, Bosworth",Pantologia,1813,,to_read,
 R06,d2_reference_en,England,Reference,Abraham Rees,The Cyclopaedia,c. 1808 (read); Philadelphia ed.,sa-1808-rees,to_read,
 R07,d2_reference_en,England,Reference,,Encyclopaedia Metropolitana,1817-45; 2nd ed. 1848-58 (Griffin),,to_read,Procter's History of the Crusades may derive from it
-R08,d2_reference_en,US,Reference,Francis Lieber (ed.) and successors,Encyclopaedia Americana,"1829-33, 1838 (read), 1849; Americana 1903-06; 1918-20; 1924 (read); 1932; 1938; 1942; 1953 (read)",sa-1830-americana;sd-1924-americana;sd-1953-americana,to_read,
+R08,d2_reference_en,US,Reference,Francis Lieber (ed.) and successors,Encyclopaedia Americana,"1829-33, 1838 (read), 1849; Americana 1903-06; 1918-20; 1924 (read); 1932; 1938; 1942; 1953 (read)",sa-1830-americana;sd-1924-americana;sd-1953-americana;sd2-1831-americana-chron-table,partial,D2: 1829-33 chronological table read
 R09,d2_reference_en,England,Reference,SDUK; Charles Knight,Penny Cyclopaedia; English Cyclopaedia,1837 (read); English Cyclopaedia 1854-61,sa-1837-penny,to_read,
 R10,d2_reference_en,Scotland,Reference,Blackie,The Popular Encyclopedia,Glasgow 1835-41; 1862; 1874-77; 1883; 1890s,,to_read,
 R11,d2_reference_en,Scotland,Reference,W. and R. Chambers,Chambers's Information for the People,1833-35; 1842; 1848-49; 1857; 1874-75,,to_read,
@@ -42,7 +42,7 @@ S04,d2_school_en,England,School,Thomas Keightley,Outlines of History (Lardner),1
 S05,d2_school_en,Scotland,School,William Francis Collier,Great Events of History; History of the British Empire,c. 1860 (read); later eds,sd-1860-collier-great-events,to_read,
 S06,d2_school_en,England,School,Charlotte M. Yonge,Landmarks of History: Middle Ages,1852; 1864 (Strand D: slots 4-7),,to_read,no row yet
 S07,d2_school_en,England,School,E. A. Freeman,General Sketch of European History,1872-73,,to_read,Strand D: numbers only to the fourth; no row yet
-S08,d2_school_en,England,School,William Smith (ed.),The Student's Gibbon; Student's Hallam; Student's Hume; Student's France,1857-,,to_read,
+S08,d2_school_en,England,School,William Smith (ed.),The Student's Gibbon; Student's Hallam; Student's Hume; Student's France,1857-,sd2-1868-students-gibbon,partial,D2: Student's Gibbon read; other Student's manuals pending
 S09,d2_school_en,England,School,Dorothea Beale,The Student's Textbook of English and General History,1858 (read),sd-1858-beale-student-textbook,to_read,
 S10,d2_school_en,England,School,T. F. Tout,The Empire and the Papacy,1898/1899,,to_read,Strand D: Gibbon seven; no row yet
 S11,d2_school_en,Scotland,School,James White,The Eighteen Christian Centuries,Edinburgh 1858-,,to_read,
@@ -69,47 +69,47 @@ S32,d2_school_en,US,School,Hutton Webster,Early European History; Medieval and M
 S33,d2_school_en,US,School,O. J. Thatcher and Ferdinand Schwill,Europe in the Middle Age,1896,,to_read,
 S34,d2_school_en,Canada,School,Ontario and other provinces,Authorized history textbooks,1846-1945,,to_read,Build list from Canadiana.ca
 S35,d2_school_en,US,School,Charles Dickens,A Child's History of England,1851-53; US eds,,to_read,Edward I crusade
-P01,d2_popular_en,England,Popular history,Charles Mills,The History of the Crusades,1820; 1821; 1822; 1828; Philadelphia 1844,1820-charles-mills,to_read,
-P02,d2_popular_en,Scotland,Popular history,Henry Stebbing,The History of Chivalry and the Crusades (Constable's Miscellany),Edinburgh 1830,,to_read,
-P03,d2_popular_en,England,Popular history,G. P. R. James,The History of Chivalry,1830; New York 1831,,to_read,
-P04,d2_popular_en,England,Popular history,Thomas Keightley,"The Crusaders; or, Scenes, Events and Characters",1833; 1847; 1852,,to_read,
+P01,d2_popular_en,England,Popular history,Charles Mills,The History of the Crusades,1820; 1821; 1822; 1828; Philadelphia 1844,1820-charles-mills,read,"D2: 1820, 1821, 1828, 1844 texts"
+P02,d2_popular_en,Scotland,Popular history,Henry Stebbing,The History of Chivalry and the Crusades (Constable's Miscellany),Edinburgh 1830,sd2-1830-stebbing-chivalry,read,
+P03,d2_popular_en,England,Popular history,G. P. R. James,The History of Chivalry,1830; New York 1831,sd2-1830-james-chivalry,read,
+P04,d2_popular_en,England,Popular history,Thomas Keightley,"The Crusaders; or, Scenes, Events and Characters",1833; 1847; 1852,sd2-1834-keightley-crusaders,read,
 P05,d2_popular_en,England,Popular history,Charles Mackay,Memoirs of Extraordinary Popular Delusions,1841 (read),sd-1841-mackay-delusions,to_read,
 P06,d2_popular_en,England,Popular history,Mary Milner,Sketches illustrative of important periods,1847 (read),sd-1847-milner-sketches,to_read,
-P07,d2_popular_en,England,Popular history,"J.-F. Michaud, trans. W. Robson",The History of the Crusades,1852 (contents); 1854; 1875; 1881; New York 1853; Doré eds,1852-michaud-trans-william-robson,to_read,
-P08,d2_popular_en,England,Popular history,George Procter,History of the Crusades,London 1842?; Philadelphia 1854 (read),1842-george-proctor,to_read,
-P09,d2_popular_en,US,Popular history,Celestia Angenette Bloss,Heroines of the Crusades,Auburn 1853,,to_read,
-P10,d2_popular_en,England,Popular history,George E. Sargeant,Sketches of the Crusades (RTS),1860,,to_read,
-P11,d2_popular_en,England,Popular history,George G. Perry,A History of the Crusades,1865,1865-walter-c-perry,to_read,"legacy row may be misidentified (Walter C. Perry, The Franks)"
-P12,d2_popular_en,England,Popular history,George W. Cox,The Crusades,1874 (read); 12th ed. 1901 (read),1874-george-w-cox;sd-1901-cox-crusades-12,to_read,
+P07,d2_popular_en,England,Popular history,"J.-F. Michaud, trans. W. Robson",The History of the Crusades,1852 (contents); 1854; 1875; 1881; New York 1853; Doré eds,1852-michaud-trans-william-robson;sd2-1900-michaud-robson-ny,read,D2: index and vol. 3 contents; Frederick II not checked
+P08,d2_popular_en,England,Popular history,George Procter,History of the Crusades,London 1842?; Philadelphia 1854 (read),1842-george-proctor;sd2-1856-procter-philadelphia,read,D2: Philadelphia 1856 and New York 1876
+P09,d2_popular_en,US,Popular history,Celestia Angenette Bloss,Heroines of the Crusades,Auburn 1853,sd2-1853-bloss-heroines,read,
+P10,d2_popular_en,England,Popular history,George E. Sargeant,Sketches of the Crusades (RTS),1860,sd2-1849-sargent-sketches,read,
+P11,d2_popular_en,England,Popular history,George G. Perry,A History of the Crusades,1865,1865-walter-c-perry,read,"legacy row may be misidentified (Walter C. Perry, The Franks) | D2: author corrected (G. G. Perry, not Walter C. Perry)"
+P12,d2_popular_en,England,Popular history,George W. Cox,The Crusades,1874 (read); 12th ed. 1901 (read),1874-george-w-cox;sd-1901-cox-crusades-12,read,D2: 1874 and 1890 texts
 P13,d2_popular_en,England,Popular history,W. E. Dutton,A History of the Crusades,1877,,to_read,
-P14,d2_popular_en,England,Popular history,W. H. Davenport Adams,The Wars of the Cross,1886,,to_read,
-P15,d2_popular_en,England,Popular history,John G. Edgar,The Crusades and the Crusaders,1860,,to_read,
-P16,d2_popular_en,England,Popular history,Walter Besant and E. H. Palmer,"Jerusalem, the City of Herod and Saladin",1871; 1888,,to_read,
-P17,d2_popular_en,England,Popular history,T. A. Archer and C. L. Kingsford,The Crusades (Story of the Nations),1894 (contents),1894-t-a-archer-c-l-kingsford,to_read,
-P18,d2_popular_en,US,Popular history,J. I. Mombert,A Short History of the Crusades,1894 (contents),1894-j-i-mombert,to_read,
-P19,d2_popular_en,US,Popular history,J. M. Ludlow,The Age of the Crusades,1896 (read),1896-j-m-ludlow,to_read,
-P20,d2_popular_en,US,Popular history,H. S. Williams (ed.),The Historians' History of the World,1904-07,,to_read,
+P14,d2_popular_en,England,Popular history,W. H. Davenport Adams,The Wars of the Cross,1886,,not_reached,D2: The Wars of the Cross not found; Heroes of the Cross is a different book
+P15,d2_popular_en,England,Popular history,John G. Edgar,The Crusades and the Crusaders,1860,sd2-1860-edgar-crusaders,read,D2: Boston 1860 printing
+P16,d2_popular_en,England,Popular history,Walter Besant and E. H. Palmer,"Jerusalem, the City of Herod and Saladin",1871; 1888,sd2-1871-besant-palmer-jerusalem,read,
+P17,d2_popular_en,England,Popular history,T. A. Archer and C. L. Kingsford,The Crusades (Story of the Nations),1894 (contents),1894-t-a-archer-c-l-kingsford,read,
+P18,d2_popular_en,US,Popular history,J. I. Mombert,A Short History of the Crusades,1894 (contents),1894-j-i-mombert,read,
+P19,d2_popular_en,US,Popular history,J. M. Ludlow,The Age of the Crusades,1896 (read),1896-j-m-ludlow,read,
+P20,d2_popular_en,US,Popular history,H. S. Williams (ed.),The Historians' History of the World,1904-07,sd2-1904-historians-history-v8,read,
 P21,d2_popular_en,US,Popular history,Rossiter Johnson and C. F. Horne (eds.),The Great Events by Famous Historians,1904 (read),sd-1904-great-events,to_read,
-P22,d2_popular_en,England,Popular history,Estelle Blyth,Jerusalem and the Crusades,1913,,to_read,
-P23,d2_popular_en,US,Popular history,J. C. Ridpath,History of the World; Cyclopaedia of Universal History,1880s-1890s,,to_read,
+P22,d2_popular_en,England,Popular history,Estelle Blyth,Jerusalem and the Crusades,1913,sd2-1913-blyth-jerusalem,read,
+P23,d2_popular_en,US,Popular history,J. C. Ridpath,History of the World; Cyclopaedia of Universal History,1880s-1890s,,not_reached,D2: only vol. 1 of the Cyclopaedia of Universal History had a text layer
 P24,d2_popular_en,England,Popular history,H. G. Wells,The Outline of History,1920,,to_read,
 P25,d2_popular_en,US,Popular history,H. W. Van Loon,The Story of Mankind,1921,,to_read,
-P26,d2_popular_en,US,Popular history,Harold Lamb,The Crusades: Iron Men and Saints; The Flame of Islam,1930; 1931,,to_read,
-P27,d2_popular_en,England,Popular history,Hilaire Belloc,The Crusade,1937,,to_read,
+P26,d2_popular_en,US,Popular history,Harold Lamb,The Crusades: Iron Men and Saints; The Flame of Islam,1930; 1931,sd2-1930-lamb-flame-islam,partial,D2: Iron Men and Saints is a lending copy
+P27,d2_popular_en,England,Popular history,Hilaire Belloc,The Crusade,1937,,not_reached,"D2: Belloc, The Crusade (1937) is a lending copy without text"
 P28,d2_popular_en,England,Popular history,Michael Russell,"Palestine, or the Holy Land",1831 (snippet),sd-1831-russell-palestine,to_read,
 P29,d2_popular_en,England,Popular history,Billy Parker; anti-Catholic and other tracts,The Bloody Trail of Romanism,1915 (read),sd-1915-parker-bloody-trail,to_read,
 P30,d2_popular_en,England,Popular history,,"Juvenile and Sunday-school crusade histories (RTS, SPCK, ASSU)",1820s-1900s,,to_read,
 P31,d2_popular_en,US,Popular history,Jacob Abbott; John S. C. Abbott,Makers of History: Richard I and others,1857-,,to_read,
-P32,d2_popular_en,England,Popular history,Perry (1840),History of the Crusades (1840),1840 (snippet),sd-1840-perry-history-crusades,to_read,identify
-H01,d2_scholarly_en,England,Scholarship,Henry Hallam,View of the State of Europe during the Middle Ages,1818; later eds; Student's Hallam,,to_read,
-H02,d2_scholarly_en,England,Scholarship,H. H. Milman,History of Latin Christianity,1854-55,,to_read,
-H03,d2_scholarly_en,England,Scholarship,William Stubbs,Seventeen Lectures,1886,,to_read,
-H04,d2_scholarly_en,England,Scholarship,Edwin Pears,The Fall of Constantinople,1885 (contents),1885-edwin-pears,to_read,
-H05,d2_scholarly_en,England,Scholarship,C. R. Conder,The Latin Kingdom of Jerusalem,1897,,to_read,
-H06,d2_scholarly_en,England,Scholarship,Stanley Lane-Poole,Saladin and the Fall of the Kingdom of Jerusalem,1898,,to_read,
+P32,d2_popular_en,England,Popular history,Perry (1840),History of the Crusades (1840),1840 (snippet),sd-1840-perry-history-crusades;1865-walter-c-perry,merged,identify | D2: same copy as P11; archive.org date 1840 wrong
+H01,d2_scholarly_en,England,Scholarship,Henry Hallam,View of the State of Europe during the Middle Ages,1818; later eds; Student's Hallam,sd2-1818-hallam-middle-ages,read,D2: New York 1857 printing
+H02,d2_scholarly_en,England,Scholarship,H. H. Milman,History of Latin Christianity,1854-55,sd2-1854-milman-latin-christianity,read,D2: vols. 4-5
+H03,d2_scholarly_en,England,Scholarship,William Stubbs,Seventeen Lectures,1886,sd2-1886-stubbs-lectures,read,
+H04,d2_scholarly_en,England,Scholarship,Edwin Pears,The Fall of Constantinople,1885 (contents),1885-edwin-pears,read,
+H05,d2_scholarly_en,England,Scholarship,C. R. Conder,The Latin Kingdom of Jerusalem,1897,sd2-1897-conder-latin-kingdom,read,
+H06,d2_scholarly_en,England,Scholarship,Stanley Lane-Poole,Saladin and the Fall of the Kingdom of Jerusalem,1898,sd2-1898-lane-poole-saladin,read,
 H07,d2_scholarly_en,US,Scholarship,D. C. Munro,Translations and Reprints; The Kingdom of the Crusaders,1896 (contents); 1935,1896-dana-c-munro,to_read,
 H08,d2_scholarly_en,England,Scholarship,T. A. Archer,The Crusade of Richard I,1888,,to_read,
-H09,d2_scholarly_en,England,Scholarship,W. B. Stevenson,The Crusaders in the East,1907 (contents),1907-w-b-stevenson,to_read,
+H09,d2_scholarly_en,England,Scholarship,W. B. Stevenson,The Crusaders in the East,1907 (contents),1907-w-b-stevenson,read,
 H10,d2_scholarly_en,England,Scholarship,Ernest Barker,The Crusades,1923 (contents),1923-ernest-barker,to_read,
 H11,d2_scholarly_en,US,Scholarship,A. C. Krey,The First Crusade,1921,,to_read,
 H12,d2_scholarly_en,US,Scholarship,R. A. Newhall,The Crusades,1927,,to_read,
@@ -121,7 +121,7 @@ H17,d2_scholarly_en,US,Scholarship,O. J. Thatcher and E. H. McNeal,A Source Book
 H18,d2_scholarly_en,US,Scholarship,Ephraim Emerton,Mediaeval Europe,1894,,to_read,
 H19,d2_scholarly_en,US,Scholarship,G. B. Adams,Civilization during the Middle Ages,1894,,to_read,
 H20,d2_scholarly_en,England,Scholarship,C. W. Previté-Orton,Outlines of Medieval History,1916; 1924; 1937,,to_read,
-H21,d2_scholarly_en,England,Scholarship,"Edward Gibbon, ed. Milman; Smith; Bury",Decline and Fall (annotated editions),Milman 1838-39; Smith 1854-55; Bury 1896-1900,1788-edward-gibbon,to_read,
+H21,d2_scholarly_en,England,Scholarship,"Edward Gibbon, ed. Milman; Smith; Bury",Decline and Fall (annotated editions),Milman 1838-39; Smith 1854-55; Bury 1896-1900,1788-edward-gibbon,partial,D2: Bohn variorum vol. 6 and Methuen (Bury) vol. 6 read; Milman ed. crusade volume not reached
 H22,d2_scholarly_en,England,Scholarship,E. J. King,The Knights Hospitallers in the Holy Land,1931,,to_read,
 C01,d2_church_en,England,Church history,"J. L. Mosheim, trans. Maclaine; Murdock",Ecclesiastical History,Maclaine eds to 1840s; Murdock 1832,,to_read,
 C02,d2_church_en,England,Church history,Joseph Milner,History of the Church of Christ,1794-1809; later eds,,to_read,
@@ -137,7 +137,7 @@ C11,d2_church_en,US,Church history,Williston Walker,A History of the Christian C
 C12,d2_church_en,US,Church history,"J. B. Alzog, trans. Pabisch and Byrne",Manual of Universal Church History,Cincinnati 1874-78,,to_read,Catholic
 C13,d2_church_en,US,Church history,J. E. Darras,A General History of the Catholic Church,New York 1866,,to_read,Catholic
 C14,d2_church_en,England,National history,John Lingard,History of England,1819-30; later eds,,to_read,Catholic
-C15,d2_church_en,England,National history,Sharon Turner,History of England during the Middle Ages,1814-23,,to_read,
+C15,d2_church_en,England,National history,Sharon Turner,History of England during the Middle Ages,1814-23,sd2-1830-turner-middle-ages,read,
 C16,d2_church_en,England,National history,David Hume; Student's Hume,History of England,1762 base; Student's Hume 1858,,to_read,
 C17,d2_church_en,England,National history,Charles Knight,Popular History of England,1856-62,,to_read,
 C18,d2_church_en,England,National history,J. R. Green,A Short History of the English People,1874,,to_read,
