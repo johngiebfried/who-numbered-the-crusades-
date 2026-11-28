@@ -1,0 +1,43 @@
+work_id,year,genre,country_pub,gibbon_cited,gibbon_edition,numbering,scheme_family,gibbon_numbers,numbers_follow
+sd2-1818-hallam-middle-ages,1818,scholarly,England,footnote,unspecified,C 4,,all,gibbon;inferred
+1820-charles-mills,1820,popular,England,preface;footnote,unspecified,"H6 4, C 5, D+F 6, B 7, L1 8",,none,michaud_mills;inferred
+sd2-1830-stebbing-chivalry,1830,popular,Scotland,footnote,unspecified,"H6+C 4, D+F 5, L1 6, L2 7",frederick_fifth_seven,all,german;inferred
+sd2-1830-turner-middle-ages,1830,church_national,England,footnote,unspecified,L2 7,,all,gibbon;inferred
+sd2-1834-keightley-crusaders,1834,popular,England,footnote,unspecified,,none,,unclear;inferred
+1842-george-proctor,1842,popular,England,footnote,unspecified,"C 4, D+F 5, B 6, L1 7, L2+E 8",barons_sixth,some,own;documented
+sd-1847-milner-sketches,1847,school,England,named_in_text,,"H6 4, C 5, D 6, F 7, L1 8, L2 9",nine_F7,none,michaud_mills;inferred
+sd2-1849-sargent-sketches,1849,popular,England,quoted;footnote,unspecified,"H6 4, D 6",,none,michaud_mills;inferred
+sd2-1850-rts-crusades,1850,popular,England,footnote;quoted,unspecified,"H6 4, C 5, D 6, B 7, L1 8",,none,michaud_mills;inferred
+1852-michaud-trans-william-robson,1852,popular,England,footnote,unspecified,"H6 4, C 5, D 6, L1 7, L2+E 8",moreri_eight,none,own;documented
+sd2-1853-hardwick-middle-age,1853,church_national,England,footnote,Milman,,none,,unclear;inferred
+sd2-1854-newman-turks,1854,church_national,Ireland,footnote,unspecified,,none,,unclear;inferred
+sd2-1854-willson-outlines,1854,school,US,footnote,unspecified,"C 4, D 5",,all,gibbon;inferred
+sd2-1856-procter-philadelphia,1856,popular,US,footnote,unspecified,"C 4, D+F 5, B 6, L1 7, L2+E 8",barons_sixth,some,own;documented
+sd2-1857-chepmell-short-course,1857,school,England,preface,unspecified,"C 4, D 5, L1 6, L2 7",gibbon_seven,all,gibbon;documented
+sd2-1859-students-hume,1859,school,England,footnote,Student's Gibbon,,none,,unclear;inferred
+sd2-1860-mosheim-reid,1860,church_national,England,footnote,Milman,L1 6,,all,gibbon;inferred
+1865-walter-c-perry,1865,popular,England,preface;footnote,unspecified,"H6 4, C 5, D+F 6, B 7, L1 8, L2 9",nine_H6,none,michaud_mills;documented
+sd2-1868-students-gibbon,1868,school,England,named_in_text,Student's Gibbon,"C 4, D 5, L1 6, L2+E 7",gibbon_seven,all,gibbon;documented
+sd2-1869-gibbon-crusades-extract,1869,popular,England,named_in_text,unspecified,"C 4, D 5",gibbon_seven,all,gibbon;documented
+sd2-1874-gilman-first-steps,1874,school,US,bibliography,unspecified,"H6+C 4, D 5, F 6, L1 7, L2+E 8",modern_eight,some,modern;inferred
+1877-eb9-crusades,1877,reference,Scotland,bibliography,unspecified,"H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9",nine_H6,none,michaud_mills;documented
+sd2-1882-gilbert-world-toronto,1882,reference,Canada,named_in_text,unspecified,"C 4, D 5, L2+E 7",,all,gibbon;inferred
+sd2-1883-adams-wars-of-cross,1883,popular,England,quoted,unspecified,"C 4, D 5, B 6, L1 7, L2+E 8",barons_sixth,some,own;documented
+sd2-1884-boyce-introduction,1884,school,England,named_in_text,unspecified,"H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9",nine_H6,none,michaud_mills;documented
+1885-edwin-pears,1885,scholarly,England,named_in_text,unspecified,C 4,,all,french_school;inferred
+1885-p-v-n-myers,1885,school,US,preface;footnote,,"C 4, D 5, F 6, L1 7, L2+E 8; adding H6 makes ""nine""",,some,unclear;inferred
+1894-j-i-mombert,1894,popular,US,preface;named_in_text,unspecified,"C 4, D 5, F 6, L1 7, L2+E 8",,some,modern;inferred
+sd2-1894-smith-historical-geography,1894,scholarly,England,bibliography,unspecified,"D 6, L2 8",moreri_eight,none,unclear;inferred
+1896-j-m-ludlow,1896,popular,US,bibliography;quoted,unspecified,"C 4, D 5, F 6, L1 7, L2 8",,some,modern;documented
+sd2-1897-conder-latin-kingdom,1897,scholarly,England,bibliography,unspecified,"H6 4, C 5, D 6, B 7, L1 8",,none,michaud_mills;inferred
+sd2-1900-michaud-robson-ny,1900,popular,US,footnote,unspecified,"H6 4, C 5, D 6, L1 7, L2+E 8",moreri_eight,none,own;documented
+sd2-1904-historians-history-v8,1904,popular,US,quoted,unspecified,"H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9",nine_H6,none,michaud_mills;documented
+sd2-1917-nelsons-perpetual,1917,reference,US,bibliography,unspecified,"C 4, F 5, L1 6, L2+E 7",frederick_fifth_seven,all,german;inferred
+sd2-1917-paetow-guide,1917,scholarly,US,bibliography,Bury,"C 4, D 5",,all,modern;documented
+sd2-1917-webster-early-european,1917,school,US,bibliography,Bury,C 4,,all,modern;inferred
+sd2-1920-breasted-robinson,1920,school,US,bibliography,unspecified,,none,,unclear;inferred
+sd2-1920-wells-outline,1920,popular,US,quoted,unspecified,"C 4, D 5, F 6, L1 7",modern_eight,some,modern;inferred
+sd2-1921-krey-first-crusade,1921,scholarly,US,footnote,unspecified,,none,,unclear;inferred
+sd2-1926-cmh-v5,1926,scholarly,England,named_in_text,unspecified,"C 4, D 5",,all,modern;inferred
+sd2-1927-newhall-crusades,1927,scholarly,US,named_in_text,unspecified,C 4,,all,modern;inferred
+sd2-1930-coulton-crusades-commerce,1930,popular,Scotland,named_in_text,unspecified,"C 4, D 5",,all,modern;inferred

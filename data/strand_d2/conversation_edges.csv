@@ -1,0 +1,80 @@
+citing,citing_year,citing_follows,cited,relation,confidence,shared_slots,numbers_vs_cited
+sd2-1818-hallam-middle-ages,1818,gibbon,Gibbon,assesses in note on authorities,documented,C,agrees
+1820-charles-mills,1820,michaud_mills,Gibbon,criticizes coverage in preface,documented,C D L1,disagrees
+1820-charles-mills,1820,michaud_mills,Sharon Turner,praises in preface,documented,,
+1820-charles-mills,1820,michaud_mills,Michaud,names,documented,H6 C D L1,partly agrees
+sd2-1830-james-chivalry,1830,michaud_mills,Mills,cites,documented,C,agrees
+sd2-1830-james-chivalry,1830,michaud_mills,Vertot,cites,documented,,
+1842-george-proctor,1842,own,Mills,cites,documented,C D F B L1,disagrees
+1842-george-proctor,1842,own,Michaud,cites,documented,C D L1 L2,partly agrees
+1842-george-proctor,1842,own,Gibbon,abridges for Nicaea,documented,C D L1 L2,partly agrees
+1849-wilhelm-putz,1849,unclear,Gibbon,same seven with F for D,untested,C L1 L2,agrees
+sd2-1849-sargent-sketches,1849,michaud_mills,Gibbon,quotes,documented,D,disagrees
+sd2-1849-sargent-sketches,1849,michaud_mills,Mills,names,documented,H6 D,agrees
+sd2-1850-rts-crusades,1850,michaud_mills,Gibbon,cites in footnote; quotes,documented,C D L1,disagrees
+sd2-1853-bloss-heroines,1853,moreri,Mills,names,documented,H6 C D L1,partly agrees
+sd2-1853-hardwick-middle-age,1853,unclear,Gibbon,cites in footnote,documented,,no shared slot
+sd2-1853-hardwick-middle-age,1853,unclear,Michaud,cites in footnote,documented,,no shared slot
+sd2-1853-hardwick-middle-age,1853,unclear,Wilken,cites in footnote,documented,,
+sd2-1854-newman-turks,1854,unclear,Gibbon,cites in footnote,documented,,no shared slot
+sd2-1854-willson-outlines,1854,gibbon,sd2-1830-james-chivalry,"echoes sentence, renumbered",inferred,C,disagrees
+sd2-1854-willson-outlines,1854,gibbon,Gibbon,cites in footnotes,documented,C D,agrees
+sd2-1857-chepmell-short-course,1857,gibbon,Gibbon,names in preface,documented,C D L1 L2,agrees
+sd2-1859-students-hume,1859,unclear,sd2-1868-students-gibbon,same publisher or series,documented,,no shared slot
+sd2-1860-mosheim-reid,1860,gibbon,Gibbon,cites in footnote,documented,L1,agrees
+1865-walter-c-perry,1865,michaud_mills,Michaud,chiefly based on (preface),documented,H6 C D L1 L2,partly agrees
+1865-walter-c-perry,1865,michaud_mills,Wilken,names as a principal history (preface),documented,,
+1865-walter-c-perry,1865,michaud_mills,Gibbon,follows for the Fifth Crusade (1202-04) (preface),documented,C D L1 L2,disagrees
+1865-walter-c-perry,1865,michaud_mills,Milman,freely used (preface),documented,,
+1865-walter-c-perry,1865,michaud_mills,Heeren,freely used (preface),documented,,
+1865-walter-c-perry,1865,michaud_mills,Mills,names,documented,H6 C D F B L1,agrees
+sd2-1868-students-gibbon,1868,gibbon,1788-edward-gibbon,abridges,documented,C D L1 L2,agrees
+sd2-1869-gibbon-crusades-extract,1869,gibbon,1788-edward-gibbon,reprints,documented,C D,agrees
+sd2-1872-collier-outlines-toronto,1872,moreri,sd-1860-collier-great-events,same author,inferred,H6 C F L1 L2,agrees
+1873-american-cyclopaedia-crusades,1873,unclear,Proctor,lists in bibliography,documented,C D B L1 L2,agrees
+1874-william-swinton,1874,unclear,Proctor,matches count and wording,inferred,C D B L1 L2,agrees
+sd2-1874-gilman-first-steps,1874,modern,Proctor,names,documented,C D F L1 L2,partly agrees
+1877-eb9-crusades,1877,michaud_mills,Gibbon,lists in bibliography,documented,C D L1 L2,disagrees
+1877-eb9-crusades,1877,michaud_mills,Michaud,lists in bibliography,documented,H6 C D L1 L2,partly agrees
+1877-eb9-crusades,1877,michaud_mills,Mills,lists in bibliography,documented,H6 C D F B L1,agrees
+sd2-1882-schaff-religious-encyclopedia,1882,unclear,Michaud,bibliography,documented,C,disagrees
+sd2-1882-schaff-religious-encyclopedia,1882,unclear,Mills,bibliography,documented,C,disagrees
+sd2-1882-schaff-religious-encyclopedia,1882,unclear,Kugler,bibliography,documented,,
+sd2-1882-universal-self-instructor,1882,own,sd2-1862-townsend-manual-dates,shares error and wording,documented,C D B L2,partly agrees
+sd2-1883-adams-wars-of-cross,1883,own,Gibbon,quotes,documented,C D L1 L2,partly agrees
+sd2-1883-haydn-harper,1883,moreri,sd2-1866-haydn-moxon,same publisher or series,documented,H6 C F B L1 L2,agrees
+sd2-1883-swinton-canadian,1883,michaud_mills,1877-eb9-crusades,copies wording on the Fourth,documented,H6 C D B L1 L2,agrees
+sd2-1884-boyce-introduction,1884,michaud_mills,1874-george-w-cox,lists in reading list,documented,H6 C D F B L1 L2,agrees
+1885-edwin-pears,1885,french_school,Riant,principal authority,documented,,
+1885-p-v-n-myers,1885,unclear,Michaud,cites as principal authority,documented,C D L1 L2,partly agrees
+1885-p-v-n-myers,1885,unclear,Gibbon,cites as lesser authority,documented,C D L1 L2,partly agrees
+sd2-1887-cox-concise-england,1887,own,1874-george-w-cox,same author,documented,,no shared slot
+sd2-1891-gays-circle,1891,own,sd2-1882-universal-self-instructor,copies entries,documented,C D F B L1 L2,agrees
+sd2-1892-atlas-chronology,1892,own,sd2-1882-universal-self-instructor,copies entries,documented,L2,agrees
+1894-j-i-mombert,1894,modern,Michaud,lists,documented,C D L1 L2,partly agrees
+1894-j-i-mombert,1894,modern,Gibbon,names as counselor (preface),documented,C D L1 L2,partly agrees
+sd2-1894-smith-historical-geography,1894,unclear,Gibbon,lists in reading list,documented,D L2,disagrees
+sd2-1894-smith-historical-geography,1894,unclear,1874-george-w-cox,lists in reading list,documented,D L2,partly agrees
+1896-j-m-ludlow,1896,modern,Michaud,bibliography,documented,C D L1 L2,partly agrees
+1896-j-m-ludlow,1896,modern,1885-edwin-pears,quotes on the fourth crusade,documented,C,agrees
+1896-j-m-ludlow,1896,modern,Gibbon,lists in bibliography; quotes,documented,C D L1 L2,partly agrees
+sd2-1897-conder-latin-kingdom,1897,michaud_mills,Gibbon,lists in bibliography,documented,C D L1,disagrees
+sd2-1897-conder-latin-kingdom,1897,michaud_mills,Michaud,lists in bibliography,documented,H6 C D L1,partly agrees
+sd2-1897-conder-latin-kingdom,1897,michaud_mills,sd2-1869-gibbon-crusades-extract,bibliography,inferred,C D,disagrees
+sd2-1897-desmond-mooted,1902,michaud_mills,Cox,names,documented,F L2,agrees
+sd2-1904-historians-history-v8,1904,michaud_mills,1820-charles-mills,reprints extracts,documented,H6 C D F B L1,agrees
+sd2-1904-historians-history-v8,1904,michaud_mills,1877-eb9-crusades,outline of the Fourth follows,inferred,H6 C D F B L1 L2,agrees
+1911-ernest-barker,1911,modern,1842-george-proctor,echoes footnote on why crusades were numbered,inferred,C D F L1 L2,partly agrees
+sd2-1917-nelsons-perpetual,1917,german,Gibbon,bibliography,documented,C L1 L2,agrees
+sd2-1917-nelsons-perpetual,1917,german,1874-george-w-cox,bibliography,documented,C F L1 L2,disagrees
+sd2-1917-paetow-guide,1917,modern,Röhricht,bibliography,documented,,
+sd2-1917-paetow-guide,1917,modern,1896-dana-c-munro,bibliography,documented,C,agrees
+sd2-1917-webster-early-european,1917,modern,Gibbon,lists in bibliography,documented,C,agrees
+sd2-1920-breasted-robinson,1920,unclear,Gibbon,lists in additional reading,documented,,no shared slot
+sd2-1921-colliers-new,1921,german,sa-1830-americana,copies wording,documented,D F L1,agrees
+sd2-1921-krey-first-crusade,1921,unclear,Gibbon,cites in footnote,documented,,no shared slot
+sd2-1926-cmh-v5,1926,modern,Gibbon,cites,documented,C D,agrees
+sd2-1927-newhall-crusades,1927,modern,Gibbon,cites,documented,C,agrees
+sd2-1927-newhall-crusades,1927,modern,1911-ernest-barker,bibliography,documented,C,agrees
+sd2-1927-newhall-crusades,1927,modern,1908-louis-brehier,bibliography,documented,C,agrees
+sd2-1929-eb14-crusades,1929,modern,1911-ernest-barker,revises,documented,C D F L1 L2,agrees

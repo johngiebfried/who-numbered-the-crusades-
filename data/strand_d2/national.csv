@@ -1,0 +1,85 @@
+country_pub,genre,scheme_family,rows
+Canada,reference,(none coded),1
+Canada,reference,moreri_eight,1
+Canada,school,(none coded),1
+Canada,school,moreri_eight,1
+Canada,school,nine_H6,1
+Canada,school,none,3
+England,church_national,(none coded),2
+England,church_national,none,5
+England,other,(none coded),1
+England,other,near_modern,1
+England,other,other,1
+England,popular,(none coded),8
+England,popular,barons_sixth,2
+England,popular,gibbon_seven,1
+England,popular,moreri_eight,1
+England,popular,nine_H6,1
+England,popular,none,4
+England,reference,(none coded),1
+England,reference,frederick_fifth_seven_variant,1
+England,reference,modern_eight,2
+England,reference,moreri_eight,1
+England,reference,moreri_eight_variant,1
+England,reference,nine_F7,1
+England,reference,nine_H6,1
+England,reference,none,1
+England,reference,other,1
+England,scholarly,(none coded),7
+England,scholarly,moreri_eight,1
+England,scholarly,none,1
+England,school,(none coded),4
+England,school,gibbon_seven,3
+England,school,modern_eight,3
+England,school,near_modern,1
+England,school,nine_F7,1
+England,school,nine_H6,2
+England,school,none,3
+Ireland,church_national,(none coded),1
+Ireland,church_national,none,2
+Scotland,church_national,other,1
+Scotland,other,(none coded),1
+Scotland,popular,(none coded),1
+Scotland,popular,frederick_fifth_seven,1
+Scotland,reference,frederick_fifth_seven,2
+Scotland,reference,moreri_eight,5
+Scotland,reference,nine_F7,1
+Scotland,reference,nine_H6,1
+Scotland,reference,none,1
+Scotland,school,(none coded),1
+Scotland,school,modern_eight,1
+Scotland,school,moreri_eight,1
+US,church_national,(none coded),1
+US,church_national,frederick_fifth_seven,2
+US,church_national,nine_H6,1
+US,church_national,none,1
+US,other,(none coded),2
+US,other,modern_eight,1
+US,other,nine_F7,1
+US,popular,(none coded),4
+US,popular,barons_sixth,1
+US,popular,modern_eight,1
+US,popular,moreri_eight,3
+US,popular,nine_H6,1
+US,popular,none,4
+US,reference,(none coded),4
+US,reference,barons_sixth_variant,1
+US,reference,frederick_fifth_seven,4
+US,reference,german_six,2
+US,reference,modern_eight,1
+US,reference,moreri_eight,1
+US,reference,moreri_eight_variant,1
+US,reference,nine_B7,2
+US,reference,none,1
+US,reference,other,1
+US,scholarly,(none coded),3
+US,scholarly,none,2
+US,school,(none coded),9
+US,school,frederick_fifth_seven,1
+US,school,frederick_fifth_seven_variant,1
+US,school,gibbon_seven,1
+US,school,modern_eight,6
+US,school,moreri_eight,2
+US,school,moreri_eight_variant,1
+US,school,none,2
+unknown,school,(none coded),3

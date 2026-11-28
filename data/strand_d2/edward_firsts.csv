@@ -1,0 +1,12 @@
+field,value,rows,first_year,first,last_year,last
+edward_status,absent,13,1801,sd2-1801-tytler-elements,1921,sd2-1921-colliers-new
+edward_status,inside_last,24,1797,sa-1797-eb3,1930,sd2-1930-coulton-crusades-commerce
+edward_status,last_unnumbered,11,1820,1820-charles-mills,1927,sd2-1927-newhall-crusades
+edward_status,named_unnumbered,23,1830,sd2-1830-james-chivalry,1930,sd2-1930-lamb-flame-islam
+edward_status,ninth_alone,2,1920,sd2-1920-parry-pilgrim,1935,sd2-1935-outhwaite-unrolling
+edward_status,ninth_with_tunis,14,1831,sd-1831-russell-palestine,1904,sd2-1904-historians-history-v8
+edward_status,other_number,2,1837,sa-1837-penny,1841,sd-1841-mackay-delusions
+ninth_referent,edward,3,1887,sd2-1887-cox-concise-england,1935,sd2-1935-outhwaite-unrolling
+ninth_referent,other,6,1831,sd2-1831-americana-chron-table,1913,sd2-1913-blyth-jerusalem
+ninth_referent,tunis,7,1808,sa-1808-rees,1915,sd-1915-parker-bloody-trail
+ninth_referent,tunis+edward,13,1831,sd-1831-russell-palestine,1904,sd2-1904-historians-history-v8

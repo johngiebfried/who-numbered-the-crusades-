@@ -130,7 +130,7 @@ def set_frame_status(updates):
             if ids:
                 old = [x for x in fr["existing_work_ids"].split(";") if x]
                 fr["existing_work_ids"] = ";".join(dict.fromkeys(old + ids.split(";")))
-            if note:
+            if note and note not in fr["notes"]:
                 fr["notes"] = (fr["notes"] + " | " if fr["notes"] else "") + note
     with open(FRAME, "w", newline="", encoding="utf-8") as f:
         wr = csv.DictWriter(f, fieldnames=cols, lineterminator="\n")
