@@ -2,6 +2,15 @@
 
 Newest first. Each entry: date, decision, reason.
 
+## 2026-11-28 — Reconciliation (provisional, for the author to confirm)
+
+- **`works.csv` is the single source for print rows.** The legacy table and the six strand and panel entry tables are merged into it (220 rows from 232) and frozen in `data/archive/2026-11-28-pre-reconciliation/`. New rows go into `works.csv` directly. Reason: rows sat in seven tables with duplicates across frames, and the dataset could not be cited.
+- **Ids are kept, never reissued.** Merged rows keep the legacy `work_id` (or the first strand id); the others go in `alt_ids`. `data/reconciliation/id_map.csv` resolves every old id.
+- **The slot columns are the record; the shorthand is display.** `numberings.csv` is derived from the slots. A cell may hold two ordinals (`5;6`) when a source splits an expedition.
+- **Merge rule.** The best-verified source wins the slot vector; on a tie the strand row wins, but the other row's values fill its blanks. Disagreements go to `data/reconciliation/conflicts.csv`. One old ordinal did not carry over (EB9, Edward in the ninth), pending a reading.
+- **No guessed metadata.** Genre and tradition are filled only where the frame decides them; 66 rows wait in `data/reconciliation/hand_coding.csv`.
+- **The ledger stays hand-coded for now**, mapped to `work_id` by `data/reconciliation/ledger_map.csv`, until `works.csv` can record "named" and "excluded".
+
 ## 2026-11-28 — German snippet rows (provisional, for the author to confirm)
 
 - **One book, two counts: one row per table.** When tables in the same work number the crusades differently, each table gets its own row in the strand table, cross-referenced in `notes`. First case: Stein's *Neuer Atlas der ganzen Erde* (1842), split into `sb-de-1842-streit-atlas` (German table, F 5) and `sb-de-1842-stein-atlas-universal` (universal table, F 4, L1 5). Reason: a row records one scheme; averaging two would invent a third.

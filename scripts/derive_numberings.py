@@ -1,34 +1,32 @@
-"""Derive data/numberings.csv (one row per work x expedition) from the
-shorthand column in data/works.csv.
+"""Derive data/numberings.csv (one row per work x expedition) from the slot columns of data/works.csv.
 
-Shorthand: expedition codes from data/expeditions.csv followed by an ordinal,
-e.g. "C 4, D+F 5, L1 6". "D+F 5" means both expeditions share the fifth.
-Rows that do not parse are listed in data/numberings_unparsed.csv for
-hand-coding. Hand-coded rows in data/numberings_manual.csv override derived
-ones. MIT License.
+Since the reconciliation of 28 November 2026 the slot columns (H6, C, D, F, B, L1, L2, E) are the
+record; the shorthand column is display text generated from them. Two expeditions with the same
+ordinal in one row were counted as one, so each gets the other in `shared_with`.
+
+Rows that number nothing in the slot columns but say they enumerate (or carry a legacy shorthand)
+are written to data/numberings_unparsed.csv for hand-coding. MIT License.
 """
-import csv, re, pathlib
+import csv
+import pathlib
+
 ROOT = pathlib.Path(__file__).resolve().parents[1] / "data"
-codes = {r["expedition_id"] for r in csv.DictReader(open(ROOT / "expeditions.csv", encoding="utf-8"))}
-pat = re.compile(r"\b((?:[A-Z][A-Z0-9]*)(?:\+[A-Z][A-Z0-9]*)*)\s+(\d{1,2})\b")
+SLOTS = ["H6", "C", "D", "F", "B", "L1", "L2", "E"]
 out, unparsed = [], []
-for w in csv.DictReader(open(ROOT / "works.csv", encoding="utf-8")):
-    hits = [(g, int(n)) for g, n in pat.findall(w["numbering_shorthand"])
-            if all(c in codes for c in g.split("+"))]
-    if not hits:
-        unparsed.append({"work_id": w["work_id"], "numbering_shorthand": w["numbering_shorthand"]})
-        continue
-    for group, n in hits:
-        members = group.split("+")
-        for c in members:
-            out.append({"work_id": w["work_id"], "expedition_id": c, "ordinal": n,
-                        "shared_with": "+".join(m for m in members if m != c),
-                        "source": "derived"})
-manual = ROOT / "numberings_manual.csv"
-if manual.exists():
-    man = list(csv.DictReader(open(manual, encoding="utf-8")))
-    keys = {(m["work_id"], m["expedition_id"]) for m in man}
-    out = [r for r in out if (r["work_id"], r["expedition_id"]) not in keys] + man
+with open(ROOT / "works.csv", newline="", encoding="utf-8") as f:
+    for w in csv.DictReader(f):
+        filled = {s: w[s] for s in SLOTS if w[s]}
+        if not filled:
+            if w["enumerates"] in ("yes", "partial") or (w["numbering_shorthand"] and w["source_tables"] == "works"):
+                unparsed.append({"work_id": w["work_id"],
+                                 "numbering_shorthand": w["numbering_shorthand"] or w["stated_phrase"]})
+            continue
+        # A cell may hold two ordinals ("5;6") when the source splits the expedition.
+        pairs = [(s, n.strip()) for s, cell in filled.items() for n in cell.split(";") if n.strip()]
+        for s, n in pairs:
+            out.append({"work_id": w["work_id"], "expedition_id": s, "ordinal": n,
+                        "shared_with": "+".join(t for t, m in pairs if m == n and t != s),
+                        "source": "works.csv"})
 cols = ["work_id", "expedition_id", "ordinal", "shared_with", "source"]
 with open(ROOT / "numberings.csv", "w", newline="", encoding="utf-8") as f:
     wtr = csv.DictWriter(f, cols); wtr.writeheader(); wtr.writerows(out)

@@ -2,6 +2,16 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-28 — Reconciliation: one master table
+
+`notes/findings/2026-11-reconciliation.md`. Scripts: `scripts/reconcile_works.py`, a rewritten `scripts/derive_numberings.py`, `scripts/export_frame.py`; `data/README.md` and `scripts/README.md` added.
+
+1. **One table.** `data/works.csv` now holds 220 rows from 232 (legacy works, strands A, B and D, the French panel). Eleven editions recorded twice or three times were merged. Old tables archived; every old id resolves through `data/reconciliation/id_map.csv`.
+2. **Nothing lost but one flagged cell.** All ordinals carried over except EB9's Edward-in-the-ninth (legacy paper table vs. strand D full text). Barker 1911's Edward is kept but flagged. Cantù 1842's two D ordinals are now one cell, `5;6`.
+3. **Five legacy rows parsed.** Fuller, Mills, the Greek syllabus, Stevenson and Setton get slots from their own shorthand, as the ledger had them.
+4. **Ledger mapped.** All 78 ledger rows map to a `work_id`; one cell disagrees (EB9).
+5. **Queues.** 18 rows without slots (`numberings_unparsed.csv`), 66 rows without genre (`reconciliation/hand_coding.csv`).
+
 ## 2026-11-28 — The German snippet rows verified
 
 Browser, archive.org djvu text (`notes/findings/2026-11-german-snippet-rows.md`). Five rows updated, one added, five search-log rows. Script: `scripts/verify_german_snippets_2026_11_28.py`.
@@ -141,15 +151,18 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 - [ ] Kurts 1860: check the sixth on the page image (MDZ 10348116)
 - [ ] Stein atlas universal table (F 4, L1 5 "letzter"): find its source in earlier editions or Wagner's tables
 - [ ] D1 lead: question-14 answer books 1826–36 (Ponelle 1829, Delavigne 1829 and 1835, Bouchitté 1836): do they copy Desmichels's list?
-- [ ] Do not re-run `scripts/build_strand_a.py`: it rewrites `data/strand_a/entries.csv` and `data/search_log.csv`; fold into the reconciliation
+- [x] Do not re-run `scripts/build_strand_a.py` (28 November: retired with the strand tables; it now fails if run)
 - [ ] German school histories 1800–33: a Frederick-fifth before 1820?
 - [ ] Avendaño (1846): contents of the fourth to sixth
 - [ ] How the eight reached English: translations of Bouillet, Cantù, Duruy; British school texts 1850–1900 (lead: Picot, *Historical Narrations in French*, 1846, reuses Bouillet's paragraph)
 - [ ] Charles Mills, *History of the Crusades* (1820): does he call his count nine anywhere?
-- [ ] Hand-code the 18 rows in `data/numberings_unparsed.csv`
+- [ ] Hand-code the 18 rows in `data/numberings_unparsed.csv` (regenerated 28 November; several are totals only)
 - [ ] Build `data/evidence.csv` from the review doc's quotations
 - [ ] Split the grouped Dutch row into separate works
-- [ ] Reconcile the ledger and `data/strand_a/entries.csv` with `data/works.csv` / `numberings.csv` (make `works.csv` the single source)
+- [x] Reconcile the ledger and the strand tables with `data/works.csv` / `numberings.csv` (28 November: `works.csv` is the single source; ledger mapped, not yet generated from it)
+- [ ] EB9 (1877) and EB11 (1911): is Edward inside the last number? (`data/reconciliation/conflicts.csv`)
+- [ ] Genre for 66 rows (`data/reconciliation/hand_coding.csv`)
+- [ ] Add `status` values (named, unnumbered, excluded, aside) to `works.csv`, then generate the ledger from it
 - [ ] EB9 and Newman: record the middle cells of their nine
 - [ ] Wikipedia: decide the two coding questions (options in the findings note)
 - [ ] LCSH headings for the crusades, by hand
