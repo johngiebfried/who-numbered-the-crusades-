@@ -2,6 +2,12 @@
 
 Newest first. Each entry: date, decision, reason.
 
+## 2026-11-28 — German snippet rows (provisional, for the author to confirm)
+
+- **One book, two counts: one row per table.** When tables in the same work number the crusades differently, each table gets its own row in the strand table, cross-referenced in `notes`. First case: Stein's *Neuer Atlas der ganzen Erde* (1842), split into `sb-de-1842-streit-atlas` (German table, F 5) and `sb-de-1842-stein-atlas-universal` (universal table, F 4, L1 5). Reason: a row records one scheme; averaging two would invent a third.
+- **Partial-row rule applied.** The German-table row's family code is cleared because F 5 alone is shared by `frederick_fifth_seven`, `german_six` and `larousse_eight`.
+- **The universal table coded `other`.** A five-count with Frederick II fourth and Louis IX fifth and last has no code; one witness does not justify a new family. `other` is still missing from the codebook (see the 27 November housekeeping note).
+
 ## 2026-11-27 — Author's decisions on the gaps-pass proposals; the 1820–23 window
 
 - **Bouillet thesis line held (author).** The line "first attested in Bouillet (1842)" stays until the author has read Desmichels 1823, pp. 63–66, himself. It is then replaced by the Desmichels claim.

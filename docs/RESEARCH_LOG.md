@@ -2,6 +2,14 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-28 — The German snippet rows verified
+
+Browser, archive.org djvu text (`notes/findings/2026-11-german-snippet-rows.md`). Five rows updated, one added, five search-log rows. Script: `scripts/verify_german_snippets_2026_11_28.py`.
+
+1. **Four full sevens.** Haas 1844, Beitelrock 1853, Dietsch 1854 and Kurts 1860 have C 4, F 5, L1 6, L2 7 at full text. Beitelrock's family code is confirmed, not cleared. Kurts's sixth needs the page image.
+2. **The atlas is split.** Stein's *Neuer Atlas der ganzen Erde* (Hinrichs, 1842; filed under Streit) has a German table with Frederick II fifth and a universal table with Frederick II fourth and Louis IX's 1248 crusade "fünfter u. letzter"; 1202–04 is left as the capture of Constantinople. Same wording in the 1849 table. The German-table row loses its family code (F 5 alone is not diagnostic); the universal table is a new row coded `other`.
+3. **Pattern (inference).** Haas and Beitelrock number all seven only in their chronological tables; their narratives stop at the third. The numbers lived in the tables, as in the French case.
+
 ## 2026-11-27 (follow-up) — Marchand, the *Recueil*, the catalogs, the BnF order
 
 Same day, browser (`notes/findings/2026-11-window-1820-23.md`, section A2). Eleven search-log rows; two not-reached rows rewritten. Script: `scripts/add_followup_2026_11_27.py`.
@@ -129,7 +137,9 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 - [ ] Find a copy of Trognon and Desmichels, *Tableau sommaire pour servir à l'enseignement de l'histoire moderne*, 2e éd. (Colas, 1822): not in BnF, SUDOC, BVB, K10plus, SWB, Jisc, BNE (27 November); left: WorldCat and a manual CCFr search (author), then Bibliothèque Diderot or MUNAÉ
 - [x] Marchand, *Textes officiels* t. 1: règlement 13 March 1821, statute 4 Sept 1821 (27 November; no question table printed)
 - [x] Page-verify the German schoolbook block (Fiedler 1834, *Handbuch* 1835, Uschold 1839, Weber 1849) (27 November; Uschold and Weber corrected)
-- [ ] Verify the remaining German snippet rows (Streit 1842, Haas 1844, Beitelrock 1853, Dietsch 1854, Kurts 1860); clear Beitelrock's family code (L1 6 only)
+- [x] Verify the remaining German snippet rows (Streit 1842, Haas 1844, Beitelrock 1853, Dietsch 1854, Kurts 1860) (28 November: four full sevens; the Stein/Streit atlas split into two rows)
+- [ ] Kurts 1860: check the sixth on the page image (MDZ 10348116)
+- [ ] Stein atlas universal table (F 4, L1 5 "letzter"): find its source in earlier editions or Wagner's tables
 - [ ] D1 lead: question-14 answer books 1826–36 (Ponelle 1829, Delavigne 1829 and 1835, Bouchitté 1836): do they copy Desmichels's list?
 - [ ] Do not re-run `scripts/build_strand_a.py`: it rewrites `data/strand_a/entries.csv` and `data/search_log.csv`; fold into the reconciliation
 - [ ] German school histories 1800–33: a Frederick-fifth before 1820?
