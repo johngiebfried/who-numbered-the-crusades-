@@ -1,6 +1,6 @@
 # Codebook
 
-Version 0.2, 10 November 2026. Version 0.1 of 8 November, with the Wikipedia section added the same day; fields for the search protocol added 10 November.
+Version 0.4, 28 November 2026: the strand tables merged into `works.csv`, which is now the single source (section "works.csv" rewritten); slot cells may hold two ordinals; `other` and `barons_sixth_variant` listed. Version 0.3, 27 November 2026: `german_seven` renamed `frederick_fifth_seven`, `gibbon_seven` added. Version 0.2 of 10 November (fields for the search protocol); version 0.1 of 8 November, with the Wikipedia section added the same day.
 
 ## expeditions.csv
 
@@ -19,23 +19,42 @@ Proposed additions from the Wikipedia sub-project (not yet added): `PEO` People'
 
 ## works.csv
 
-One row per work, edition or translation that a number is taken from.
+The master table since 28 November 2026: one row per edition, translation or catalog read, from every strand, panel and frame. It replaced the legacy `works.csv` (85 rows) and six entry tables (`strand_a/entries.csv`, `strand_a/entries_de.csv`, `strand_b/entries.csv`, `strand_b/entries_de.csv`, `strand_d/entries_en.csv`, `panel/entries_fr.csv`), which are frozen in `data/archive/2026-11-28-pre-reconciliation/`. Built once by `scripts/reconcile_works.py`; edited by hand from then on.
 
 | Field | Meaning |
 |---|---|
-| `work_id` | `year_sort` plus a slug of the author or title. Never reused. |
-| `label` | Short title for display |
-| `author` | As on the title page; translators noted in `label` |
-| `year_label` | Date as it should be shown, including ranges and editions |
-| `year_sort` | Single year for sorting: first year of publication of the edition checked |
-| `language` | Language of the text checked |
-| `tradition` | Country or school of transmission (France, Germany, Germany (in English), Wikipedia...) |
-| `genre` | Universal history, School, Reference, Popular history, Scholarship, Church history, Chronology, Syllabus, Catalog, Translation variants |
-| `numbering_shorthand` | Counts in the key notation below |
-| `how_verified` | Edition and place the number was read |
-| `verification_level` | `full_text`, `contents`, `snippet`, `secondary`, `paper_table`, `unverified` |
-| `research_pass` | Which pass added the row: review, citation, german, four-language, origin... |
-| `notes` | Free text |
+| `work_id` | Stable id. Legacy rows keep `year-slug`; strand rows keep their entry id (`sa-`, `sa-de-`, `sb-`, `sb-de-`, `sr-`, `sd-`, `pn-fr-`, `ss-fr-`). New rows: the prefix of the frame they belong to, or `year-slug` if none. Never reused |
+| `alt_ids` | Ids of rows merged into this one (same edition recorded twice), separated by `;` |
+| `source_tables` | Which pre-merge tables the row came from (`works`, `strand_a/entries`, ...); `;`-separated |
+| `label` | Short display title |
+| `author` | As on the title page; translators and editors noted |
+| `work` | Full title as read |
+| `edition`, `place_publisher`, `volume`, `pages`, `headword` | Bibliographic detail of the edition read |
+| `year_label` | Date as it should be shown, ranges and edition notes included |
+| `year_sort` | Single year for sorting: first year of the edition read |
+| `language` | Language of the text read, spelled out (French, German, English, ...) |
+| `tradition` | Country or school of transmission (France, Germany, Britain, US, Germany (in English), Wikipedia, ...) |
+| `genre` | Universal history, School, Reference, Popular history, Scholarship, Church history, Chronology, Syllabus, Catalog, ... |
+| `census_frame` | Frame(s) the row belongs to (below); `;`-separated; blank for rows found outside any frame |
+| `enumerates`, `stated_count`, `stated_phrase` | As in "Fields added 10 November 2026" below |
+| `numbering_shorthand` | Display text in the key notation below, generated from the slot columns for every row read under the protocol; legacy rows keep their original free text |
+| `H6`, `C`, `D`, `F`, `B`, `L1`, `L2`, `E` | The ordinal the source gives each expedition. **These columns are the record**; `numberings.csv` is derived from them. Blank = no number recorded. Two expeditions with the same ordinal were counted as one. A cell holds two ordinals separated by `;` when the source splits the expedition (Cantù 1842, `D` = `5;6`: Andrew II's 1217 expedition fifth, Damietta sixth) |
+| `highest_ordinal` | Highest ordinal anywhere in the slots |
+| `organized_by`, `scheme_family`, `signature_match`, `differing_slots` | As below |
+| `stemma_parent`, `parent_evidence` | Strand A stemma; ids resolve through `alt_ids` |
+| `quote` | Original language, under 50 words |
+| `how_verified` | Edition and place the numbers were read |
+| `access`, `url` | How and where it was read |
+| `verification_level` | `full_text`, `contents`, `snippet`, `paper_table`, `secondary`, `unverified` |
+| `title_page_checked` | `yes`, `by OCR`, `half-title`, `no`, ... |
+| `research_pass` | Which pass added the row (review, citation, german, four-language, origin, strand_a, strand_b, strand_d, panel) |
+| `country`, `channel` | Strand D: country of publication; channel of transmission into English |
+| `notes` | Free text. Merged rows prefix each source's note with its table, e.g. `[works]` |
+| `checked_on` | Date of the last read |
+
+**Merged rows.** Eleven editions were recorded in more than one table (Bouillet 1842 in three). The slot vector comes from the best-verified source. On a tie the strand row wins, but a value the other source had and the winner left blank is kept, because a blank in a strand row can mean "not recorded". Every disagreement is in `data/reconciliation/conflicts.csv`.
+
+**Ledger.** `data/ledger/ledger_print.csv` is still hand-coded in `scripts/ledger_code_corpus.py`, with a richer cell vocabulary (`n` named, `x` excluded, `(7)` aside). `data/reconciliation/ledger_map.csv` maps each of its 78 rows to a `work_id` and lists slot disagreements. Generating the ledger from `works.csv` waits on the planned `status` values below.
 
 ### Shorthand notation
 
@@ -45,7 +64,7 @@ An ordinal in parentheses is an alternative count the same source gives: German 
 
 ## numberings.csv
 
-Derived by `scripts/derive_numberings.py`. One row per work and expedition.
+Derived by `scripts/derive_numberings.py` from the slot columns of `works.csv` (since 28 November 2026; before that, from the shorthand). One row per work, expedition and ordinal.
 
 | Field | Meaning |
 |---|---|
@@ -53,7 +72,7 @@ Derived by `scripts/derive_numberings.py`. One row per work and expedition.
 | `expedition_id` | From expeditions.csv |
 | `ordinal` | Number given |
 | `shared_with` | Other expeditions counted under the same number |
-| `source` | `derived` from shorthand or `manual` from numberings_manual.csv |
+| `source` | `works.csv` (the slot columns). The old values `derived` and `manual` are in the archived copy |
 
 Planned additions: `status` values `named` and `unnumbered` for expeditions a work discusses without a number, and `explicitly_excluded` (as Lévi Alvarès excludes Frederick II, or Pierer the 1202–04 expedition). The Wikipedia pass suggests a fourth, `aside`, for a number given only in passing ("sometimes counted as the Ninth") or in brackets; pending the author's decision.
 
@@ -78,7 +97,7 @@ Separate from works.csv: a Wikipedia page is a moving text, so its rows are revi
 | `key_edits.csv` | dated edit that changed a count, title or coverage |
 | `count_statements.csv` | explicit count stated in the text, with sample range |
 
-`count_family`: `nine`, `eight`, `german_seven`, `german_seven_bracketed`, `partial`.
+`count_family`: `nine`, `eight`, `german_seven`, `german_seven_bracketed`, `partial`. Here `german_seven` labels German Wikipedia's count (Damietta and Frederick II one fifth); the print family of the same shape is `frederick_fifth_seven`.
 
 ## Fields added 10 November 2026 (search protocol, step 1)
 
@@ -88,7 +107,7 @@ Added to `works.csv` and used in every new table. Existing rows get them as they
 |---|---|
 | `enumerates` | `yes` (numbers the crusades), `no` (names or narrates only), `partial` (one or two ordinals in passing) |
 | `stated_count` | The total the text states ("on compte huit", "seven times"), recorded apart from slot assignments. Blank if none. "8 (sections)" when the total is only implied by numbered headings |
-| `census_frame` | The closed frame the row belongs to: `strand_a_fr_en`, `strand_a_de`, `strand_b_fr_1800_1842`, `strand_c_sweep`, `panel_1770_1930`, `school_series`. Blank if found outside any frame |
+| `census_frame` | The closed frame the row belongs to: `strand_a_fr_en`, `strand_a_de`, `roots_1675_1771`, `strand_b_fr_1800_1842`, `strand_b_de_1780_1860`, `strand_c_sweep`, `strand_d_en`, `panel_1770_1930`, `school_series`. Blank if found outside any frame |
 | `scheme_family` | One of the codes below |
 | `signature_match` | `modern`, `near_modern` (three or four of the five signature slots right) or `no` |
 | `differing_slots` | For anything but `modern`, the signature slots that differ (fourth, fifth, sixth, seventh, eighth) |
@@ -110,12 +129,21 @@ Modern eight = fourth 1202–04; fifth 1217–21 (Andrew of Hungary and/or Damie
 | `barons_sixth` | C 4, D 5, B 6, L1 7, L2 8 | Proctor, American Cyclopaedia |
 | `larousse_eight` | D 4, F 5, B 6, L1 7, L2 8 (C unnumbered) | Larousse 1869 |
 | `german_six` | D 4, F 5, L1 6 | Brockhaus 1837, Americana 1830 |
-| `german_seven` | C 4, F 5, L1 6, L2 7 | Pütz, Weber, Ploetz |
-| `german_seven_variant` | German seven with other merges | Penny Cyclopaedia 1837 |
+| `gibbon_seven` | C 4, D 5, L1 6, L2 7 (F unnumbered) | Gibbon 1788, German Gibbon 1791, Herder 1792, Collin 1818 |
+| `frederick_fifth_seven` | C 4, F 5, L1 6, L2 7; Andrew/Damietta named but unnumbered, or merged into the fifth (D+F 5) | Paris programme 1820, Fiedler 1834 (base form); *Handbuch für Schule und Haus* 1835 (merged form) |
+| `frederick_fifth_seven_variant` | Frederick-fifth seven with other merges | Penny Cyclopaedia 1837 |
+| `barons_sixth_variant` | Barons'-sixth count with other merges | Johnson's Universal Cyclopaedia 1893–99 |
+| `other` | A scheme with no code; say what it is in `notes` | Stein atlas 1842 universal table (F 4, L1 5 "letzter"); Schneller 1810; Cammerer 1828 |
 | `stated_only` | a total, no slots | Basnage's Furetière 1701, EB1 1771 |
 | `none` | no ordinals beyond the first | Encyclopédie 1754, Haydn 1844 |
 
+`frederick_fifth_seven` was `german_seven` until 27 November 2026. It was renamed because the scheme is attested in the official Paris programme of 1820, fourteen years before the earliest German witness found (Fiedler 1834). It is named for its defining slot, as `nine_F7` is. The Wikipedia `count_family` labels `german_seven` and `german_seven_bracketed` are unchanged: they name the count German Wikipedia uses, not the print family.
+
+A row that stops short of the full scheme takes a family code only when its numbered slots are diagnostic. F 5 with C 4 places a row in `frederick_fifth_seven` (Weber 1847–49, which stops at five). L1 6 alone does not, because `gibbon_seven` and `frederick_fifth_seven` share it.
+
 ## Strand A tables (data/strand_a/)
+
+(Until 28 November 2026 each strand had its own entry table with the fields below; those rows are now in `works.csv`, and the fields carried over unchanged. The description is kept for the archived copies.)
 
 `entries.csv`: one row per edition read of a dictionary or encyclopedia entry. Fields: `entry_id` (`sa-<year>-<slug>`), bibliographic fields, `headword`, `access` (how it was read), `url`, `verification_level`, `title_page_checked`, the fields above, one column per expedition code (`H6`, `C`, `D`, `F`, `B`, `L1`, `L2`, `E`) holding the ordinal, `highest_ordinal`, `organized_by` (dates, pontificates, numbered sections, chronological table, leaders), `stemma_parent`, `parent_evidence` (documented by shared wording, or inferred), `quote` (original language, under 50 words), `notes`, `checked_on`. Two expeditions with the same ordinal were counted as one.
 

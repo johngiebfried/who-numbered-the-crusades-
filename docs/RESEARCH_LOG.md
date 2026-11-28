@@ -2,6 +2,59 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-28 — Interim conclusions
+
+`notes/interim-conclusions-2026-11-28.md`: where the project stands. Prior literature, the 2022 paper and its scorecard, the contested slots and rival schemes, the process and the protocol, the size of the database, fifteen graded conclusions, the open points, and the expansion plan. Start here.
+
+## 2026-11-28 — The answer books (D1): one names Desmichels
+
+`notes/findings/2026-11-answer-books.md`. Four rows added to `works.csv` (first edit under the reconciled model), one citation, one reason (`r28`). Script: `scripts/add_answer_books_2026_11_28.py`.
+
+1. **Bouchitté et al., *Manuel des aspirants* (Hachette, 1836)**: question XIV under numbered headings to "8e et dernière croisade", the full modern eight, with a footnote (p. 158, image viewed): "Nous avons adopté la division des croisades indiquée dans le Précis d'histoire du moyen-âge de M. Desmichels." The first explicit attribution of the modern eight to a source.
+2. **Delavigne 1829 and 1835**: "les cinquième et sixième croisades" for 1217–1228, "les deux dernières" for Louis IX; the modern sequence in his own words.
+3. **Ponelle 1829**: numbers nothing, as in 1826.
+4. **Tally**: four of six answer books (1824–36) use the modern slots, two number nothing, none uses an older count. D1 is answered: the exam asked, the cram books numbered, and the numbers were Desmichels's.
+5. **Flagged**: Bouchitté's manual, Desmichels's *Précis* (by 1834) and Bouillet (1842) were all Hachette books.
+
+## 2026-11-28 — Reconciliation: one master table
+
+`notes/findings/2026-11-reconciliation.md`. Scripts: `scripts/reconcile_works.py`, a rewritten `scripts/derive_numberings.py`, `scripts/export_frame.py`; `data/README.md` and `scripts/README.md` added.
+
+1. **One table.** `data/works.csv` now holds 220 rows from 232 (legacy works, strands A, B and D, the French panel). Eleven editions recorded twice or three times were merged. Old tables archived; every old id resolves through `data/reconciliation/id_map.csv`.
+2. **Nothing lost but one flagged cell.** All ordinals carried over except EB9's Edward-in-the-ninth (legacy paper table vs. strand D full text). Barker 1911's Edward is kept but flagged. Cantù 1842's two D ordinals are now one cell, `5;6`.
+3. **Five legacy rows parsed.** Fuller, Mills, the Greek syllabus, Stevenson and Setton get slots from their own shorthand, as the ledger had them.
+4. **Ledger mapped.** All 78 ledger rows map to a `work_id`; one cell disagrees (EB9).
+5. **Queues.** 18 rows without slots (`numberings_unparsed.csv`), 66 rows without genre (`reconciliation/hand_coding.csv`).
+
+## 2026-11-28 — The German snippet rows verified
+
+Browser, archive.org djvu text (`notes/findings/2026-11-german-snippet-rows.md`). Five rows updated, one added, five search-log rows. Script: `scripts/verify_german_snippets_2026_11_28.py`.
+
+1. **Four full sevens.** Haas 1844, Beitelrock 1853, Dietsch 1854 and Kurts 1860 have C 4, F 5, L1 6, L2 7 at full text. Beitelrock's family code is confirmed, not cleared. Kurts's sixth needs the page image.
+2. **The atlas is split.** Stein's *Neuer Atlas der ganzen Erde* (Hinrichs, 1842; filed under Streit) has a German table with Frederick II fifth and a universal table with Frederick II fourth and Louis IX's 1248 crusade "fünfter u. letzter"; 1202–04 is left as the capture of Constantinople. Same wording in the 1849 table. The German-table row loses its family code (F 5 alone is not diagnostic); the universal table is a new row coded `other`.
+3. **Pattern (inference).** Haas and Beitelrock number all seven only in their chronological tables; their narratives stop at the third. The numbers lived in the tables, as in the French case.
+
+## 2026-11-27 (follow-up) — Marchand, the *Recueil*, the catalogs, the BnF order
+
+Same day, browser (`notes/findings/2026-11-window-1820-23.md`, section A2). Eleven search-log rows; two not-reached rows rewritten. Script: `scripts/add_followup_2026_11_27.py`.
+
+1. **Marchand t. 1 read.** The circular of 4 July 1820 sends the four Colas programme cahiers and hopes they will grow into "livres élémentaires." The statute of 4 September 1821 gives troisième the Middle Ages (art. 172) and seconde "l'histoire moderne proprement dite" (art. 176), which accounts for both Desmichels's separate medieval table and the retitled October 1822 *Tableau sommaire*. Marchand prints no question table and does not mention Desmichels.
+2. **The règlement of 13 March 1821 read** in the *Recueil de lois et règlemens*, t. 7 (Google Books --Ek8YYtTQ4C). Art. 6 orders a question table to be drawn up; none is printed. Brunot-Labbe's *Questions* of June 1822 (G-31078) is therefore probably the table's first printing, which raises its weight.
+3. **The 1822 *Tableau sommaire … histoire moderne*: no copy** in the BnF, SUDOC, BVB, K10plus, SWB, Jisc or BNE. WorldCat, CCFr, HathiTrust and Emmanuelle not reached.
+4. **BnF prices for G-31078:** per-page PDF €0.70 a page excl. VAT, full PDF €45. Not ordered; the author decides.
+
+## 2026-11-27 — The 1820–23 window (A) and the verification pass (B)
+
+One browser session (`notes/findings/2026-11-window-1820-23.md`). New rows: Hubert 1826 (the baccalauréat question table) and Ponelle 1826 in `data/strand_b/entries.csv`, and Weber 1847 in `data/strand_b/entries_de.csv`. Ten rows were updated, and 4 not-reached rows and 30 search-log rows were added. Script: `scripts/add_window_2026_11_27.py`.
+
+1. **The 1820 outline was an official programme.** It was registered in April 1820 (*Bibliographie de la France* no. 1350) beside two companions titled "Programme" for French and ancient history. All three are in-4, printed by Fain for Colas. The course runs from 395 into the eighteenth century.
+2. **The exam did not number the crusades.** The baccalauréat question table was in force under the règlement of 13 March 1821. It made "Histoire du Moyen Age" its own section, and its question 14 asks for a "Précis historique des croisades" without ordinals. This is the table as printed in Hubert 1826, p. 16, page image viewed. The history questions were printed by Brunot-Labbe, "libraire de l'Université," in June 1822. That printing (BnF G-31078) is not digitized and still unread.
+3. **Date of the eight.** Desmichels's *Tableau chronologique* was registered on 21 December 1822 (*Bibliographie de la France* N° 51, no. 5716). The 1823 on its title page is a post-date, which explains Larousse's "1822." The title page has no authorization line. The *Revue encyclopédique* (1823) calls the Colas series works the Université "a commandées."
+4. **The October 1822 revision.** Desmichels and Trognon's revised outline, "autorisé par le conseil royal," was retitled for "histoire moderne" (no. 4729). No copy found.
+5. **Verification.** The *Complément* 1842 is now full text, with title page and page image viewed. Koch 1771 and the 1824 *Manuel* have their title page images viewed, Broughton 1756 its half-title. Bréhier 1908 was checked against the Appleton printing.
+6. **The German block, read at full text.** Fiedler 1834 has the full Frederick-fifth seven, and the *Handbuch* 1835 (a Catholic book) the merged form. Uschold 1839 and Weber 1847–49 stop at five, and their rows were corrected.
+7. **Codes.** `german_seven` was renamed `frederick_fifth_seven` and `gibbon_seven` added; both protocol amendments were adopted for all strands.
+
 ## 2026-11-23 — Gaps pass: the merger found in Desmichels (1820–23)
 
 Worked the ten gaps from the conclusions audit in one browser session (`notes/findings/2026-11-gaps-pass.md`). New rows: 15 French (`data/strand_b/entries.csv`), 20 German schoolbooks (`data/strand_b/entries_de.csv`, new), Broughton 1756 (`data/strand_a/entries_de.csv`), 4 English (`data/strand_d/entries_en.csv`). New tables: `data/reasons/reasons.csv` and `data/usage/archiveorg_ordinal_counts_en.csv`. Script: `scripts/add_gaps_2026_11_23.py`.
@@ -103,16 +156,29 @@ Setup: repository skeleton, licenses, codebook, plan, 85 works migrated into `da
 - [ ] Read Murray (2006) and Cetro; rewrite the paper's opening claim
 - [ ] Strand B, in this order: Schöll, *Cours d'histoire des états européens* t. 3 (1830); Le Bas's source in *L'Univers*; Lefranc 1838 and 1841; Université programmes and baccalauréat lists 1830–42; *Annuaire du Bureau des longitudes* (1802)
 - [ ] Cantù editions 1844–51: which one switched (1842 vol. 11 confirmed Damietta sixth, 2026-11-23)
-- [ ] Université history programmes 1821–22; any 1822 printing of Desmichels's *Tableau chronologique*
-- [ ] Page-verify the German schoolbook block (Fiedler 1834, *Handbuch* 1835, Uschold 1839, Weber 1849)
+- [x] Université history programmes 1821–22; any 1822 printing of Desmichels's *Tableau chronologique* (27 November: 1820 programme set, 1821 question table, registration 21 Dec 1822; no separate 1822 printing)
+- [ ] BnF (author): *Questions sur l'histoire ancienne … moderne* (Brunot-Labbe, 1822, G-31078, probably the first printing of the official table; 1823, 16-G-434): does the crusade question number them? Per-page PDF €0.70/page excl. VAT, full PDF €45
+- [ ] Find a copy of Trognon and Desmichels, *Tableau sommaire pour servir à l'enseignement de l'histoire moderne*, 2e éd. (Colas, 1822): not in BnF, SUDOC, BVB, K10plus, SWB, Jisc, BNE (27 November); left: WorldCat and a manual CCFr search (author), then Bibliothèque Diderot or MUNAÉ
+- [x] Marchand, *Textes officiels* t. 1: règlement 13 March 1821, statute 4 Sept 1821 (27 November; no question table printed)
+- [x] Page-verify the German schoolbook block (Fiedler 1834, *Handbuch* 1835, Uschold 1839, Weber 1849) (27 November; Uschold and Weber corrected)
+- [x] Verify the remaining German snippet rows (Streit 1842, Haas 1844, Beitelrock 1853, Dietsch 1854, Kurts 1860) (28 November: four full sevens; the Stein/Streit atlas split into two rows)
+- [ ] Kurts 1860: check the sixth on the page image (MDZ 10348116)
+- [ ] Stein atlas universal table (F 4, L1 5 "letzter"): find its source in earlier editions or Wagner's tables
+- [x] D1 lead: question-14 answer books 1826–36 (28 November: Bouchitté 1836 cites Desmichels for its division; Delavigne uses the modern slots; Ponelle numbers nothing)
+- [ ] Which edition of Desmichels's *Précis* Bouchitté followed; Bouchitté 1838 and later answer books
+- [ ] Did Bouillet take the eight from Hachette's own school list (Desmichels's *Précis*, Bouchitté 1836)?
+- [x] Do not re-run `scripts/build_strand_a.py` (28 November: retired with the strand tables; it now fails if run)
 - [ ] German school histories 1800–33: a Frederick-fifth before 1820?
 - [ ] Avendaño (1846): contents of the fourth to sixth
 - [ ] How the eight reached English: translations of Bouillet, Cantù, Duruy; British school texts 1850–1900 (lead: Picot, *Historical Narrations in French*, 1846, reuses Bouillet's paragraph)
 - [ ] Charles Mills, *History of the Crusades* (1820): does he call his count nine anywhere?
-- [ ] Hand-code the 18 rows in `data/numberings_unparsed.csv`
+- [ ] Hand-code the 18 rows in `data/numberings_unparsed.csv` (regenerated 28 November; several are totals only)
 - [ ] Build `data/evidence.csv` from the review doc's quotations
 - [ ] Split the grouped Dutch row into separate works
-- [ ] Reconcile the ledger and `data/strand_a/entries.csv` with `data/works.csv` / `numberings.csv` (make `works.csv` the single source)
+- [x] Reconcile the ledger and the strand tables with `data/works.csv` / `numberings.csv` (28 November: `works.csv` is the single source; ledger mapped, not yet generated from it)
+- [ ] EB9 (1877) and EB11 (1911): is Edward inside the last number? (`data/reconciliation/conflicts.csv`)
+- [ ] Genre for 66 rows (`data/reconciliation/hand_coding.csv`)
+- [ ] Add `status` values (named, unnumbered, excluded, aside) to `works.csv`, then generate the ledger from it
 - [ ] EB9 and Newman: record the middle cells of their nine
 - [ ] Wikipedia: decide the two coding questions (options in the findings note)
 - [ ] LCSH headings for the crusades, by hand

@@ -2,6 +2,36 @@
 
 Newest first. Each entry: date, decision, reason.
 
+## 2026-11-28 — Answer books (provisional, for the author to confirm)
+
+- **New reasons kind `attribution`.** A statement naming the source of a count or division ("Nous avons adopté la division des croisades indiquée dans le Précis ... de M. Desmichels", Bouchitté 1836, `r28`). It is not a reason for the count, but it is the strongest evidence of transmission, so it belongs in the same table.
+- **Implied ordinals are not coded.** Delavigne states only "cinquième et sixième" and "les deux dernières"; his rows carry D 5 and F 6, with the implied C 4, L1 7, L2 8 described in `notes`. D 5 with F 6 is diagnostic, so the family code `modern_eight` is given (partial-row rule).
+
+## 2026-11-28 — Reconciliation (provisional, for the author to confirm)
+
+- **`works.csv` is the single source for print rows.** The legacy table and the six strand and panel entry tables are merged into it (220 rows from 232) and frozen in `data/archive/2026-11-28-pre-reconciliation/`. New rows go into `works.csv` directly. Reason: rows sat in seven tables with duplicates across frames, and the dataset could not be cited.
+- **Ids are kept, never reissued.** Merged rows keep the legacy `work_id` (or the first strand id); the others go in `alt_ids`. `data/reconciliation/id_map.csv` resolves every old id.
+- **The slot columns are the record; the shorthand is display.** `numberings.csv` is derived from the slots. A cell may hold two ordinals (`5;6`) when a source splits an expedition.
+- **Merge rule.** The best-verified source wins the slot vector; on a tie the strand row wins, but the other row's values fill its blanks. Disagreements go to `data/reconciliation/conflicts.csv`. One old ordinal did not carry over (EB9, Edward in the ninth), pending a reading.
+- **No guessed metadata.** Genre and tradition are filled only where the frame decides them; 66 rows wait in `data/reconciliation/hand_coding.csv`.
+- **The ledger stays hand-coded for now**, mapped to `work_id` by `data/reconciliation/ledger_map.csv`, until `works.csv` can record "named" and "excluded".
+
+## 2026-11-28 — German snippet rows (provisional, for the author to confirm)
+
+- **One book, two counts: one row per table.** When tables in the same work number the crusades differently, each table gets its own row in the strand table, cross-referenced in `notes`. First case: Stein's *Neuer Atlas der ganzen Erde* (1842), split into `sb-de-1842-streit-atlas` (German table, F 5) and `sb-de-1842-stein-atlas-universal` (universal table, F 4, L1 5). Reason: a row records one scheme; averaging two would invent a third.
+- **Partial-row rule applied.** The German-table row's family code is cleared because F 5 alone is shared by `frederick_fifth_seven`, `german_six` and `larousse_eight`.
+- **The universal table coded `other`.** A five-count with Frederick II fourth and Louis IX fifth and last has no code; one witness does not justify a new family. `other` is still missing from the codebook (see the 27 November housekeeping note).
+
+## 2026-11-27 — Author's decisions on the gaps-pass proposals; the 1820–23 window
+
+- **Bouillet thesis line held (author).** The line "first attested in Bouillet (1842)" stays until the author has read Desmichels 1823, pp. 63–66, himself. It is then replaced by the Desmichels claim.
+- **`german_seven` renamed `frederick_fifth_seven` (author).** The scheme is named for its defining slot, as `nine_F7` is. `merged_fifth_seven` was rejected because it misdescribes the 1820 witness, where Andrew is unnumbered and Frederick alone is fifth. The rename covers every print table (17 rows) and the codebook. The Wikipedia `count_family` labels are unchanged. Done by `scripts/add_window_2026_11_27.py`.
+- **`gibbon_seven` added (author).** C 4, D 5, L1 6, L2 7, with F unnumbered.
+- **Both protocol amendments adopted for all strands (author).** A statement of custom dates a count, not slots. A stable page link plus a viewed title page counts as the page image. The author saves PDFs of the bracket rows himself.
+- **Family codes for partial rows (proposed, for the author to confirm).** A code is given only when the numbered slots are diagnostic. L1 6 alone is not diagnostic (see the codebook).
+- **Reading of the 1820–23 window (provisional).** No Université text found prescribes the modern eight. The 1820 programme counts seven, and the 1821 baccalauréat question on the crusades numbers none (as printed in 1826). The eight first appears in Desmichels's *Tableau chronologique*, registered on 21 December 1822. The status is probable, pending BnF G-31078 (the 1822 question pamphlet). Details are in `notes/findings/2026-11-window-1820-23.md`.
+- **G-31078 re-weighted (follow-up, same day).** The règlement of 13 March 1821 (R.L.R. t. 7) orders a question table but prints none, so the June 1822 Brunot-Labbe *Questions* is treated as probably the first printing of the official table, not one witness among several. The BnF order stays with the author: per-page PDF (€0.70 a page excl. VAT) or full PDF (€45), or reading at Tolbiac. Nothing was ordered and no terms were accepted.
+
 ## 2026-11-23 — Gaps pass (provisional, for the author to confirm)
 
 - **Working thesis revised.** The modern eight is first attested complete in Desmichels, *Tableau chronologique de l'histoire du moyen âge* (1823), a textbook for the Paris collèges royaux, not in Bouillet (1842). The 2026-11-08 thesis line ("first attested in Bouillet") is superseded. Reason: full-text read of pp. 63–66 with the title page viewed; the 1820 official programme by the same author still counts seven.

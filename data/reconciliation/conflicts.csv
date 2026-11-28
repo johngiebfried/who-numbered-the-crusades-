@@ -1,0 +1,12 @@
+work_id,slot,winner,winner_level,winner_value,other,other_level,other_value,action
+1877-eb9-crusades,C,strand_d/entries_en,full_text,5,works,paper_table,,winner's value stands
+1877-eb9-crusades,D,strand_d/entries_en,full_text,6,works,paper_table,,winner's value stands
+1877-eb9-crusades,F,strand_d/entries_en,full_text,6,works,paper_table,,winner's value stands
+1877-eb9-crusades,B,strand_d/entries_en,full_text,7,works,paper_table,,winner's value stands
+1877-eb9-crusades,L1,strand_d/entries_en,full_text,8,works,paper_table,,winner's value stands
+1877-eb9-crusades,E,strand_d/entries_en,full_text,,works,paper_table,9,winner's blank stands
+1911-ernest-barker,E,strand_d/entries_en,full_text,,works,full_text,8,kept other value (tie; winner blank)
+1907-david-s-schaff,C,works,full_text,4,strand_d/entries_en,snippet,,winner's value stands
+1907-david-s-schaff,D,works,full_text,5,strand_d/entries_en,snippet,,winner's value stands
+1907-david-s-schaff,L1,works,full_text,6,strand_d/entries_en,snippet,,winner's value stands
+1907-david-s-schaff,L2,works,full_text,7,strand_d/entries_en,snippet,,winner's value stands
