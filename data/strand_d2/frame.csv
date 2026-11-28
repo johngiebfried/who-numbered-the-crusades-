@@ -1,8 +1,8 @@
 frame_id,frame,country,genre,author,title,editions_targeted,existing_work_ids,status,notes
 R01,d2_reference_en,Scotland,Reference,,Encyclopaedia Britannica,4th-8th (read); 9th 1877; 10th 1902; 11th 1911; 12th 1922; 13th 1926; 14th 1929 and printings to 1945,sa-1810-eb4;sa-1815-eb5;sa-1823-eb6;sa-1842-eb7;sa-1854-eb8;1877-eb9-crusades;1911-ernest-barker;sd2-1929-eb14-crusades,partial,"EB9 and EB11 Edward cells in conflict | D2: 9th (US reprints), 11th, 1922, 1926, 1929 read; 1938 and 1944 lending copies not reached"
-R02,d2_reference_en,Scotland,Reference,,Encyclopaedia Perthensis,1806; 2nd ed. 1816,,to_read,
-R03,d2_reference_en,Scotland,Reference,David Brewster (ed.),The Edinburgh Encyclopaedia,Edinburgh 1808-30; Philadelphia 1832,,to_read,
-R04,d2_reference_en,England,Reference,John Wilkes (ed.),Encyclopaedia Londinensis,1810-29,,to_read,
+R02,d2_reference_en,Scotland,Reference,,Encyclopaedia Perthensis,1806; 2nd ed. 1816,,not_reached,D2: vol. 6 of the 1816 edition has CRUSADE 'See CROISADE'; the CROISADE article was not located
+R03,d2_reference_en,Scotland,Reference,David Brewster (ed.),The Edinburgh Encyclopaedia,Edinburgh 1808-30; Philadelphia 1832,sd2-1830-edinburgh-encyclopaedia,partial,D2: vol. 5 (London issue 1830) read; no numbers
+R04,d2_reference_en,England,Reference,John Wilkes (ed.),Encyclopaedia Londinensis,1810-29,,not_reached,D2: vols. 5 and 6 (1810) checked; headword not located
 R05,d2_reference_en,England,Reference,"Gregory, Good, Bosworth",Pantologia,1813,,not_reached,D2: vol. 4 copy is not the volume with CRUSADE
 R06,d2_reference_en,England,Reference,Abraham Rees,The Cyclopaedia,c. 1808 (read); Philadelphia ed.,sa-1808-rees,to_read,
 R07,d2_reference_en,England,Reference,,Encyclopaedia Metropolitana,1817-45; 2nd ed. 1848-58 (Griffin),,to_read,Procter's History of the Crusades may derive from it
@@ -23,14 +23,14 @@ R21,d2_reference_en,US,Reference,,The International Cyclopaedia,1885-99,,to_read
 R22,d2_reference_en,US,Reference,"Gilman, Peck, Colby (eds.)",New International Encyclopaedia,1902-04 (read); 1914-17; 1922,sd-1902-new-international,to_read,
 R23,d2_reference_en,US,Reference,,Collier's New Encyclopedia,1902-1921,sd2-1921-colliers-new,read,
 R24,d2_reference_en,Scotland,Reference,Thomas Nelson,Nelson's Encyclopaedia; Nelson's Perpetual Loose-Leaf Encyclopaedia,c. 1911-; US 1905-,sd2-1917-nelsons-perpetual,read,
-R25,d2_reference_en,England,Reference,,Harmsworth's Universal Encyclopaedia,1920-22,,to_read,
-R26,d2_reference_en,England,Reference,,Everyman's Encyclopaedia,1913; 1931-32,,to_read,
-R27,d2_reference_en,England,Reference,P. Austin Nuttall,The Nuttall Encyclopaedia,1900; 1907 (read); 1930s,1907-nuttall-encyclopaedia,to_read,
+R25,d2_reference_en,England,Reference,,Harmsworth's Universal Encyclopaedia,1920-22,,not_reached,D2: no archive.org copy found by title search
+R26,d2_reference_en,England,Reference,,Everyman's Encyclopaedia,1913; 1931-32,,not_reached,D2: 1913-14 vols. 3-4 checked; vol. 4 has no text layer
+R27,d2_reference_en,England,Reference,P. Austin Nuttall,The Nuttall Encyclopaedia,1900; 1907 (read); 1930s,1907-nuttall-encyclopaedia;sd2-1923-nuttall-encyclopaedia,read,D2: 1923 and 1930 printings
 R28,d2_reference_en,US,Reference,Louis Bréhier (article),The Catholic Encyclopedia,1908 (read),1908-louis-brehier,to_read,
 R29,d2_reference_en,US,Reference,Philip Schaff; S. M. Jackson,Schaff-Herzog Encyclopaedia; New Schaff-Herzog,1882-84; 1891; 1908-12,sd2-1882-schaff-religious-encyclopedia,partial,D2: 1882 vol. 1; New Schaff-Herzog vol. with CRUSADES not located
 R30,d2_reference_en,US,Reference,John McClintock and James Strong,"Cyclopaedia of Biblical, Theological and Ecclesiastical Literature",1867-81; supplement 1885-87,,not_reached,D2: vol. 2 copy lacks the CRUSADES headword
 R31,d2_reference_en,Scotland,Reference,James Hastings (ed.),Encyclopaedia of Religion and Ethics,"vol. 4, 1911",,to_read,
-R32,d2_reference_en,US,Reference,Carl Ploetz; W. L. Langer,Epitome of History; An Encyclopedia of World History,1883 (read); 1905; 1915; 1925; Langer 1940,1883-carl-ploetz,to_read,
+R32,d2_reference_en,US,Reference,Carl Ploetz; W. L. Langer,Epitome of History; An Encyclopedia of World History,1883 (read); 1905; 1915; 1925; Langer 1940,1883-carl-ploetz;sd2-1940-langer-encyclopedia,read,D2: Ploetz 1905 unchanged; Langer 1940 modern eight
 R33,d2_reference_en,US,Reference,,The Columbia Encyclopedia,1935; 1940,,not_reached,D2: the two DLI copies dated 1935 are The New Columbia Encyclopedia (1975)
 R34,d2_reference_en,US,Reference,,World Book; Compton's Pictured Encyclopedia,World Book 1917-; Compton's 1922-,,to_read,
 R35,d2_reference_en,England,Reference,Arthur Mee (ed.),The Children's Encyclopaedia,1908-,,to_read,
@@ -59,8 +59,8 @@ S21,d2_school_en,US,School,Peter Fredet,Modern History,Baltimore 1840s-,sd2-1842
 S22,d2_school_en,US,School,M. J. Kerney,Compendium of Ancient and Modern History,1855 (read),sd-1855-kerney-compendium,to_read,Catholic
 S23,d2_school_en,US,School,François Gazeau,History of the Middle Ages,1878 (read),sd-1878-gazeau-middle-ages,to_read,"Catholic, translated"
 S24,d2_school_en,US,School,J. D. Steele and E. B. Steele,A Brief History of Mediaeval and Modern Peoples,1883 (read),sd-1883-steele-brief-history,to_read,
-S25,d2_school_en,US,School,P. V. N. Myers,Outlines of Mediaeval and Modern History; General History; Mediaeval and Modern History,1885 (read); 1889; 1902; 1905,1885-p-v-n-myers,to_read,
-S26,d2_school_en,US,School,G. P. Fisher,Outlines of Universal History,1885,,to_read,
+S25,d2_school_en,US,School,P. V. N. Myers,Outlines of Mediaeval and Modern History; General History; Mediaeval and Modern History,1885 (read); 1889; 1902; 1905,1885-p-v-n-myers;sd2-1889-myers-general-history,read,D2: Outlines 1897; General History 1906 and 1921
+S26,d2_school_en,US,School,G. P. Fisher,Outlines of Universal History,1885,sd2-1885-fisher-outlines-universal,read,D2: 1885
 S27,d2_school_en,US,School,J. J. Anderson,A General History; Popular History,1872-,sd2-1870-anderson-manual,read,
 S29,d2_school_en,US,School,Willis Mason West,The Modern World; Ancient World,1902-,sd2-1915-west-modern-world,read,
 S30,d2_school_en,US,School,J. H. Robinson,Introduction to the History of Western Europe; Medieval and Modern Times,1903; 1906; 1919,sd2-1903-robinson-western-europe,read,
@@ -116,11 +116,11 @@ H12,d2_scholarly_en,US,Scholarship,R. A. Newhall,The Crusades,1927,sd2-1927-newh
 H13,d2_scholarly_en,US,Scholarship,L. J. Paetow,A Guide to the Study of Medieval History,1917; 1931,sd2-1917-paetow-guide,read,
 H14,d2_scholarly_en,England,Scholarship,,The Cambridge Medieval History,"vols. 4 (1923), 5 (1926), 6 (1929)",sd2-1926-cmh-v5,partial,D2: vol. 5 read; vols. 4 and 6 not located
 H15,d2_scholarly_en,US,Scholarship,J. L. La Monte,Feudal Monarchy in the Latin Kingdom of Jerusalem,1932,,not_reached,D2: title search found no copy
-H16,d2_scholarly_en,England,Scholarship,C. W. C. Oman,A History of the Art of War in the Middle Ages,1898; 1924,,not_reached,D2: not searched this session
+H16,d2_scholarly_en,England,Scholarship,C. W. C. Oman,A History of the Art of War in the Middle Ages,1898; 1924,sd2-1898-oman-art-of-war,read,D2: not searched this session | D2: 1924 text
 H17,d2_scholarly_en,US,Scholarship,O. J. Thatcher and E. H. McNeal,A Source Book for Mediaeval History,1905,sd2-1905-thatcher-mcneal,read,
 H18,d2_scholarly_en,US,Scholarship,Ephraim Emerton,Mediaeval Europe,1894,sd2-1894-emerton-mediaeval-europe,read,
 H19,d2_scholarly_en,US,Scholarship,G. B. Adams,Civilization during the Middle Ages,1894,sd2-1894-adams-civilization,read,
-H20,d2_scholarly_en,England,Scholarship,C. W. Previté-Orton,Outlines of Medieval History,1916; 1924; 1937,,not_reached,D2: only later works found
+H20,d2_scholarly_en,England,Scholarship,C. W. Previté-Orton,Outlines of Medieval History,1916; 1924; 1937,sd2-1916-previte-orton-outlines,read,D2: only later works found | D2: 1916 and 1937
 H21,d2_scholarly_en,England,Scholarship,"Edward Gibbon, ed. Milman; Smith; Bury",Decline and Fall (annotated editions),Milman 1838-39; Smith 1854-55; Bury 1896-1900,1788-edward-gibbon;sd2-1869-gibbon-crusades-extract,partial,D2: Bohn variorum vol. 6 and Methuen (Bury) vol. 6 read; Milman ed. crusade volume not reached | D2: Murray 1869 chapters
 H22,d2_scholarly_en,England,Scholarship,E. J. King,The Knights Hospitallers in the Holy Land,1931,,not_reached,D2: lending copy; not borrowed
 C01,d2_church_en,England,Church history,"J. L. Mosheim, trans. Maclaine; Murdock",Ecclesiastical History,Maclaine eds to 1840s; Murdock 1832,sd2-1860-mosheim-reid,read,

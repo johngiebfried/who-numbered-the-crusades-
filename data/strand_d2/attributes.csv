@@ -62,12 +62,14 @@ sd-1924-americana,,US,,C,F,,,unchecked,,all,,german;inferred,,derived from slots
 sd2-1801-tytler-elements,S01,Scotland,Scotland,C,D,absent,,none,,all,,gibbon;inferred,,Read in a New York printing; the table's fifth is 1248.,2026-11-28
 sd2-1814-mangnall-questions,S03,England,England,none,none,,,none,,,,unclear;inferred,,,2026-11-28
 sd2-1818-hallam-middle-ages,H01,England,England,C,none,absent,,footnote,unspecified,all,Gibbon;Sismondi;Heeren;Robertson;Mosheim;Fleury;Vertot;Lingard;Sharon Turner,gibbon;inferred,,Read in the New York 1857 printing.,2026-11-28
+sd2-1830-edinburgh-encyclopaedia,R03,Scotland,,none,none,last_unnumbered,,unchecked,,,,unclear;inferred,,,2026-11-28
 sd2-1830-james-chivalry,P03,England,England,other,C,named_unnumbered,,none,,none,Mills;Vertot;Guizot;Robertson;Voltaire;Fuller;Sharon Turner,michaud_mills;documented,,C 5 as Mills; names Mills 38 times. Fourth not numbered (H6 told unnumbered).,2026-11-28
 sd2-1830-keightley-outlines,S04,England,Ireland,C,D,named_unnumbered,,none,,all,,gibbon;inferred,,,2026-11-28
 sd2-1830-stebbing-chivalry,P02,Scotland,England,both,D+F,,,footnote,unspecified,all,Gibbon;Michaud;Robertson;Fuller;Sharon Turner,german;inferred,,"Frederick-fifth seven (merged form) in Edinburgh, 1830; Henry VI's and the 1202 expedition both 'the Fourth Crusade'.",2026-11-28
 sd2-1830-turner-middle-ages,C15,England,England,none,none,named_unnumbered,,footnote,unspecified,all,Gibbon;Mills;Sismondi,gibbon;inferred,,L2 7 'what is called'.,2026-11-28
 sd2-1831-americana-chron-table,R08,US,Germany,other,C,absent,other,none,,none,,german;inferred,,Ninth = Barons' Crusade (Thibaut); fourth = 1189; Albigensian sixth. Editor Lieber German-born.,2026-11-28
 sd2-1834-keightley-crusaders,P04,England,Ireland,none,none,absent,,footnote,unspecified,,Wilken;Michaud;Mills;Gibbon,unclear;inferred,,Stops at the Third Crusade's numbers.,2026-11-28
+sd2-1836-wallen-round-church,,England,,,,ninth_with_tunis,tunis+edward,unchecked,,none,,unclear;inferred,,Added during reading (ninth sweep).,2026-11-28
 sd2-1837-reeve-church-dublin,C21,Ireland,England,H6,none,absent,,none,,,,moreri;inferred,,Catholic; Fleury's and Maimbourg's Henry VI fourth (inferred).,2026-11-28
 sd2-1842-fredet-modern-history,S21,US,France,H6,C,inside_last,,none,,none,Voltaire;Maimbourg;Lingard,moreri;inferred,,French Sulpician in Baltimore; the French reference count in a US Catholic text.,2026-11-28
 sd2-1843-worcester-elements,S17,US,US,C,none,absent,,none,,all,Hallam;Robertson,unclear;inferred,,,2026-11-28
@@ -76,6 +78,7 @@ sd2-1848-chambers-information,R11,Scotland,,none,none,,,none,,,Hallam;Robertson;
 sd2-1849-dansey-english-crusaders,P35,England,,none,none,,,none,,,Keightley,unclear;inferred,,Added during reading (census).,2026-11-28
 sd2-1849-sargent-sketches,P10,England,,H6,other,last_unnumbered,,quoted;footnote,unspecified,none,Gibbon;Mills;Robertson;Fuller,michaud_mills;inferred,,Fifth placed between Henry VI's crusade and Innocent III's Inquisition; its identity not stated.,2026-11-28
 sd2-1850-rts-crusades,P30,England,,H6,C,last_unnumbered,,footnote;quoted,unspecified,none,Gibbon,michaud_mills;inferred,,Mills's slots.,2026-11-28
+sd2-1851-colquhoun-civil-law,,England,,none,none,absent,other,unchecked,,,,unclear;inferred,,Ninth = Gregory X's projected crusade (1274).,2026-11-28
 sd2-1853-bloss-heroines,P09,US,US,H6,C,inside_last,,none,,none,Mills;Michelet;Hume;Lingard;Fuller,moreri;inferred,,"moreri_eight slots, shared with Michaud (Robson 1852) and EB2-8; names neither. The eighth is dated 1272 and centered on Edward and Eleanor.",2026-11-28
 sd2-1853-goodrich-all-nations,S15,US,US,C,D,absent,,none,,all,,gibbon;inferred,,Reports a count of ten (r34).,2026-11-28
 sd2-1853-hardwick-middle-age,C07,England,England,none,none,,,footnote,Milman,,Wilken;Michaud;Gibbon;Neander;Robertson,unclear;inferred,,"Cites Gibbon (Milman's edition), uses no numbers.",2026-11-28
@@ -85,13 +88,16 @@ sd2-1854-newman-turks,C20,Ireland,England,none,none,,,footnote,unspecified,,Gibb
 sd2-1854-willson-outlines,S16,US,US,C,D,last_unnumbered,,footnote,unspecified,all,Gibbon,gibbon;inferred,,"Echoes G. P. R. James's sentence on the expedition of 1202-04, renumbered.",2026-11-28
 sd2-1856-procter-philadelphia,P08,US,England,C,D+F,inside_last,,footnote,unspecified,some,Gibbon;Mills;Michaud;Hallam;Heeren,own;documented,,US printing.,2026-11-28
 sd2-1857-chepmell-short-course,S37,England,Guernsey,both,D,named_unnumbered,tunis,preface,unspecified,all,Gibbon;Hallam;Sismondi;Milman,gibbon;documented,,"Added during reading. Gibbon's seven with the nine in parentheses (r35); 'fourth' names both, one in each count.",2026-11-28
+sd2-1857-masonic-knights-east-west,,England,,none,none,ninth_alone,edward,none,,,,unclear;inferred,,Masonic lore; ninth dated 1272 (Calcutta 1857; London 1872). Added during reading (ninth sweep).,2026-11-28
 sd2-1858-taylor-students-manual,S36,England,Ireland,C,D,,other,none,,some,,modern;inferred,,Added during reading. Table modern eight; text keeps 'led the ninth crusade'.,2026-11-28
 sd2-1858-white-eighteen-centuries,S11,Scotland,Scotland,C,D,absent,,none,,some,Michelet,modern;inferred,,Read in a Philadelphia printing.,2026-11-28
 sd2-1859-students-hume,C16,England,,none,none,named_unnumbered,,footnote,Student's Gibbon,,Student's Gibbon,unclear;inferred,,Sends the reader to the Student's Gibbon for the crusades.,2026-11-28
 sd2-1860-edgar-crusaders,P15,US,Scotland,none,none,last_unnumbered,,none,,,Fuller;Michaud,unclear;inferred,,,2026-11-28
+sd2-1860-hazlitt-venetian-republic,,England,,,,,tunis,unchecked,,none,,unclear;inferred,,Added during reading (ninth sweep).,2026-11-28
 sd2-1860-mosheim-reid,C01,England,Germany,none,none,,,footnote,Milman,all,Gibbon;Milman;Bower,gibbon;inferred,,Editor's note: 'reckoned the sixth crusade by all authorities' (r40).,2026-11-28
 sd2-1862-townsend-manual-dates,R14,England,England,both,C,ninth_with_tunis,tunis+edward,none,,none,,michaud_mills;inferred,,CRUSADES entry nine_H6; CONSTANTINOPLE entry C 4. Source of the 'Prince of Wales' error.,2026-11-28
 sd2-1864-kurtz-history,C05,Scotland,Germany,other,F,,,none,,some,,german;documented,,Translation.,2026-11-28
+sd2-1864-reading-book-evening-schools,,England,,,,,tunis,unchecked,,none,,unclear;inferred,,Added during reading (ninth sweep).,2026-11-28
 sd2-1864-yonge-landmarks,S06,England,England,C,D,last_unnumbered,,none,,some,,modern;inferred,,,2026-11-28
 sd2-1866-haydn-moxon,R13,England,England,H6,C,inside_last,,none,,none,,moreri;inferred,,CRUSADES entry H6 4; EASTERN EMPIRE entry C 4.,2026-11-28
 sd2-1868-students-gibbon,S08,England,England,C,D,inside_last,,named_in_text,Student's Gibbon,all,Gibbon,gibbon;documented,,,2026-11-28
@@ -118,35 +124,44 @@ sd2-1883-haydn-harper,R13,US,England,H6,C,inside_last,,none,,none,,moreri;inferr
 sd2-1883-lupton-concise,S40,England,,none,none,ninth_with_tunis,tunis+edward,none,,none,,unclear;inferred,,"Added during reading. The ninth told as Edward's, Louis joining.",2026-11-28
 sd2-1883-swinton-canadian,S34,Canada,Scotland,H6,C,ninth_with_tunis,tunis+edward,none,,none,Hallam;Hume,michaud_mills;documented,,Copies EB9 on the Fourth; the 1874 US text followed Procter.,2026-11-28
 sd2-1884-boyce-introduction,S39,England,England,H6,C,ninth_with_tunis,tunis+edward,named_in_text,unspecified,none,Cox;Stubbs;Freeman;Hallam;Gibbon;Michaud;Mosheim;Sismondi,michaud_mills;documented,,Added during reading. Lists Cox's Crusades.,2026-11-28
+sd2-1885-fisher-outlines-universal,S26,US,US,C,F,absent,,unchecked,,all,,german;inferred,,Ploetz's count (inferred).,2026-11-28
 sd2-1886-adam-robertson-toronto,S34,Canada,Canada,none,none,,,none,,,,unclear;inferred,,,2026-11-28
 sd2-1886-stubbs-lectures,H03,England,England,C,D,named_unnumbered,,none,,all,,unclear;inferred,,"C 4, D 5 fit both Gibbon and the modern eight.",2026-11-28
 sd2-1887-cox-concise-england,S40,England,England,none,none,ninth_with_tunis,edward,none,,,,own;documented,,Added during reading. The passage names only Edward.,2026-11-28
 sd2-1887-fisher-church,C09,US,US,none,F,,,none,,,,german;inferred,,,2026-11-28
+sd2-1887-johonnot-ten-great-events,,US,US,,,,tunis,unchecked,,none,,unclear;inferred,,Added during reading (ninth sweep).,2026-11-28
 sd2-1888-archer-crusade-richard,H08,England,England,C,none,,,none,,all,Stubbs;Stevenson;Conder,unclear;inferred,,,2026-11-28
 sd2-1888-ransome-short-history,S40,England,England,none,none,named_unnumbered,,none,,,Stubbs,unclear;inferred,,"Added during reading (school, England).",2026-11-28
+sd2-1889-myers-general-history,S25,US,US,C,D,,,unchecked,,all,Pears,modern;inferred,,Numbers only through the Fifth.,2026-11-28
+sd2-1890-beazley-james-aragon,,England,England,none,none,absent,other,unchecked,,,,unclear;inferred,,Ninth = the crusade projected at Lyons.,2026-11-28
 sd2-1891-gays-circle,R38,US,,C,D,ninth_with_tunis,tunis+edward,none,,some,,own;documented,,Added during reading. Copies the Self-Instructor.,2026-11-28
 sd2-1892-atlas-chronology,R38,US,,,,ninth_with_tunis,tunis+edward,unchecked,,none,,own;documented,,Added during reading. Snippet level; one row for the series.,2026-11-28
 sd2-1892-boyd-story,P34,US,US,H6,C,inside_last,,none,,none,,michaud_mills;inferred,,Michaud's slots (moreri_eight).,2026-11-28
+sd2-1893-colvin-godeffroy,,England,US,none,none,ninth_alone,edward,unchecked,,,,unclear;inferred,,Edward-centred ninth; whether Louis's Tunis is separate is not stated. Added during reading (ninth sweep).,2026-11-28
 sd2-1893-tout-edward-first,C19,England,England,none,none,named_unnumbered,,none,,,,unclear;inferred,,,2026-11-28
 sd2-1894-adams-civilization,H19,US,US,C,none,,,none,,all,Kugler;Pears;Archer;Cox,unclear;inferred,,,2026-11-28
 sd2-1894-emerton-mediaeval-europe,H18,US,US,C,D+F,,,none,,some,Heeren;Guizot;Kugler;Sybel;Prutz;Pears;Archer;Cox;Michelet,german;inferred,,"'The phrase ""fifth crusade"" includes ...' (r36).",2026-11-28
 sd2-1894-smith-historical-geography,H23,England,Scotland,none,none,,other,bibliography,unspecified,none,Gibbon;Cox;Sybel;Röhricht;Prutz,unclear;inferred,,Added during reading. Footnote and text use different counts.,2026-11-28
+sd2-1896-howells-impressions,,US,US,none,none,absent,other,none,,,,unclear;inferred,,'Ninth' applied to 1202-04.,2026-11-28
 sd2-1896-thatcher-schwill,S33,US,US,C,none,,,none,,all,Milman;Kugler;Sybel;Pears;Stubbs;Lane-Poole;Archer;Cox;Munro;Mombert,modern;inferred,,'which is called the fourth crusade' (r37).,2026-11-28
 sd2-1897-conder-latin-kingdom,H05,England,England,H6,C,,,bibliography,unspecified,none,Gibbon;Michaud;Röhricht;Archer;Besant;Guizot,michaud_mills;inferred,,"Bibliography lists 'Gibbon's History of the Crusades', the separately printed extract of chapters 58-60, and Michaud ed. 1877. Edward not checked.",2026-11-28
 sd2-1897-desmond-mooted,P33,US,US,none,none,,tunis,none,,none,Michaud;Hallam;Stubbs;Cox;Lingard;Duruy,michaud_mills;inferred,,Added during reading.,2026-11-28
 sd2-1898-haydn-toronto,R13,Canada,England,H6,C,inside_last,,none,,none,,moreri;inferred,,,2026-11-28
 sd2-1898-lane-poole-saladin,H06,England,England,none,none,absent,,none,,,Archer;Conder;Stubbs;Mills,unclear;inferred,,,2026-11-28
+sd2-1898-oman-art-of-war,H16,England,England,C,D,,,unchecked,,all,,modern;inferred,,Numbers only through the Fifth (1924 text).,2026-11-28
 sd2-1898-tout-empire-papacy,S10,England,England,C,D,named_unnumbered,,none,,all,Riant,gibbon;inferred,,Gibbon's seven; 'what is generally called the Fifth Crusade' (r38).,2026-11-28
 sd2-1900-michaud-robson-ny,P07,US,France,H6,C,inside_last,,footnote,unspecified,none,Gibbon,own;documented,,US printing of the translation.,2026-11-28
 sd2-1903-clinton-novels-list,R40,US,,none,none,inside_last,,none,,none,,modern;inferred,,Added during reading (census).,2026-11-28
 sd2-1903-robinson-western-europe,S30,US,US,none,none,,,none,,,Munro;Archer,unclear;inferred,,Avoids numbers.,2026-11-28
 sd2-1904-harbottle-battles,R39,England,,none,other,,tunis,none,,none,,unclear;inferred,,Added during reading. Fifth = Mansurah 1249.,2026-11-28
 sd2-1904-historians-history-v8,P20,US,US,H6,C,ninth_with_tunis,tunis+edward,quoted,unspecified,none,Mills;Gibbon;Herder,michaud_mills;documented,,Copies Mills's wording; outline of the Fourth follows EB9.,2026-11-28
+sd2-1905-chronological-chart,,US,,,,,tunis,none,,none,,unclear;inferred,,Added during reading (ninth sweep).,2026-11-28
 sd2-1905-thatcher-mcneal,H17,US,,none,none,,,none,,,,unclear;inferred,,,2026-11-28
 sd2-1910-ontario-ps-history,S34,Canada,,none,none,,,none,,,,unclear;inferred,,,2026-11-28
 sd2-1912-alzog-manual,C12,US,Germany,none,F,absent,,none,,all,Michaud;Wilken;Raumer;Schlosser;Neander;Gieseler,german;documented,,Translation.,2026-11-28
 sd2-1913-blyth-jerusalem,P22,England,,none,none,last_unnumbered,other,none,,none,Lane-Poole,unclear;inferred,,Ninth = Louis IX's first crusade (1248).,2026-11-28
 sd2-1915-west-modern-world,S29,US,US,C,other,,,none,,some,Pears;Lane-Poole;Archer;Cox;Munro;Duruy,modern;inferred,,,2026-11-28
+sd2-1916-previte-orton-outlines,H20,England,England,C,D,last_unnumbered,,unchecked,,all,,modern;inferred,,Numbers only through the Fifth.,2026-11-28
 sd2-1917-nelsons-perpetual,R24,US,Scotland,C,F,inside_last,,bibliography,unspecified,all,Gibbon;Milman;Cox;Archer;Röhricht;Stevenson,german;inferred,,Cites Gibbon and Cox; follows neither.,2026-11-28
 sd2-1917-paetow-guide,H13,US,US,C,D,,,bibliography,Bury,all,Röhricht;Munro;Villehardouin;Bury;Gibbon,modern;documented,,Fourth and Fifth from Munro's and Röhricht's titles; the rest named.,2026-11-28
 sd2-1917-webster-early-european,S32,US,US,C,none,,,bibliography,Bury,all,Gibbon;Archer,modern;inferred,,,2026-11-28
@@ -157,10 +172,14 @@ sd2-1921-colliers-new,R23,US,,other,F,absent,,none,,some,,german;documented,,Cop
 sd2-1921-krey-first-crusade,H11,US,US,none,none,,,footnote,unspecified,,Gibbon;Munro,unclear;inferred,,,2026-11-28
 sd2-1921-stein-little-crusader,P30,US,US,none,none,,,none,,,,unclear;inferred,,,2026-11-28
 sd2-1921-van-loon-story,P25,US,Netherlands,none,none,,,none,,,,unclear;inferred,,,2026-11-28
+sd2-1923-nuttall-encyclopaedia,R27,England,,C,,,,none,,some,,modern;inferred,,,2026-11-28
 sd2-1925-wright-geographical-lore,H24,US,US,C,D,,,none,,all,Stubbs;Grousset,modern;inferred,,Added during reading (census).,2026-11-28
 sd2-1926-cmh-v5,H14,England,,C,D,last_unnumbered,,named_in_text,unspecified,all,,modern;inferred,,Numbers the Fourth and Fifth only.,2026-11-28
 sd2-1927-newhall-crusades,H12,US,US,C,none,last_unnumbered,,named_in_text,unspecified,all,Gibbon;Munro;Barker;Bréhier;Stevenson,modern;inferred,,,2026-11-28
 sd2-1929-eb14-crusades,R01,England,,C,D,named_unnumbered,,unchecked,,some,,modern;documented,,Revision of EB11; numbering unchanged.,2026-11-28
 sd2-1930-coulton-crusades-commerce,P35,Scotland,England,C,D,inside_last,,named_in_text,unspecified,all,Gibbon;Lightfoot,modern;inferred,,"Added during reading (census). Nelson, Edinburgh firm; London imprint.",2026-11-28
 sd2-1930-lamb-flame-islam,P26,US,US,none,none,named_unnumbered,,none,,,Röhricht;Riant;Barker;Stevenson;Stubbs,unclear;inferred,,,2026-11-28
+sd2-1934-daily-express-encyclopaedia,,England,,,,,other,unchecked,,none,,unclear;inferred,,"Ninth = Joinville's crusade, Louis IX's first (1248).",2026-11-28
 sd2-1935-outhwaite-unrolling,P33,US,,,,ninth_alone,edward,unchecked,,,,unclear;inferred,,Added during reading; snippet level. Edward's expedition 'at the end of the Ninth Crusade'.,2026-11-28
+sd2-1940-langer-encyclopedia,R32,US,US,C,D,inside_last,,unchecked,,some,,modern;inferred,,Successor to Ploetz; drops Ploetz's count.,2026-11-28
+sd2-1944-anderson-biography-cathedral,,US,US,,,,other,unchecked,,,,own;inferred,,Ninth = 1344 (Smyrna).,2026-11-28

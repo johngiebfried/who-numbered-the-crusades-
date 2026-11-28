@@ -257,6 +257,8 @@ sb-1836-bouchitte-manuel,D,5,,works.csv
 sb-1836-bouchitte-manuel,F,6,,works.csv
 sb-1836-bouchitte-manuel,L1,7,,works.csv
 sb-1836-bouchitte-manuel,L2,8,,works.csv
+sd2-1836-wallen-round-church,L2,9,E,works.csv
+sd2-1836-wallen-round-church,E,9,L2,works.csv
 1837-brockhaus-bilder-conversations-lexikon,D,4,,works.csv
 1837-brockhaus-bilder-conversations-lexikon,F,5,,works.csv
 1837-brockhaus-bilder-conversations-lexikon,L1,6,,works.csv
@@ -472,6 +474,7 @@ sd2-1857-chepmell-short-course,C,4,,works.csv
 sd2-1857-chepmell-short-course,D,5,,works.csv
 sd2-1857-chepmell-short-course,L1,6,,works.csv
 sd2-1857-chepmell-short-course,L2,7,,works.csv
+sd2-1857-masonic-knights-east-west,E,9,,works.csv
 sd-1858-beale-student-textbook,C,4,,works.csv
 sd-1858-beale-student-textbook,D,5,,works.csv
 sd-1858-beale-student-textbook,F,6,B,works.csv
@@ -498,6 +501,7 @@ sd-1860-collier-great-events,C,5,,works.csv
 sd-1860-collier-great-events,F,6,,works.csv
 sd-1860-collier-great-events,L1,7,,works.csv
 sd-1860-collier-great-events,L2,8,,works.csv
+sd2-1860-hazlitt-venetian-republic,L2,9,,works.csv
 sd2-1860-mosheim-reid,L1,6,,works.csv
 1861-victor-duruy,C,4,,works.csv
 1861-victor-duruy,D,5,,works.csv
@@ -525,6 +529,8 @@ sd2-1864-kurtz-history,D,4,,works.csv
 sd2-1864-kurtz-history,F,5,,works.csv
 sd2-1864-kurtz-history,L1,6,,works.csv
 sd2-1864-kurtz-history,L2,7,,works.csv
+sd2-1864-reading-book-evening-schools,L1,8,,works.csv
+sd2-1864-reading-book-evening-schools,L2,9,,works.csv
 sd2-1864-yonge-landmarks,C,4,,works.csv
 sd2-1864-yonge-landmarks,D,5,,works.csv
 sd2-1864-yonge-landmarks,F,6,,works.csv
@@ -712,6 +718,10 @@ sd2-1884-boyce-introduction,E,9,L2,works.csv
 1885-p-v-n-myers,L1,7,,works.csv
 1885-p-v-n-myers,L2,8,E,works.csv
 1885-p-v-n-myers,E,8,L2,works.csv
+sd2-1885-fisher-outlines-universal,C,4,,works.csv
+sd2-1885-fisher-outlines-universal,F,5,,works.csv
+sd2-1885-fisher-outlines-universal,L1,6,,works.csv
+sd2-1885-fisher-outlines-universal,L2,7,,works.csv
 1886-carl-ploetz,F,5,,works.csv
 1886-carl-ploetz,L1,6,,works.csv
 1886-jules-roland,L1,7,,works.csv
@@ -728,7 +738,9 @@ sd2-1886-stubbs-lectures,C,4,,works.csv
 sd2-1886-stubbs-lectures,D,5,,works.csv
 sd2-1887-cox-concise-england,E,9,,works.csv
 sd2-1887-fisher-church,F,5,,works.csv
+sd2-1887-johonnot-ten-great-events,L2,9,,works.csv
 sd2-1888-archer-crusade-richard,C,4,,works.csv
+sd2-1889-myers-general-history,C,4,,works.csv
 1891-victor-duruy,C,4,,works.csv
 1891-victor-duruy,D,5,,works.csv
 1891-victor-duruy,F,6,,works.csv
@@ -760,6 +772,7 @@ sd-1898-johnsons-universal,F,5,,works.csv
 sd-1898-johnsons-universal,B,6,,works.csv
 sd-1898-johnsons-universal,L1,7,,works.csv
 sd-1898-johnsons-universal,L2,8,,works.csv
+sd2-1893-colvin-godeffroy,E,9,,works.csv
 1894-giovanni-bragagnolo,L1,7,,works.csv
 1894-giovanni-bragagnolo,L2,8,,works.csv
 1894-j-i-mombert,C,4,,works.csv
@@ -799,6 +812,8 @@ sd2-1898-haydn-toronto,B,6,D+F,works.csv
 sd2-1898-haydn-toronto,L1,7,,works.csv
 sd2-1898-haydn-toronto,L2,8,E,works.csv
 sd2-1898-haydn-toronto,E,8,L2,works.csv
+sd2-1898-oman-art-of-war,C,4,,works.csv
+sd2-1898-oman-art-of-war,D,5,,works.csv
 sd2-1898-tout-empire-papacy,C,4,,works.csv
 sd2-1898-tout-empire-papacy,D,5,,works.csv
 sd2-1898-tout-empire-papacy,L1,6,,works.csv
@@ -851,6 +866,7 @@ sd2-1904-historians-history-v8,B,7,,works.csv
 sd2-1904-historians-history-v8,L1,8,,works.csv
 sd2-1904-historians-history-v8,L2,9,E,works.csv
 sd2-1904-historians-history-v8,E,9,L2,works.csv
+sd2-1905-chronological-chart,L2,9,,works.csv
 pn-fr-1906-petit-larousse,C,4,,works.csv
 pn-fr-1906-petit-larousse,D,5,,works.csv
 pn-fr-1906-petit-larousse,F,6,,works.csv
@@ -904,6 +920,8 @@ sd-1915-parker-bloody-trail,L1,8,,works.csv
 sd-1915-parker-bloody-trail,L2,9,,works.csv
 sd2-1915-west-modern-world,C,4,,works.csv
 sd2-1915-west-modern-world,L1,7,,works.csv
+sd2-1916-previte-orton-outlines,C,4,,works.csv
+sd2-1916-previte-orton-outlines,D,5,,works.csv
 sd2-1917-nelsons-perpetual,C,4,,works.csv
 sd2-1917-nelsons-perpetual,F,5,,works.csv
 sd2-1917-nelsons-perpetual,L1,6,,works.csv
@@ -928,6 +946,9 @@ sd2-1921-colliers-new,L1,6,,works.csv
 1923-ernest-barker,F,6,,works.csv
 1923-ernest-barker,L1,7,,works.csv
 1923-ernest-barker,L2,8,,works.csv
+sd2-1923-nuttall-encyclopaedia,C,4,,works.csv
+sd2-1923-nuttall-encyclopaedia,L1,7,,works.csv
+sd2-1923-nuttall-encyclopaedia,L2,8,,works.csv
 sd-1924-americana,C,4,,works.csv
 sd-1924-americana,F,5,,works.csv
 sd-1924-americana,L1,6,,works.csv
@@ -944,7 +965,14 @@ sd2-1929-eb14-crusades,L1,7,,works.csv
 sd2-1929-eb14-crusades,L2,8,,works.csv
 sd2-1930-coulton-crusades-commerce,C,4,,works.csv
 sd2-1930-coulton-crusades-commerce,D,5,,works.csv
+sd2-1934-daily-express-encyclopaedia,L1,9,,works.csv
 sd2-1935-outhwaite-unrolling,E,9,,works.csv
+sd2-1940-langer-encyclopedia,C,4,,works.csv
+sd2-1940-langer-encyclopedia,D,5,,works.csv
+sd2-1940-langer-encyclopedia,F,6,,works.csv
+sd2-1940-langer-encyclopedia,L1,7,,works.csv
+sd2-1940-langer-encyclopedia,L2,8,E,works.csv
+sd2-1940-langer-encyclopedia,E,8,L2,works.csv
 sd-1953-americana,C,4,,works.csv
 sd-1953-americana,F,5,,works.csv
 sd-1953-americana,L1,6,,works.csv

@@ -25,7 +25,7 @@ sd2-1882-gilbert-world-toronto,1882,reference,Canada,named_in_text,unspecified,"
 sd2-1883-adams-wars-of-cross,1883,popular,England,quoted,unspecified,"C 4, D 5, B 6, L1 7, L2+E 8",barons_sixth,some,own;documented
 sd2-1884-boyce-introduction,1884,school,England,named_in_text,unspecified,"H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9",nine_H6,none,michaud_mills;documented
 1885-edwin-pears,1885,scholarly,England,named_in_text,unspecified,C 4,,all,french_school;inferred
-1885-p-v-n-myers,1885,school,US,preface;footnote,,"C 4, D 5, F 6, L1 7, L2+E 8; adding H6 makes ""nine""",,some,unclear;inferred
+1885-p-v-n-myers,1885,school,US,preface;footnote,,"C 4, D 5, F 6, L1 7, L2+E 8",,some,unclear;inferred
 1894-j-i-mombert,1894,popular,US,preface;named_in_text,unspecified,"C 4, D 5, F 6, L1 7, L2+E 8",,some,modern;inferred
 sd2-1894-smith-historical-geography,1894,scholarly,England,bibliography,unspecified,"D 6, L2 8",moreri_eight,none,unclear;inferred
 1896-j-m-ludlow,1896,popular,US,bibliography;quoted,unspecified,"C 4, D 5, F 6, L1 7, L2 8",,some,modern;documented

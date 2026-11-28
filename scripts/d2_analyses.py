@@ -9,6 +9,8 @@ Writes, in data/strand_d2/:
   conversation_edges.csv  citation edges among English rows, with the tradition each side follows and a flag
                           where a work cites a source whose numbers it does not use
   national.csv            scheme family by country of publication and genre
+  fourth_pivot.csv        the Fourth by decade and genre, with the share of decided rows whose fourth is Henry VI's
+  fourth_series.csv       the Fourth and the family, edition by edition, for the main series
 Rerun after any data change. MIT License.
 """
 import csv
@@ -74,6 +76,8 @@ def fourth(w, a):
         return "H6"
     if c:
         return "C"
+    if a is not None and not a.get("fourth_identity"):
+        return "unknown"
     return "none" if w["enumerates"] in ("no", "") else "other"
 
 
@@ -178,5 +182,59 @@ for w in eng:
 write(OUT / "national.csv", ["country_pub", "genre", "scheme_family", "rows"],
       [dict(country_pub=c, genre=g, scheme_family=s, rows=n) for (c, g, s), n in sorted(nat.items())])
 
+# 6. Fourth pivot: decade by genre, with the share of decided rows whose fourth is Henry VI's
+piv = defaultdict(Counter)
+for w in eng:
+    a = attrs.get(w["work_id"])
+    f = fourth(w, a) or "unknown"
+    d = f"{year(w) // 10 * 10}s"
+    for g in ("all", genre(w)):
+        piv[(d, g)][f] += 1
+prow = []
+for (d, g), c in sorted(piv.items()):
+    decided = c["C"] + c["H6"] + c["both"]
+    prow.append(dict(decade=d, genre=g, C=c["C"], H6=c["H6"], both=c["both"], none=c["none"], other=c["other"],
+                     unknown=c["unknown"], rows=sum(c.values()),
+                     h6_share_of_decided=f"{(c['H6'] + c['both']) / decided:.2f}" if decided else ""))
+write(OUT / "fourth_pivot.csv", list(prow[0].keys()), prow)
+
+# 7. Series: the Fourth and the family, edition by edition, for the reference and textbook series
+SERIES = {
+    "Encyclopaedia Britannica": ["sa-1797-eb3", "sa-1810-eb4", "sa-1815-eb5", "sa-1823-eb6", "sa-1842-eb7",
+                                 "sa-1854-eb8", "1877-eb9-crusades", "1911-ernest-barker", "sd2-1929-eb14-crusades"],
+    "Haydn's Dictionary of Dates": ["sa-1844-haydn", "sd2-1866-haydn-moxon", "sd2-1869-haydn-harper",
+                                    "sd2-1883-haydn-harper", "sd2-1898-haydn-toronto", "sd-1910-haydn-dates-25"],
+    "Chambers's": ["sd2-1848-chambers-information", "sd-1868-chambers-enc", "sd2-1871-chambers-lippincott",
+                   "sd-1901-chambers-enc"],
+    "Encyclopaedia Americana": ["sa-1830-americana", "sd2-1831-americana-chron-table", "sd-1924-americana"],
+    "Appleton's American Cyclopaedia": ["sa-1859-newamerican", "1873-american-cyclopaedia-crusades"],
+    "Johnson's": ["sd-1898-johnsons-universal"],
+    "New International": ["sd-1902-new-international"],
+    "Nuttall": ["1907-nuttall-encyclopaedia", "sd2-1923-nuttall-encyclopaedia"],
+    "Ploetz and Langer": ["1883-carl-ploetz", "sd2-1940-langer-encyclopedia"],
+    "Michaud in English": ["1852-michaud-trans-william-robson", "sd2-1900-michaud-robson-ny"],
+    "Mills and his reuse": ["1820-charles-mills", "sd2-1904-historians-history-v8"],
+    "Procter": ["1842-george-proctor", "sd2-1856-procter-philadelphia"],
+    "Cox": ["1874-george-w-cox", "sd-1901-cox-crusades-12"],
+    "Collier": ["sd-1860-collier-great-events", "sd2-1872-collier-outlines-toronto"],
+    "Swinton": ["1874-william-swinton", "sd2-1883-swinton-canadian"],
+    "W. C. Taylor": ["sd2-1844-taylor-manual-us", "sd2-1858-taylor-students-manual"],
+    "Myers": ["1885-p-v-n-myers", "sd2-1889-myers-general-history"],
+    "Gibbon and his abridgments": ["1788-edward-gibbon", "sd2-1868-students-gibbon",
+                                   "sd2-1869-gibbon-crusades-extract"],
+    "Barker": ["1911-ernest-barker", "1923-ernest-barker"],
+}
+srow = []
+for s, ids in SERIES.items():
+    for wid in ids:
+        w = works.get(wid)
+        if not w:
+            continue
+        a = attrs.get(wid)
+        srow.append(dict(series=s, year=w["year_sort"], work_id=wid, country_pub=country(w, a),
+                         fourth_identity=fourth(w, a), scheme_family=w["scheme_family"],
+                         numbering=w["numbering_shorthand"], verification=w["verification_level"]))
+write(OUT / "fourth_series.csv", list(srow[0].keys()), srow)
+
 print(len(eng), "English rows 1788-1945;", len(gt), "Gibbon rows;", len(et), "Edward/ninth rows;", len(edges),
-      "edges")
+      "edges;", len(srow), "series rows")

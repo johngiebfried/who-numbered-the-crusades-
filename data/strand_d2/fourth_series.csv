@@ -1,0 +1,52 @@
+series,year,work_id,country_pub,fourth_identity,scheme_family,numbering,verification
+Encyclopaedia Britannica,1797,sa-1797-eb3,Scotland,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2+E 8",full_text
+Encyclopaedia Britannica,1810,sa-1810-eb4,Scotland,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2 8",full_text
+Encyclopaedia Britannica,1815,sa-1815-eb5,Scotland,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2 8",full_text
+Encyclopaedia Britannica,1823,sa-1823-eb6,Scotland,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2 8",full_text
+Encyclopaedia Britannica,1842,sa-1842-eb7,Scotland,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2 8",full_text
+Encyclopaedia Britannica,1854,sa-1854-eb8,Scotland,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2 8",full_text
+Encyclopaedia Britannica,1877,1877-eb9-crusades,Scotland,H6,nine_H6,"H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9",full_text
+Encyclopaedia Britannica,1911,1911-ernest-barker,England,C,modern_eight,"C 4, D 5, F 6, L1 7, L2 8",full_text
+Encyclopaedia Britannica,1929,sd2-1929-eb14-crusades,England,C,modern_eight,"C 4, D 5, F 6, L1 7, L2 8",full_text
+Haydn's Dictionary of Dates,1844,sa-1844-haydn,England,none,none,,full_text
+Haydn's Dictionary of Dates,1866,sd2-1866-haydn-moxon,England,H6,moreri_eight_variant,"H6 4, C 5, F+B 6, L1 7, L2+E 8",full_text
+Haydn's Dictionary of Dates,1869,sd2-1869-haydn-harper,US,H6,moreri_eight_variant,"H6 4, C 5, F+B 6, L1 7, L2+E 8",full_text
+Haydn's Dictionary of Dates,1883,sd2-1883-haydn-harper,US,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2+E 8",full_text
+Haydn's Dictionary of Dates,1898,sd2-1898-haydn-toronto,Canada,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2+E 8",full_text
+Haydn's Dictionary of Dates,1910,sd-1910-haydn-dates-25,England,H6,moreri_eight,"H6 4, C 5, D+F+B 6, L1 7, L2 8",full_text
+Chambers's,1848,sd2-1848-chambers-information,Scotland,none,none,,full_text
+Chambers's,1868,sd-1868-chambers-enc,Scotland,C,frederick_fifth_seven,"C 4, F 5, L1 6, L2 7",full_text
+Chambers's,1871,sd2-1871-chambers-lippincott,US,C,frederick_fifth_seven,"C 4, F 5, L1 6, L2 7",full_text
+Chambers's,1901,sd-1901-chambers-enc,Scotland,C,frederick_fifth_seven,"C 4, F 5, L1 6, L2 7",full_text
+Encyclopaedia Americana,1830,sa-1830-americana,US,other,german_six,"D 4, F 5, L1 6",full_text
+Encyclopaedia Americana,1831,sd2-1831-americana-chron-table,US,other,other,"C 5, D 7, F 8, B 9",full_text
+Encyclopaedia Americana,1924,sd-1924-americana,US,C,frederick_fifth_seven,"C 4, F 5, L1 6, L2 7",full_text
+Appleton's American Cyclopaedia,1859,sa-1859-newamerican,US,none,none,,full_text
+Appleton's American Cyclopaedia,1873,1873-american-cyclopaedia-crusades,US,C,,"C 4, D 5, B 6, L1 7, L2+E 8; Gregory X ""sought to evoke a ninth""",full_text
+Johnson's,1893,sd-1898-johnsons-universal,US,C,barons_sixth_variant,"C 4, F 5, B 6, L1 7, L2 8",full_text
+New International,1902,sd-1902-new-international,US,C,frederick_fifth_seven,"C 4, F 5, L1 6, L2 7",full_text
+Nuttall,1907,1907-nuttall-encyclopaedia,England,none,,"""to the number of eight""",full_text
+Nuttall,1923,sd2-1923-nuttall-encyclopaedia,England,C,modern_eight,"C 4, L1 7, L2 8",full_text
+Ploetz and Langer,1883,1883-carl-ploetz,unknown,C,,"C 4, F 5, L1 6, L2 7",full_text
+Ploetz and Langer,1940,sd2-1940-langer-encyclopedia,US,C,modern_eight,"C 4, D 5, F 6, L1 7, L2+E 8",full_text
+Michaud in English,1852,1852-michaud-trans-william-robson,England,H6,moreri_eight,"H6 4, C 5, D 6, L1 7, L2+E 8",contents
+Michaud in English,1900,sd2-1900-michaud-robson-ny,US,H6,moreri_eight,"H6 4, C 5, D 6, L1 7, L2+E 8",contents
+Mills and his reuse,1820,1820-charles-mills,England,H6,,"H6 4, C 5, D+F 6, B 7, L1 8",full_text
+Mills and his reuse,1904,sd2-1904-historians-history-v8,US,H6,nine_H6,"H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9",full_text
+Procter,1842,1842-george-proctor,England,C,barons_sixth,"C 4, D+F 5, B 6, L1 7, L2+E 8",full_text
+Procter,1856,sd2-1856-procter-philadelphia,US,C,barons_sixth,"C 4, D+F 5, B 6, L1 7, L2+E 8",full_text
+Cox,1874,1874-george-w-cox,England,H6,,"H6 4, C 5, D+F 6, B 7, L1 8, L2+E 9",full_text
+Cox,1901,sd-1901-cox-crusades-12,England,H6,nine_H6,"H6 4, C 5, D+F 6, B 7",full_text
+Collier,1860,sd-1860-collier-great-events,Scotland,H6,moreri_eight,"H6 4, C 5, F 6, L1 7, L2 8",full_text
+Collier,1872,sd2-1872-collier-outlines-toronto,Canada,H6,moreri_eight,"H6 4, C 5, F 6, L1 7, L2 8",full_text
+Swinton,1874,1874-william-swinton,US,C,,"C 4, D 5, B 6, L1 7, L2 8 ""and last""",full_text
+Swinton,1883,sd2-1883-swinton-canadian,Canada,H6,nine_H6,"H6 4, C 5, D 6, B 7, L1 8, L2+E 9",full_text
+W. C. Taylor,1844,sd2-1844-taylor-manual-us,US,C,,"C 4, D 5, L1 9",full_text
+W. C. Taylor,1858,sd2-1858-taylor-students-manual,England,C,modern_eight,"C 4, D 5, F 6, L1 7, L2 8",full_text
+Myers,1885,1885-p-v-n-myers,US,C,,"C 4, D 5, F 6, L1 7, L2+E 8",full_text
+Myers,1889,sd2-1889-myers-general-history,US,C,,C 4,full_text
+Gibbon and his abridgments,1788,1788-edward-gibbon,England,C,gibbon_seven,"C 4, D 5, L1 6, L2 7",full_text
+Gibbon and his abridgments,1868,sd2-1868-students-gibbon,England,C,gibbon_seven,"C 4, D 5, L1 6, L2+E 7",full_text
+Gibbon and his abridgments,1869,sd2-1869-gibbon-crusades-extract,England,C,gibbon_seven,"C 4, D 5",full_text
+Barker,1911,1911-ernest-barker,England,C,modern_eight,"C 4, D 5, F 6, L1 7, L2 8",full_text
+Barker,1923,1923-ernest-barker,England,C,,"C 4, D 5, F 6, L1 7, L2 8",contents
