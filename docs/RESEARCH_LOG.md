@@ -2,6 +2,10 @@
 
 Newest first. Findings in detail go in `notes/findings/`.
 
+## 2026-11-28 — Interim conclusions
+
+`notes/interim-conclusions-2026-11-28.md`: where the project stands. Prior literature, the 2022 paper and its scorecard, the contested slots and rival schemes, the process and the protocol, the size of the database, fifteen graded conclusions, the open points, and the expansion plan. Start here.
+
 ## 2026-11-28 — The answer books (D1): one names Desmichels
 
 `notes/findings/2026-11-answer-books.md`. Four rows added to `works.csv` (first edit under the reconciled model), one citation, one reason (`r28`). Script: `scripts/add_answer_books_2026_11_28.py`.
